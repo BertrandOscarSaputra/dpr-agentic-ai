@@ -1,0 +1,100 @@
+# Docker Compose — Development Environment
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: dpr-postgres-dev
+    environment:
+      POSTGRES_DB: dpr_agentic_ai
+      POSTGRES_USER: dpr_user
+      POSTGRES_PASSWORD: dpr_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dpr_user -d dpr_agentic_ai"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: dpr-redis-dev
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    container_name: dpr-api-dev
+    command: uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+    environment:
+      DATABASE_URL: postgresql://dpr_user:dpr_dev_password@postgres:5432/dpr_agentic_ai
+      REDIS_URL: redis://redis:6379
+      CELERY_BROKER_URL: redis://redis:6379
+      CELERY_RESULT_BACKEND: redis://redis:6379
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      ENV: development
+      DEBUG: "true"
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # Celery Worker
+  celery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    container_name: dpr-celery-dev
+    command: celery -A src.tasks worker --loglevel=info
+    environment:
+      DATABASE_URL: postgresql://dpr_user:dpr_dev_password@postgres:5432/dpr_agentic_ai
+      REDIS_URL: redis://redis:6379
+      CELERY_BROKER_URL: redis://redis:6379
+      CELERY_RESULT_BACKEND: redis://redis:6379
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      ENV: development
+    depends_on:
+      - postgres
+      - redis
+      - api
+
+  # Streamlit Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: dpr-dashboard-dev
+    command: streamlit run dashboard/app.py --server.port=8501 --server.address=0.0.0.0
+    environment:
+      API_URL: http://api:8000
+      DATABASE_URL: postgresql://dpr_user:dpr_dev_password@postgres:5432/dpr_agentic_ai
+      ENV: development
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./dashboard:/app/dashboard
+    depends_on:
+      - api
+
+volumes:
+  postgres_data:

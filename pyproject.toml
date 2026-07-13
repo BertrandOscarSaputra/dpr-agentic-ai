@@ -1,0 +1,89 @@
+[project]
+name = "dpr-agentic-ai"
+version = "0.1.0"
+description = "Agentic AI untuk klasifikasi AKD & sentimen DPR RI"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{name = "Tim DPR AI", email = "team@dpr-agentic.ai"}]
+
+dependencies = [
+    # Web framework
+    "fastapi>=0.115.0,<1.0.0",
+    "uvicorn[standard]>=0.34.0,<1.0.0",
+    "python-multipart>=0.0.18,<1.0.0",
+
+    # Database
+    "sqlalchemy>=2.0.25,<2.1.0",
+    "psycopg[binary]>=3.1.0,<4.0.0",
+    "alembic>=1.13.1,<2.0.0",
+
+    # Validation & config
+    "pydantic>=2.5.3,<3.0.0",
+    "pydantic-settings>=2.1.0,<3.0.0",
+
+    # Cache & task queue
+    "redis>=5.0.0,<6.0.0",
+    "celery[redis]>=5.4.0,<6.0.0",
+
+    # AI / ML agents
+    "langgraph>=0.2.0,<1.0.0",
+    "langchain>=0.3.0,<1.0.0",
+    "langchain-google-genai>=2.0.0,<3.0.0",
+    "google-generativeai>=0.8.0,<1.0.0",
+    "transformers>=4.45.0,<5.0.0",
+    "torch>=2.2.0,<3.0.0",
+
+    # Data collection
+    "feedparser>=6.0.10,<7.0.0",
+    # TODO: snscrape is abandoned. Choose alternative: tweepy, ntscraper, or X API v2
+    "requests>=2.31.0,<3.0.0",
+
+    # Dashboard
+    "streamlit>=1.40.0,<2.0.0",
+    "pandas>=2.1.4,<3.0.0",
+    "plotly>=5.18.0,<6.0.0",
+
+    # PDF generation
+    "reportlab>=4.0.9,<5.0.0",
+    "weasyprint>=60.1,<62.0",
+
+    # Utilities
+    "python-dotenv>=1.0.0,<2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0,<9.0.0",
+    "pytest-cov>=6.0.0,<7.0.0",
+    "pytest-asyncio>=0.24.0,<1.0.0",
+    "httpx>=0.28.0,<1.0.0",
+    "ruff>=0.8.0,<1.0.0",
+    "mypy>=1.8.0,<2.0.0",
+]
+
+[project.scripts]
+dpr-api = "src.main:start"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

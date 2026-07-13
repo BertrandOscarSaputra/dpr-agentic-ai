@@ -1,0 +1,24 @@
+# Deploy to DigitalOcean
+
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # TODO: Configure DigitalOcean deployment
+      # Options:
+      # 1. DigitalOcean App Platform (managed)
+      # 2. Docker on a Droplet (manual)
+      # 3. Kubernetes on DOKS (advanced)
+
+      - name: Placeholder
+        run: echo "Deploy workflow — configure for your DigitalOcean setup"

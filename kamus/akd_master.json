@@ -1,0 +1,112 @@
+{
+  "akd": [
+    {
+      "name": "BURT",
+      "full_name": "Badan Urusan Rumah Tangga",
+      "type": "Badan",
+      "keywords": ["anggaran DPR", "fasilitas", "rumah tangga", "administrasi"]
+    },
+    {
+      "name": "MKD",
+      "full_name": "Mahkamah Kehormatan Dewan",
+      "type": "Badan",
+      "keywords": ["etika", "kode etik", "kehormatan", "pelanggaran"]
+    },
+    {
+      "name": "Baleg",
+      "full_name": "Badan Legislasi",
+      "type": "Badan",
+      "keywords": ["legislasi", "RUU", "prolegnas", "peraturan"]
+    },
+    {
+      "name": "BAKN",
+      "full_name": "Badan Akuntabilitas Keuangan Negara",
+      "type": "Badan",
+      "keywords": ["akuntabilitas", "keuangan negara", "BPK", "audit"]
+    },
+    {
+      "name": "BKSAP",
+      "full_name": "Badan Kerja Sama Antar-Parlemen",
+      "type": "Badan",
+      "keywords": ["diplomasi", "parlemen", "internasional", "kerja sama"]
+    },
+    {
+      "name": "BPKPH",
+      "full_name": "Badan Pembentukan Komisi Pemilihan, Penyelenggaraan dan Pengawasan Pemilihan Umum",
+      "type": "Badan",
+      "keywords": ["pemilu", "KPU", "pilkada", "penyelenggaraan"]
+    },
+    {
+      "name": "Komisi I",
+      "full_name": "Komisi Pertahanan, Luar Negeri, Komunikasi dan Informatika",
+      "type": "Komisi",
+      "keywords": ["pertahanan", "luar negeri", "komunikasi", "informatika", "TNI", "Kemenhan", "Kemenkominfo"]
+    },
+    {
+      "name": "Komisi II",
+      "full_name": "Komisi Dalam Negeri, Otonomi Daerah, Aparatur Negara dan Agraria",
+      "type": "Komisi",
+      "keywords": ["dalam negeri", "otonomi", "aparatur", "agraria", "pertanahan", "ASN"]
+    },
+    {
+      "name": "Komisi III",
+      "full_name": "Komisi Hukum, HAM dan Keamanan",
+      "type": "Komisi",
+      "keywords": ["hukum", "HAM", "keamanan", "kejaksaan", "kepolisian", "KPK"]
+    },
+    {
+      "name": "Komisi IV",
+      "full_name": "Komisi Pertanian, Kehutanan, Kelautan dan Pangan",
+      "type": "Komisi",
+      "keywords": ["pertanian", "kehutanan", "kelautan", "pangan", "perikanan"]
+    },
+    {
+      "name": "Komisi V",
+      "full_name": "Komisi Perhubungan, Pekerjaan Umum, Perumahan Rakyat, Pembangunan Daerah Tertinggal dan Meteorologi",
+      "type": "Komisi",
+      "keywords": ["perhubungan", "infrastruktur", "pekerjaan umum", "perumahan", "BMKG"]
+    },
+    {
+      "name": "Komisi VI",
+      "full_name": "Komisi Perdagangan, Perindustrian, Investasi, Koperasi, UKM dan BUMN",
+      "type": "Komisi",
+      "keywords": ["perdagangan", "industri", "investasi", "BUMN", "koperasi", "UKM"]
+    },
+    {
+      "name": "Komisi VII",
+      "full_name": "Komisi Energi, Sumber Daya Mineral, Riset dan Teknologi, Lingkungan Hidup",
+      "type": "Komisi",
+      "keywords": ["energi", "mineral", "riset", "teknologi", "lingkungan", "ESDM"]
+    },
+    {
+      "name": "Komisi VIII",
+      "full_name": "Komisi Agama, Sosial dan Pemberdayaan Perempuan",
+      "type": "Komisi",
+      "keywords": ["agama", "sosial", "perempuan", "haji", "Kemenag"]
+    },
+    {
+      "name": "Komisi IX",
+      "full_name": "Komisi Kesehatan, Ketenagakerjaan dan Kependudukan",
+      "type": "Komisi",
+      "keywords": ["kesehatan", "tenaga kerja", "kependudukan", "BPJS", "Kemenkes"]
+    },
+    {
+      "name": "Komisi X",
+      "full_name": "Komisi Pendidikan, Kebudayaan, Pariwisata dan Ekonomi Kreatif",
+      "type": "Komisi",
+      "keywords": ["pendidikan", "kebudayaan", "pariwisata", "ekonomi kreatif"]
+    },
+    {
+      "name": "Komisi XI",
+      "full_name": "Komisi Keuangan, Perencanaan Pembangunan Nasional, Perbankan dan Lembaga Keuangan Non Bank",
+      "type": "Komisi",
+      "keywords": ["keuangan", "APBN", "perbankan", "OJK", "Bank Indonesia", "Bappenas"]
+    },
+    {
+      "name": "Pimpinan DPR",
+      "full_name": "Pimpinan Dewan Perwakilan Rakyat",
+      "type": "Pimpinan",
+      "keywords": ["ketua DPR", "wakil ketua", "pimpinan", "sidang paripurna"]
+    }
+  ]
+}

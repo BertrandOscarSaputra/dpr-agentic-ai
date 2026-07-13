@@ -1,0 +1,90 @@
+# Docker Compose — Production Environment
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: dpr-postgres-prod
+    environment:
+      POSTGRES_DB: dpr_agentic_ai
+      POSTGRES_USER: dpr_user
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./migrations/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dpr_user -d dpr_agentic_ai"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: dpr-redis-prod
+    command: redis-server --requirepass ${REDIS_PASSWORD}
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: prod
+    container_name: dpr-api-prod
+    environment:
+      DATABASE_URL: postgresql://dpr_user:${DATABASE_PASSWORD}@postgres:5432/dpr_agentic_ai
+      REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379
+      CELERY_BROKER_URL: redis://:${REDIS_PASSWORD}@redis:6379
+      CELERY_RESULT_BACKEND: redis://:${REDIS_PASSWORD}@redis:6379
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      SECRET_KEY: ${SECRET_KEY}
+      ENV: production
+      DEBUG: "false"
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  celery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: prod
+    container_name: dpr-celery-prod
+    command: celery -A src.tasks worker --loglevel=warning --concurrency=4
+    environment:
+      DATABASE_URL: postgresql://dpr_user:${DATABASE_PASSWORD}@postgres:5432/dpr_agentic_ai
+      REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379
+      CELERY_BROKER_URL: redis://:${REDIS_PASSWORD}@redis:6379
+      CELERY_RESULT_BACKEND: redis://:${REDIS_PASSWORD}@redis:6379
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      ENV: production
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: dpr-dashboard-prod
+    environment:
+      API_URL: http://api:8000
+      ENV: production
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
