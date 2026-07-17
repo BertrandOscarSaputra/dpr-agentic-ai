@@ -5,6 +5,7 @@ import logging
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
+from src.auth import require_api_key
 from src.database import get_db
 from src.schemas.recommendation import RecommendationStatusUpdate
 
@@ -30,6 +31,7 @@ async def update_recommendation_status(
     recommendation_id: int,
     update: RecommendationStatusUpdate,
     db: Session = Depends(get_db),
+    _api_key: str = Depends(require_api_key),
 ) -> dict:
     """Update the review status of a recommendation."""
     logger.info(

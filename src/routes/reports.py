@@ -5,6 +5,7 @@ import logging
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
+from src.auth import require_api_key
 from src.database import get_db
 
 logger = logging.getLogger(__name__)
@@ -16,6 +17,7 @@ router = APIRouter()
 async def generate_report(
     akd_name: str | None = None,
     db: Session = Depends(get_db),
+    _api_key: str = Depends(require_api_key),
 ) -> dict:
     """Trigger PDF report generation for an AKD or all AKDs."""
     logger.info("Report generation requested", extra={"akd_name": akd_name})

@@ -1,6 +1,19 @@
 """Input validation and sanitization utilities."""
 
+import json
 import re
+from functools import lru_cache
+from pathlib import Path
+
+AKD_MASTER_PATH = Path(__file__).resolve().parents[2] / "kamus" / "akd_master.json"
+
+
+@lru_cache(maxsize=1)
+def get_valid_akd_names() -> frozenset[str]:
+    """Load AKD names from the master JSON file (single source of truth)."""
+    with open(AKD_MASTER_PATH) as f:
+        data = json.load(f)
+    return frozenset(entry["name"] for entry in data["akd"])
 
 
 def sanitize_text(text: str) -> str:
@@ -14,14 +27,7 @@ def sanitize_text(text: str) -> str:
 
 def validate_akd_name(akd_name: str) -> bool:
     """Validate that the AKD name is in the known list."""
-    valid_akd_names = {
-        "BURT", "MKD", "Baleg", "BAKN", "BKSAP", "BPKPH",
-        "Komisi I", "Komisi II", "Komisi III", "Komisi IV",
-        "Komisi V", "Komisi VI", "Komisi VII", "Komisi VIII",
-        "Komisi IX", "Komisi X", "Komisi XI",
-        "Pimpinan DPR",
-    }
-    return akd_name in valid_akd_names
+    return akd_name in get_valid_akd_names()
 
 
 def validate_sentiment(sentiment: str) -> bool:

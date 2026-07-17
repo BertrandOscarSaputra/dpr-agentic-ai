@@ -1,5 +1,6 @@
 """Application configuration loaded from environment variables."""
 
+from pydantic import model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -29,10 +30,29 @@ class Settings(BaseSettings):
     # APIs
     GEMINI_API_KEY: str = ""
     HUGGINGFACE_API_KEY: str = ""
+    TWITTER_BEARER_TOKEN: str = ""
 
     # Celery
     CELERY_BROKER_URL: str = "redis://localhost:6379"
     CELERY_RESULT_BACKEND: str = "redis://localhost:6379"
+
+    # Authentication
+    API_KEYS: list[str] = []  # Empty = no auth (dev mode)
+
+    @property
+    def database_url_resolved(self) -> str:
+        """Normalize DATABASE_URL to use the psycopg driver for SQLAlchemy."""
+        url = self.DATABASE_URL
+        if url.startswith("postgresql://"):
+            url = url.replace("postgresql://", "postgresql+psycopg://", 1)
+        return url
+
+    @model_validator(mode="after")
+    def validate_production_secrets(self) -> "Settings":
+        """Reject insecure defaults in production."""
+        if self.ENV == "production" and self.SECRET_KEY == "change-me-in-production":
+            raise ValueError("SECRET_KEY must be changed in production")
+        return self
 
 
 settings = Settings()

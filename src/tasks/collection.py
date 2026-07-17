@@ -10,7 +10,10 @@ logger = logging.getLogger(__name__)
 @celery_app.task(name="tasks.collect_twitter")
 def collect_twitter(query: str, max_results: int = 100) -> dict:
     """Collect tweets matching the query."""
-    logger.info("Twitter collection task started", extra={"query": query, "max_results": max_results})
+    logger.info(
+        "Twitter collection task started",
+        extra={"query": query, "max_results": max_results},
+    )
     # TODO: Instantiate TwitterCollectionAgent and run
     return {"status": "completed", "collected": 0}
 

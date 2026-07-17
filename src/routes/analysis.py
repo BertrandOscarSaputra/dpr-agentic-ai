@@ -5,6 +5,7 @@ import logging
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
+from src.auth import require_api_key
 from src.database import get_db
 from src.schemas.analysis import AnalyzeRequest
 
@@ -17,6 +18,7 @@ router = APIRouter()
 async def analyze_content(
     request: AnalyzeRequest,
     db: Session = Depends(get_db),
+    _api_key: str = Depends(require_api_key),
 ) -> dict:
     """Submit content for sentiment analysis and AKD classification."""
     logger.info("Analysis requested", extra={"source_type": request.source_type})

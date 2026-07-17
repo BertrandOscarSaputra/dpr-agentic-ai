@@ -4,10 +4,10 @@ Engine and session are created lazily to avoid import-time failures
 when the database is not available (e.g., during testing without a live DB).
 """
 
+from collections.abc import Generator
 from functools import lru_cache
-from typing import Generator
 
-from sqlalchemy import create_engine, Engine
+from sqlalchemy import Engine, create_engine
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 
 from src.config import settings
@@ -21,7 +21,7 @@ class Base(DeclarativeBase):
 def get_engine() -> Engine:
     """Create the SQLAlchemy engine (cached singleton)."""
     return create_engine(
-        settings.DATABASE_URL,
+        settings.database_url_resolved,
         pool_size=settings.DATABASE_POOL_SIZE,
         max_overflow=settings.DATABASE_MAX_OVERFLOW,
         echo=settings.DEBUG,

@@ -1,11 +1,17 @@
 """Recommendation ORM model — AI-generated recommendations per AKD."""
 
-from datetime import datetime
+from __future__ import annotations
 
-from sqlalchemy import DateTime, Integer, String, Text
-from sqlalchemy.orm import Mapped, mapped_column
+from datetime import UTC, datetime
+from typing import TYPE_CHECKING
+
+from sqlalchemy import DateTime, ForeignKey, Integer, String, Text
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from src.database import Base
+
+if TYPE_CHECKING:
+    from src.models.trend_window import TrendWindow
 
 
 class Recommendation(Base):
@@ -19,8 +25,16 @@ class Recommendation(Base):
     recommendation: Mapped[str] = mapped_column(Text, nullable=False)
     status: Mapped[str] = mapped_column(String(20), default="draft", index=True)
     reviewed_by: Mapped[str | None] = mapped_column(String(100))
-    reviewed_at: Mapped[datetime | None] = mapped_column(DateTime)
-    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    reviewed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=lambda: datetime.now(UTC)
+    )
+    trend_window_id: Mapped[int | None] = mapped_column(
+        Integer, ForeignKey("trend_windows.id"), nullable=True
+    )
+
+    # Relationships
+    trend_window: Mapped[TrendWindow | None] = relationship()
 
     def __repr__(self) -> str:
         return f"<Recommendation(id={self.id}, akd={self.akd_name}, status={self.status})>"

@@ -36,7 +36,7 @@ dependencies = [
 
     # Data collection
     "feedparser>=6.0.10,<7.0.0",
-    # TODO: snscrape is abandoned. Choose alternative: tweepy, ntscraper, or X API v2
+    "tweepy>=4.14.0,<5.0.0",
     "requests>=2.31.0,<3.0.0",
 
     # Dashboard

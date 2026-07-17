@@ -3,6 +3,7 @@
 import logging
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from src.config import settings
 from src.logging_config import setup_logging
@@ -21,6 +22,18 @@ def create_app() -> FastAPI:
         version="0.1.0",
         docs_url="/docs",
         redoc_url="/redoc",
+    )
+
+    # CORS middleware for dashboard and frontend access
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=[
+            "http://localhost:8501",  # Streamlit dashboard (local dev)
+            "http://dashboard:8501",  # Docker service name
+        ],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
     )
 
     # Register routers

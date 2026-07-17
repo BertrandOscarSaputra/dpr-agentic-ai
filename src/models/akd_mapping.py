@@ -1,11 +1,17 @@
 """AKDMapping ORM model — maps content items to AKD (Alat Kelengkapan Dewan)."""
 
-from datetime import datetime
+from __future__ import annotations
+
+from datetime import UTC, datetime
+from typing import TYPE_CHECKING
 
 from sqlalchemy import DateTime, Float, ForeignKey, Integer, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from src.database import Base
+
+if TYPE_CHECKING:
+    from src.models.content_item import ContentItem
 
 
 class AKDMapping(Base):
@@ -22,13 +28,12 @@ class AKDMapping(Base):
     akd_type: Mapped[str | None] = mapped_column(String(50))
     confidence_score: Mapped[float] = mapped_column(Float, nullable=False)
     rank: Mapped[int] = mapped_column(Integer, nullable=False)
-    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=lambda: datetime.now(UTC)
+    )
 
     # Relationships
-    content_item: Mapped["ContentItem"] = relationship(back_populates="akd_mappings")
+    content_item: Mapped[ContentItem] = relationship(back_populates="akd_mappings")
 
     def __repr__(self) -> str:
         return f"<AKDMapping(id={self.id}, akd={self.akd_name}, rank={self.rank})>"
-
-
-from src.models.content_item import ContentItem  # noqa: E402, F811
