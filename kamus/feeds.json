@@ -1,0 +1,64 @@
+{
+  "feeds": [
+    {
+      "name": "Detik - News",
+      "url": "https://news.detik.com/berita/rss",
+      "category": "nasional"
+    },
+    {
+      "name": "Detik - Finance",
+      "url": "https://finance.detik.com/rss",
+      "category": "ekonomi"
+    },
+    {
+      "name": "Tempo - Nasional",
+      "url": "https://rss.tempo.co/nasional",
+      "category": "nasional"
+    },
+    {
+      "name": "CNN Indonesia - Nasional",
+      "url": "https://www.cnnindonesia.com/nasional/rss",
+      "category": "nasional"
+    },
+    {
+      "name": "Tribunnews",
+      "url": "https://www.tribunnews.com/rss",
+      "category": "nasional"
+    },
+    {
+      "name": "CNBC Indonesia - News",
+      "url": "https://www.cnbcindonesia.com/news/rss",
+      "category": "ekonomi"
+    },
+    {
+      "name": "Liputan6 - News",
+      "url": "https://feed.liputan6.com/rss/news",
+      "category": "nasional"
+    },
+    {
+      "name": "Republika - Nasional",
+      "url": "https://www.republika.co.id/rss/nasional",
+      "category": "nasional"
+    },
+    {
+      "name": "Okezone - News",
+      "url": "https://sindikasi.okezone.com/index.php/rss/0/RSS2.0",
+      "category": "nasional"
+    },
+    {
+      "name": "Antara - Politik",
+      "url": "https://www.antaranews.com/rss/politik",
+      "category": "politik"
+    },
+    {
+      "name": "iNews",
+      "url": "https://www.inews.id/feed",
+      "category": "nasional"
+    },
+    {
+      "name": "Media Indonesia",
+      "url": "https://mediaindonesia.com/feed",
+      "category": "nasional"
+    }
+  ]
+}

@@ -39,6 +39,10 @@ class Settings(BaseSettings):
     # Authentication
     API_KEYS: list[str] = []  # Empty = no auth (dev mode)
 
+    # News Collection
+    NEWS_FEED_TIMEOUT: int = 15  # seconds per RSS feed HTTP request
+    NEWS_COLLECTION_BATCH_SIZE: int = 100  # DB insert batch size
+
     @property
     def database_url_resolved(self) -> str:
         """Normalize DATABASE_URL to use the psycopg driver for SQLAlchemy."""
