@@ -25,6 +25,7 @@ class ContentItem(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     source_type: Mapped[str] = mapped_column(String(50), nullable=False, index=True)
+    source_name: Mapped[str | None] = mapped_column(String(200))
     content: Mapped[str] = mapped_column(Text, nullable=False)
     title: Mapped[str | None] = mapped_column(String(500))
     url: Mapped[str | None] = mapped_column(String(1000))

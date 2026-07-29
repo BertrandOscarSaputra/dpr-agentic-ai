@@ -1,63 +1,68 @@
 {
   "feeds": [
     {
-      "name": "Detik - News",
+      "name": "Detik.com",
       "url": "https://news.detik.com/berita/rss",
       "category": "nasional"
     },
     {
-      "name": "Detik - Finance",
-      "url": "https://finance.detik.com/rss",
-      "category": "ekonomi"
-    },
-    {
-      "name": "Tempo - Nasional",
-      "url": "https://rss.tempo.co/nasional",
+      "name": "Antaranews.com",
+      "url": "https://www.antaranews.com/rss/terkini",
       "category": "nasional"
     },
     {
-      "name": "CNN Indonesia - Nasional",
-      "url": "https://www.cnnindonesia.com/nasional/rss",
+      "name": "Viva.co.id",
+      "url": "https://www.viva.co.id/get/all",
       "category": "nasional"
     },
     {
-      "name": "Tribunnews",
-      "url": "https://www.tribunnews.com/rss",
+      "name": "RMOL.id",
+      "url": "https://rmol.id/rss/latest-posts",
       "category": "nasional"
     },
     {
-      "name": "CNBC Indonesia - News",
-      "url": "https://www.cnbcindonesia.com/news/rss",
-      "category": "ekonomi"
-    },
-    {
-      "name": "Liputan6 - News",
-      "url": "https://feed.liputan6.com/rss/news",
-      "category": "nasional"
-    },
-    {
-      "name": "Republika - Nasional",
+      "name": "Republika.co.id",
       "url": "https://www.republika.co.id/rss/nasional",
       "category": "nasional"
     },
     {
-      "name": "Okezone - News",
-      "url": "https://sindikasi.okezone.com/index.php/rss/0/RSS2.0",
+      "name": "CNN Indonesia",
+      "url": "https://www.cnnindonesia.com/nasional/rss",
       "category": "nasional"
     },
     {
-      "name": "Antara - Politik",
-      "url": "https://www.antaranews.com/rss/politik",
-      "category": "politik"
-    },
-    {
-      "name": "iNews",
-      "url": "https://www.inews.id/feed",
+      "name": "Liputan6.com",
+      "url": "https://feed.liputan6.com/rss/news",
       "category": "nasional"
     },
     {
-      "name": "Media Indonesia",
+      "name": "Tribunnews.com",
+      "url": "https://www.tribunnews.com/rss",
+      "category": "nasional"
+    },
+    {
+      "name": "Tempo.co",
+      "url": "https://rss.tempo.co/nasional",
+      "category": "nasional"
+    },
+    {
+      "name": "Suara.com",
+      "url": "https://www.suara.com/rss/news",
+      "category": "nasional"
+    },
+    {
+      "name": "Mediaindonesia.com",
       "url": "https://mediaindonesia.com/feed",
+      "category": "nasional"
+    },
+    {
+      "name": "RM.id",
+      "url": "https://rm.id/rss",
+      "category": "nasional"
+    },
+    {
+      "name": "Sindonews.com",
+      "url": "https://sindonews.com/feed",
       "category": "nasional"
     }
   ]
