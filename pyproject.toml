@@ -12,20 +12,16 @@ dependencies = [
     "fastapi>=0.115.0,<1.0.0",
     "uvicorn[standard]>=0.34.0,<1.0.0",
     "python-multipart>=0.0.18,<1.0.0",
-
     # Database
     "sqlalchemy>=2.0.25,<2.1.0",
     "psycopg[binary]>=3.1.0,<4.0.0",
     "alembic>=1.13.1,<2.0.0",
-
     # Validation & config
     "pydantic>=2.5.3,<3.0.0",
     "pydantic-settings>=2.1.0,<3.0.0",
-
     # Cache & task queue
     "redis>=5.0.0,<6.0.0",
     "celery[redis]>=5.4.0,<6.0.0",
-
     # AI / ML agents
     "langgraph>=0.2.0,<1.0.0",
     "langchain>=0.3.0,<1.0.0",
@@ -33,23 +29,21 @@ dependencies = [
     "google-generativeai>=0.8.0,<1.0.0",
     "transformers>=4.45.0,<5.0.0",
     "torch>=2.2.0,<3.0.0",
-
     # Data collection
     "feedparser>=6.0.10,<7.0.0",
     "tweepy>=4.14.0,<5.0.0",
     "requests>=2.31.0,<3.0.0",
-
     # Dashboard
     "streamlit>=1.40.0,<2.0.0",
     "pandas>=2.1.4,<3.0.0",
     "plotly>=5.18.0,<6.0.0",
-
     # PDF generation
     "reportlab>=4.0.9,<5.0.0",
     "weasyprint>=60.1,<62.0",
-
     # Utilities
     "python-dotenv>=1.0.0,<2.0.0",
+    "twikit>=2.3.3",
+    "twifork>=2.3.5",
 ]
 
 [dependency-groups]

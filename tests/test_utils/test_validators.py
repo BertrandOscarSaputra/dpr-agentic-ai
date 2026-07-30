@@ -21,7 +21,7 @@ class TestValidateAKDName:
         assert validate_akd_name("Pimpinan DPR")
 
     def test_invalid_names(self) -> None:
-        assert not validate_akd_name("Komisi XII")
+        assert not validate_akd_name("Komisi XIV")
         assert not validate_akd_name("Invalid AKD")
         assert not validate_akd_name("")
         assert not validate_akd_name("komisi i")  # Case sensitive

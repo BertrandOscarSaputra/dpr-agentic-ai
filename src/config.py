@@ -1,5 +1,7 @@
 """Application configuration loaded from environment variables."""
 
+from typing import Any
+
 from pydantic import model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -11,6 +13,7 @@ class Settings(BaseSettings):
         env_file=".env",
         env_file_encoding="utf-8",
         case_sensitive=False,
+        extra="ignore",
     )
 
     # Application
@@ -30,7 +33,13 @@ class Settings(BaseSettings):
     # APIs
     GEMINI_API_KEY: str = ""
     HUGGINGFACE_API_KEY: str = ""
-    TWITTER_BEARER_TOKEN: str = ""
+    TWITTER_BEARER_TOKEN: str = ""  # Optional: for tweepy API v2
+
+    # X/Twitter Scraping (twikit — no API key required)
+    X_USERNAME: str = ""
+    X_EMAIL: str = ""
+    X_PASSWORD: str = ""
+    X_COOKIES_PATH: str = "cookies.json"  # Persisted session cookies
 
     # Celery
     CELERY_BROKER_URL: str = "redis://localhost:6379"
@@ -42,6 +51,31 @@ class Settings(BaseSettings):
     # News Collection
     NEWS_FEED_TIMEOUT: int = 15  # seconds per RSS feed HTTP request
     NEWS_COLLECTION_BATCH_SIZE: int = 100  # DB insert batch size
+
+    # Twitter Collection
+    ENABLE_TWITTER_COLLECTION: bool = False  # Set to True to enable automated Twitter scraping
+    TWITTER_MAX_RESULTS_PER_QUERY: int = 10  # Max tweets per AKD query (10-100 for API v2)
+    TWITTER_COLLECTION_BATCH_SIZE: int = 100  # DB insert batch size
+
+    @model_validator(mode="before")
+    @classmethod
+    def parse_api_keys_from_env(cls, data: Any) -> Any:
+        """Handle API_KEYS string parsing from .env gracefully."""
+        if isinstance(data, dict):
+            api_keys = data.get("API_KEYS")
+            if isinstance(api_keys, str):
+                if not api_keys.strip():
+                    data["API_KEYS"] = []
+                elif api_keys.startswith("["):
+                    import json
+
+                    try:
+                        data["API_KEYS"] = json.loads(api_keys)
+                    except Exception:
+                        data["API_KEYS"] = []
+                else:
+                    data["API_KEYS"] = [k.strip() for k in api_keys.split(",") if k.strip()]
+        return data
 
     @property
     def database_url_resolved(self) -> str:

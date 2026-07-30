@@ -14,6 +14,7 @@ wheels/
 
 # Environment variables
 .env
+cookies.json
 
 # IDE
 .vscode/

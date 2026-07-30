@@ -1,6 +1,7 @@
-"""Celery task definitions."""
+"""Celery task definitions and Beat schedule configuration."""
 
 from celery import Celery
+from celery.schedules import crontab
 
 from src.config import settings
 
@@ -16,4 +17,10 @@ celery_app.conf.update(
     result_serializer="json",
     timezone="Asia/Jakarta",
     enable_utc=True,
+    beat_schedule={
+        "collect-news-every-4-hours": {
+            "task": "tasks.collect_news",
+            "schedule": crontab(minute=0, hour="*/4"),  # Every 4 hours at :00
+        },
+    },
 )

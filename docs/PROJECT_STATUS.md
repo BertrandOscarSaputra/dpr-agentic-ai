@@ -118,6 +118,8 @@ dpr-agentic-ai/
 ├── migrations/                   # 🗃️ Alembic DB Migrations
 ├── docs/                         # 📝 Dokumentasi
 │   ├── timeline_agentic_ai_dpr_ri.md
+│   ├── TWITTER_SCRAPING_GUIDE.md # Panduan Twitter/X scraping tanpa API key dari nol
+│   ├── SCRAPING_GUIDE.md         # Panduan data collection & scraping dari awal
 │   ├── ARCHITECTURE.md
 │   ├── API.md
 │   ├── DATABASE.md
@@ -145,18 +147,21 @@ dpr-agentic-ai/
 - [x] Alembic migration setup
 - [x] Docker Compose (PostgreSQL 15, Redis 7, Celery)
 
-### 2. News Collection Agent (Sprint 3) ✅ **LIVE**
-- [x] **13 sumber berita nasional** via RSS feeds
-- [x] Parsing XML dengan `feedparser`
-- [x] HTML sanitization & text normalization
-- [x] Date parsing multi-format (RFC 822, ISO 8601) via `dateutil`
-- [x] Error isolation per-feed (1 feed mati tidak mengganggu lainnya)
-- [x] Database persistence via Repository Pattern
-- [x] URL-based deduplication (`ON CONFLICT DO NOTHING`)
-- [x] Celery task dengan retry + exponential backoff
-- [x] **~600+ artikel per eksekusi**
+### 2. Data Collection Agents (Sprint 3) ✅ **LIVE**
+- [x] **News Collection Agent**: 13 sumber berita nasional via RSS feeds
+- [x] **Twitter/X Collection Agent**: Scraping via `twikit` (bebas API key, menggunakan kredensial X)
+- [x] **Dinamis Query Builder**: Membuat kata kunci pencarian otomatis dari 18 AKD (`kamus/akd_master.json`)
+- [x] **Database Persistence**: Repository pattern dengan deduplikasi URL (`ON CONFLICT DO NOTHING`)
+- [x] **Celery Task Queue**: Background task `collect_news` & `collect_twitter` dengan retry + exponential backoff
 
-### 3. LangGraph Supervisor (Skeleton)
+### 3. Analysis & Classification Engine (Sprint 4) ✅ **LIVE**
+- [x] **AnalysisAgent**: Analisis sentimen (Positif/Negatif/Netral) + skor sentimen `[-1.0, 1.0]`
+- [x] **Gemini Zero-Shot AKD Classification**: Pemetaan ke top 1..3 AKD dengan `confidence_score` & `rank`
+- [x] **Keyword Fallback Matcher**: Tetap berfungsi offline jika `GEMINI_API_KEY` tidak diset
+- [x] **REST API Endpoints**: `POST /api/v1/analyze` (201 Created) dan `GET /api/v1/analysis/{id}` (200/404)
+- [x] **Database Integration**: Menyimpan otomatis ke tabel `content_items`, `item_analysis`, dan `akd_mapping`
+
+### 4. LangGraph Supervisor (Skeleton)
 - [x] StateGraph dengan 4 nodes: collect → analyze → trend → insight
 - [x] Typed `AgentState` untuk data flow antar agent
 
@@ -250,7 +255,7 @@ print(f'{len(articles)} articles collected')
 ## 🧪 Test Results
 
 ```
-62 passed in 14s ✅
+92 passed in 13s ✅
 Coverage: agents, models, repositories, routes, schemas, utils, cache
 ```
 

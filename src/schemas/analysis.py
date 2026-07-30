@@ -47,3 +47,7 @@ class AnalyzeRequest(BaseModel):
 
     content: str = Field(..., min_length=10, description="Text content to analyze")
     source_type: str = Field(default="manual", max_length=50)
+    source_name: str | None = Field(default=None, max_length=200)
+    title: str | None = Field(default=None, max_length=500)
+    url: str | None = Field(default=None, max_length=1000)
+    published_at: datetime | None = Field(default=None)

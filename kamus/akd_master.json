@@ -1,112 +1,328 @@
 {
+  "version": "1.0",
+  "last_updated": "2025-01-15",
+  "source": "Kamus AKD DPR RI",
+  "total_akd": 28,
+  "description": "Database master berisi 28 AKD (Alat Kelengkapan Dewan) DPR RI beserta jenis, lingkup tugas, keyword acuan, dan catatan untuk melatih sistem klasifikasi tweet/berita",
   "akd": [
     {
-      "name": "BURT",
-      "full_name": "Badan Urusan Rumah Tangga",
-      "type": "Badan",
-      "keywords": ["anggaran DPR", "fasilitas", "rumah tangga", "administrasi"]
-    },
-    {
-      "name": "MKD",
-      "full_name": "Mahkamah Kehormatan Dewan",
-      "type": "Badan",
-      "keywords": ["etika", "kode etik", "kehormatan", "pelanggaran"]
-    },
-    {
-      "name": "Baleg",
-      "full_name": "Badan Legislasi",
-      "type": "Badan",
-      "keywords": ["legislasi", "RUU", "prolegnas", "peraturan"]
-    },
-    {
-      "name": "BAKN",
-      "full_name": "Badan Akuntabilitas Keuangan Negara",
-      "type": "Badan",
-      "keywords": ["akuntabilitas", "keuangan negara", "BPK", "audit"]
-    },
-    {
-      "name": "BKSAP",
-      "full_name": "Badan Kerja Sama Antar-Parlemen",
-      "type": "Badan",
-      "keywords": ["diplomasi", "parlemen", "internasional", "kerja sama"]
-    },
-    {
-      "name": "BPKPH",
-      "full_name": "Badan Pembentukan Komisi Pemilihan, Penyelenggaraan dan Pengawasan Pemilihan Umum",
-      "type": "Badan",
-      "keywords": ["pemilu", "KPU", "pilkada", "penyelenggaraan"]
+      "name": "Ketua DPR",
+      "type": "Pimpinan",
+      "scope": "Kinerja kelembagaan DPR secara umum, arah kebijakan strategis, representasi DPR di ranah publik",
+      "keywords": [
+        "ketua dpr",
+        "kinerja dpr",
+        "kelembagaan dpr",
+        "wibawa dpr"
+      ],
+      "notes": "Dipakai untuk kritik umum ke DPR sebagai institusi/kepemimpinan, bukan spesifik ke 1 komisi/badan"
     },
     {
       "name": "Komisi I",
-      "full_name": "Komisi Pertahanan, Luar Negeri, Komunikasi dan Informatika",
       "type": "Komisi",
-      "keywords": ["pertahanan", "luar negeri", "komunikasi", "informatika", "TNI", "Kemenhan", "Kemenkominfo"]
+      "scope": "Pertahanan, luar negeri, dan informatika — TNI, diplomasi, intelijen, siber, penyiaran",
+      "keywords": [
+        "pertahanan",
+        "TNI",
+        "alutsista",
+        "luar negeri",
+        "diplomasi",
+        "siber",
+        "BSSN",
+        "BIN",
+        "penyiaran",
+        "sensor film"
+      ],
+      "notes": "Isu geopolitik/luar negeri sering trending saat ada konflik internasional"
     },
     {
       "name": "Komisi II",
-      "full_name": "Komisi Dalam Negeri, Otonomi Daerah, Aparatur Negara dan Agraria",
       "type": "Komisi",
-      "keywords": ["dalam negeri", "otonomi", "aparatur", "agraria", "pertanahan", "ASN"]
+      "scope": "Pemerintahan dalam negeri, pertanahan, pemberdayaan aparatur — pemilu, otda, ASN",
+      "keywords": [
+        "pemilu",
+        "KPU",
+        "Bawaslu",
+        "pilkada",
+        "otonomi daerah",
+        "ASN",
+        "sengketa tanah",
+        "IKN"
+      ],
+      "notes": "Isu pemilu/pilkada melonjak tajam saat tahun politik"
     },
     {
       "name": "Komisi III",
-      "full_name": "Komisi Hukum, HAM dan Keamanan",
       "type": "Komisi",
-      "keywords": ["hukum", "HAM", "keamanan", "kejaksaan", "kepolisian", "KPK"]
+      "scope": "Penegakan hukum — kejaksaan, polisi, KPK, peradilan",
+      "keywords": [
+        "korupsi",
+        "OTT",
+        "kejaksaan",
+        "polisi",
+        "KPK",
+        "hakim",
+        "narkoba",
+        "TPPU"
+      ],
+      "notes": "Isu paling banyak terkait kasus hukum besar & korupsi pejabat"
     },
     {
       "name": "Komisi IV",
-      "full_name": "Komisi Pertanian, Kehutanan, Kelautan dan Pangan",
       "type": "Komisi",
-      "keywords": ["pertanian", "kehutanan", "kelautan", "pangan", "perikanan"]
+      "scope": "Pertanian, kehutanan, kelautan — pangan, hutan, nelayan",
+      "keywords": [
+        "pertanian",
+        "pupuk",
+        "gabah",
+        "pangan",
+        "hutan",
+        "karhutla",
+        "nelayan",
+        "illegal fishing"
+      ],
+      "notes": "Isu pangan & pupuk rawan sentimen negatif saat musim tanam"
     },
     {
       "name": "Komisi V",
-      "full_name": "Komisi Perhubungan, Pekerjaan Umum, Perumahan Rakyat, Pembangunan Daerah Tertinggal dan Meteorologi",
       "type": "Komisi",
-      "keywords": ["perhubungan", "infrastruktur", "pekerjaan umum", "perumahan", "BMKG"]
+      "scope": "Infrastruktur dan perhubungan — jalan, transportasi, desa, bencana",
+      "keywords": [
+        "jalan tol",
+        "kereta api",
+        "penerbangan",
+        "kecelakaan",
+        "dana desa",
+        "bencana alam",
+        "BMKG"
+      ],
+      "notes": "Isu bencana & kecelakaan transportasi cenderung cepat viral"
     },
     {
       "name": "Komisi VI",
-      "full_name": "Komisi Perdagangan, Perindustrian, Investasi, Koperasi, UKM dan BUMN",
       "type": "Komisi",
-      "keywords": ["perdagangan", "industri", "investasi", "BUMN", "koperasi", "UKM"]
+      "scope": "Perdagangan, BUMN, persaingan usaha",
+      "keywords": [
+        "BUMN",
+        "ekspor impor",
+        "harga sembako",
+        "koperasi",
+        "kartel",
+        "KPPU"
+      ],
+      "notes": "Isu BUMN & harga sembako sensitif terhadap sentimen ekonomi rakyat"
     },
     {
       "name": "Komisi VII",
-      "full_name": "Komisi Energi, Sumber Daya Mineral, Riset dan Teknologi, Lingkungan Hidup",
       "type": "Komisi",
-      "keywords": ["energi", "mineral", "riset", "teknologi", "lingkungan", "ESDM"]
+      "scope": "Perindustrian, UMKM, ekonomi kreatif, pariwisata",
+      "keywords": [
+        "industri",
+        "PHK pabrik",
+        "UMKM",
+        "ekonomi kreatif",
+        "pariwisata",
+        "TVRI",
+        "RRI"
+      ],
+      "notes": "Isu UMKM & pariwisata biasanya sentimen campuran"
     },
     {
       "name": "Komisi VIII",
-      "full_name": "Komisi Agama, Sosial dan Pemberdayaan Perempuan",
       "type": "Komisi",
-      "keywords": ["agama", "sosial", "perempuan", "haji", "Kemenag"]
+      "scope": "Agama, sosial, perempuan dan anak — haji, bansos, bencana, perlindungan anak",
+      "keywords": [
+        "haji",
+        "zakat",
+        "bansos",
+        "bencana alam",
+        "kekerasan anak",
+        "kekerasan perempuan"
+      ],
+      "notes": "Isu bansos & kekerasan anak/perempuan rawan sentimen negatif tinggi"
     },
     {
       "name": "Komisi IX",
-      "full_name": "Komisi Kesehatan, Ketenagakerjaan dan Kependudukan",
       "type": "Komisi",
-      "keywords": ["kesehatan", "tenaga kerja", "kependudukan", "BPJS", "Kemenkes"]
+      "scope": "Kesehatan, ketenagakerjaan, jaminan sosial",
+      "keywords": [
+        "BPJS",
+        "obat",
+        "vaksin",
+        "PHK",
+        "upah minimum",
+        "TKI/PMI",
+        "stunting"
+      ],
+      "notes": "Isu kesehatan & PHK sering jadi sorotan publik"
     },
     {
       "name": "Komisi X",
-      "full_name": "Komisi Pendidikan, Kebudayaan, Pariwisata dan Ekonomi Kreatif",
       "type": "Komisi",
-      "keywords": ["pendidikan", "kebudayaan", "pariwisata", "ekonomi kreatif"]
+      "scope": "Pendidikan, olahraga, sains dan teknologi",
+      "keywords": [
+        "UKT",
+        "sekolah",
+        "kurikulum",
+        "beasiswa",
+        "riset",
+        "BRIN",
+        "atlet"
+      ],
+      "notes": "Isu UKT & kekerasan sekolah rawan viral di kalangan pelajar/mahasiswa"
     },
     {
       "name": "Komisi XI",
-      "full_name": "Komisi Keuangan, Perencanaan Pembangunan Nasional, Perbankan dan Lembaga Keuangan Non Bank",
       "type": "Komisi",
-      "keywords": ["keuangan", "APBN", "perbankan", "OJK", "Bank Indonesia", "Bappenas"]
+      "scope": "Keuangan, pembangunan nasional, moneter, jasa keuangan",
+      "keywords": [
+        "APBN",
+        "pajak",
+        "PPN",
+        "suku bunga BI",
+        "inflasi",
+        "utang negara",
+        "pinjol"
+      ],
+      "notes": "Isu pajak & suku bunga sensitif terhadap sentimen kelas menengah"
     },
     {
-      "name": "Pimpinan DPR",
-      "full_name": "Pimpinan Dewan Perwakilan Rakyat",
-      "type": "Pimpinan",
-      "keywords": ["ketua DPR", "wakil ketua", "pimpinan", "sidang paripurna"]
+      "name": "Komisi XII",
+      "type": "Komisi",
+      "scope": "ESDM, lingkungan hidup, investasi",
+      "keywords": [
+        "tambang",
+        "batu bara",
+        "nikel",
+        "BBM",
+        "listrik",
+        "lingkungan hidup",
+        "investasi asing"
+      ],
+      "notes": "Isu tambang & lingkungan rawan konflik dengan masyarakat lokal"
+    },
+    {
+      "name": "Komisi XIII",
+      "type": "Komisi",
+      "scope": "Reformasi regulasi dan HAM (komisi baru)",
+      "keywords": [
+        "HAM",
+        "imigrasi",
+        "lapas",
+        "napi",
+        "deportasi",
+        "RUU KUHP",
+        "terorisme"
+      ],
+      "notes": "Komisi baru — pola isu masih berkembang"
+    },
+    {
+      "name": "Bamus",
+      "type": "Badan",
+      "scope": "Jadwal dan agenda kerja/sidang DPR",
+      "keywords": [
+        "agenda sidang",
+        "jadwal paripurna",
+        "masa sidang",
+        "reses"
+      ],
+      "notes": "Jarang jadi sorotan publik, isu administratif internal"
+    },
+    {
+      "name": "Baleg",
+      "type": "Badan",
+      "scope": "Penyusunan & harmonisasi RUU, Prolegnas",
+      "keywords": [
+        "RUU",
+        "prolegnas",
+        "harmonisasi",
+        "revisi UU",
+        "naskah akademik"
+      ],
+      "notes": "Rawan isu sensitif saat RUU kontroversial dibahas"
+    },
+    {
+      "name": "Banggar",
+      "type": "Badan",
+      "scope": "Pembahasan RAPBN & transfer ke daerah",
+      "keywords": [
+        "RAPBN",
+        "APBN",
+        "kebijakan fiskal",
+        "dana bansos",
+        "transfer daerah"
+      ],
+      "notes": "Rawan sentimen negatif saat defisit/pemotongan anggaran"
+    },
+    {
+      "name": "BAKN",
+      "type": "Badan",
+      "scope": "Tindak lanjut hasil pemeriksaan BPK",
+      "keywords": [
+        "BPK",
+        "audit",
+        "temuan penyimpangan",
+        "akuntabilitas anggaran"
+      ],
+      "notes": "Jarang disorot media kecuali ada temuan BPK besar"
+    },
+    {
+      "name": "BKSAP",
+      "type": "Badan",
+      "scope": "Diplomasi & kerja sama parlemen internasional",
+      "keywords": [
+        "diplomasi parlemen",
+        "kunjungan delegasi",
+        "IPU",
+        "AIPA"
+      ],
+      "notes": "Rawan dikritik publik soal pemborosan anggaran kunjungan LN"
+    },
+    {
+      "name": "MKD",
+      "type": "Badan",
+      "scope": "Etik anggota DPR — pelanggaran kode etik, sanksi, penonaktifan anggota",
+      "keywords": [
+        "kode etik",
+        "sanksi",
+        "penonaktifan",
+        "pemecatan anggota dpr"
+      ],
+      "notes": "Termasuk isu pemberhentian/PAW & kasus korupsi anggota"
+    },
+    {
+      "name": "BURT",
+      "type": "Badan",
+      "scope": "Urusan rumah tangga DPR — tunjangan, fasilitas, gaji, rumah dinas anggota",
+      "keywords": [
+        "tunjangan dpr",
+        "fasilitas dpr",
+        "gaji dpr",
+        "rumah dinas"
+      ],
+      "notes": "Kategori paling sering muncul isu sensitif"
+    },
+    {
+      "name": "Badan Aspirasi Masyarakat (BAM)",
+      "type": "Badan",
+      "scope": "Penyerapan & tindak lanjut aspirasi masyarakat",
+      "keywords": [
+        "aspirasi rakyat",
+        "reses",
+        "pengaduan masyarakat"
+      ],
+      "notes": "Badan baru, isu masih jarang tapi berpotensi tumbuh"
+    },
+    {
+      "name": "Pansus",
+      "type": "Panitia",
+      "scope": "Penanganan isu/RUU spesifik lintas komisi (ad hoc)",
+      "keywords": [
+        "pansus",
+        "tim khusus",
+        "investigasi DPR"
+      ],
+      "notes": "Hanya aktif saat ada pansus spesifik berjalan (mis. pansus haji)"
     }
   ]
 }

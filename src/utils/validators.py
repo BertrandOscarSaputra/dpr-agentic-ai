@@ -11,9 +11,16 @@ AKD_MASTER_PATH = Path(__file__).resolve().parents[2] / "kamus" / "akd_master.js
 @lru_cache(maxsize=1)
 def get_valid_akd_names() -> frozenset[str]:
     """Load AKD names from the master JSON file (single source of truth)."""
-    with open(AKD_MASTER_PATH) as f:
+    with open(AKD_MASTER_PATH, encoding="utf-8") as f:
         data = json.load(f)
-    return frozenset(entry["name"] for entry in data["akd"])
+    names = set()
+    for entry in data.get("akd", []):
+        name = entry.get("name", "")
+        if name:
+            names.add(name)
+            if name == "Ketua DPR":
+                names.add("Pimpinan DPR")
+    return frozenset(names)
 
 
 def sanitize_text(text: str) -> str:
