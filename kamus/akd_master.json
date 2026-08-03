@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "version": "1.0",
   "last_updated": "2025-01-15",
   "source": "Kamus AKD DPR RI",
@@ -16,10 +17,25 @@
         "wibawa dpr"
       ],
       "notes": "Dipakai untuk kritik umum ke DPR sebagai institusi/kepemimpinan, bukan spesifik ke 1 komisi/badan"
+=======
+  "version": "2.0",
+  "last_updated": "2026-08-03",
+  "source": "Kamus Master AKD DPR RI Periode 2024-2029",
+  "total_akd": 24,
+  "description": "Database master berisi 24 AKD (Alat Kelengkapan Dewan) DPR RI periode 2024-2029 (termasuk Komisi XII & XIII serta Badan baru) beserta jenis, lingkup tugas, dan keyword acuan.",
+  "akd": [
+    {
+      "name": "Pimpinan DPR",
+      "full_name": "Pimpinan Dewan Perwakilan Rakyat",
+      "type": "Pimpinan",
+      "scope": "Kinerja kelembagaan DPR secara umum, arah kebijakan strategis, representasi DPR di ranah publik",
+      "keywords": ["ketua DPR", "wakil ketua", "pimpinan", "sidang paripurna", "wibawa DPR"]
+>>>>>>> Stashed changes
     },
     {
       "name": "Komisi I",
       "type": "Komisi",
+<<<<<<< Updated upstream
       "scope": "Pertahanan, luar negeri, dan informatika — TNI, diplomasi, intelijen, siber, penyiaran",
       "keywords": [
         "pertahanan",
@@ -34,10 +50,15 @@
         "sensor film"
       ],
       "notes": "Isu geopolitik/luar negeri sering trending saat ada konflik internasional"
+=======
+      "scope": "Pertahanan, luar negeri, komunikasi & siber — TNI, diplomasi, BSSN, BIN, Kemenkominfo",
+      "keywords": ["pertahanan", "luar negeri", "komunikasi", "informatika", "TNI", "Kemenhan", "Kemenkominfo", "alutsista", "siber", "BSSN"]
+>>>>>>> Stashed changes
     },
     {
       "name": "Komisi II",
       "type": "Komisi",
+<<<<<<< Updated upstream
       "scope": "Pemerintahan dalam negeri, pertanahan, pemberdayaan aparatur — pemilu, otda, ASN",
       "keywords": [
         "pemilu",
@@ -50,10 +71,15 @@
         "IKN"
       ],
       "notes": "Isu pemilu/pilkada melonjak tajam saat tahun politik"
+=======
+      "scope": "Pemerintahan dalam negeri, pertanahan, pemberdayaan aparatur — pemilu, otda, ASN, KPU",
+      "keywords": ["dalam negeri", "otonomi", "aparatur", "agraria", "pertanahan", "ASN", "pemilu", "KPU", "Bawaslu", "IKN"]
+>>>>>>> Stashed changes
     },
     {
       "name": "Komisi III",
       "type": "Komisi",
+<<<<<<< Updated upstream
       "scope": "Penegakan hukum — kejaksaan, polisi, KPK, peradilan",
       "keywords": [
         "korupsi",
@@ -66,10 +92,15 @@
         "TPPU"
       ],
       "notes": "Isu paling banyak terkait kasus hukum besar & korupsi pejabat"
+=======
+      "scope": "Penegakan hukum — Kejaksaan, Kepolisian, KPK, peradilan, pemberantasan korupsi",
+      "keywords": ["hukum", "HAM", "keamanan", "kejaksaan", "kepolisian", "KPK", "korupsi", "OTT", "narkoba"]
+>>>>>>> Stashed changes
     },
     {
       "name": "Komisi IV",
       "type": "Komisi",
+<<<<<<< Updated upstream
       "scope": "Pertanian, kehutanan, kelautan — pangan, hutan, nelayan",
       "keywords": [
         "pertanian",
@@ -97,10 +128,22 @@
         "BMKG"
       ],
       "notes": "Isu bencana & kecelakaan transportasi cenderung cepat viral"
+=======
+      "scope": "Pertanian, kehutanan, kelautan & pangan — kedaulatan pangan, pupuk, nelayan, karhutla",
+      "keywords": ["pertanian", "kehutanan", "kelautan", "pangan", "perikanan", "pupuk", "gabah", "nelayan"]
+    },
+    {
+      "name": "Komisi V",
+      "full_name": "Komisi Perhubungan, Pekerjaan Umum, Perumahan Rakyat",
+      "type": "Komisi",
+      "scope": "Infrastruktur dan perhubungan — jalan tol, perkeretaapian, penerbangan, BMKG, Basarnas",
+      "keywords": ["perhubungan", "infrastruktur", "pekerjaan umum", "perumahan", "BMKG", "jalan tol", "kereta api", "kecelakaan"]
+>>>>>>> Stashed changes
     },
     {
       "name": "Komisi VI",
       "type": "Komisi",
+<<<<<<< Updated upstream
       "scope": "Perdagangan, BUMN, persaingan usaha",
       "keywords": [
         "BUMN",
@@ -126,10 +169,22 @@
         "RRI"
       ],
       "notes": "Isu UMKM & pariwisata biasanya sentimen campuran"
+=======
+      "scope": "Perdagangan, industri, investasi & BUMN — ekspor impor, harga sembako, UMKM, KPPU",
+      "keywords": ["perdagangan", "industri", "investasi", "BUMN", "koperasi", "UKM", "harga sembako", "KPPU"]
+    },
+    {
+      "name": "Komisi VII",
+      "full_name": "Komisi Perindustrian, UMKM, Ekonomi Kreatif, Pariwisata",
+      "type": "Komisi",
+      "scope": "Pengembangan industri, UMKM, ekonomi kreatif dan pariwisata daerah",
+      "keywords": ["industri kreatif", "UMKM", "pariwisata", "ekonomi kreatif", "ekraf"]
+>>>>>>> Stashed changes
     },
     {
       "name": "Komisi VIII",
       "type": "Komisi",
+<<<<<<< Updated upstream
       "scope": "Agama, sosial, perempuan dan anak — haji, bansos, bencana, perlindungan anak",
       "keywords": [
         "haji",
@@ -140,10 +195,15 @@
         "kekerasan perempuan"
       ],
       "notes": "Isu bansos & kekerasan anak/perempuan rawan sentimen negatif tinggi"
+=======
+      "scope": "Urusan agama, bantuan sosial, keencanaan, pemberdayaan perempuan & anak — Kemenag, Kemsos",
+      "keywords": ["agama", "sosial", "perempuan", "haji", "Kemenag", "bansos", "bencana alam"]
+>>>>>>> Stashed changes
     },
     {
       "name": "Komisi IX",
       "type": "Komisi",
+<<<<<<< Updated upstream
       "scope": "Kesehatan, ketenagakerjaan, jaminan sosial",
       "keywords": [
         "BPJS",
@@ -323,6 +383,108 @@
         "investigasi DPR"
       ],
       "notes": "Hanya aktif saat ada pansus spesifik berjalan (mis. pansus haji)"
+=======
+      "scope": "Kesehatan publik, ketenagakerjaan & buruh migran — BPJS Kesehatan, Kemenkes, Kemnaker",
+      "keywords": ["kesehatan", "tenaga kerja", "kependudukan", "BPJS", "Kemenkes", "buruh", "migran"]
+    },
+    {
+      "name": "Komisi X",
+      "full_name": "Komisi Pendidikan, Kebudayaan, Riset dan Olahraga",
+      "type": "Komisi",
+      "scope": "Pendidikan dasar & tinggi, kebudayaan, riset, pemuda dan olahraga — Kemendikbud, PSSI",
+      "keywords": ["pendidikan", "kebudayaan", "riset", "olahraga", "beasiswa", "sekolah", "kurikulum"]
+    },
+    {
+      "name": "Komisi XI",
+      "full_name": "Komisi Keuangan, Perencanaan Pembangunan Nasional, Perbankan",
+      "type": "Komisi",
+      "scope": "Keuangan negara, perbankan, kebijakan fiskal — Kemenkeu, Bank Indonesia, OJK, Bappenas",
+      "keywords": ["keuangan", "APBN", "perbankan", "OJK", "Bank Indonesia", "Bappenas", "pajak", "fiskal"]
+    },
+    {
+      "name": "Komisi XII",
+      "full_name": "Komisi Energi, Sumber Daya Mineral, Lingkungan Hidup dan Investasi",
+      "type": "Komisi",
+      "scope": "Energi baru terbarukan, migas, minerba, lingkungan hidup & hilirisasi — KemenESDM, SKK Migas",
+      "keywords": ["energi", "ESDM", "hilirisasi", "lingkungan hidup", "minerba", "SKK Migas", "PLN", "Pertamina"]
+    },
+    {
+      "name": "Komisi XIII",
+      "full_name": "Komisi Reformasi Regulasi, HAM, Imigrasi dan Pemasyarakatan",
+      "type": "Komisi",
+      "scope": "Reformasi hukum, hak asasi manusia, imigrasi & pemasyarakatan — Kemenkumham, Lapas",
+      "keywords": ["HAM", "imigrasi", "pemasyarakatan", "lapas", "napi", "deportasi", "RUU KUHP"]
+    },
+    {
+      "name": "BURT",
+      "full_name": "Badan Urusan Rumah Tangga",
+      "type": "Badan",
+      "scope": "Urusan rumah tangga DPR — tunjangan, fasilitas, gaji, rumah dinas anggota",
+      "keywords": ["anggaran DPR", "fasilitas", "rumah tangga", "administrasi", "tunjangan dpr", "gaji dpr", "rumah dinas"]
+    },
+    {
+      "name": "MKD",
+      "full_name": "Mahkamah Kehormatan Dewan",
+      "type": "Badan",
+      "scope": "Etik anggota DPR — pelanggaran kode etik, sanksi, penonaktifan & pemecatan anggota",
+      "keywords": ["etika", "kode etik", "kehormatan", "pelanggaran", "sanksi", "penonaktifan"]
+    },
+    {
+      "name": "Baleg",
+      "full_name": "Badan Legislasi",
+      "type": "Badan",
+      "scope": "Penyusunan & harmonisasi RUU, Prolegnas, naskah akademik",
+      "keywords": ["legislasi", "RUU", "prolegnas", "peraturan", "harmonisasi", "revisi UU"]
+    },
+    {
+      "name": "BAKN",
+      "full_name": "Badan Akuntabilitas Keuangan Negara",
+      "type": "Badan",
+      "scope": "Tindak lanjut hasil pemeriksaan BPK & akuntabilitas keuangan negara",
+      "keywords": ["akuntabilitas", "keuangan negara", "BPK", "audit", "temuan penyimpangan"]
+    },
+    {
+      "name": "BKSAP",
+      "full_name": "Badan Kerja Sama Antar-Parlemen",
+      "type": "Badan",
+      "scope": "Diplomasi & kerja sama parlemen internasional — IPU, AIPA",
+      "keywords": ["diplomasi", "parlemen", "internasional", "kerja sama", "kunjungan LN", "IPU"]
+    },
+    {
+      "name": "BPKPH",
+      "full_name": "Badan Pembentukan Komisi Pemilihan, Penyelenggaraan dan Pengawasan Pemilihan Umum",
+      "type": "Badan",
+      "scope": "Penyelenggaraan dan pengawasan tahapan Pemilu dan Pilkada",
+      "keywords": ["pemilu", "KPU", "pilkada", "penyelenggaraan", "pengawasan pemilu"]
+    },
+    {
+      "name": "Bamus",
+      "full_name": "Badan Musyawarah",
+      "type": "Badan",
+      "scope": "Penetapan agenda kerja, jadwal sidang paripurna & reses DPR",
+      "keywords": ["agenda sidang", "jadwal paripurna", "masa sidang", "reses", "bamus"]
+    },
+    {
+      "name": "Banggar",
+      "full_name": "Badan Anggaran",
+      "type": "Badan",
+      "scope": "Pembahasan RAPBN, APBN & transfer anggaran ke daerah",
+      "keywords": ["RAPBN", "APBN", "kebijakan fiskal", "dana bansos", "transfer daerah", "banggar"]
+    },
+    {
+      "name": "BAM",
+      "full_name": "Badan Aspirasi Masyarakat",
+      "type": "Badan",
+      "scope": "Penyerapan & pengolahan aspirasi serta pengaduan masyarakat luas",
+      "keywords": ["aspirasi rakyat", "pengaduan masyarakat", "reses", "dengar pendapat", "BAM"]
+    },
+    {
+      "name": "Pansus",
+      "full_name": "Panitia Khusus DPR RI",
+      "type": "Panitia",
+      "scope": "Penanganan isu/RUU spesifik lintas komisi secara ad-hoc",
+      "keywords": ["pansus", "tim khusus", "investigasi DPR", "panitia khusus"]
+>>>>>>> Stashed changes
     }
   ]
 }

@@ -41,6 +41,14 @@ class Settings(BaseSettings):
     X_PASSWORD: str = ""
     X_COOKIES_PATH: str = "cookies.json"  # Persisted session cookies
 
+    # X/Twitter Scraping (twikit)
+    X_USERNAME: str = ""
+    X_EMAIL: str = ""
+    X_PASSWORD: str = ""
+    X_COOKIES_PATH: str = "cookies.json"
+    ENABLE_TWITTER_COLLECTION: bool = False
+    TWITTER_MAX_RESULTS_PER_QUERY: int = 10
+
     # Celery
     CELERY_BROKER_URL: str = "redis://localhost:6379"
     CELERY_RESULT_BACKEND: str = "redis://localhost:6379"

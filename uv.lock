@@ -700,8 +700,11 @@ dependencies = [
     { name = "torch" },
     { name = "transformers" },
     { name = "tweepy" },
+<<<<<<< Updated upstream
     { name = "twifork" },
     { name = "twikit" },
+=======
+>>>>>>> Stashed changes
     { name = "uvicorn", extra = ["standard"] },
     { name = "weasyprint" },
 ]
@@ -741,8 +744,11 @@ requires-dist = [
     { name = "torch", specifier = ">=2.2.0,<3.0.0" },
     { name = "transformers", specifier = ">=4.45.0,<5.0.0" },
     { name = "tweepy", specifier = ">=4.14.0,<5.0.0" },
+<<<<<<< Updated upstream
     { name = "twifork", specifier = ">=2.3.5" },
     { name = "twikit", specifier = ">=2.3.3" },
+=======
+>>>>>>> Stashed changes
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.34.0,<1.0.0" },
     { name = "weasyprint", specifier = ">=60.1,<62.0" },
 ]
@@ -3591,6 +3597,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< Updated upstream
 name = "twifork"
 version = "2.3.5"
 source = { registry = "https://pypi.org/simple" }
@@ -3629,6 +3636,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> Stashed changes
 name = "typing-extensions"
 version = "4.16.0"
 source = { registry = "https://pypi.org/simple" }

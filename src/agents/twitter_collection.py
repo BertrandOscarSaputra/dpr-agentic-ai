@@ -1,8 +1,13 @@
 """Twitter Collection Agent — collects tweets related to DPR RI topics.
 
 Uses twikit library to scrape X/Twitter without official API access.
+<<<<<<< Updated upstream
 Authentication is handled via X account credentials (username/email/password)
 with cookie persistence for subsequent runs.
+=======
+Authentication is handled via session cookies (cookies.json) or X account
+credentials (username/email/password) with cookie persistence.
+>>>>>>> Stashed changes
 """
 
 from __future__ import annotations
@@ -97,7 +102,11 @@ async def _create_twikit_client() -> Any | None:
     try:
         from twikit import Client
 
+<<<<<<< Updated upstream
         client = Client("id-ID")  # Indonesian locale
+=======
+        client = Client("id-ID")
+>>>>>>> Stashed changes
 
         # 1. Try loading existing cookies first (bypasses Cloudflare block)
         if COOKIES_PATH.exists():
@@ -108,10 +117,17 @@ async def _create_twikit_client() -> Any | None:
                 if isinstance(cookie_data, list):
                     cookie_dict = {}
                     for item in cookie_data:
+<<<<<<< Updated upstream
                         name = item.get("name") or item.get("key")
                         val = item.get("value")
                         if name and val:
                             cookie_dict[name] = val
+=======
+                        c_name = item.get("name") or item.get("key")
+                        val = item.get("value")
+                        if c_name and val:
+                            cookie_dict[c_name] = val
+>>>>>>> Stashed changes
                     cookie_data = cookie_dict
 
                 if isinstance(cookie_data, dict) and cookie_data:
@@ -134,7 +150,11 @@ async def _create_twikit_client() -> Any | None:
             )
             return None
 
+<<<<<<< Updated upstream
         # 2. Full programmatic login
+=======
+        # 2. Full programmatic login fallback
+>>>>>>> Stashed changes
         await client.login(
             auth_info_1=settings.X_USERNAME,
             auth_info_2=settings.X_EMAIL,
@@ -155,6 +175,7 @@ async def _create_twikit_client() -> Any | None:
             extra={},
         )
     except Exception as e:
+<<<<<<< Updated upstream
         err_msg = str(e)
         if "403" in err_msg or "Cloudflare" in err_msg:
             logger.error(
@@ -167,10 +188,17 @@ async def _create_twikit_client() -> Any | None:
                 "Failed to authenticate with X",
                 extra={"error": err_msg},
             )
+=======
+        logger.error(
+            "X authentication failed",
+            extra={"error": str(e)},
+        )
+>>>>>>> Stashed changes
     return None
 
 
 class TwitterCollectionAgent:
+<<<<<<< Updated upstream
     """Collects and normalizes tweets matching DPR RI & AKD topics.
 
     Uses twikit to scrape X without official API access.
@@ -189,6 +217,20 @@ class TwitterCollectionAgent:
         self, tweet: Any,
     ) -> dict[str, Any] | None:
         """Parse a twikit Tweet object into a ContentItem dict.
+=======
+    """Collects tweets for AKD topics and normalizes them for analysis."""
+
+    def __init__(
+        self,
+        queries: tuple[AKDQuery, ...] | None = None,
+        max_results: int | None = None,
+    ) -> None:
+        self.queries = queries if queries is not None else load_akd_queries()
+        self.max_results = max_results or settings.TWITTER_MAX_RESULTS_PER_QUERY
+
+    def parse_tweet(self, tweet: Any) -> dict[str, Any] | None:
+        """Extract and normalize fields from a twikit Tweet object.
+>>>>>>> Stashed changes
 
         Args:
             tweet: twikit Tweet object with .id, .text, .user,
@@ -242,6 +284,7 @@ class TwitterCollectionAgent:
     @staticmethod
     def _parse_created_at(value: Any) -> datetime | None:
         """Parse tweet created_at to a timezone-aware datetime."""
+<<<<<<< Updated upstream
         if isinstance(value, datetime):
             if value.tzinfo:
                 return value
@@ -271,6 +314,18 @@ class TwitterCollectionAgent:
             )
             return dt if dt.tzinfo else dt.replace(tzinfo=UTC)
         except ValueError:
+=======
+        if not value:
+            return None
+        if isinstance(value, datetime):
+            return value if value.tzinfo else value.replace(tzinfo=UTC)
+        try:
+            from dateutil import parser as dateutil_parser
+
+            dt = dateutil_parser.parse(str(value))
+            return dt if dt.tzinfo else dt.replace(tzinfo=UTC)
+        except Exception:
+>>>>>>> Stashed changes
             return None
 
     async def collect(self) -> list[dict[str, Any]]:
@@ -322,6 +377,7 @@ class TwitterCollectionAgent:
                 akd_q.query_str, "Latest"
             )
         except Exception as e:
+<<<<<<< Updated upstream
             err_name = type(e).__name__
             if "TooManyRequests" in err_name or "429" in str(e):
                 logger.warning(
@@ -357,3 +413,21 @@ class TwitterCollectionAgent:
             extra={"akd": akd_q.name, "count": len(items)},
         )
         return items
+=======
+            logger.warning(
+                "Search query returned error",
+                extra={"query": akd_q.name, "error": str(e)},
+            )
+            return []
+
+        if not result:
+            return []
+
+        parsed_items: list[dict[str, Any]] = []
+        for tweet in result:
+            parsed = self.parse_tweet(tweet)
+            if parsed:
+                parsed_items.append(parsed)
+
+        return parsed_items
+>>>>>>> Stashed changes

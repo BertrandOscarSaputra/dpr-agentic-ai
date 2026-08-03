@@ -1,8 +1,8 @@
 # 📋 DPR Agentic AI — Project Status & Structure
 
-> **Terakhir diperbarui**: 29 Juli 2026  
-> **Sprint Aktif**: Sprint 3 — Data Collection Agents (Bulan 2)  
-> **Status Build**: ✅ 62/62 Tests Passing | 0 Lint Errors
+> **Terakhir diperbarui**: 3 Agustus 2026  
+> **Sprint Aktif**: Sprint 4 — Sentiment & Gemini AKD Classification Engine (Bulan 3)  
+> **Status Build**: ✅ 92/92 Tests Passing | 0 Lint Errors  
 
 ---
 
@@ -64,8 +64,8 @@ dpr-agentic-ai/
 │   ├── agents/                   # 🤖 Multi-Agent System
 │   │   ├── supervisor.py         # LangGraph StateGraph orchestrator
 │   │   ├── news_collection.py    # ✅ RSS feed collector (13 media)
-│   │   ├── twitter_collection.py # ⏳ Tweepy X/Twitter collector (stub)
-│   │   ├── analysis.py           # ⏳ Gemini + IndoBERT analysis
+│   │   ├── twitter_collection.py # ✅ Twikit X/Twitter scraper + cookies.json
+│   │   ├── analysis.py           # 🚀 Gemini + IndoBERT analysis
 │   │   ├── trend.py              # ⏳ Z-score anomaly detection
 │   │   ├── insight.py            # ⏳ Narrative summarization
 │   │   ├── recommendation.py     # ⏳ Policy recommendation
@@ -92,10 +92,10 @@ dpr-agentic-ai/
 │   │   └── content.py            # ContentItemCreate, ContentItemRead
 │   │
 │   ├── tasks/                    # ⏰ Celery Background Tasks
-│   │   └── collection.py         # ✅ collect_news (+ retry backoff)
+│   │   └── collection.py         # ✅ collect_news & collect_twitter (+ retry backoff)
 │   │
 │   └── utils/                    # 🔧 Utility Functions
-│       ├── validators.py         # AKD validation, text sanitization
+│       ├── validators.py         # AKD validation (24 AKD), text sanitization
 │       └── gemini_client.py      # Gemini API client (lazy init)
 │
 ├── dashboard/                    # 📊 Streamlit Frontend
@@ -103,11 +103,11 @@ dpr-agentic-ai/
 │   ├── pages/                    # Multi-page dashboard
 │   └── components/               # Reusable UI components
 │
-├── kamus/                        # 📚 Data Konfigurasi
-│   ├── akd_master.json           # 18 AKD (Komisi I-XI, Badan, Pimpinan)
-│   └── feeds.json                # 13 RSS feed media nasional
+├── kamus/                        # 📚 Data Konfigurasi Master
+│   ├── akd_master.json           # ✅ 24 AKD Master (2024-2029: Komisi I-XIII, Badans, Pimpinan)
+│   └── feeds.json                # ✅ 13 RSS feed media nasional
 │
-├── tests/                        # 🧪 Test Suite (62 tests)
+├── tests/                        # 🧪 Test Suite (92 tests)
 │   ├── test_agents/              # Agent unit tests
 │   ├── test_models/              # ORM model tests
 │   ├── test_repositories/        # Repository pattern tests
@@ -115,11 +115,23 @@ dpr-agentic-ai/
 │   ├── test_schemas/             # Validation schema tests
 │   └── test_utils/               # Utility function tests
 │
+├── run_news_collection.py        # 🚀 Skrip runner & JSON exporter berita
+├── run_twitter_collection.py     # 🚀 Skrip runner & JSON exporter tweet
+├── news_output.json              # 📄 File output JSON berita terkumpul
+├── tweets_output.json            # 📄 File output JSON tweet terkumpul
+├── cookies.json                  # 🔐 File sesi cookie X/Twitter
+│
 ├── migrations/                   # 🗃️ Alembic DB Migrations
 ├── docs/                         # 📝 Dokumentasi
 │   ├── timeline_agentic_ai_dpr_ri.md
+<<<<<<< Updated upstream
 │   ├── TWITTER_SCRAPING_GUIDE.md # Panduan Twitter/X scraping tanpa API key dari nol
 │   ├── SCRAPING_GUIDE.md         # Panduan data collection & scraping dari awal
+=======
+│   ├── FIGMA_DESIGN_GUIDE.md     # 🎨 Spesifikasi UI/UX Prototype Dashboard
+│   ├── TWITTER_SCRAPING_GUIDE.md # 🐦 Panduan setup scraping Twitter/X
+│   ├── SCRAPING_GUIDE.md         # 📰 Panduan dasar pengumpulan data
+>>>>>>> Stashed changes
 │   ├── ARCHITECTURE.md
 │   ├── API.md
 │   ├── DATABASE.md
@@ -135,18 +147,17 @@ dpr-agentic-ai/
 
 ---
 
-## ✅ Fitur yang Sudah Jalan
+## ✅ Fitur & Agent yang Sudah Berhasil Diselesaikan
 
 ### 1. Infrastructure & Backend (Sprint 1-2)
-- [x] FastAPI server dengan CORS middleware
-- [x] PostgreSQL database connection (SQLAlchemy 2.x + psycopg)
-- [x] Redis cache (lazy init + connection pooling, max 20 koneksi)
-- [x] Celery task queue dengan Redis broker
-- [x] API Key authentication untuk write endpoints
-- [x] 5 ORM models dengan timezone-aware `timestamptz`
-- [x] Alembic migration setup
-- [x] Docker Compose (PostgreSQL 15, Redis 7, Celery)
+- [x] FastAPI server dengan CORS middleware & API Key Auth
+- [x] PostgreSQL 15 database (SQLAlchemy 2.x + psycopg, `timestamptz`)
+- [x] Redis 7+ cache (lazy init + connection pooling)
+- [x] Celery task queue & Celery Beat scheduler
+- [x] 5 ORM models + Alembic migrations
+- [x] Docker Compose environment
 
+<<<<<<< Updated upstream
 ### 2. Data Collection Agents (Sprint 3) ✅ **LIVE**
 - [x] **News Collection Agent**: 13 sumber berita nasional via RSS feeds
 - [x] **Twitter/X Collection Agent**: Scraping via `twikit` (bebas API key, menggunakan kredensial X)
@@ -164,61 +175,44 @@ dpr-agentic-ai/
 ### 4. LangGraph Supervisor (Skeleton)
 - [x] StateGraph dengan 4 nodes: collect → analyze → trend → insight
 - [x] Typed `AgentState` untuk data flow antar agent
+=======
+### 2. News Collection Agent (Sprint 3) ✅ **LIVE**
+- [x] **13 sumber berita nasional** via RSS feeds
+- [x] Parsing XML dengan `feedparser` + sanitasi teks
+- [x] Error isolation per-feed
+- [x] Deduplikasi URL (`ON CONFLICT DO NOTHING`)
+- [x] Skrip ekspor JSON [`run_news_collection.py`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/run_news_collection.py) → [`news_output.json`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/news_output.json) (**615+ artikel**)
+
+### 3. Twitter/X Collection Agent (Sprint 3) ✅ **LIVE**
+- [x] Scraping berbasis `twikit` (bypasses Cloudflare via `cookies.json`)
+- [x] Pencarian berbasis kata kunci 24 AKD master DPR RI
+- [x] Penanganan recency (tweet real-time / terbaru)
+- [x] Feature flag `ENABLE_TWITTER_COLLECTION` untuk kontrol eksekusi
+- [x] Skrip ekspor JSON [`run_twitter_collection.py`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/run_twitter_collection.py) → [`tweets_output.json`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/tweets_output.json) (**560+ tweet**)
+
+### 4. Master Kamus 24 AKD DPR RI (2024-2029) ✅
+- [x] Komisi I s/d Komisi XIII
+- [x] Badan (BURT, MKD, Baleg, BAKN, BKSAP, BPKPH, Bamus, Banggar, BAM, Pansus)
+- [x] Pimpinan DPR RI
+>>>>>>> Stashed changes
 
 ---
 
-## 📡 Sumber Berita Aktif (13 Media)
+## 🚀 Fokus Selanjutnya: Sprint 4 (Bulan 3) — NLP & Klasifikasi
 
-| # | Media | Status | Rata-rata Artikel |
+| Hari | Task Utama | Status | PJ |
 |---|---|---|---|
-| 1 | Detik.com | ✅ Stabil | ~100 |
-| 2 | Antaranews.com | ✅ Stabil | ~50 |
-| 3 | Viva.co.id | ✅ Stabil | ~100 |
-| 4 | RMOL.id | ⚠️ Intermiten | ~10 |
-| 5 | Republika.co.id | ✅ Stabil | ~15 |
-| 6 | CNN Indonesia | ✅ Stabil | ~100 |
-| 7 | Liputan6.com | ✅ Stabil | ~50 |
-| 8 | Tribunnews.com | ⚠️ Intermiten | ~20 |
-| 9 | Tempo.co | ✅ Stabil | ~50 |
-| 10 | Suara.com | ⚠️ Intermiten | ~20 |
-| 11 | Mediaindonesia.com | ✅ Stabil | ~100 |
-| 12 | RM.id | ⚠️ Intermiten | ~20 |
-| 13 | Sindonews.com | ✅ Stabil | ~30 |
-
-> **Note:** Kompas.com dan Kumparan.com tidak tersedia karena kedua media telah menghentikan layanan RSS secara permanen.
+| **41-45** | Integrasi pipeline analisis sentimen IndoBERT + Lexicon di `src/agents/analysis.py` | 🚀 Active | Inf 2 |
+| **46-50** | Implementasi Gemini 2.5 Flash Zero-Shot Multi-Label Classifier untuk 24 AKD | 🚀 Active | Inf 2 |
+| **51-55** | Penyimpanan hasil analisis ke tabel `analysis_results` & `akd_mappings` | ⏳ Upcoming | SI 1 |
+| **56-60** | Evaluasi akurasi sentimen (target ≥75%) & akurasi klasifikasi AKD (target ≥70%) | ⏳ Upcoming | SI 2 |
 
 ---
 
-## ⏳ Yang Belum Dikerjakan (Upcoming)
-
-### Sprint 3 (Bulan 2) — Sisa
-| Hari | Task | PJ |
-|---|---|---|
-| 26-30 | Twitter/X Collection Agent (tweepy + AKD keywords) | Inf 2 |
-| 31-32 | Deduplikasi konten & validasi source_type | SI 1 |
-| 33-34 | Celery Beat: auto-collect setiap 4 jam | Inf 1 |
-| 35 | Integration testing dual-source | SI 2 |
-| 38-39 | Data preprocessing (bersihkan iklan/junk) | Inf 2 |
-
-### Sprint 4 (Bulan 3) — NLP & Klasifikasi
-| Hari | Task | PJ |
-|---|---|---|
-| 41-45 | IndoBERT sentiment analysis | Inf 2 |
-| 46-50 | Gemini zero-shot AKD classification | Inf 2 |
-| 51-59 | Evaluasi akurasi (target sentimen ≥75%, AKD top-1 ≥70%) | SI 2 |
-
-### Sprint 5-8 (Bulan 4-6)
-- LangGraph orkestrasi penuh + Trend Detection
-- Insight Agent (narrative summarization)
-- Recommendation Agent + human-in-the-loop
-- Streamlit Dashboard + PDF Report Generator
-- System Integration Testing (SIT) + Usability Testing
-
----
-
-## 🛠️ Quick Start untuk Development
+## 🧪 Hasil Pengujian (Test Suite Status)
 
 ```bash
+<<<<<<< Updated upstream
 # 1. Clone repo
 git clone https://github.com/BertrandOscarSaputra/dpr-agentic-ai.git
 cd dpr-agentic-ai
@@ -256,6 +250,9 @@ print(f'{len(articles)} articles collected')
 
 ```
 92 passed in 13s ✅
+=======
+92 passed in 12.8s ✅
+>>>>>>> Stashed changes
 Coverage: agents, models, repositories, routes, schemas, utils, cache
 ```
 

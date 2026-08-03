@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+"""Script to run TwitterCollectionAgent and export output to tweets_output.json."""
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+
+import asyncio
+import json
+from datetime import datetime
+from pathlib import Path
+
+from src.agents.twitter_collection import TwitterCollectionAgent
+
+OUTPUT_FILE = Path("tweets_output.json")
+
+
+async def main():
+    print("=" * 80)
+    print("  RUNNING TWITTER/X COLLECTION AGENT")
+    print("=" * 80)
+
+    agent = TwitterCollectionAgent()
+    print(f"Configured AKD Queries: {len(agent.queries)}")
+
+    # Collect live tweets
+    tweets = await agent.collect()
+
+    print("\n" + "=" * 80)
+    print(f"  TOTAL TWEETS COLLECTED: {len(tweets)}")
+    print("=" * 80 + "\n")
+
+    # Serialize datetime to ISO strings for JSON
+    serialized = []
+    for tweet in tweets:
+        copy_tw = dict(tweet)
+        if isinstance(copy_tw.get("published_at"), datetime):
+            copy_tw["published_at"] = copy_tw["published_at"].isoformat()
+        serialized.append(copy_tw)
+
+    # Save to tweets_output.json
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(serialized, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ SUCCESS: Exported {len(serialized)} tweets to '{OUTPUT_FILE.resolve()}'\n")
+
+    if serialized:
+        print("Sample collected tweets:")
+        for i, item in enumerate(serialized[:5], 1):
+            print(f"[{i}] {item.get('source_name')} | {item.get('published_at')}")
+            print(f"    Title: {item.get('title')}")
+            print(f"    URL:   {item.get('url')}\n")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
