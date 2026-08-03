@@ -71,6 +71,8 @@ docs/            # Documentation
 ## Documentation
 
 - [Setup Guide](docs/SETUP.md)
+- [Twitter/X Scraping Guide (Tanpa API Key)](docs/TWITTER_SCRAPING_GUIDE.md)
+- [Data Collection & Scraping Guide](docs/SCRAPING_GUIDE.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [API Reference](docs/API.md)
 - [Database Schema](docs/DATABASE.md)

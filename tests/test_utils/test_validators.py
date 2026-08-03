@@ -9,6 +9,8 @@ class TestValidateAKDName:
     def test_valid_komisi_names(self) -> None:
         assert validate_akd_name("Komisi I")
         assert validate_akd_name("Komisi XI")
+        assert validate_akd_name("Komisi XII")
+        assert validate_akd_name("Komisi XIII")
 
     def test_valid_badan_names(self) -> None:
         assert validate_akd_name("BURT")
@@ -16,12 +18,15 @@ class TestValidateAKDName:
         assert validate_akd_name("BAKN")
         assert validate_akd_name("BKSAP")
         assert validate_akd_name("MKD")
+        assert validate_akd_name("Bamus")
+        assert validate_akd_name("Banggar")
+        assert validate_akd_name("BAM")
 
     def test_valid_pimpinan(self) -> None:
         assert validate_akd_name("Pimpinan DPR")
 
     def test_invalid_names(self) -> None:
-        assert not validate_akd_name("Komisi XII")
+        assert not validate_akd_name("Komisi XIV")
         assert not validate_akd_name("Invalid AKD")
         assert not validate_akd_name("")
         assert not validate_akd_name("komisi i")  # Case sensitive

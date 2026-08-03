@@ -78,6 +78,25 @@ services:
       - redis
       - api
 
+  # Celery Beat (Periodic Scheduler)
+  celery-beat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    container_name: dpr-celery-beat-dev
+    command: celery -A src.tasks beat --loglevel=info
+    environment:
+      DATABASE_URL: postgresql://dpr_user:dpr_dev_password@postgres:5432/dpr_agentic_ai
+      REDIS_URL: redis://redis:6379
+      CELERY_BROKER_URL: redis://redis:6379
+      CELERY_RESULT_BACKEND: redis://redis:6379
+      ENV: development
+    depends_on:
+      - postgres
+      - redis
+      - celery
+
   # Streamlit Dashboard
   dashboard:
     build:
