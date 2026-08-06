@@ -36,11 +36,18 @@ async def main():
             copy_tw["published_at"] = copy_tw["published_at"].isoformat()
         serialized.append(copy_tw)
 
-    # Save to tweets_output.json
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(serialized, f, ensure_ascii=False, indent=2)
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    daily_output_file = Path(f"tweets_{today_str}.json")
 
-    print(f"✅ SUCCESS: Exported {len(serialized)} tweets to '{OUTPUT_FILE.resolve()}'\n")
+    # Save to daily file (tweets_YYYY-MM-DD.json) and latest file (tweets_output.json)
+    if serialized or not daily_output_file.exists():
+        with open(daily_output_file, "w", encoding="utf-8") as f:
+            json.dump(serialized, f, ensure_ascii=False, indent=2)
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            json.dump(serialized, f, ensure_ascii=False, indent=2)
+        print(f"✅ SUCCESS: Exported {len(serialized)} tweets to '{daily_output_file.resolve()}' and '{OUTPUT_FILE.resolve()}'\n")
+    else:
+        print(f"⚠️ RATE LIMIT / NO NEW TWEETS: Preserved existing tweets in '{OUTPUT_FILE.resolve()}'\n")
 
     if serialized:
         print("Sample collected tweets:")
