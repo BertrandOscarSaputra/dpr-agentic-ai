@@ -40,10 +40,10 @@ class TestLoadAKDQueries:
         for q in queries:
             assert "DPR" in q.query_str
 
-    def test_query_filters_retweets(self) -> None:
+    def test_query_includes_recency_filter(self) -> None:
         queries = load_akd_queries()
         for q in queries:
-            assert "-is:retweet" in q.query_str
+            assert "since:" in q.query_str
 
     def test_query_targets_indonesian_language(self) -> None:
         queries = load_akd_queries()

@@ -124,14 +124,9 @@ dpr-agentic-ai/
 ├── migrations/                   # 🗃️ Alembic DB Migrations
 ├── docs/                         # 📝 Dokumentasi
 │   ├── timeline_agentic_ai_dpr_ri.md
-<<<<<<< Updated upstream
-│   ├── TWITTER_SCRAPING_GUIDE.md # Panduan Twitter/X scraping tanpa API key dari nol
-│   ├── SCRAPING_GUIDE.md         # Panduan data collection & scraping dari awal
-=======
 │   ├── FIGMA_DESIGN_GUIDE.md     # 🎨 Spesifikasi UI/UX Prototype Dashboard
 │   ├── TWITTER_SCRAPING_GUIDE.md # 🐦 Panduan setup scraping Twitter/X
 │   ├── SCRAPING_GUIDE.md         # 📰 Panduan dasar pengumpulan data
->>>>>>> Stashed changes
 │   ├── ARCHITECTURE.md
 │   ├── API.md
 │   ├── DATABASE.md

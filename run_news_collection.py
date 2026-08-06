@@ -36,11 +36,17 @@ async def main():
             copy_art["published_at"] = copy_art["published_at"].isoformat()
         serialized.append(copy_art)
 
-    # Save to news_output.json
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    daily_output_file = Path(f"news_{today_str}.json")
+
+    # Save to daily file (news_YYYY-MM-DD.json) and latest file (news_output.json)
+    with open(daily_output_file, "w", encoding="utf-8") as f:
+        json.dump(serialized, f, ensure_ascii=False, indent=2)
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(serialized, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ SUCCESS: Exported {len(serialized)} news articles to '{OUTPUT_FILE.resolve()}'\n")
+    print(f"✅ SUCCESS: Exported {len(serialized)} news articles to '{daily_output_file.resolve()}' and '{OUTPUT_FILE.resolve()}'\n")
 
     if serialized:
         print("Sample collected news articles:")

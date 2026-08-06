@@ -1,17 +1,13 @@
 """Twitter Collection Agent — collects tweets related to DPR RI topics.
 
 Uses twikit library to scrape X/Twitter without official API access.
-<<<<<<< Updated upstream
-Authentication is handled via X account credentials (username/email/password)
-with cookie persistence for subsequent runs.
-=======
 Authentication is handled via session cookies (cookies.json) or X account
 credentials (username/email/password) with cookie persistence.
->>>>>>> Stashed changes
 """
 
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 from dataclasses import dataclass
@@ -41,8 +37,9 @@ class AKDQuery:
 
 def load_akd_queries(
     file_path: Path = AKD_MASTER_PATH,
+    since_days: int = 90,
 ) -> tuple[AKDQuery, ...]:
-    """Load AKD keywords from JSON and construct search queries."""
+    """Load AKD keywords from JSON and construct search queries with date filter for recent tweets."""
     if not file_path.exists():
         logger.warning(
             "AKD master file not found",
@@ -59,6 +56,8 @@ def load_akd_queries(
             extra={"error": str(e)},
         )
         return ()
+
+    since_date = (datetime.now(UTC) - timedelta(days=since_days)).strftime("%Y-%m-%d")
 
     queries: list[AKDQuery] = []
     for item in data.get("akd", []):
@@ -79,8 +78,8 @@ def load_akd_queries(
 
         kw_clause = " OR ".join(formatted_kw)
 
-        # Query: (DPR OR "DPR RI") (<keywords>) lang:id -is:retweet
-        query_str = f'(DPR OR "DPR RI") ({kw_clause}) lang:id -is:retweet'
+        # Query: (DPR OR "DPR RI") (<keywords>) lang:id since:YYYY-MM-DD
+        query_str = f'(DPR OR "DPR RI") ({kw_clause}) lang:id since:{since_date}'
         queries.append(
             AKDQuery(
                 name=name,
@@ -102,11 +101,7 @@ async def _create_twikit_client() -> Any | None:
     try:
         from twikit import Client
 
-<<<<<<< Updated upstream
-        client = Client("id-ID")  # Indonesian locale
-=======
         client = Client("id-ID")
->>>>>>> Stashed changes
 
         # 1. Try loading existing cookies first (bypasses Cloudflare block)
         if COOKIES_PATH.exists():
@@ -117,17 +112,10 @@ async def _create_twikit_client() -> Any | None:
                 if isinstance(cookie_data, list):
                     cookie_dict = {}
                     for item in cookie_data:
-<<<<<<< Updated upstream
-                        name = item.get("name") or item.get("key")
-                        val = item.get("value")
-                        if name and val:
-                            cookie_dict[name] = val
-=======
                         c_name = item.get("name") or item.get("key")
                         val = item.get("value")
                         if c_name and val:
                             cookie_dict[c_name] = val
->>>>>>> Stashed changes
                     cookie_data = cookie_dict
 
                 if isinstance(cookie_data, dict) and cookie_data:
@@ -150,11 +138,7 @@ async def _create_twikit_client() -> Any | None:
             )
             return None
 
-<<<<<<< Updated upstream
-        # 2. Full programmatic login
-=======
         # 2. Full programmatic login fallback
->>>>>>> Stashed changes
         await client.login(
             auth_info_1=settings.X_USERNAME,
             auth_info_2=settings.X_EMAIL,
@@ -175,49 +159,14 @@ async def _create_twikit_client() -> Any | None:
             extra={},
         )
     except Exception as e:
-<<<<<<< Updated upstream
-        err_msg = str(e)
-        if "403" in err_msg or "Cloudflare" in err_msg:
-            logger.error(
-                "X blocked automated login via Cloudflare (HTTP 403). "
-                "Solution: Log in on browser and export cookies to cookies.json",
-                extra={"error": "Cloudflare Block"},
-            )
-        else:
-            logger.error(
-                "Failed to authenticate with X",
-                extra={"error": err_msg},
-            )
-=======
         logger.error(
             "X authentication failed",
             extra={"error": str(e)},
         )
->>>>>>> Stashed changes
     return None
 
 
 class TwitterCollectionAgent:
-<<<<<<< Updated upstream
-    """Collects and normalizes tweets matching DPR RI & AKD topics.
-
-    Uses twikit to scrape X without official API access.
-    """
-
-    def __init__(
-        self,
-        queries: tuple[AKDQuery, ...] | None = None,
-    ) -> None:
-        self.queries = (
-            queries if queries is not None else load_akd_queries()
-        )
-        self.max_results = settings.TWITTER_MAX_RESULTS_PER_QUERY
-
-    def parse_tweet(
-        self, tweet: Any,
-    ) -> dict[str, Any] | None:
-        """Parse a twikit Tweet object into a ContentItem dict.
-=======
     """Collects tweets for AKD topics and normalizes them for analysis."""
 
     def __init__(
@@ -230,7 +179,6 @@ class TwitterCollectionAgent:
 
     def parse_tweet(self, tweet: Any) -> dict[str, Any] | None:
         """Extract and normalize fields from a twikit Tweet object.
->>>>>>> Stashed changes
 
         Args:
             tweet: twikit Tweet object with .id, .text, .user,
@@ -284,37 +232,6 @@ class TwitterCollectionAgent:
     @staticmethod
     def _parse_created_at(value: Any) -> datetime | None:
         """Parse tweet created_at to a timezone-aware datetime."""
-<<<<<<< Updated upstream
-        if isinstance(value, datetime):
-            if value.tzinfo:
-                return value
-            return value.replace(tzinfo=UTC)
-
-        if not isinstance(value, str) or not value:
-            return None
-
-        # twikit format: "Wed Jul 29 10:00:00 +0000 2026"
-        for fmt in (
-            "%a %b %d %H:%M:%S %z %Y",
-            "%Y-%m-%dT%H:%M:%S%z",
-            "%Y-%m-%dT%H:%M:%SZ",
-        ):
-            try:
-                dt = datetime.strptime(value, fmt)
-                if not dt.tzinfo:
-                    dt = dt.replace(tzinfo=UTC)
-                return dt
-            except ValueError:
-                continue
-
-        # Fallback: try fromisoformat
-        try:
-            dt = datetime.fromisoformat(
-                value.replace("Z", "+00:00")
-            )
-            return dt if dt.tzinfo else dt.replace(tzinfo=UTC)
-        except ValueError:
-=======
         if not value:
             return None
         if isinstance(value, datetime):
@@ -325,7 +242,6 @@ class TwitterCollectionAgent:
             dt = dateutil_parser.parse(str(value))
             return dt if dt.tzinfo else dt.replace(tzinfo=UTC)
         except Exception:
->>>>>>> Stashed changes
             return None
 
     async def collect(self) -> list[dict[str, Any]]:
@@ -373,51 +289,22 @@ class TwitterCollectionAgent:
     ) -> list[dict[str, Any]]:
         """Search tweets for a single AKD query via twikit."""
         try:
+            await asyncio.sleep(0.5)
             result = await client.search_tweet(
                 akd_q.query_str, "Latest"
             )
         except Exception as e:
-<<<<<<< Updated upstream
-            err_name = type(e).__name__
-            if "TooManyRequests" in err_name or "429" in str(e):
+            err_msg = str(e)
+            if "429" in err_msg or "Rate limit" in err_msg:
                 logger.warning(
-                    "X rate limit reached",
-                    extra={"akd": akd_q.name},
+                    "X rate limit reached for query",
+                    extra={"query": akd_q.name},
                 )
             else:
-                logger.error(
-                    "Failed searching tweets",
-                    extra={"akd": akd_q.name, "error": str(e)},
+                logger.warning(
+                    "Search query returned error",
+                    extra={"query": akd_q.name, "error": err_msg},
                 )
-            return []
-
-        if not result:
-            logger.info(
-                "No tweets found for query",
-                extra={"akd": akd_q.name},
-            )
-            return []
-
-        items: list[dict[str, Any]] = []
-        count = 0
-        for tweet in result:
-            if count >= self.max_results:
-                break
-            item = self.parse_tweet(tweet)
-            if item:
-                items.append(item)
-                count += 1
-
-        logger.info(
-            "Fetched tweets for query",
-            extra={"akd": akd_q.name, "count": len(items)},
-        )
-        return items
-=======
-            logger.warning(
-                "Search query returned error",
-                extra={"query": akd_q.name, "error": str(e)},
-            )
             return []
 
         if not result:
@@ -425,9 +312,10 @@ class TwitterCollectionAgent:
 
         parsed_items: list[dict[str, Any]] = []
         for tweet in result:
+            if len(parsed_items) >= self.max_results:
+                break
             parsed = self.parse_tweet(tweet)
             if parsed:
                 parsed_items.append(parsed)
 
         return parsed_items
->>>>>>> Stashed changes
