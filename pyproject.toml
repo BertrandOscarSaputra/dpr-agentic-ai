@@ -42,8 +42,9 @@ dependencies = [
     "weasyprint>=60.1,<62.0",
     # Utilities
     "python-dotenv>=1.0.0,<2.0.0",
-    "twikit>=2.3.3",
-    "twifork>=2.3.5",
+    "scrapfly-sdk>=0.8.0",
+    "jmespath>=1.0.1",
+    "python-dateutil>=2.8.2",
 ]
 
 [dependency-groups]

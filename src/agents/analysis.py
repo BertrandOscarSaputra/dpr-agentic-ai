@@ -103,8 +103,42 @@ class AnalysisAgent:
 
         return sentiment, sentiment_score
 
+    def _fast_explicit_akd_match(self, text: str) -> list[dict[str, Any]]:
+        """Tier 1: Fast deterministic regex matcher for explicit AKD mentions."""
+        cleaned = sanitize_text(text)
+        if not cleaned:
+            return []
+
+        # Find explicit Komisi matches (e.g. "Komisi III", "Komisi I")
+        matches: list[dict[str, Any]] = []
+        seen_names = set()
+
+        for akd in self.akd_list:
+            name = akd.get("name", "")
+            if not name:
+                continue
+
+            # Build regex pattern for exact word boundary match
+            # e.g., "Komisi I" -> r"\bkomisi\s+i\b"
+            escaped_name = re.escape(name.lower())
+            pattern = rf"\b{escaped_name}\b"
+
+            if re.search(pattern, cleaned.lower()):
+                if name not in seen_names:
+                    seen_names.add(name)
+                    matches.append({
+                        "akd_name": name,
+                        "akd_type": akd.get("type", "Komisi"),
+                        "confidence_score": 0.98,
+                        "rank": len(matches) + 1,
+                    })
+                if len(matches) >= 3:
+                    break
+
+        return matches
+
     def _keyword_classify_akd(self, text: str) -> list[dict[str, Any]]:
-        """Fallback keyword-based AKD classification when Gemini API is unavailable."""
+        """Tier 3: Multi-factor keyword-based AKD classification fallback."""
         cleaned = sanitize_text(text).lower()
         if not cleaned:
             return []
@@ -153,12 +187,21 @@ class AnalysisAgent:
         return results
 
     async def classify_akd(self, text: str) -> list[dict[str, Any]]:
-        """Classify text into AKD categories using Gemini AI (with fallback).
+        """Classify text into AKD categories using Tier-1 Fast Match -> Tier-2 Gemini LLM -> Tier-3 Keyword Fallback.
 
         Returns:
             List of top 1..3 AKD mapping dicts.
         """
-        # Try Gemini API zero-shot classification first
+        # Tier 1: Try fast explicit regex match first (0ms latency, zero API cost)
+        fast_matches = self._fast_explicit_akd_match(text)
+        if fast_matches:
+            logger.debug(
+                "Tier 1 fast-path AKD match succeeded",
+                extra={"matches": [m["akd_name"] for m in fast_matches]},
+            )
+            return fast_matches
+
+        # Tier 2: Try Gemini API zero-shot semantic classification
         gemini_results = await gemini_classify_akd(text)
         if gemini_results:
             # Enrich with akd_type from master list
@@ -171,7 +214,7 @@ class AnalysisAgent:
                 item["akd_type"] = type_lookup.get(name, "Komisi")
             return gemini_results
 
-        # Fallback to keyword-based matcher
+        # Tier 3: Fallback to multi-factor keyword matcher
         logger.info("Using keyword fallback for AKD classification", extra={})
         return self._keyword_classify_akd(text)
 

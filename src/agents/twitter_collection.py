@@ -1,8 +1,8 @@
 """Twitter Collection Agent — collects tweets related to DPR RI topics.
 
-Uses twikit library to scrape X/Twitter without official API access.
-Authentication is handled via session cookies (cookies.json) or X account
-credentials (username/email/password) with cookie persistence.
+Uses Scrapfly to render X.com search pages in a real browser and captures
+the GraphQL SearchTimeline XHR responses. No cookies or credentials needed —
+Scrapfly handles anti-bot protection and proxy rotation automatically.
 """
 
 from __future__ import annotations
@@ -14,6 +14,7 @@ from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote_plus
 
 from src.config import settings
 from src.utils.validators import sanitize_text
@@ -23,7 +24,9 @@ logger = logging.getLogger(__name__)
 AKD_MASTER_PATH = (
     Path(__file__).resolve().parents[2] / "kamus" / "akd_master.json"
 )
-COOKIES_PATH = Path(settings.X_COOKIES_PATH)
+
+# X.com search URL template (latest/live results)
+SEARCH_URL = "https://x.com/search?q={query}&src=typed_query&f=live"
 
 
 @dataclass(frozen=True)
@@ -37,9 +40,9 @@ class AKDQuery:
 
 def load_akd_queries(
     file_path: Path = AKD_MASTER_PATH,
-    since_days: int = 90,
+    since_days: int = 7,
 ) -> tuple[AKDQuery, ...]:
-    """Load AKD keywords from JSON and construct search queries with date filter for recent tweets."""
+    """Load AKD keywords from JSON and construct search queries."""
     if not file_path.exists():
         logger.warning(
             "AKD master file not found",
@@ -68,18 +71,12 @@ def load_akd_queries(
         if not name or not keywords:
             continue
 
-        # Build keyword clause: e.g., (pertahanan OR "luar negeri" OR TNI)
-        formatted_kw = []
-        for kw in keywords:
-            if " " in kw:
-                formatted_kw.append(f'"{kw}"')
-            else:
-                formatted_kw.append(kw)
+        # Build clean, targeted search query: e.g., "Komisi I DPR" OR "Komisi I DPR RI"
+        if "DPR" in name:
+            query_str = f'"{name}" lang:id'
+        else:
+            query_str = f'"{name} DPR" OR "{name} DPR RI" lang:id'
 
-        kw_clause = " OR ".join(formatted_kw)
-
-        # Query: (DPR OR "DPR RI") (<keywords>) lang:id since:YYYY-MM-DD
-        query_str = f'(DPR OR "DPR RI") ({kw_clause}) lang:id since:{since_date}'
         queries.append(
             AKDQuery(
                 name=name,
@@ -91,109 +88,20 @@ def load_akd_queries(
     return tuple(queries)
 
 
-async def _create_twikit_client() -> Any | None:
-    """Create and authenticate a twikit Client.
-
-    Tries to load existing cookies first. If cookies are expired or
-    missing, falls back to full login with username/email/password.
-    Returns None if credentials are not configured.
-    """
+def _parse_tweet_from_result(tweet_result: dict[str, Any]) -> dict[str, Any] | None:
+    """Parse a tweet from a GraphQL tweet_result entry."""
     try:
-        from twikit import Client
+        # Handle tweet type
+        typename = tweet_result.get("__typename", "")
+        if typename == "TweetWithVisibilityResults":
+            tweet_result = tweet_result.get("tweet", {})
 
-        client = Client("id-ID")
-
-        # 1. Try loading existing cookies first (bypasses Cloudflare block)
-        if COOKIES_PATH.exists():
-            try:
-                with open(COOKIES_PATH, encoding="utf-8") as f:
-                    cookie_data = json.load(f)
-
-                if isinstance(cookie_data, list):
-                    cookie_dict = {}
-                    for item in cookie_data:
-                        c_name = item.get("name") or item.get("key")
-                        val = item.get("value")
-                        if c_name and val:
-                            cookie_dict[c_name] = val
-                    cookie_data = cookie_dict
-
-                if isinstance(cookie_data, dict) and cookie_data:
-                    client.set_cookies(cookie_data)
-                    logger.info(
-                        "Loaded existing X session cookies from file",
-                        extra={"path": str(COOKIES_PATH), "cookies_count": len(cookie_data)},
-                    )
-                    return client
-            except Exception as e:
-                logger.warning(
-                    "Stored cookies.json invalid or corrupt",
-                    extra={"error": str(e)},
-                )
-
-        if not settings.X_USERNAME or not settings.X_PASSWORD:
-            logger.warning(
-                "X credentials not set and cookies.json missing — Twitter collection disabled.",
-                extra={"status": "disabled"},
-            )
+        legacy = tweet_result.get("legacy", {})
+        if not legacy:
             return None
 
-        # 2. Full programmatic login fallback
-        await client.login(
-            auth_info_1=settings.X_USERNAME,
-            auth_info_2=settings.X_EMAIL,
-            password=settings.X_PASSWORD,
-        )
-
-        # Save cookies for next runs
-        client.save_cookies(str(COOKIES_PATH))
-        logger.info(
-            "Authenticated to X and saved cookies",
-            extra={"user": settings.X_USERNAME},
-        )
-        return client
-
-    except ImportError:
-        logger.error(
-            "twikit not installed — run: uv add twikit",
-            extra={},
-        )
-    except Exception as e:
-        logger.error(
-            "X authentication failed",
-            extra={"error": str(e)},
-        )
-    return None
-
-
-class TwitterCollectionAgent:
-    """Collects tweets for AKD topics and normalizes them for analysis."""
-
-    def __init__(
-        self,
-        queries: tuple[AKDQuery, ...] | None = None,
-        max_results: int | None = None,
-    ) -> None:
-        self.queries = queries if queries is not None else load_akd_queries()
-        self.max_results = max_results or settings.TWITTER_MAX_RESULTS_PER_QUERY
-
-    def parse_tweet(self, tweet: Any) -> dict[str, Any] | None:
-        """Extract and normalize fields from a twikit Tweet object.
-
-        Args:
-            tweet: twikit Tweet object with .id, .text, .user,
-                   .created_at attributes.
-
-        Returns:
-            Normalized dict matching ContentItem schema, or None.
-        """
-        try:
-            tweet_id = getattr(tweet, "id", None)
-            text = getattr(tweet, "text", None)
-            created_at_str = getattr(tweet, "created_at", None)
-            user = getattr(tweet, "user", None)
-        except AttributeError:
-            return None
+        tweet_id = legacy.get("id_str") or tweet_result.get("rest_id")
+        text = legacy.get("full_text") or legacy.get("text", "")
 
         if not tweet_id or not text:
             return None
@@ -202,80 +110,232 @@ class TwitterCollectionAgent:
         if not cleaned:
             return None
 
-        # Build source name
-        username = ""
-        if user:
-            username = getattr(user, "screen_name", "") or getattr(
-                user, "name", ""
-            )
-        source_name = f"@{username}" if username else "X / Twitter"
+        # Username
+        core = tweet_result.get("core", {})
+        user_results = core.get("user_results", {}).get("result", {})
+        user_legacy = user_results.get("legacy", {})
+        screen_name = user_legacy.get("screen_name", "")
+        source_name = f"@{screen_name}" if screen_name else "X / Twitter"
 
-        # Title (first 80 chars)
-        title = (
-            cleaned[:80] + "..." if len(cleaned) > 80 else cleaned
-        )
+        # Title
+        title = cleaned[:80] + "..." if len(cleaned) > 80 else cleaned
 
-        # Parse published_at
-        pub_date = self._parse_created_at(created_at_str)
+        # URL
+        url = f"https://x.com/i/status/{tweet_id}"
 
-        tweet_url = f"https://x.com/i/status/{tweet_id}"
+        # Timestamp
+        created_at_str = legacy.get("created_at", "")
+        published_at: datetime | None = None
+        if created_at_str:
+            try:
+                from dateutil import parser as dateutil_parser
+                dt = dateutil_parser.parse(created_at_str)
+                published_at = dt if dt.tzinfo else dt.replace(tzinfo=UTC)
+            except Exception:
+                published_at = datetime.now(UTC)
+        else:
+            published_at = datetime.now(UTC)
 
         return {
             "source_type": "twitter",
             "source_name": source_name,
             "content": cleaned,
             "title": title,
-            "url": tweet_url,
-            "published_at": pub_date,
+            "url": url,
+            "published_at": published_at,
+        }
+    except Exception as e:
+        logger.debug("Failed to parse tweet result", extra={"error": str(e)})
+        return None
+
+
+def parse_search_xhr_response(xhr_body: str) -> list[dict[str, Any]]:
+    """Parse tweets from a SearchTimeline GraphQL XHR response body."""
+    try:
+        data = json.loads(xhr_body)
+    except Exception:
+        return []
+
+    tweets: list[dict[str, Any]] = []
+
+    try:
+        # Navigate into the GraphQL response structure
+        timeline = (
+            data.get("data", {})
+            .get("search_by_raw_query", {})
+            .get("search_timeline", {})
+            .get("timeline", {})
+        )
+        instructions = timeline.get("instructions", [])
+
+        for instruction in instructions:
+            entries = instruction.get("entries", [])
+            for entry in entries:
+                content = entry.get("content", {})
+
+                # Single tweet entry
+                item_content = content.get("itemContent", {})
+                if item_content.get("__typename") == "TimelineTweet":
+                    tweet_result = item_content.get("tweet_results", {}).get("result", {})
+                    parsed = _parse_tweet_from_result(tweet_result)
+                    if parsed:
+                        tweets.append(parsed)
+
+                # Module entries (multiple tweets in one)
+                items = content.get("items", [])
+                for item in items:
+                    ic = item.get("item", {}).get("itemContent", {})
+                    if ic.get("__typename") == "TimelineTweet":
+                        tweet_result = ic.get("tweet_results", {}).get("result", {})
+                        parsed = _parse_tweet_from_result(tweet_result)
+                        if parsed:
+                            tweets.append(parsed)
+    except Exception as e:
+        logger.debug("Error parsing search XHR response", extra={"error": str(e)})
+
+    return tweets
+
+
+async def _scrape_search_page(
+    query_str: str,
+    max_results: int = 20,
+) -> list[dict[str, Any]]:
+    """Scrape X.com search page using Scrapfly and extract tweets from XHR."""
+    try:
+        from scrapfly import ScrapeConfig, ScrapflyClient
+    except ImportError:
+        logger.error("scrapfly-sdk not installed — run: uv add scrapfly-sdk")
+        return []
+
+    if not settings.SCRAPFLY_KEY:
+        logger.warning(
+            "SCRAPFLY_KEY not set — Twitter collection disabled",
+            extra={"status": "disabled"},
+        )
+        return []
+
+    encoded_query = quote_plus(query_str)
+    url = SEARCH_URL.format(query=encoded_query)
+
+    client = ScrapflyClient(key=settings.SCRAPFLY_KEY)
+
+    try:
+        config_kwargs: dict[str, Any] = {
+            "url": url,
+            "asp": True,
+            "render_js": True,
+            "wait_for_selector": "xhr:*SearchTimeline*",
+            "rendering_wait": 3000,
+            "lang": "id-ID,id,en-US",
+            "retry": True,
         }
 
-    @staticmethod
-    def _parse_created_at(value: Any) -> datetime | None:
-        """Parse tweet created_at to a timezone-aware datetime."""
-        if not value:
-            return None
-        if isinstance(value, datetime):
-            return value if value.tzinfo else value.replace(tzinfo=UTC)
-        try:
-            from dateutil import parser as dateutil_parser
+        result = await client.async_scrape(ScrapeConfig(**config_kwargs))
 
-            dt = dateutil_parser.parse(str(value))
-            return dt if dt.tzinfo else dt.replace(tzinfo=UTC)
-        except Exception:
-            return None
+        status_code = getattr(result, "status_code", 0)
+        xhr_calls = result.scrape_result.get("browser_data", {}).get("xhr_call", [])
+        search_xhrs = [x for x in xhr_calls if "SearchTimeline" in x.get("url", "")]
+
+        if status_code != 200 or not search_xhrs:
+            logger.warning(
+                "Scrapfly search page fetch warning",
+                extra={"query": query_str[:60], "status": status_code, "xhr_total": len(xhr_calls), "search_xhrs": len(search_xhrs)},
+            )
+            print(f"Scrapfly warning [{query_str[:30]}]: status={status_code}, xhr_total={len(xhr_calls)}, search_xhrs={len(search_xhrs)}")
+
+        for xhr in search_xhrs:
+            response = xhr.get("response")
+            if not response:
+                continue
+            body = response.get("body", "")
+            if not body:
+                continue
+
+            tweets = parse_search_xhr_response(body)
+            if tweets:
+                logger.info(
+                    "Scraped tweets via Scrapfly SearchTimeline XHR",
+                    extra={"query": query_str[:60], "count": len(tweets)},
+                )
+                print(f"✅ [{query_str[:30]}]: Scraped {len(tweets)} tweets")
+                return tweets[:max_results]
+
+    except Exception as e:
+        err_msg = str(e)
+        if "429" in err_msg or "rate" in err_msg.lower():
+            logger.warning(
+                "Scrapfly rate limit or X rate limit reached",
+                extra={"query": query_str[:60]},
+            )
+        else:
+            logger.warning(
+                "Search query returned error",
+                extra={"query": query_str[:60], "error": err_msg},
+            )
+
+    return []
+
+
+class TwitterCollectionAgent:
+    """Collects tweets about DPR RI topics using Scrapfly browser scraping."""
+
+    def __init__(
+        self,
+        queries: tuple[AKDQuery, ...] | None = None,
+        max_results: int | None = None,
+        delay_seconds: float = 2.0,
+    ) -> None:
+        self.queries = queries if queries is not None else load_akd_queries()
+        self.max_results = max_results or settings.TWITTER_MAX_RESULTS_PER_QUERY
+        self.delay_seconds = delay_seconds
+
+    def parse_tweet(self, tweet: Any) -> dict[str, Any] | None:
+        """Parse a twikit-style tweet object (kept for backwards compat with tests)."""
+        return _parse_tweet_from_result(tweet) if isinstance(tweet, dict) else None
 
     async def collect(self) -> list[dict[str, Any]]:
-        """Collect tweets across all AKD search queries.
+        """Collect tweets across all AKD search queries via Scrapfly.
 
         Returns:
             Flat list of normalized ContentItem dictionaries.
         """
-        client = await _create_twikit_client()
-        if client is None:
+        if not settings.SCRAPFLY_KEY:
             logger.warning(
-                "Skipping Twitter collection (client unavailable)",
+                "Skipping Twitter collection — SCRAPFLY_KEY not configured",
                 extra={},
             )
             return []
 
         all_tweets: list[dict[str, Any]] = []
+        seen_urls: set[str] = set()
 
         logger.info(
-            "Starting Twitter collection via twikit",
+            "Starting Twitter collection via Scrapfly",
             extra={"queries_count": len(self.queries)},
         )
 
         for akd_q in self.queries:
             try:
-                tweets = await self._search_for_query(
-                    client, akd_q
+                tweets = await _scrape_search_page(
+                    akd_q.query_str,
+                    max_results=self.max_results,
                 )
-                all_tweets.extend(tweets)
+                for tweet in tweets:
+                    url = tweet.get("url", "")
+                    if url and url not in seen_urls:
+                        seen_urls.add(url)
+                        all_tweets.append(tweet)
+
+                if tweets:
+                    await asyncio.sleep(self.delay_seconds)
+
             except Exception as e:
+                import traceback
                 logger.error(
                     "Error querying tweets for AKD",
-                    extra={"akd": akd_q.name, "error": str(e)},
+                    extra={"akd": akd_q.name, "error": str(e), "traceback": traceback.format_exc()},
                 )
+                print(f"Error querying {akd_q.name}: {e}\n{traceback.format_exc()}")
                 continue
 
         logger.info(
@@ -283,39 +343,3 @@ class TwitterCollectionAgent:
             extra={"total_collected": len(all_tweets)},
         )
         return all_tweets
-
-    async def _search_for_query(
-        self, client: Any, akd_q: AKDQuery,
-    ) -> list[dict[str, Any]]:
-        """Search tweets for a single AKD query via twikit."""
-        try:
-            await asyncio.sleep(0.5)
-            result = await client.search_tweet(
-                akd_q.query_str, "Latest"
-            )
-        except Exception as e:
-            err_msg = str(e)
-            if "429" in err_msg or "Rate limit" in err_msg:
-                logger.warning(
-                    "X rate limit reached for query",
-                    extra={"query": akd_q.name},
-                )
-            else:
-                logger.warning(
-                    "Search query returned error",
-                    extra={"query": akd_q.name, "error": err_msg},
-                )
-            return []
-
-        if not result:
-            return []
-
-        parsed_items: list[dict[str, Any]] = []
-        for tweet in result:
-            if len(parsed_items) >= self.max_results:
-                break
-            parsed = self.parse_tweet(tweet)
-            if parsed:
-                parsed_items.append(parsed)
-
-        return parsed_items

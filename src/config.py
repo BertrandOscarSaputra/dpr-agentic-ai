@@ -35,19 +35,11 @@ class Settings(BaseSettings):
     HUGGINGFACE_API_KEY: str = ""
     TWITTER_BEARER_TOKEN: str = ""  # Optional: for tweepy API v2
 
-    # X/Twitter Scraping (twikit — no API key required)
-    X_USERNAME: str = ""
-    X_EMAIL: str = ""
-    X_PASSWORD: str = ""
-    X_COOKIES_PATH: str = "cookies.json"  # Persisted session cookies
-
-    # X/Twitter Scraping (twikit)
-    X_USERNAME: str = ""
-    X_EMAIL: str = ""
-    X_PASSWORD: str = ""
-    X_COOKIES_PATH: str = "cookies.json"
-    ENABLE_TWITTER_COLLECTION: bool = False
-    TWITTER_MAX_RESULTS_PER_QUERY: int = 10
+    # Scrapfly — browser-based X/Twitter scraping
+    SCRAPFLY_KEY: str = ""  # Set in .env: SCRAPFLY_KEY=scp-live-xxxx
+    ENABLE_TWITTER_COLLECTION: bool = True
+    TWITTER_MAX_RESULTS_PER_QUERY: int = 20  # Max tweets per AKD query
+    TWITTER_COLLECTION_BATCH_SIZE: int = 100  # DB insert batch size
 
     # Celery
     CELERY_BROKER_URL: str = "redis://localhost:6379"
@@ -59,11 +51,6 @@ class Settings(BaseSettings):
     # News Collection
     NEWS_FEED_TIMEOUT: int = 15  # seconds per RSS feed HTTP request
     NEWS_COLLECTION_BATCH_SIZE: int = 100  # DB insert batch size
-
-    # Twitter Collection
-    ENABLE_TWITTER_COLLECTION: bool = False  # Set to True to enable automated Twitter scraping
-    TWITTER_MAX_RESULTS_PER_QUERY: int = 10  # Max tweets per AKD query (10-100 for API v2)
-    TWITTER_COLLECTION_BATCH_SIZE: int = 100  # DB insert batch size
 
     @model_validator(mode="before")
     @classmethod

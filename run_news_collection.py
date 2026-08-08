@@ -10,7 +10,8 @@ from pathlib import Path
 
 from src.agents.news_collection import NewsCollectionAgent
 
-OUTPUT_FILE = Path("news_output.json")
+OUTPUT_DIR = Path("data/news")
+OUTPUT_FILE = OUTPUT_DIR / "news_output.json"
 
 
 async def main():
@@ -36,8 +37,9 @@ async def main():
             copy_art["published_at"] = copy_art["published_at"].isoformat()
         serialized.append(copy_art)
 
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     today_str = datetime.now().strftime("%Y-%m-%d")
-    daily_output_file = Path(f"news_{today_str}.json")
+    daily_output_file = OUTPUT_DIR / f"news_{today_str}.json"
 
     # Save to daily file (news_YYYY-MM-DD.json) and latest file (news_output.json)
     with open(daily_output_file, "w", encoding="utf-8") as f:

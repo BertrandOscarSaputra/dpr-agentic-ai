@@ -35,25 +35,29 @@ Anda adalah pakar analisis politik dan Parlemen DPR RI.
 Tugas Anda: Klasifikasikan teks berikut ke dalam Alat Kelengkapan Dewan (AKD)
 DPR RI yang relevan (maksimal 3 AKD terbaik).
 
-Daftar AKD resmi:
-- Komisi I (Pertahanan, Luar Negeri, Kominfo, TNI)
-- Komisi II (Dalam Negeri, Otonomi Daerah, ASN, Pertanahan)
+Daftar AKD resmi DPR RI Periode 2024-2029:
+- Pimpinan DPR (Ketua/Wakil Ketua/Paripurna)
+- Komisi I (Pertahanan, Luar Negeri, Kominfo, TNI, BSSN)
+- Komisi II (Dalam Negeri, Otonomi Daerah, ASN, Pertanahan, KPU, Pemilu)
 - Komisi III (Hukum, HAM, Keamanan, Kepolisian, Kejaksaan, KPK)
-- Komisi IV (Pertanian, Kehutanan, Kelautan, Pangan)
-- Komisi V (Perhubungan, Infrastruktur, Perumahan, BMKG)
-- Komisi VI (Perdagangan, Industri, Investasi, BUMN, UMKM)
-- Komisi VII (Energi, Mineral, Riset, Teknologi, Lingkungan Hidup)
-- Komisi VIII (Agama, Sosial, Pemberdayaan Perempuan, Haji)
+- Komisi IV (Pertanian, Kehutanan, Kelautan, Pangan, Perikanan)
+- Komisi V (Perhubungan, Infrastruktur, Perumahan, BMKG, Basarnas)
+- Komisi VI (Perdagangan, Industri, Investasi, BUMN, UMKM, Koperasi)
+- Komisi VII (Perindustrian, UMKM, Ekonomi Kreatif, Pariwisata)
+- Komisi VIII (Agama, Sosial, Pemberdayaan Perempuan, Haji, Bencana)
 - Komisi IX (Kesehatan, Ketenagakerjaan, Kependudukan, BPJS)
-- Komisi X (Pendidikan, Kebudayaan, Pariwisata, Ekonomi Kreatif)
+- Komisi X (Pendidikan, Kebudayaan, Riset, Olahraga, Perpustakaan)
 - Komisi XI (Keuangan, APBN, Perbankan, BI, OJK, Bappenas)
+- Komisi XII (Energi, Mineral, Lingkungan Hidup, Iklim, Sumber Daya Alam)
+- Komisi XIII (Reformasi Hukum, HAM, Imigrasi, Pemasyarakatan)
+- Banggar (Badan Anggaran)
+- Bamus (Badan Musyawarah)
 - BURT (Badan Urusan Rumah Tangga)
 - MKD (Mahkamah Kehormatan Dewan)
 - Baleg (Badan Legislasi)
 - BAKN (Badan Akuntabilitas Keuangan Negara)
 - BKSAP (Badan Kerja Sama Antar-Parlemen)
-- BPKPH (Badan Pembentukan Komisi Pemilihan)
-- Pimpinan DPR (Ketua/Wakil Ketua/Paripurna)
+- BAM (Badan Aspirasi Masyarakat)
 
 Format Response Wajib JSON:
 {
