@@ -36,7 +36,7 @@ Tugas Anda: Klasifikasikan teks berikut ke dalam Alat Kelengkapan Dewan (AKD)
 DPR RI yang relevan (maksimal 3 AKD terbaik).
 
 Daftar AKD resmi DPR RI Periode 2024-2029:
-- Pimpinan DPR (Ketua/Wakil Ketua/Paripurna)
+- Ketua DPR (Ketua/Wakil Ketua/Paripurna)
 - Komisi I (Pertahanan, Luar Negeri, Kominfo, TNI, BSSN)
 - Komisi II (Dalam Negeri, Otonomi Daerah, ASN, Pertanahan, KPU, Pemilu)
 - Komisi III (Hukum, HAM, Keamanan, Kepolisian, Kejaksaan, KPK)
@@ -88,7 +88,7 @@ async def gemini_classify_akd(content: str) -> list[dict[str, Any]]:
     )
 
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-flash-latest")
         prompt = f"{AKD_SYSTEM_PROMPT}\n\nTeks untuk diklasifikasikan:\n{content[:2000]}"
         response = model.generate_content(prompt)
 

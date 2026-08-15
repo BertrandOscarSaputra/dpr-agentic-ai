@@ -6,11 +6,11 @@
   "description": "Database master berisi 24 AKD (Alat Kelengkapan Dewan) DPR RI periode 2024-2029 (termasuk Komisi XII & XIII serta Badan baru) beserta jenis, lingkup tugas, dan keyword acuan.",
   "akd": [
     {
-      "name": "Pimpinan DPR",
-      "full_name": "Pimpinan Dewan Perwakilan Rakyat",
+      "name": "Ketua DPR",
+      "full_name": "Ketua Dewan Perwakilan Rakyat",
       "type": "Pimpinan",
-      "scope": "Kinerja kelembagaan DPR secara umum, arah kebijakan strategis, representasi DPR di ranah publik",
-      "keywords": ["ketua DPR", "wakil ketua", "pimpinan", "sidang paripurna", "wibawa DPR"]
+      "scope": "Kepemimpinan utama kelembagaan DPR RI, arah kebijakan strategis parlemen, representasi publik, serta kepemimpinan Ketua DPR RI Puan Maharani",
+      "keywords": ["Ketua DPR", "Puan Maharani", "Ketua DPR RI", "Puan", "Pimpinan DPR", "sidang paripurna", "pidato Ketua DPR"]
     },
     {
       "name": "Komisi I",

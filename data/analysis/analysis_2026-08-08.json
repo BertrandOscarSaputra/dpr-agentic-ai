@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Kejagung: Febrio Adiono Pegawai, Bukan Jaksa",
+    "content": "Febrio Adiono, staf Kejagung, terlibat dalam kasus kematian misterius Sutrimo di depan klinik. Polisi selidiki penyebab kematian dan kumpulkan saksi.",
+    "url": "https://news.detik.com/berita/d-8609321/kejagung-febrio-adiono-pegawai-bukan-jaksa",
+    "published_at": "2026-08-07T23:04:07+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "confidence_score": 0.95,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi XIII",
+        "confidence_score": 0.45,
+        "rank": 2,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:28:57.061720"
+  },
+  {
+    "title": "100 Personel Damkar Dikerahkan Padamkan Kebakaran Hebat di Gedung Bapenda DKI",
+    "content": "Kebakaran melanda gedung Bapenda DKI Jakarta, memicu pengerahan 20 unit pemadam. Asap membubung tinggi, penyebab dan korban masih belum diketahui.",
+    "url": "https://news.detik.com/berita/d-8609314/100-personel-damkar-dikerahkan-padamkan-kebakaran-hebat-di-gedung-bapenda-dki",
+    "published_at": "2026-08-07T22:54:25+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "confidence_score": 0.75,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "confidence_score": 0.68,
+        "rank": 2,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi V",
+        "confidence_score": 0.45,
+        "rank": 3,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:29:16.735377"
+  },
+  {
+    "title": "Bahtra Banong Raih 'Legislator Aspiratif Bidang Keadilan Sosial-Agraria' detiktimur Awards 2026",
+    "content": "Wakil Ketua Komisi II DPR RI, Bahtra Banong, raih detiktimur Awards 2026 sebagai Legislator Aspiratif. Ia fokus pada keadilan sosial dan agraria di Indonesia.",
+    "url": "https://news.detik.com/berita/d-8609313/bahtra-banong-raih-legislator-aspiratif-bidang-keadilan-sosial-agraria-detiktimur-awards-2026",
+    "published_at": "2026-08-07T22:51:52+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.98,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:29:17.246231"
+  },
+  {
+    "title": "Rudianto Lallo Dianugerahi detiktimur Awards 2026 'Legislator Pengawal Supremasi Hukum'",
+    "content": "Anggota DPR Rudianto Lallo menerima detiktimur Awards 2026 sebagai Legislator Pengawal Supremasi Hukum atas dedikasinya memberikan bantuan hukum ke masyarakat.",
+    "url": "https://news.detik.com/berita/d-8609309/rudianto-lallo-dianugerahi-detiktimur-awards-2026-legislator-pengawal-supremasi-hukum",
+    "published_at": "2026-08-07T22:46:46+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "confidence_score": 0.92,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi XIII",
+        "confidence_score": 0.85,
+        "rank": 2,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "BAM",
+        "confidence_score": 0.55,
+        "rank": 3,
+        "akd_type": "Badan"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:30:06.316919"
+  },
+  {
+    "title": "Cerita Local Hero Pertamina Bangun Kemandirian Energi Desa",
+    "content": "Alfredo dan Burhanudin, local hero Program Desa Energi Berdikari, membawa perubahan dengan akses air bersih dan energi terbarukan.",
+    "url": "https://news.detik.com/berita/d-8609294/cerita-local-hero-pertamina-bangun-kemandirian-energi-desa",
+    "published_at": "2026-08-07T22:34:20+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "confidence_score": 0.95,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi V",
+        "confidence_score": 0.72,
+        "rank": 2,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi VI",
+        "confidence_score": 0.58,
+        "rank": 3,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:30:27.182387"
+  },
+  {
+    "title": "Gedung Bapenda DKI di Gambir Jakpus Kebakaran",
+    "content": "Kebakaran melanda gedung Bapenda DKI Jakarta. Personel damkar masih berupaya memadamkan api. Penyebab dan korban belum diketahui.",
+    "url": "https://news.detik.com/berita/d-8609292/gedung-bapenda-dki-di-gambir-jakpus-kebakaran",
+    "published_at": "2026-08-07T22:33:38+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "confidence_score": 0.78,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi II",
+        "confidence_score": 0.72,
+        "rank": 2,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi V",
+        "confidence_score": 0.45,
+        "rank": 3,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:30:46.602756"
+  },
+  {
+    "title": "Polri Pastikan Periksa Personel Polresta Banda Aceh Transparan",
+    "content": "Polri memastikan pemeriksaan Kapolresta Banda Aceh dan Kasat Narkoba dilakukan secara profesional dan transparan.",
+    "url": "https://news.detik.com/berita/d-8609267/polri-pastikan-periksa-personel-polresta-banda-aceh-transparan",
+    "published_at": "2026-08-07T22:08:43+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "confidence_score": 0.95,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi XIII",
+        "confidence_score": 0.35,
+        "rank": 2,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:30:57.091158"
+  },
+  {
+    "title": "Gaduh di Jakut Saat Ada Pencuri Kabel Tersengat Listik hingga Melepuh",
+    "content": "Suasana di Sunter Agung, Jakarta Utara (Jakut), mendadak gaduh. Seorang pria ditarik paksa dari gardu PLN karena diduga hendak mencuri kabel listrik.",
+    "url": "https://news.detik.com/berita/d-8609235/gaduh-di-jakut-saat-ada-pencuri-kabel-tersengat-listik-hingga-melepuh",
+    "published_at": "2026-08-07T22:01:56+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "confidence_score": 0.85,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi XII",
+        "confidence_score": 0.72,
+        "rank": 2,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi VI",
+        "confidence_score": 0.45,
+        "rank": 3,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:31:20.618738"
+  },
+  {
+    "title": "Kapolres Malang Gandeng Driver Ojol Jaga Keamanan Warga",
+    "content": "Kapolres Malang, AKBP Rulian Syauri, ajak pengemudi ojol jaga kamtibmas. Pertemuan ini bertujuan mempererat komunikasi dan sinergi dengan komunitas ojol.",
+    "url": "https://news.detik.com/berita/d-8609228/kapolres-malang-gandeng-driver-ojol-jaga-keamanan-warga",
+    "published_at": "2026-08-07T21:52:37+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "confidence_score": 0.95,
+        "rank": 1,
+        "akd_type": "Komisi"
+      },
+      {
+        "akd_name": "Komisi V",
+        "confidence_score": 0.35,
+        "rank": 2,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:32:11.910321"
+  },
+  {
+    "title": "Guyon Bahlil ke Cak Imin: Ketum Lama Belum Tentu Punya Buku Diteken Presiden",
+    "content": "Ketum Golkar Bahlil Lahadalia bercanda tentang bukunya yang ditandatangani Prabowo, menyindir Cak Imin. Candaan ini mengundang tawa audiens di Jakarta.",
+    "url": "https://news.detik.com/berita/d-8609227/guyon-bahlil-ke-cak-imin-ketum-lama-belum-tentu-punya-buku-diteken-presiden",
+    "published_at": "2026-08-07T21:51:58+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Pimpinan DPR",
+        "confidence_score": 0.3,
+        "rank": 1,
+        "akd_type": "Pimpinan"
+      },
+      {
+        "akd_name": "BAM",
+        "confidence_score": 0.2,
+        "rank": 2,
+        "akd_type": "Badan"
+      },
+      {
+        "akd_name": "Komisi XII",
+        "confidence_score": 0.15,
+        "rank": 3,
+        "akd_type": "Komisi"
+      }
+    ],
+    "analyzed_at": "2026-08-08T19:32:27.261459"
+  }
+]
