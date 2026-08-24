@@ -95,7 +95,35 @@ class NewsCollectionAgent:
             "News collection complete",
             extra={"total_articles": len(all_articles), "feeds_count": len(self.feeds)},
         )
-        return all_articles
+
+        # Deduplicate by URL and normalized title across feeds
+        seen_urls: set[str] = set()
+        seen_titles: set[str] = set()
+        unique_articles: list[dict] = []
+
+        for article in all_articles:
+            url = article.get("url", "")
+            title_key = (article.get("title") or "").strip().lower()
+
+            if url and url in seen_urls:
+                continue
+            if title_key and title_key in seen_titles:
+                continue
+
+            if url:
+                seen_urls.add(url)
+            if title_key:
+                seen_titles.add(title_key)
+            unique_articles.append(article)
+
+        duplicates_removed = len(all_articles) - len(unique_articles)
+        if duplicates_removed:
+            logger.info(
+                "Duplicates removed during collection",
+                extra={"removed": duplicates_removed, "remaining": len(unique_articles)},
+            )
+
+        return unique_articles
 
     def _fetch_feed(self, feed: FeedConfig) -> list[dict]:
         """Fetch and parse a single RSS feed.

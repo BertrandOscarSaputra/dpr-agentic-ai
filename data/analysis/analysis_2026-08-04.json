@@ -1,0 +1,406 @@
+[
+  {
+    "title": "Prabowo Puji Raja Juli Tak Beri IUP Sembarangan: Saya Tak Tanya Partai Apa",
+    "content": "Prabowo Puji Raja Juli Tak Beri IUP Sembarangan: Saya Tak Tanya Partai Apa",
+    "url": "https://news.detik.com/berita/d-8435619/prabowo-puji-raja-juli-tak-beri-iup-sembarangan-saya-tak-tanya-partai-apa",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video: 107 Warga Tanjungsari Bogor Diduga Keracunan Mie Ayam MBG",
+    "content": "Video: 107 Warga Tanjungsari Bogor Diduga Keracunan Mie Ayam MBG",
+    "url": "https://20.detik.com/detikupdate/20260408-260408142/video-107-warga-tanjungsari-bogor-diduga-keracunan-mie-ayam-mbg-",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Dinkes Ungkap Analisis Sementara Penyebab 72 Siswa di Jaktim Keracunan MBG",
+    "content": "Dinkes Ungkap Analisis Sementara Penyebab 72 Siswa di Jaktim Keracunan MBG",
+    "url": "https://news.detik.com/berita/d-8435617/dinkes-ungkap-analisis-sementara-penyebab-72-siswa-di-jaktim-keracunan-mbg",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Bahlil Ungkap Isi Obrolan dengan Prabowo di Balik BBM Subsidi Tak Naik",
+    "content": "Bahlil Ungkap Isi Obrolan dengan Prabowo di Balik BBM Subsidi Tak Naik",
+    "url": "https://news.detik.com/berita/d-8435615/bahlil-ungkap-isi-obrolan-dengan-prabowo-di-balik-bbm-subsidi-tak-naik",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Dubes UEA Sebut Iran Serang Infrastruktur Sipil, Tak Hanya Fasilitas Militer",
+    "content": "Dubes UEA Sebut Iran Serang Infrastruktur Sipil, Tak Hanya Fasilitas Militer",
+    "url": "https://news.detik.com/berita/d-8435596/dubes-uea-sebut-iran-serang-infrastruktur-sipil-tak-hanya-fasilitas-militer",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Bahlil Minta Doa Kapal Pertamina di Selat Hormuz Diizinkan Lewat",
+    "content": "Video Bahlil Minta Doa Kapal Pertamina di Selat Hormuz Diizinkan Lewat",
+    "url": "https://20.detik.com/detikupdate/20260408-260408140/video-bahlil-minta-doa-kapal-pertamina-di-selat-hormuz-diizinkan-lewat",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Bakal Bedah Dapil, Golkar Mau Tambah Kursi Legislator di Pemilu 2029",
+    "content": "Bakal Bedah Dapil, Golkar Mau Tambah Kursi Legislator di Pemilu 2029",
+    "url": "https://news.detik.com/berita/d-8435591/bakal-bedah-dapil-golkar-mau-tambah-kursi-legislator-di-pemilu-2029",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Serangan Israel di Sidon Lebanon Tewaskan Delapan Orang",
+    "content": "Serangan Israel di Sidon Lebanon Tewaskan Delapan Orang",
+    "url": "https://news.detik.com/foto-news/d-8434836/serangan-israel-di-sidon-lebanon-tewaskan-delapan-orang",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Pansus DPRD DKI Ungkap Volume Sampah Jakarta Capai 7.000 Ton Per Hari",
+    "content": "Pansus DPRD DKI Ungkap Volume Sampah Jakarta Capai 7.000 Ton Per Hari",
+    "url": "https://news.detik.com/berita/d-8435590/pansus-dprd-dki-ungkap-volume-sampah-jakarta-capai-7-000-ton-per-hari",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Pansus",
+        "akd_type": "Panitia",
+        "confidence_score": 0.98,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video: Longsor Tutup Jalur Cadas Pangeran, Lalin Dialihkan",
+    "content": "Video: Longsor Tutup Jalur Cadas Pangeran, Lalin Dialihkan",
+    "url": "https://20.detik.com/detikupdate/20260408-260408141/video-longsor-tutup-jalur-cadas-pangeran-lalin-dialihkan",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Israel Serang Ratusan Anggota Hizbullah di Lebanon, Warga Panik-Gedung Hancur",
+    "content": "Israel Serang Ratusan Anggota Hizbullah di Lebanon, Warga Panik-Gedung Hancur",
+    "url": "https://news.detik.com/internasional/d-8435575/israel-serang-ratusan-anggota-hizbullah-di-lebanon-warga-panik-gedung-hancur",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Puluhan Warga di Tanjungsari Bogor Dirawat Usai Keracunan Mi Ayam",
+    "content": "Puluhan Warga di Tanjungsari Bogor Dirawat Usai Keracunan Mi Ayam",
+    "url": "https://news.detik.com/berita/d-8435566/puluhan-warga-di-tanjungsari-bogor-dirawat-usai-keracunan-mi-ayam",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Andre Rosiade Dorong Negara Hadir Atasi Polemik Gula Rafinasi",
+    "content": "Andre Rosiade Dorong Negara Hadir Atasi Polemik Gula Rafinasi",
+    "url": "https://news.detik.com/berita/d-8435563/andre-rosiade-dorong-negara-hadir-atasi-polemik-gula-rafinasi",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Prabowo soal Dirinya Disebut Keras Kepala: Pejuang Iran Juga",
+    "content": "Video Prabowo soal Dirinya Disebut Keras Kepala: Pejuang Iran Juga",
+    "url": "https://20.detik.com/detikupdate/20260408-260408133/video-prabowo-soal-dirinya-disebut-keras-kepala-pejuang-iran-juga",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Iran-AS Gencatan Senjata, Dunia Lega Selat Hormuz Dibuka",
+    "content": "Video Iran-AS Gencatan Senjata, Dunia Lega Selat Hormuz Dibuka",
+    "url": "https://20.detik.com/detikupdate/20260408-260408139/video-iran-as-gencatan-senjata-dunia-lega-selat-hormuz-dibuka",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video 8 Tahanan Polres Bangka Belitung Kabur, 2 Ditangkap",
+    "content": "Video 8 Tahanan Polres Bangka Belitung Kabur, 2 Ditangkap",
+    "url": "https://20.detik.com/detikupdate/20260408-260408136/video-8-tahanan-polres-bangka-belitung-kabur-2-ditangkap",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Jenderal Top AS Sebut Gencatan Senjata Iran Hanya Jeda, Pasukan Tetap Siap",
+    "content": "Jenderal Top AS Sebut Gencatan Senjata Iran Hanya Jeda, Pasukan Tetap Siap",
+    "url": "https://news.detik.com/internasional/d-8435552/jenderal-top-as-sebut-gencatan-senjata-iran-hanya-jeda-pasukan-tetap-siap",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video: Pria Sakit di Bone Bolango Ditandu 42 Km ke RS Gegara Jalan Rusak",
+    "content": "Video: Pria Sakit di Bone Bolango Ditandu 42 Km ke RS Gegara Jalan Rusak",
+    "url": "https://20.detik.com/detikupdate/20260408-260408137/video-pria-sakit-di-bone-bolango-ditandu-42-km-ke-rs-gegara-jalan-rusak",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Dibukanya Selat Hormuz Tandai AS-Iran Sepakat Gencatan Senjata",
+    "content": "Dibukanya Selat Hormuz Tandai AS-Iran Sepakat Gencatan Senjata",
+    "url": "https://news.detik.com/internasional/d-8435538/dibukanya-selat-hormuz-tandai-as-iran-sepakat-gencatan-senjata",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Serangan Guncang Bishnupur, Amunisi Diledakkan Secara Terkendali",
+    "content": "Serangan Guncang Bishnupur, Amunisi Diledakkan Secara Terkendali",
+    "url": "https://news.detik.com/foto-news/d-8434438/serangan-guncang-bishnupur-amunisi-diledakkan-secara-terkendali",
+    "published_at": "2026-08-04T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  }
+]

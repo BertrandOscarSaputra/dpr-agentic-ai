@@ -10,7 +10,8 @@ from pathlib import Path
 
 from src.agents.news_collection import NewsCollectionAgent
 
-OUTPUT_FILE = Path("news_output.json")
+OUTPUT_DIR = Path("data/news")
+OUTPUT_FILE = OUTPUT_DIR / "news_output.json"
 
 
 async def main():
@@ -28,25 +29,58 @@ async def main():
     print(f"  TOTAL ARTICLES COLLECTED: {len(articles)}")
     print("=" * 80 + "\n")
 
-    # Serialize datetime to ISO strings for JSON
+    # Serialize datetime to ISO strings for JSON and deduplicate by URL
+    seen_urls: set[str] = set()
     serialized = []
+    duplicates_removed = 0
     for article in articles:
+        url = article.get("url", "")
+        if url in seen_urls:
+            duplicates_removed += 1
+            continue
+        if url:
+            seen_urls.add(url)
+
         copy_art = dict(article)
         if isinstance(copy_art.get("published_at"), datetime):
             copy_art["published_at"] = copy_art["published_at"].isoformat()
         serialized.append(copy_art)
 
-    today_str = datetime.now().strftime("%Y-%m-%d")
-    daily_output_file = Path(f"news_{today_str}.json")
+    if duplicates_removed:
+        print(f"🔄 Removed {duplicates_removed} duplicate articles (by URL)")
 
-    # Save to daily file (news_YYYY-MM-DD.json) and latest file (news_output.json)
-    with open(daily_output_file, "w", encoding="utf-8") as f:
-        json.dump(serialized, f, ensure_ascii=False, indent=2)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Group serialized articles by published_at date (YYYY-MM-DD)
+    by_date: dict[str, list[dict]] = {}
+    today_fallback = datetime.now().strftime("%Y-%m-%d")
+
+    for item in serialized:
+        pub_str = item.get("published_at") or ""
+        date_key = today_fallback
+        if pub_str:
+            try:
+                date_key = pub_str[:10]  # Extract YYYY-MM-DD from ISO string
+            except Exception:
+                date_key = today_fallback
+        if date_key not in by_date:
+            by_date[date_key] = []
+        by_date[date_key].append(item)
+
+    print("📁 Partitioning articles by published date:")
+    for date_key, date_articles in sorted(by_date.items()):
+        daily_file = OUTPUT_DIR / f"news_{date_key}.json"
+        with open(daily_file, "w", encoding="utf-8") as f:
+            json.dump(date_articles, f, ensure_ascii=False, indent=2)
+            f.flush()
+        print(f"   • {date_key}: {len(date_articles)} articles -> '{daily_file.name}'")
+
+    # Save all combined articles to news_output.json
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(serialized, f, ensure_ascii=False, indent=2)
+        f.flush()
 
-    print(f"✅ SUCCESS: Exported {len(serialized)} news articles to '{daily_output_file.resolve()}' and '{OUTPUT_FILE.resolve()}'\n")
+    print(f"\n✅ SUCCESS: Saved all {len(serialized)} news articles to '{OUTPUT_FILE.resolve()}'\n")
 
     if serialized:
         print("Sample collected news articles:")

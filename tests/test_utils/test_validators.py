@@ -23,7 +23,7 @@ class TestValidateAKDName:
         assert validate_akd_name("BAM")
 
     def test_valid_pimpinan(self) -> None:
-        assert validate_akd_name("Pimpinan DPR")
+        assert validate_akd_name("Ketua DPR")
 
     def test_invalid_names(self) -> None:
         assert not validate_akd_name("Komisi XIV")

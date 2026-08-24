@@ -1,4 +1,4 @@
-"""ContentItem ORM model — represents collected content from Twitter/news."""
+"""ContentItem ORM model — represents collected content from news media sources."""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ if TYPE_CHECKING:
 
 
 class ContentItem(Base):
-    """A piece of content collected from Twitter or news sources."""
+    """A piece of content collected from news media sources."""
 
     __tablename__ = "content_items"
     __table_args__ = (

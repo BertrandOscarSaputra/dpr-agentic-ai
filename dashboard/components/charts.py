@@ -17,7 +17,7 @@ def sentiment_pie_chart(data: dict[str, int], title: str = "Distribusi Sentimen"
             "Netral": "#95a5a6",
         },
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
 
 def trend_line_chart(
@@ -44,4 +44,4 @@ def trend_line_chart(
     )
 
     fig.update_layout(title=title)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")

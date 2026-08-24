@@ -11,7 +11,7 @@ def content_items_table(items: list[dict]) -> None:
         return
 
     df = pd.DataFrame(items)
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, width="stretch")
 
 
 def recommendations_table(recommendations: list[dict]) -> None:
@@ -21,4 +21,4 @@ def recommendations_table(recommendations: list[dict]) -> None:
         return
 
     df = pd.DataFrame(recommendations)
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, width="stretch")

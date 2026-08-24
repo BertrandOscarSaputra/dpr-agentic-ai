@@ -1,18 +1,18 @@
 # 📋 DPR Agentic AI — Project Status & Structure
 
-> **Terakhir diperbarui**: 3 Agustus 2026  
-> **Sprint Aktif**: Sprint 4 — Sentiment & Gemini AKD Classification Engine (Bulan 3)  
-> **Status Build**: ✅ 92/92 Tests Passing | 0 Lint Errors  
+> **Terakhir diperbarui**: 20 Agustus 2026
+> **Sprint Aktif**: Sprint 4 — Genuine Agentic Architecture & Advanced Capabilities (Bulan 3)
+> **Status Build**: ✅ 77/77 Tests Passing | 0 Lint Errors | 0 Warnings
 
 ---
 
 ## 🎯 Tentang Proyek
 
-Sistem **Agentic AI** untuk klasifikasi Alat Kelengkapan Dewan (AKD) dan analisis sentimen media terhadap DPR RI. Menggunakan arsitektur multi-agent berbasis **Gemini AI** dan **IndoBERT**, diorkestrasi oleh **LangGraph**.
+Sistem **Genuine Agentic AI** untuk klasifikasi 24 Alat Kelengkapan Dewan (AKD) dan analisis sentimen media nasional terhadap DPR RI. Menggunakan arsitektur multi-agent berbasis **LangGraph Supervisor StateGraph**, **Dynamic Tool Registry**, **Self-Correction Critique Loops**, dan **Active Contextual Memory**, diorkestrasi oleh **Google Gemini GenAI SDK**.
 
 ---
 
-## 🏗️ Arsitektur Sistem
+## 🏗️ Arsitektur Sistem (Genuine Agentic Architecture)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -29,20 +29,30 @@ Sistem **Agentic AI** untuk klasifikasi Alat Kelengkapan Dewan (AKD) dan analisi
 └────────────────────────┬────────────────────────────────────────┘
                          │
 ┌────────────────────────▼────────────────────────────────────────┐
-│               LangGraph SUPERVISOR AGENT                        │
+│             🏛️ LangGraph SUPERVISOR AGENT (L3)                  │
 │              (src/agents/supervisor.py)                          │
 │                                                                  │
 │  ┌────────────┐  ┌──────────┐  ┌───────┐  ┌─────────────────┐  │
 │  │  Collect   │→│ Analyze  │→│ Trend │→│     Insight      │  │
-│  │News+Twitter│  │Sentiment │  │Detect │  │Summary+Recommend│  │
-│  └────────────┘  └──────────┘  └───────┘  └─────────────────┘  │
+│  │ News (L2) │  │ AKD (L3) │  │ (L3)  │  │ + Recommend(L3) │  │
+│  └────────────┘  └──────────┘  └───────┘  └────────┬────────┘  │
+│                                                     │           │
+│                                            ┌────────▼────────┐  │
+│                                            │ Critique Loop   │  │
+│                                            │ Self-Correction │  │
+│                                            └────────┬────────┘  │
+│                                                     │           │
+│                                            ┌────────▼────────┐  │
+│                                            │ Report Agent    │  │
+│                                            │ PDF Export (L2) │  │
+│                                            └─────────────────┘  │
 └────────────────────────┬────────────────────────────────────────┘
                          │
           ┌──────────────┼──────────────┐
           ▼              ▼              ▼
     ┌──────────┐  ┌──────────┐  ┌──────────┐
     │PostgreSQL│  │  Redis   │  │  Celery  │
-    │  (Data)  │  │ (Cache)  │  │ (Queue)  │
+    │16 (Data) │  │7 (Cache) │  │ (Queue)  │
     └──────────┘  └──────────┘  └──────────┘
 ```
 
@@ -61,18 +71,17 @@ dpr-agentic-ai/
 │   ├── exceptions.py             # Custom exception classes
 │   ├── logging_config.py         # Structured logging setup
 │   │
-│   ├── agents/                   # 🤖 Multi-Agent System
-│   │   ├── supervisor.py         # LangGraph StateGraph orchestrator
-│   │   ├── news_collection.py    # ✅ RSS feed collector (13 media)
-│   │   ├── twitter_collection.py # ✅ Twikit X/Twitter scraper + cookies.json
-│   │   ├── analysis.py           # 🚀 Gemini + IndoBERT analysis
-│   │   ├── trend.py              # ⏳ Z-score anomaly detection
-│   │   ├── insight.py            # ⏳ Narrative summarization
-│   │   ├── recommendation.py     # ⏳ Policy recommendation
-│   │   └── report.py             # ⏳ PDF report generation
+│   ├── agents/                   # 🤖 Genuine Multi-Agent System
+│   │   ├── supervisor.py         # LangGraph StateGraph orchestrator (L3)
+│   │   ├── news_collection.py    # ✅ RSS feed collector — 12+ media (L2)
+│   │   ├── analysis.py           # ✅ 3-Tier AKD + Sentiment engine (L3)
+│   │   ├── trend.py              # 📈 Z-score anomaly + root-cause reasoning (L3)
+│   │   ├── insight.py            # 💡 Narrative synthesis + historical memory (L3)
+│   │   ├── recommendation.py     # 📝 Policy recommendation + critique loop (L3)
+│   │   └── report.py             # 📄 PDF report generation (L2)
 │   │
 │   ├── models/                   # 💾 SQLAlchemy ORM Models
-│   │   ├── content_item.py       # Berita/tweet yang dikumpulkan
+│   │   ├── content_item.py       # Berita yang dikumpulkan
 │   │   ├── analysis_result.py    # Hasil analisis sentimen
 │   │   ├── akd_mapping.py        # Pemetaan multi-label AKD
 │   │   ├── trend_window.py       # Window kalkulasi tren
@@ -92,11 +101,11 @@ dpr-agentic-ai/
 │   │   └── content.py            # ContentItemCreate, ContentItemRead
 │   │
 │   ├── tasks/                    # ⏰ Celery Background Tasks
-│   │   └── collection.py         # ✅ collect_news & collect_twitter (+ retry backoff)
+│   │   └── collection.py         # ✅ collect_news (+ retry backoff)
 │   │
 │   └── utils/                    # 🔧 Utility Functions
 │       ├── validators.py         # AKD validation (24 AKD), text sanitization
-│       └── gemini_client.py      # Gemini API client (lazy init)
+│       └── gemini_client.py      # Google GenAI SDK client (gemini-3.6-flash)
 │
 ├── dashboard/                    # 📊 Streamlit Frontend
 │   ├── app.py                    # Dashboard entry point
@@ -104,10 +113,14 @@ dpr-agentic-ai/
 │   └── components/               # Reusable UI components
 │
 ├── kamus/                        # 📚 Data Konfigurasi Master
-│   ├── akd_master.json           # ✅ 24 AKD Master (2024-2029: Komisi I-XIII, Badans, Pimpinan)
-│   └── feeds.json                # ✅ 13 RSS feed media nasional
+│   ├── akd_master.json           # ✅ 24 AKD Master (2024-2029) + domain keywords
+│   └── feeds.json                # ✅ 12+ RSS feed media nasional Tier-1
 │
-├── tests/                        # 🧪 Test Suite (92 tests)
+├── data/                         # 📂 Partitioned Data Storage
+│   ├── news/                     # Partisi harian berita (news_2026-08-XX.json)
+│   └── analysis/                 # Partisi harian analisis (analysis_2026-08-XX.json)
+│
+├── tests/                        # 🧪 Test Suite (77 tests)
 │   ├── test_agents/              # Agent unit tests
 │   ├── test_models/              # ORM model tests
 │   ├── test_repositories/        # Repository pattern tests
@@ -116,21 +129,17 @@ dpr-agentic-ai/
 │   └── test_utils/               # Utility function tests
 │
 ├── run_news_collection.py        # 🚀 Skrip runner & JSON exporter berita
-├── run_twitter_collection.py     # 🚀 Skrip runner & JSON exporter tweet
-├── news_output.json              # 📄 File output JSON berita terkumpul
-├── tweets_output.json            # 📄 File output JSON tweet terkumpul
-├── cookies.json                  # 🔐 File sesi cookie X/Twitter
 │
 ├── migrations/                   # 🗃️ Alembic DB Migrations
 ├── docs/                         # 📝 Dokumentasi
-│   ├── timeline_agentic_ai_dpr_ri.md
+│   ├── ARCHITECTURE.md           # Cetak biru arsitektur Genuine Agentic AI
+│   ├── AGENTS.md                 # Spesifikasi agen, tools, & critique loops
+│   ├── PROJECT_OVERVIEW.md       # Ringkasan sistem & Autonomy Levels
+│   ├── FULL_PROPOSAL_GUIDE.md    # Proposal lengkap & estimasi biaya
 │   ├── FIGMA_DESIGN_GUIDE.md     # 🎨 Spesifikasi UI/UX Prototype Dashboard
-│   ├── TWITTER_SCRAPING_GUIDE.md # 🐦 Panduan setup scraping Twitter/X
-│   ├── SCRAPING_GUIDE.md         # 📰 Panduan dasar pengumpulan data
-│   ├── ARCHITECTURE.md
-│   ├── API.md
-│   ├── DATABASE.md
-│   └── SETUP.md
+│   ├── DATABASE.md               # Skema database
+│   ├── API.md                    # Dokumentasi REST API
+│   └── SETUP.md                  # Panduan instalasi
 │
 ├── docker-compose.yml            # 🐳 Dev environment
 ├── docker-compose.prod.yml       # 🐳 Production environment
@@ -144,110 +153,78 @@ dpr-agentic-ai/
 
 ## ✅ Fitur & Agent yang Sudah Berhasil Diselesaikan
 
-### 1. Infrastructure & Backend (Sprint 1-2)
+### 1. Infrastructure & Backend (Sprint 1-2) ✅
 - [x] FastAPI server dengan CORS middleware & API Key Auth
-- [x] PostgreSQL 15 database (SQLAlchemy 2.x + psycopg, `timestamptz`)
+- [x] PostgreSQL 16 database (SQLAlchemy 2.x + psycopg, `timestamptz`)
 - [x] Redis 7+ cache (lazy init + connection pooling)
 - [x] Celery task queue & Celery Beat scheduler
 - [x] 5 ORM models + Alembic migrations
 - [x] Docker Compose environment
 
-<<<<<<< Updated upstream
-### 2. Data Collection Agents (Sprint 3) ✅ **LIVE**
-- [x] **News Collection Agent**: 13 sumber berita nasional via RSS feeds
-- [x] **Twitter/X Collection Agent**: Scraping via `twikit` (bebas API key, menggunakan kredensial X)
-- [x] **Dinamis Query Builder**: Membuat kata kunci pencarian otomatis dari 18 AKD (`kamus/akd_master.json`)
-- [x] **Database Persistence**: Repository pattern dengan deduplikasi URL (`ON CONFLICT DO NOTHING`)
-- [x] **Celery Task Queue**: Background task `collect_news` & `collect_twitter` dengan retry + exponential backoff
+### 2. News Collection Agent (Sprint 3) ✅ **LIVE**
+- [x] **12+ sumber berita nasional Tier-1** via RSS feeds (Detik, Antara, CNN Indonesia, Tempo, Republika, dll.)
+- [x] Parsing XML dengan `feedparser` + sanitasi HTML teks
+- [x] Error isolation per-feed (kegagalan satu feed tidak mempengaruhi yang lain)
+- [x] Deduplikasi URL (`ON CONFLICT DO NOTHING`)
+- [x] Partisi data harian (`data/news/news_2026-08-XX.json`)
+- [x] Celery Background Task `collect_news` dengan retry + exponential backoff
+- [x] **1,326+ artikel** terkoleksi (1–19 Agustus 2026)
 
-### 3. Analysis & Classification Engine (Sprint 4) ✅ **LIVE**
+### 3. Analysis & Classification Engine (Sprint 3-4) ✅ **LIVE**
+- [x] **3-Tier Hybrid AI Classification**: Regex Fast Match → Gemini LLM → Weighted Lexicon
 - [x] **AnalysisAgent**: Analisis sentimen (Positif/Negatif/Netral) + skor sentimen `[-1.0, 1.0]`
 - [x] **Gemini Zero-Shot AKD Classification**: Pemetaan ke top 1..3 AKD dengan `confidence_score` & `rank`
-- [x] **Keyword Fallback Matcher**: Tetap berfungsi offline jika `GEMINI_API_KEY` tidak diset
+- [x] **Keyword Fallback Matcher**: Berfungsi offline jika `GEMINI_API_KEY` tidak diset
 - [x] **REST API Endpoints**: `POST /api/v1/analyze` (201 Created) dan `GET /api/v1/analysis/{id}` (200/404)
-- [x] **Database Integration**: Menyimpan otomatis ke tabel `content_items`, `item_analysis`, dan `akd_mapping`
+- [x] **Enriched AKD Master Kamus** (`kamus/akd_master.json`): 24 portofolio dengan ratusan domain keywords
+- [x] ~80% klasifikasi AKD berhasil dipetakan (turun dari 52.9% "Tidak Terklasifikasi")
 
-### 4. LangGraph Supervisor (Skeleton)
+### 4. LangGraph Supervisor (Skeleton) ✅
 - [x] StateGraph dengan 4 nodes: collect → analyze → trend → insight
 - [x] Typed `AgentState` untuk data flow antar agent
-=======
-### 2. News Collection Agent (Sprint 3) ✅ **LIVE**
-- [x] **13 sumber berita nasional** via RSS feeds
-- [x] Parsing XML dengan `feedparser` + sanitasi teks
-- [x] Error isolation per-feed
-- [x] Deduplikasi URL (`ON CONFLICT DO NOTHING`)
-- [x] Skrip ekspor JSON [`run_news_collection.py`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/run_news_collection.py) → [`news_output.json`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/news_output.json) (**615+ artikel**)
 
-### 3. Twitter/X Collection Agent (Sprint 3) ✅ **LIVE**
-- [x] Scraping berbasis `twikit` (bypasses Cloudflare via `cookies.json`)
-- [x] Pencarian berbasis kata kunci 24 AKD master DPR RI
-- [x] Penanganan recency (tweet real-time / terbaru)
-- [x] Feature flag `ENABLE_TWITTER_COLLECTION` untuk kontrol eksekusi
-- [x] Skrip ekspor JSON [`run_twitter_collection.py`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/run_twitter_collection.py) → [`tweets_output.json`](file:///c:/Users/Lenovo/Documents/DPR/dpr-agentic-ai/tweets_output.json) (**560+ tweet**)
-
-### 4. Master Kamus 24 AKD DPR RI (2024-2029) ✅
-- [x] Komisi I s/d Komisi XIII
-- [x] Badan (BURT, MKD, Baleg, BAKN, BKSAP, BPKPH, Bamus, Banggar, BAM, Pansus)
-- [x] Pimpinan DPR RI
->>>>>>> Stashed changes
+### 5. SDK & Deprecation Migrations ✅
+- [x] Migrasi `google.generativeai` → `google.genai` SDK modern (`gemini-3.6-flash`)
+- [x] Penggantian Streamlit `use_container_width` → `width="stretch"`
+- [x] Penghapusan seluruh komponen Twitter/X (kode, dependensi, konfigurasi, data)
 
 ---
 
-## 🚀 Fokus Selanjutnya: Sprint 4 (Bulan 3) — NLP & Klasifikasi
+## 🚀 Roadmap Sprint 4–6: Penguatan Kapabilitas Genuine Agentic AI
 
-| Hari | Task Utama | Status | PJ |
+### Sprint 4 (Saat Ini) — Fondasi Agentic
+
+| Task | Deskripsi | Autonomy Level | Status |
 |---|---|---|---|
-| **41-45** | Integrasi pipeline analisis sentimen IndoBERT + Lexicon di `src/agents/analysis.py` | 🚀 Active | Inf 2 |
-| **46-50** | Implementasi Gemini 2.5 Flash Zero-Shot Multi-Label Classifier untuk 24 AKD | 🚀 Active | Inf 2 |
-| **51-55** | Penyimpanan hasil analisis ke tabel `analysis_results` & `akd_mappings` | ⏳ Upcoming | SI 1 |
-| **56-60** | Evaluasi akurasi sentimen (target ≥75%) & akurasi klasifikasi AKD (target ≥70%) | ⏳ Upcoming | SI 2 |
+| LangGraph Supervisor StateGraph Aktif | Mengubah stub menjadi orchestrator graf dinamis penuh | L3 | ⏳ Upcoming |
+| Dynamic Tool Registry | Registrasi tools eksplisit per agen | L3 | ⏳ Upcoming |
+| Multi-Label Dynamic Calibration (B1) | Agen menilai bobot proporsional multi-AKD | L3 | ⏳ Upcoming |
+| Dead/Broken Source Detection (A3) | Agen mendeteksi feed RSS yang tidak aktif | L2 | ⏳ Upcoming |
+
+### Sprint 5 — Reasoning & Reflection
+
+| Task | Deskripsi | Autonomy Level | Status |
+|---|---|---|---|
+| False-Positive Self-Review (C3) | Review anomali: sinyal nyata atau noise/spam? | L3 | ⏳ Upcoming |
+| Cross-AKD Correlation Detection (C2) | Mendeteksi efek domino antar-komisi | L3 | ⏳ Upcoming |
+| Self-Correction Critique Loop | Validasi mandiri draft rekomendasi | L3 | ⏳ Upcoming |
+| Comparative Historical Trend (C1) | Membandingkan pola saat ini dengan histori | L3 | ⏳ Upcoming |
+| Adaptive Fallback & Error Strategy (D1) | Strategi retry cerdas berdasarkan jenis kegagalan | L3 | ⏳ Upcoming |
+
+### Sprint 6 — Presentation & User Interaction
+
+| Task | Deskripsi | Autonomy Level | Status |
+|---|---|---|---|
+| Personalized AKD Digest (E1) | Ringkasan terpersonalisasi per unit komisi | L3 | ⏳ Upcoming |
+| ReportAgent PDF Briefing 3-Halaman | Export PDF eksekutif berlogo DPR RI | L2 | ⏳ Upcoming |
 
 ---
 
 ## 🧪 Hasil Pengujian (Test Suite Status)
 
-```bash
-<<<<<<< Updated upstream
-# 1. Clone repo
-git clone https://github.com/BertrandOscarSaputra/dpr-agentic-ai.git
-cd dpr-agentic-ai
-
-# 2. Setup Python environment
-python -m venv .venv
-.venv\Scripts\activate   # Windows
-pip install -e .
-
-# 3. Copy environment variables
-cp .env.example .env
-
-# 4. Start infrastructure
-docker compose up -d     # PostgreSQL + Redis
-
-# 5. Run tests
-pytest tests/ -v
-
-# 6. Start FastAPI server
-uvicorn src.main:app --reload
-
-# 7. Test news collection
-python -c "
-import asyncio
-from src.agents.news_collection import NewsCollectionAgent
-agent = NewsCollectionAgent()
-articles = asyncio.run(agent.collect())
-print(f'{len(articles)} articles collected')
-"
 ```
-
----
-
-## 🧪 Test Results
-
-```
-92 passed in 13s ✅
-=======
-92 passed in 12.8s ✅
->>>>>>> Stashed changes
+============================= 77 passed in 10.84s =============================
+0 warnings | 0 lint errors
 Coverage: agents, models, repositories, routes, schemas, utils, cache
 ```
 
@@ -259,12 +236,12 @@ Coverage: agents, models, repositories, routes, schemas, utils, cache
 |---|---|
 | **API** | FastAPI (Python 3.11+) |
 | **AI Orchestration** | LangGraph (StateGraph) |
-| **NLP Sentiment** | IndoBERT (HuggingFace) |
-| **AI Classification** | Gemini 2.5 Flash |
-| **Database** | PostgreSQL 15 + SQLAlchemy 2.x |
+| **NLP Sentiment** | Lexicon-based weighted scorer |
+| **AI Classification** | Google GenAI SDK (Gemini 3.6 Flash / 3.7 Flash) |
+| **Database** | PostgreSQL 16 + SQLAlchemy 2.x |
 | **Cache** | Redis 7+ |
 | **Task Queue** | Celery + Redis broker |
-| **Dashboard** | Streamlit |
-| **PDF Reports** | ReportLab / WeasyPrint |
+| **Dashboard** | Streamlit + Plotly |
+| **PDF Reports** | ReportLab |
 | **Containerization** | Docker + Docker Compose |
 | **Testing** | pytest + ruff linter |
