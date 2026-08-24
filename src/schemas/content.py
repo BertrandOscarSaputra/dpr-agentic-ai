@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 class ContentItemBase(BaseModel):
     """Base fields shared by create and read schemas."""
 
-    source_type: str = Field(..., max_length=50, description="twitter | news_online")
+    source_type: str = Field(..., max_length=50, description="news_online | news_rss")
     content: str = Field(..., min_length=1, description="The text content")
     title: str | None = Field(None, max_length=500)
     url: str | None = Field(None, max_length=1000)

@@ -60,7 +60,7 @@ class SupervisorAgent:
     async def _collect_node(self, state: AgentState) -> AgentState:
         """Run collection agents to gather content."""
         logger.info("Collect node executing", extra={"task_type": state["task_type"]})
-        # TODO: Instantiate NewsCollectionAgent and/or TwitterCollectionAgent
+        # TODO: Instantiate NewsCollectionAgent
         return state
 
     async def _analyze_node(self, state: AgentState) -> AgentState:

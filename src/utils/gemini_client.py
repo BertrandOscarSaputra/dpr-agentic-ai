@@ -1,4 +1,5 @@
-"""Wrapper for Google Gemini API calls (AKD classification & summarization)."""
+# -*- coding: utf-8 -*-
+"""Wrapper for Google Gemini API calls (AKD classification & summarization) using modern google.genai SDK."""
 
 from __future__ import annotations
 
@@ -6,28 +7,23 @@ import json
 import logging
 from typing import Any
 
-import google.generativeai as genai
+from google import genai
 
 from src.config import settings
 
 logger = logging.getLogger(__name__)
 
-_configured = False
+_client: genai.Client | None = None
 
 
-def _configure_gemini() -> bool:
-    """Configure the Gemini API client with the API key.
-
-    Returns:
-        True if Gemini API key is configured, False otherwise.
-    """
-    global _configured  # noqa: PLW0603
+def _get_client() -> genai.Client | None:
+    """Initialize and return the modern Google GenAI Client."""
+    global _client  # noqa: PLW0603
     if not settings.GEMINI_API_KEY:
-        return False
-    if not _configured:
-        genai.configure(api_key=settings.GEMINI_API_KEY)
-        _configured = True
-    return True
+        return None
+    if _client is None:
+        _client = genai.Client(api_key=settings.GEMINI_API_KEY)
+    return _client
 
 
 AKD_SYSTEM_PROMPT = """\
@@ -75,7 +71,8 @@ async def gemini_classify_akd(content: str) -> list[dict[str, Any]]:
     Returns:
         List of dicts with keys: akd_name, confidence_score, rank
     """
-    if not _configure_gemini():
+    client = _get_client()
+    if client is None:
         logger.warning(
             "GEMINI_API_KEY not set — using fallback classification",
             extra={},
@@ -88,9 +85,11 @@ async def gemini_classify_akd(content: str) -> list[dict[str, Any]]:
     )
 
     try:
-        model = genai.GenerativeModel("gemini-flash-latest")
         prompt = f"{AKD_SYSTEM_PROMPT}\n\nTeks untuk diklasifikasikan:\n{content[:2000]}"
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-3.6-flash",
+            contents=prompt,
+        )
 
         text_resp = response.text or ""
         # Parse JSON from markdown code block if present
@@ -126,19 +125,22 @@ async def gemini_summarize(texts: list[str], context: str = "") -> str:
     Returns:
         Summary text string.
     """
-    if not _configure_gemini():
+    client = _get_client()
+    if client is None:
         logger.warning("GEMINI_API_KEY not set — summarization skipped", extra={})
         return ""
 
     logger.info("Gemini summarization requested", extra={"text_count": len(texts)})
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
         combined_text = "\n---\n".join(t[:1000] for t in texts[:10])
         prompt = (
             f"Buatkan ringkasan naratif eksekutif untuk isu DPR RI berikut:\n"
             f"Konteks: {context}\n\nTeks Berita/Tweet:\n{combined_text}"
         )
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-3.6-flash",
+            contents=prompt,
+        )
         return response.text.strip() if response.text else ""
     except Exception as e:
         logger.error("Gemini summarization failed", extra={"error": str(e)})

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Tests for ContentItem ORM model."""
 
 from src.models.content_item import ContentItem
@@ -18,12 +19,12 @@ class TestContentItemCreation:
         assert item.title == "Test Title"
         assert item.url == "https://example.com/test-article"
 
-    def test_twitter_source_type(self) -> None:
+    def test_news_rss_source_type(self) -> None:
         item = ContentItem(
-            source_type="twitter",
-            content="Tweet about Komisi III and hukum",
+            source_type="news_rss",
+            content="Article about Komisi III and hukum",
         )
-        assert item.source_type == "twitter"
+        assert item.source_type == "news_rss"
 
     def test_optional_fields_default_to_none(self) -> None:
         item = ContentItem(
@@ -35,6 +36,6 @@ class TestContentItemCreation:
         assert item.published_at is None
 
     def test_repr(self) -> None:
-        item = ContentItem(id=42, source_type="twitter", content="test")
+        item = ContentItem(id=42, source_type="news_online", content="test")
         assert "42" in repr(item)
-        assert "twitter" in repr(item)
+        assert "news_online" in repr(item)

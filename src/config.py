@@ -33,13 +33,6 @@ class Settings(BaseSettings):
     # APIs
     GEMINI_API_KEY: str = ""
     HUGGINGFACE_API_KEY: str = ""
-    TWITTER_BEARER_TOKEN: str = ""  # Optional: for tweepy API v2
-
-    # Scrapfly — browser-based X/Twitter scraping
-    SCRAPFLY_KEY: str = ""  # Set in .env: SCRAPFLY_KEY=scp-live-xxxx
-    ENABLE_TWITTER_COLLECTION: bool = True
-    TWITTER_MAX_RESULTS_PER_QUERY: int = 20  # Max tweets per AKD query
-    TWITTER_COLLECTION_BATCH_SIZE: int = 100  # DB insert batch size
 
     # Celery
     CELERY_BROKER_URL: str = "redis://localhost:6379"

@@ -1,117 +1,104 @@
-# Project Overview — DPR Agentic AI
+# 🏛️ Project Overview — DPR Agentic AI
 
 ## Executive Summary
 
-**DPR Agentic AI** is an advanced, production-grade Multi-Agent Artificial Intelligence system designed specifically for the **Dewan Perwakilan Rakyat Republik Indonesia (DPR RI)** for the **2024–2029 parliamentary term**.
+**DPR Agentic AI** adalah sistem kecerdasan buatan berbasis **Genuine Multi-Agent Architecture (LangGraph)** yang dirancang khusus untuk **Dewan Perwakilan Rakyat Republik Indonesia (DPR RI)** periode keanggotaan **2024–2029**.
 
-The system automates the ingestion, classification, sentiment analysis, trend anomaly detection, and executive reporting of public discourse and mass media coverage regarding DPR RI. It covers all **24 official Alat Kelengkapan Dewan (AKD)** structures—including the newly formed **Komisi XII** (Energy & Natural Resources), **Komisi XIII** (Law & Human Rights), new parliamentary bodies (BAM, BAKN, BKSAP), and the **Ketua DPR RI** leadership.
+Sistem ini mengotomatisasi penyerapan data berita media nasional secara *real-time*, klasifikasi 24 struktur **Alat Kelengkapan Dewan (AKD)**, penilaian polaritas sentimen publik, deteksi anomali isu (*Z-Score Spikes*), penalaran akar masalah (*Root-Cause Reasoning*), formulasi rekomendasi kebijakan dengan validasi mandiri (*Self-Correction Loop*), serta penyusunan laporan ringkasan eksekutif (*Executive Briefing PDF*).
 
----
-
-## Key Project Highlights & Architectural Innovations
-
-### 1. 2-Tier Hybrid AI Classification Engine
-To optimize both processing speed and API costs, the system employs a **3-Tier Routing Architecture**:
-- **Tier 1 (Fast Path Regex Matcher)**: Detects explicit AKD mentions (e.g., "Komisi III", "Baleg", "Ketua DPR Puan Maharani") instantly in **0ms** with zero API cost and **0.98 confidence**.
-- **Tier 2 (Gemini Zero-Shot LLM)**: Uses `gemini-flash-latest` for deep semantic reasoning on implicit articles (articles discussing legal issues without explicitly naming "Komisi III").
-- **Tier 3 (Multi-Factor Keyword Engine)**: Acts as a zero-downtime fallback mechanism using weighted domain lexicons.
-
-### 2. Multi-Channel Data Ingestion Pipeline
-- **Online News Ingestion**: Automatically scrapes 12+ Tier-1 Indonesian news feeds (Detik, Antara, CNN Indonesia, Tempo, Republika, Liputan6, CNBC Indonesia, Sindonews, Kompas, etc.).
-- **Social Media Ingestion**: Integrates browser-based Scrapfly rendering to capture real public tweets from X/Twitter without relying on restricted native Twitter API endpoints.
-- **In-Memory & Storage Deduplication**: Filters identical news articles using URL hashes and normalized title matching across multi-feed collections.
-
-### 3. Comprehensive Coverage of 24 AKD Structures (2024–2029)
-- **Ketua DPR**: Chief leadership, strategic direction, and public representation of Ketua DPR RI Puan Maharani.
-- **13 Commissions (Komisi I – XIII)**: From Defense (I) to Law & Human Rights (XIII).
-- **10 Bodies & Committees**: Badang Legislasi (Baleg), Badan Anggaran (Banggar), BKSAP, BAKN, BURT, MKD, Bamus, BAM, Panitia Angket, and Special Committees.
+Sistem mencakup seluruh **24 struktur resmi AKD DPR RI**:
+* **Ketua DPR RI & Pimpinan Parlemen**
+* **13 Komisi (Komisi I s.d. Komisi XIII)** — termasuk komisi baru Komisi XII (Energi & Lingkungan Hidup) dan Komisi XIII (Reformasi Hukum, HAM & Imigrasi).
+* **10 Badan & Panitia Khusus** — Banggar, Baleg, MKD, BURT, BAKN, BKSAP, Bamus, BAM (Badan Aspirasi Masyarakat), BPKPH, dan Pansus.
 
 ---
 
-## Technical Stack & Infrastructure Architecture
-
-| Layer | Technology / Framework | Purpose |
-|---|---|---|
-| **Programming Language** | Python 3.11 | Core runtime environment |
-| **Package Manager** | `uv` (Astral) | Ultra-fast dependency resolution and venv management |
-| **API Framework** | FastAPI + Pydantic v2 | High-performance asynchronous REST API backend |
-| **Orchestration & Agents**| Async Multi-Agent Swarm | Custom lightweight Agent framework (`AnalysisAgent`, `TrendAgent`, `InsightAgent`) |
-| **AI LLM Engine** | Google Gemini API (`gemini-flash-latest`) | Zero-shot semantic AKD mapping and intent extraction |
-| **Database** | PostgreSQL + AsyncSQLAlchemy + Alembic | Relational storage for articles, tweets, sentiment scores, and AKD mappings |
-| **Caching & Broker** | Redis 7 + Celery | High-speed cache-aside caching and asynchronous background tasks |
-| **Data Collection** | Feedparser + Scrapfly API Client | RSS news parsing and headless browser rendering for X/Twitter |
-| **Executive Dashboard** | Streamlit | Real-time interactive UI for DPR RI leadership |
-| **PDF Reporting** | ReportLab | Automated executive PDF report generation |
-
----
-
-## Core System Architecture
+## 🌟 Pilar Inovasi Genuine Agentic AI
 
 ```mermaid
-graph TD
-    A[Public Data Sources] -->|RSS Feeds| B[NewsCollectionAgent]
-    A -->|Scrapfly Web Scraper| C[TwitterCollectionAgent]
-
-    B --> D[Multi-Layer Deduplication Engine]
-    C --> D
-
-    D --> E[AnalysisAgent - 3-Tier Classifier]
-
-    E -->|Tier 1: Explicit Match| F[Regex Fast Matcher - 0ms]
-    E -->|Tier 2: Implicit Match| G[Gemini LLM - gemini-flash-latest]
-    E -->|Tier 3: Fallback| H[Weighted Lexicon Keyword Engine]
-
-    F --> I[Structured JSON & PostgreSQL Storage]
-    G --> I
-    H --> I
-
-    I --> J[TrendAgent & Anomaly Detector]
-    J --> K[InsightAgent & RecommendationAgent]
-    K --> L[Streamlit Executive Dashboard]
-    K --> M[ReportLab PDF Executive Briefing]
+graph LR
+    A[1. Dynamic Orchestration<br>LangGraph Supervisor] --> B[2. Autonomous Routing<br>& Dynamic Tool-Use]
+    B --> C[3. Contextual Memory<br>Historical Recall]
+    C --> D[4. Root-Cause Reasoning<br>& Reflection Loop]
+    D --> E[5. Self-Correction<br>Critique Validation]
 ```
 
+1. **Orkestrasi State Dinamis (LangGraph Supervisor Agent)**:
+   * Bukan pipeline sekuensial statis, melainkan arsitektur berbasis graf (*StateGraph*) di mana Supervisor mengevaluasi kelengkapan state dan merutekan tugas ke agen yang tepat secara adaptif.
+2. **Dynamic Tool Registry**:
+   * Setiap agen dibekali daftar perkakas (*tools*) eksplisit yang dapat dipilih dan dipanggil secara mandiri sesuai konteks data (misal: `search_akd_lexicon`, `compute_zscore_anomalies`, `query_historical_memory`).
+3. **Memori Kontekstual Jangka Panjang (*Active Memory*)**:
+   * Basis data tidak sekadar pasif sebagai media simpan, melainkan berfungsi sebagai memori yang dipanggil oleh `InsightAgent` untuk mengenali kontinuitas isu dari waktu ke waktu.
+4. **Penalaran & Refleksi Anomali (*Root-Cause Reasoning*)**:
+   * `TrendAgent` tidak hanya menghitung lonjakan angka statistik murni, melainkan menganalisis narasi artikel pemicu lonjakan sentimen negatif atau volume berita.
+5. **Validasi Mandiri (*Critique & Self-Correction Loop*)**:
+   * Draft rekomendasi kebijakan fraksi/komisi divalidasi oleh simpul kritik (*Critic*) sebelum difinalisasi menjadi berkas PDF eksekutif.
+
 ---
 
-## Key Functional Requirements & Business Value
+## 📊 Matriks Kebutuhan Fungsional & Tingkat Otonomi (*Autonomy Levels*)
 
-1. **Real-Time Public Perception Monitoring**: Provides DPR RI leadership with hourly and daily sentiment breakdowns (Positif, Negatif, Netral) per AKD.
-2. **Issue & Anomaly Escalation**: Automatically flags sudden spikes in negative sentiment or sudden volume increases surrounding specific Komisi.
-3. **Actionable Executive Recommendations**: Generates strategic recommendations for parliamentary committees on policy communications and public hearings.
-4. **Data Authenticity Guarantee**: Strictly operates on authentic, live-scraped news and public social media data, adhering to strict zero-synthetic-data policies.
+| No | Modul Fungsional | Deskripsi Kemampuan | Agen Pelaksana | Autonomy Level |
+|---|---|---|---|---|
+| **1** | **Orkestrasi Alur Kerja** | Mengatur siklus analisis, routing tugas, evaluasi state, dan error recovery. | `SupervisorAgent` | **L3 (Fully Agentic)** |
+| **2** | **Penyerapan Berita (RSS)** | Mengambil berita dari 12+ portal nasional Tier-1, normalisasi WIB, dan deduplikasi URL. | `NewsCollectionAgent` | **L2 (Semi-Autonomous)** |
+| **3** | **Deteksi Sumber Mati/Rusak** | Mendeteksi feed RSS yang berhenti update (>72 jam) atau error berulang, lalu mem-*flag* untuk investigasi. | `NewsCollectionAgent` | **L2 (Semi-Autonomous)** |
+| **4** | **Klasifikasi AKD (24 Struktur)** | Memetakan isi berita ke portofolio komisi dengan hybrid fast-match & semantic reasoning. | `AnalysisAgent` | **L3 (Fully Agentic)** |
+| **5** | **Kalibrasi Multi-Label Proporsional** | Mengevaluasi bobot relevansi proporsional multi-AKD (bukan dipaksa satu label), berdasarkan porsi konten per portofolio komisi. | `AnalysisAgent` | **L3 (Fully Agentic)** |
+| **6** | **Analisis Sentimen Publik** | Mengukur polaritas teks (Positif, Negatif, Netral) menggunakan leksikon kontekstual berbobot. | `AnalysisAgent` | **L1 (Rule-Based)** |
+| **7** | **Deteksi Anomali & Tren** | Menghitung lonjakan volume harian ($Z > 2.0$) dan menganalisis faktor penyebab (*root causes*). | `TrendAgent` | **L3 (Fully Agentic)** |
+| **8** | **Self-Review Anomali (False-Positive Critique)** | Sebelum eskalasi, agen melakukan refleksi: sinyal nyata kebijakan atau noise kriminal/human-interest? | `TrendAgent` | **L3 (Fully Agentic)** |
+| **9** | **Analisis Tren Komparatif Historis** | Membandingkan pola isu saat ini dengan pola historis serupa dan menyertakan konteks prediktif. | `TrendAgent` | **L3 (Fully Agentic)** |
+| **10** | **Sintesis Narasi Eksekutif** | Merangkum dinamika isu strategis dengan mengintegrasikan memori histori parlemen. | `InsightAgent` | **L3 (Fully Agentic)** |
+| **11** | **Deteksi Korelasi Lintas-AKD** | Mendeteksi efek domino antar-komisi (misal: isu pangan → berdampak ke harga → inflasi). | `InsightAgent` | **L3 (Fully Agentic)** |
+| **12** | **Rekomendasi Kebijakan** | Merumuskan opsi tindakan fraksi/komisi dan memvalidasi kelayakan via critique loop. | `RecommendationAgent` | **L3 (Fully Agentic)** |
+| **13** | **Penanganan Error Adaptif** | Memilih strategi mitigasi cerdas berdasarkan jenis kegagalan (timeout → model fallback, rate-limit → backoff). | `SupervisorAgent` | **L3 (Fully Agentic)** |
+| **14** | **Penerbitan Briefing PDF** | Mengkompilasi berkas laporan resmi berformat PDF siap cetak untuk pimpinan DPR RI. | `ReportAgent` | **L2 (Semi-Autonomous)** |
+| **15** | **Digest Terpersonalisasi per AKD** | Menyusun ringkasan yang disesuaikan relevansinya untuk staf tiap komisi dan pimpinan fraksi. | Dashboard Agent | **L3 (Fully Agentic)** |
+| **16** | **Dasbor Interaktif** | Menyajikan visualisasi data analitik harian dan breakdown per AKD secara *real-time*. | Streamlit Dashboard | **L1 (Deterministic UI)** |
 
 ---
 
-## Repository Structure Overview
+## 🛠️ Stack Teknologi & Infrastruktur
+
+| Lapisan | Teknologi | Peran & Manfaat |
+|---|---|---|
+| **Bahasa & Runtime** | Python 3.11 | Lingkungan eksekusi utama berkinerja tinggi |
+| **Package Manager** | `uv` (Astral) | Resolusi dependensi super cepat dan manajemen virtualenv |
+| **Agent Framework** | LangGraph & LangChain Core | Orkestrasi graf multi-agen, state management, dan tool execution |
+| **LLM Engine** | Google GenAI SDK (`gemini-3.6-flash` / `gemini-3.7-flash`) | Penalaran semantik, ekstraksi intent, dan perumusan rekomendasi |
+| **Backend REST API** | FastAPI + Pydantic v2 | Endpoint asinkron berperforma tinggi |
+| **Penyimpanan Data** | PostgreSQL 16 + AsyncSQLAlchemy | Penyimpanan relasional artikel, partisi harian, dan pemetaan AKD |
+| **Broker & Task Queue** | Redis 7 + Celery | Antrean tugas asinkron dan *cache-aside* berkecepatan tinggi |
+| **Koleksi Data** | Feedparser + Requests | Penguraian feed RSS 12+ media nasional secara tangguh |
+| **Executive Dashboard** | Streamlit + Plotly | Dasbor analitik interaktif pimpinan dewan |
+| **PDF Generation** | ReportLab | Pembuatan dokumen ringkasan eksekutif formal berstandar DPR RI |
+
+---
+
+## 🏛️ Struktur 24 Alat Kelengkapan Dewan (AKD) 2024–2029
 
 ```text
-dpr-agentic-ai/
-├── kamus/                     # Official 24 AKD Master Definition JSON
-│   ├── akd_master.json
-│   └── feeds.json
-├── data/                      # Structured Data Storage
-│   ├── news/                  # Partitioned daily RSS news JSON files
-│   ├── tweets/                # Partitioned daily Twitter JSON files
-│   └── analysis/              # Enriched sentiment & AKD JSON outputs
-├── src/                       # Core Application Backend
-│   ├── agents/                # Multi-Agent Swarm (Analysis, Trend, Insight, etc.)
-│   ├── models/                # SQLAlchemy ORM Data Models
-│   ├── routes/                # FastAPI Endpoints
-│   ├── schemas/               # Pydantic Schemas
-│   └── utils/                 # Validators, Gemini Client, Scraper Client
-├── dashboard/                 # Streamlit UI Application
-│   └── app.py
-├── docs/                      # Technical Documentation & Deliverables
-├── tests/                     # Pytest Suite (100+ Tests)
-├── run_analysis_batch.py      # Batch Processing Engine Script
-├── run_news_collection.py     # News Collector Runner Script
-└── run_twitter_collection.py  # Twitter Collector Runner Script
+DPR RI (2024-2029)
+├── Pimpinan: Ketua DPR RI (Puan Maharani) & Wakil Ketua
+├── Komisi I s.d. XIII:
+│   ├── Komisi I   : Pertahanan, Hubungan Luar Negeri, Kominfo, Siber, TNI
+│   ├── Komisi II  : Pemerintahan Dalam Negeri, Otonomi Daerah, ASN, Pemilu, IKN
+│   ├── Komisi III : Penegakan Hukum, Kepolisian, Kejaksaan, KPK, Peradilan
+│   ├── Komisi IV  : Pertanian, Pangan, Kehutanan, Kelautan & Perikanan
+│   ├── Komisi V   : Infrastruktur, Transportasi, Perumahan, BMKG, Basarnas
+│   ├── Komisi VI  : Perdagangan, BUMN, Koperasi, UMKM, Investasi
+│   ├── Komisi VII : Industri Manufaktur, Ekonomi Kreatif, Pariwisata
+│   ├── Komisi VIII: Agama, Haji, Sosial, Kebencanaan, Perlindungan Perempuan & Anak
+│   ├── Komisi IX  : Kesehatan, Ketenagakerjaan, BPJS, Kependudukan
+│   ├── Komisi X   : Pendidikan, Kebudayaan, Riset, Olahraga, Atlet, Timnas
+│   ├── Komisi XI  : Keuangan, Perbankan, APBN, Pajak, Bank Indonesia, OJK
+│   ├── Komisi XII : Energi Baru Terbarukan, Migas, Tambang, Lingkungan Hidup
+│   └── Komisi XIII: Reformasi Regulasi, Hak Asasi Manusia, Imigrasi, Pemasyarakatan
+└── Badan & Panitia:
+    ├── Badan Anggaran (Banggar)       ├── Badan Urusan Rumah Tangga (BURT)
+    ├── Badan Legislasi (Baleg)         ├── Mahkamah Kehormatan Dewan (MKD)
+    ├── Badan Kerja Sama Antar-Parlemen ├── Badan Akuntabilitas Keuangan Negara (BAKN)
+    ├── Badan Musyawarah (Bamus)        ├── Badan Aspirasi Masyarakat (BAM)
+    └── Badan Pemilihan (BPKPH)         └── Panitia Khusus (Pansus)
 ```
-
----
-
-## Project Status & Quality Verification
-
-- **Unit Test Coverage**: 101/101 automated tests passing (`uv run pytest tests/ -v`).
-- **Data Collection Scale**: Over 500+ real-time news articles collected and daily partitioned.
-- **Classification Performance**: Instantaneous Tier-1 matching coupled with LLM zero-shot semantic fallback guarantees 100% processing resilience even during external API downtime.

@@ -3,7 +3,8 @@ revision = 3
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.15'",
-    "python_full_version >= '3.13' and python_full_version < '3.15'",
+    "python_full_version == '3.14.*'",
+    "python_full_version == '3.13.*'",
     "python_full_version >= '3.12.4' and python_full_version < '3.13'",
     "python_full_version >= '3.12' and python_full_version < '3.12.4'",
     "python_full_version < '3.12'",
@@ -89,15 +90,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz", hash = "sha256:d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32", size = 952055, upload-time = "2026-03-19T14:22:25.026Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl", hash = "sha256:c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309", size = 67548, upload-time = "2026-03-19T14:22:23.645Z" },
-]
-
-[[package]]
-name = "backoff"
-version = "2.2.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/47/d7/5bbeb12c44d7c4f2fb5b56abce497eb5ed9f34d85701de869acedd602619/backoff-2.2.1.tar.gz", hash = "sha256:03f829f5bb1923180821643f8753b0502c3b682293992485b0eef2807afa5cba", size = 17001, upload-time = "2022-10-05T19:19:32.061Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/df/73/b6e24bd22e6720ca8ee9a85a0c4a2971af8497d8f3193fa05390cbd46e09/backoff-2.2.1-py3-none-any.whl", hash = "sha256:63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8", size = 15148, upload-time = "2022-10-05T19:19:30.546Z" },
 ]
 
 [[package]]
@@ -660,15 +652,6 @@ wheels = [
 ]
 
 [[package]]
-name = "decorator"
-version = "5.3.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/60/8b/32f9823da46cde7df2087faa08cd98d01b908f8dcab982cdba9c84e85355/decorator-5.3.1.tar.gz", hash = "sha256:4cbcdd55a6efadb9dbea26b858f4fb3264567b52d69ca0d25b721b553f60ea82", size = 58084, upload-time = "2026-05-18T06:03:28.057Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/05/7f/798705f5296a58ca505d600456748d1be48078eac8a7050d8a98bc9edb89/decorator-5.3.1-py3-none-any.whl", hash = "sha256:f47fe6fdbd2edd623ecfe36875d37aba411624e2670dd395dddae1358689bb3c", size = 10365, upload-time = "2026-05-18T06:03:26.517Z" },
-]
-
-[[package]]
 name = "distro"
 version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -686,7 +669,7 @@ dependencies = [
     { name = "celery", extra = ["redis"] },
     { name = "fastapi" },
     { name = "feedparser" },
-    { name = "google-generativeai" },
+    { name = "google-genai" },
     { name = "jmespath" },
     { name = "langchain" },
     { name = "langchain-google-genai" },
@@ -702,12 +685,10 @@ dependencies = [
     { name = "redis" },
     { name = "reportlab" },
     { name = "requests" },
-    { name = "scrapfly-sdk" },
     { name = "sqlalchemy" },
     { name = "streamlit" },
     { name = "torch" },
     { name = "transformers" },
-    { name = "tweepy" },
     { name = "uvicorn", extra = ["standard"] },
     { name = "weasyprint" },
 ]
@@ -728,7 +709,8 @@ requires-dist = [
     { name = "celery", extras = ["redis"], specifier = ">=5.4.0,<6.0.0" },
     { name = "fastapi", specifier = ">=0.115.0,<1.0.0" },
     { name = "feedparser", specifier = ">=6.0.10,<7.0.0" },
-    { name = "google-generativeai", specifier = ">=0.8.0,<1.0.0" },
+    { name = "google-genai", specifier = ">=1.0.0" },
+    { name = "google-genai", specifier = ">=2.18.1" },
     { name = "jmespath", specifier = ">=1.0.1" },
     { name = "langchain", specifier = ">=0.3.0,<1.0.0" },
     { name = "langchain-google-genai", specifier = ">=2.0.0,<3.0.0" },
@@ -744,12 +726,10 @@ requires-dist = [
     { name = "redis", specifier = ">=5.0.0,<6.0.0" },
     { name = "reportlab", specifier = ">=4.0.9,<5.0.0" },
     { name = "requests", specifier = ">=2.31.0,<3.0.0" },
-    { name = "scrapfly-sdk", specifier = ">=0.8.0" },
     { name = "sqlalchemy", specifier = ">=2.0.25,<2.1.0" },
     { name = "streamlit", specifier = ">=1.40.0,<2.0.0" },
     { name = "torch", specifier = ">=2.2.0,<3.0.0" },
     { name = "transformers", specifier = ">=4.45.0,<5.0.0" },
-    { name = "tweepy", specifier = ">=4.14.0,<5.0.0" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.34.0,<1.0.0" },
     { name = "weasyprint", specifier = ">=60.1,<62.0" },
 ]
@@ -952,15 +932,20 @@ wheels = [
 
 [[package]]
 name = "google-auth"
-version = "2.55.2"
+version = "2.56.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cryptography" },
     { name = "pyasn1-modules" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/79/b9/e370d86fea3da13ec0256df30323dd26c0cb9c8c85f0c6ec42ac9df0106b/google_auth-2.55.2.tar.gz", hash = "sha256:97ae7790ff740f2bc9db60eb864a7804f4ac19f5f02c38b3d942f2fea6e9b9ae", size = 361414, upload-time = "2026-07-07T18:43:21.227Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/db/4c/fa42116a48bab3f7a143cf5042ecff7df9c8b73f8a376203cd534d1dc966/google_auth-2.56.3.tar.gz", hash = "sha256:40e229fc901f0a305b553050e5fce562d509bee0435be053abfa91582b51b90c", size = 367110, upload-time = "2026-08-06T06:24:01.36Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1e/c6/02eb5a337ac316a4c30c012e747bad5cea36e1a876efecdf80865541f7d8/google_auth-2.55.2-py3-none-any.whl", hash = "sha256:d715f265f2cafc6a5f1bf0dc19870d20e3119f6f6682785a250bce3d03d38a3b", size = 256778, upload-time = "2026-07-07T18:43:19.52Z" },
+    { url = "https://files.pythonhosted.org/packages/bc/b3/6117b2f24065cd7e2c4f140e9a193e215f089ca8ba314cf91eb9d0b7fe0a/google_auth-2.56.3-py3-none-any.whl", hash = "sha256:8ec438808f813ad034535000261eed1067475d229d05bbf4216e78c3f2362e53", size = 259116, upload-time = "2026-08-06T06:22:51.788Z" },
+]
+
+[package.optional-dependencies]
+requests = [
+    { name = "requests" },
 ]
 
 [[package]]
@@ -974,6 +959,27 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/1c/b3/f192c8bc7e41e0ebdbd95afcae4783417a34b6a6af62d22daf22c3fd38fc/google_auth_httplib2-0.4.0.tar.gz", hash = "sha256:d5b030a204b7a4b4d553ba9ca701b62481ee2b74419325580be70f7d85ffed35", size = 11161, upload-time = "2026-05-07T08:03:46.878Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/97/be/954c35a62b9e31de66b0a43c225c9b6bb9e0f98d6b1dc110a2308e3644f5/google_auth_httplib2-0.4.0-py3-none-any.whl", hash = "sha256:8e55cfafa3358cba85f6cad4a886138e88e158d71e7e5c9ee5936a5c1507fb91", size = 9529, upload-time = "2026-05-07T08:02:12.375Z" },
+]
+
+[[package]]
+name = "google-genai"
+version = "2.18.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "google-auth", extra = ["requests"] },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "requests" },
+    { name = "sniffio" },
+    { name = "tenacity" },
+    { name = "typing-extensions" },
+    { name = "websockets" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/19/e3/1dd592243a0dfc3487ddfff7995f12686d0557ec953173dd9bdbeba2cb96/google_genai-2.18.1.tar.gz", hash = "sha256:a1e2be75c16234adc6641afd1ad4dd44218c9eec005d938bdc428585a048918a", size = 659694, upload-time = "2026-08-13T22:13:50.226Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/30/7d/5310f7a1cf290a6cb22eab37059610bf338ab7595892902591d2220cf825/google_genai-2.18.1-py3-none-any.whl", hash = "sha256:36a5949233e64a60f6cc4521bff7a76b7c569d0aa227bbe9fa642213b8a3a3b2", size = 1051129, upload-time = "2026-08-13T22:13:48.083Z" },
 ]
 
 [[package]]
@@ -1618,19 +1624,6 @@ wheels = [
 ]
 
 [[package]]
-name = "loguru"
-version = "0.7.3"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "colorama", marker = "sys_platform == 'win32'" },
-    { name = "win32-setctime", marker = "sys_platform == 'win32'" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/3a/05/a1dae3dffd1116099471c643b8924f5aa6524411dc6c63fdae648c4f1aca/loguru-0.7.3.tar.gz", hash = "sha256:19480589e77d47b8d85b2c827ad95d49bf31b0dcde16593892eb51dd18706eb6", size = 63559, upload-time = "2024-12-06T11:20:56.608Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/0c/29/0348de65b8cc732daa3e33e67806420b2ae89bdce2b04af740289c5c6c8c/loguru-0.7.3-py3-none-any.whl", hash = "sha256:31a33c10c8e1e10422bfd431aeb5d351c7cf7fa671e3c4df004162264b28220c", size = 61595, upload-time = "2024-12-06T11:20:54.538Z" },
-]
-
-[[package]]
 name = "mako"
 version = "1.3.12"
 source = { registry = "https://pypi.org/simple" }
@@ -1931,15 +1924,6 @@ version = "12.1.105"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/da/d3/8057f0587683ed2fcd4dbfbdfdfa807b9160b809976099d36b8f60d08f03/nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", hash = "sha256:dc21cf308ca5691e7c04d962e213f8a4aa9bbfa23d95412f452254c2caeb09e5", size = 99138, upload-time = "2023-04-19T15:48:43.556Z" },
-]
-
-[[package]]
-name = "oauthlib"
-version = "3.3.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0b/5f/19930f824ffeb0ad4372da4812c50edbd1434f678c90c2733e1188edfc63/oauthlib-3.3.1.tar.gz", hash = "sha256:0f0f8aa759826a193cf66c12ea1af1637f87b9b4622d46e866952bb022e538c9", size = 185918, upload-time = "2025-06-19T22:48:08.269Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/be/9c/92789c596b8df838baa98fa71844d84283302f7604ed565dafe5a6b5041a/oauthlib-3.3.1-py3-none-any.whl", hash = "sha256:88119c938d2b8fb88561af5f6ee0eec8cc8d552b7bb1f712743136eb7523b7a1", size = 160065, upload-time = "2025-06-19T22:48:06.508Z" },
 ]
 
 [[package]]
@@ -2902,19 +2886,6 @@ wheels = [
 ]
 
 [[package]]
-name = "requests-oauthlib"
-version = "2.0.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "oauthlib" },
-    { name = "requests" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/42/f2/05f29bc3913aea15eb670be136045bf5c5bbf4b99ecb839da9b422bb2c85/requests-oauthlib-2.0.0.tar.gz", hash = "sha256:b3dffaebd884d8cd778494369603a9e7b58d29111bf6b41bdc2dcd87203af4e9", size = 55650, upload-time = "2024-03-22T20:32:29.939Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/3b/5d/63d4ae3b9daea098d5d6f5da83984853c1bbacd5dc826764b249fe119d24/requests_oauthlib-2.0.0-py2.py3-none-any.whl", hash = "sha256:7dd8a5c40426b779b0868c404bdef9768deccf22749cde15852df527e6269b36", size = 24179, upload-time = "2024-03-22T20:32:28.055Z" },
-]
-
-[[package]]
 name = "requests-toolbelt"
 version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -3096,23 +3067,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/8e/3f/73ccf82579412b4a71c4ca673f10b5f1f888d7cf5af7fe24f27d30307be4/safetensors-0.8.0-cp310-abi3-win32.whl", hash = "sha256:2ddf52eac562eda224f99acfa7889d02968c1fd59a5b011ae7d8137c37e9c02d", size = 342401, upload-time = "2026-06-09T07:52:28.895Z" },
     { url = "https://files.pythonhosted.org/packages/1b/6d/3fba214c1e5e0f69991677ec3bc17023f0421776975e1de0c682dca475e2/safetensors-0.8.0-cp310-abi3-win_amd64.whl", hash = "sha256:096ec1a98435df7beb08853bb5aa9081a84f23d0adc67ed1a0a10550f608373f", size = 355540, upload-time = "2026-06-09T07:52:27.832Z" },
     { url = "https://files.pythonhosted.org/packages/8d/fc/7eedc3510d97878876e32774eebbeb61c43f148a96e915c84229a3e967aa/safetensors-0.8.0-cp310-abi3-win_arm64.whl", hash = "sha256:f7838e5135a406ad3e02efdcb8cf2e5397d368b0154537c4fec682dbc544d452", size = 340500, upload-time = "2026-06-09T07:52:26.745Z" },
-]
-
-[[package]]
-name = "scrapfly-sdk"
-version = "0.11.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "backoff" },
-    { name = "decorator" },
-    { name = "loguru" },
-    { name = "python-dateutil" },
-    { name = "requests" },
-    { name = "urllib3" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/f9/d4/692586d1437c1274d5db2b123d290593938f085915eff3efc6e44b9cd1fb/scrapfly_sdk-0.11.1.tar.gz", hash = "sha256:46785218aaf1733be08a925b39648d05b77cb842e4385a658f62662181221faa", size = 100907, upload-time = "2026-06-14T08:50:46.865Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/66/a7/26e514017f6aaadcc0044d60a4b10fb8c75b9c278fd631939b9841bd5d4a/scrapfly_sdk-0.11.1-py3-none-any.whl", hash = "sha256:2e3919b30f8798cc00adbba5771481dd79c8eac61e40f74d7a8bf1ee53aae2d4", size = 95352, upload-time = "2026-06-14T08:50:45.391Z" },
 ]
 
 [[package]]
@@ -3457,20 +3411,6 @@ dependencies = [
 wheels = [
     { url = "https://files.pythonhosted.org/packages/bd/ac/3974caaa459bf2c3a244a84be8d17561f631f7d42af370fc311defeca2fb/triton-2.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:da58a152bddb62cafa9a857dd2bc1f886dbf9f9c90a2b5da82157cd2b34392b0", size = 167928356, upload-time = "2024-01-10T03:12:05.923Z" },
     { url = "https://files.pythonhosted.org/packages/0e/49/2e1bbae4542b8f624e409540b4197e37ab22a88e8685e99debe721cc2b50/triton-2.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0af58716e721460a61886668b205963dc4d1e4ac20508cc3f623aef0d70283d5", size = 167933985, upload-time = "2024-01-10T03:12:14.556Z" },
-]
-
-[[package]]
-name = "tweepy"
-version = "4.17.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "oauthlib" },
-    { name = "requests" },
-    { name = "requests-oauthlib" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/44/54/0599e6d84e1abbe716cb6756f4662f800954b2eaa81fc290378610d8d9af/tweepy-4.17.0.tar.gz", hash = "sha256:c232e9fffa0b15b81d5ff8ec59d46af85e330285ffc3e64614d2418fb9af71b5", size = 87772, upload-time = "2026-07-02T19:11:31.333Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/01/c23575054cf6ca9590562ea6f32e75af1ea812d9670ac3f334bbcd50b571/tweepy-4.17.0-py3-none-any.whl", hash = "sha256:1244d7f2959091542f8e4a2c0c4256294e3beb69c0aa26eaf634b126d81eee49", size = 98989, upload-time = "2026-07-02T19:11:29.949Z" },
 ]
 
 [[package]]
@@ -3947,15 +3887,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/91/87/7a0320df854dacd09507ca972cb04a4dc5aae279583cc5b80ad5f5819533/websockets-16.1-pp311-pypy311_pp73-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:0b8d13ceabc5c60995f201b5211d76876e17e68706ebf5d3bc666b32eefff1a6", size = 179397, upload-time = "2026-07-10T06:32:52.892Z" },
     { url = "https://files.pythonhosted.org/packages/31/6a/0da1eb8c8da2ace7b578c8523d32618af85e62a9ebad56051d4a14a38a1c/websockets-16.1-pp311-pypy311_pp73-win_amd64.whl", hash = "sha256:81495f9c0085361c582efbc3207fb877174cfe03370f17d9cd70624404aa526f", size = 180546, upload-time = "2026-07-10T06:32:54.619Z" },
     { url = "https://files.pythonhosted.org/packages/66/58/bd83247f39ddc26ffc2c24eb05087a3b749e00cb4509fc6d19daa23c8495/websockets-16.1-py3-none-any.whl", hash = "sha256:c5149dfe490ec7e5ee5dbf624c642fb725f93a5575c7f00ab594ca9eddb8dd81", size = 174031, upload-time = "2026-07-10T06:32:56.079Z" },
-]
-
-[[package]]
-name = "win32-setctime"
-version = "1.2.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b3/8f/705086c9d734d3b663af0e9bb3d4de6578d08f46b1b101c2442fd9aecaa2/win32_setctime-1.2.0.tar.gz", hash = "sha256:ae1fdf948f5640aae05c511ade119313fb6a30d7eabe25fef9764dca5873c4c0", size = 4867, upload-time = "2024-12-07T15:28:28.314Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/e1/07/c6fe3ad3e685340704d314d765b7912993bcb8dc198f0e7a89382d37974b/win32_setctime-1.2.0-py3-none-any.whl", hash = "sha256:95d644c4e708aba81dc3704a116d8cbc974d70b3bdb8be1d150e36be6e9d1390", size = 4083, upload-time = "2024-12-07T15:28:26.465Z" },
 ]
 
 [[package]]

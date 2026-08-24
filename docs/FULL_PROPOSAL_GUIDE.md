@@ -102,50 +102,52 @@
 
 ## 4. Arsitektur Workflow, Desain Sistem, & Skema Database
 
-### **4.1 Diagram Workflow Pemrosesan Data End-to-End**
+### **4.1 Diagram Workflow Genuine Agentic Multi-Agent Orchestration (LangGraph StateGraph)**
 
 ```mermaid
-flowchart TD
-    subgraph Data_Ingestion [Layer 1: Ingesti Data Multi-Channel]
-        A1[12+ RSS Feeds Berita Online] -->|NewsCollectionAgent| B1[Raw Articles Stream]
-        A2[TwitterAPI.io REST Client] -->|TwitterCollectionAgent| B2[Raw Tweets Stream]
+graph TD
+    User([Pimpinan Fraksi & Pokja Komisi DPR RI]) -->|Web UI / PDF Export| Dashboard[Streamlit Executive Dashboard]
+    Dashboard --> Supervisor[🏛️ LangGraph Supervisor Agent - L3]
+
+    subgraph Orchestration_Layer [Layer 1: Agentic Orchestration & StateGraph]
+        Supervisor -->|Task Delegation| NewsCollector[📰 NewsCollectionAgent - L2]
+        Supervisor -->|Routing Decision| AnalysisAgent[🧠 AnalysisAgent - L3]
+        Supervisor -->|Anomaly Trigger| TrendAgent[📈 TrendAgent - L3]
+        Supervisor -->|Contextual Memory| InsightAgent[💡 InsightAgent - L3]
+        Supervisor -->|Action Plan| RecAgent[📝 RecommendationAgent - L3]
+        Supervisor -->|Briefing Compilation| ReportAgent[📄 ReportAgent - L2]
     end
 
-    subgraph Data_Cleansing [Layer 2: Privacy, Cleansing & Deduplikasi]
-        B1 --> C[PII Redaction & Title Normalization Engine]
-        B2 --> C
-        C -->|Daily JSON Partitioning| D[data/news/ & data/tweets/]
+    subgraph Dynamic_Tool_Registry [Layer 2: Dynamic Tool-Use Registry]
+        T1[tool: fetch_rss_feeds]
+        T2[tool: search_akd_lexicon]
+        T3[tool: llm_semantic_classify]
+        T4[tool: compute_zscore_anomalies]
+        T5[tool: query_historical_memory]
+        T6[tool: critique_recommendation]
+        T7[tool: render_pdf_briefing]
     end
 
-    subgraph AI_Engine [Layer 3: 4-Tier Hybrid AI Classifier & IndoBERT Disambiguation]
-        D --> E{AnalysisAgent Router}
-        E -->|Tier 1: Explicit Match| F1[RegEx Fast Candidate Extractor - 0ms, 0 Cost]
-        F1 --> F1B[Tier 2: IndoBERT Disambiguation Layer - indobert-base-p1]
-        E -->|Tier 3: Implicit Match| F2[Gemini LLM Zero-Shot AI - gemini-flash-latest]
-        E -->|Tier 4: Fallback| F3[Weighted Lexicon Keyword Engine]
-        
-        F1B --> G[Sentiment Scorer Engine - Positif/Negatif/Netral]
-        F2 --> G
-        F3 --> G
+    NewsCollector -.-> T1
+    AnalysisAgent -.-> T2
+    AnalysisAgent -.-> T3
+    TrendAgent -.-> T4
+    InsightAgent -.-> T5
+    RecAgent -.-> T6
+    ReportAgent -.-> T7
+
+    subgraph Critique_Loop [Layer 3: Self-Correction & Critique Loop]
+        RecAgent -->|Draft Rekomendasi| Critic[🛡️ Agentic Critique Validator]
+        Critic -->|Revisi / Pengecekan UU MD3| RecAgent
+        Critic -->|Approved Actionable Briefing| ReportAgent
     end
 
-    subgraph Storage_Analytics [Layer 4: Storage & Anomaly Analytics]
-        G --> H1[(PostgreSQL 15 DB)]
-        G --> H2[(Redis 7 Cache)]
-        G --> H3[JSON Master Output: data/analysis/]
-        
-        H1 --> I[TrendAgent & Z-Score Anomaly Detector]
-        I --> J[InsightAgent & RecommendationAgent]
-    end
-
-    subgraph Presentation [Layer 5: Presentation & Reporting]
-        J --> K1[Streamlit Faction Executive Dashboard UI]
-        J --> K2[ReportLab Faction Briefing PDF Generator]
+    subgraph Storage_Analytics [Layer 4: Storage, Caching & Active Memory]
+        AnalysisAgent <--> DB[(PostgreSQL 16 DB)]
+        InsightAgent <--> DB
+        Supervisor <--> Cache[(Redis 7 Cache & Working State)]
     end
 ```
-
-
----
 
 ---
 
@@ -506,37 +508,47 @@ Sistem harus berfokus pada **monitoring isu publik**, bukan pemantauan atau prof
 
 ---
 
-## 12. Estimasi Anggaran Operasional & Simulasi Biaya API (On-Premise Server)
+## 12. Estimasi Anggaran Operasional Infrastruktur & Simulasi Biaya Supervisor Agent
 
-| Komponen Sistem & API | Spesifikasi Layanan | Estimasi Biaya Bulanan (IDR) | Catatan Efisiensi & Infrastruktur |
+### **12.1 Analisis Biaya Pemanggilan LLM untuk Supervisor Agent & Routing**
+Supervisor Agent membuat keputusan routing lewat pemanggilan LLM, sehingga menambah biaya per keputusan (di luar pemrosesan klasifikasi Tier-2):
+
+| Model LLM | Input / 1M Token | Output / 1M Token | Karakteristik Penggunaan |
 |---|---|---|---|
-| **TwitterAPI.io REST API** | Provider Advanced Search Endpoint | **Rp 187.000 / bulan** | Penarikan data terarah berbasis query isu publik (kuota paket starter/pro). |
-| **Model AI & Classifier Engine** | Local / Open-Source NLP Engine & Tier-1 Fast Matcher | **Rp 0** | Pemrosesan AI dilakukan 100% secara lokal pada server internal tanpa biaya API LLM eksternal. |
-| **Server & Database Host** | **On-Premise / Server Internal Fraksi** (PostgreSQL 15, Redis 7, FastAPI, Streamlit via Docker) | **Rp 0** *(Server internal)* | **Tidak ada biaya sewa cloud server**. Sistem disebar (*deploy*) di atas infrastruktur server lokal Fraksi via Docker Compose. |
-| **Total Biaya Operasional** | **Sistem Pemantauan AI Terintegrasi** | **Rp 187.000 / bulan** | Sangat ekonomis, hemat biaya, dan mandiri secara infrastruktur. |
+| **Gemini 2.5 Flash / 3.6 Flash** | $0.30 | $2.50 | Model standar untuk penalaran semantik mendalam dan rekomendasi. |
+| **Gemini 2.5 Flash-Lite / 3.6 Flash-Lite** | $0.10 | $0.40 | Opsi ultra-hemat untuk routing Supervisor & verifikasi state. |
+
+* **Estimasi Per Keputusan**: Prompt Supervisor ringkas (≈300–500 token input, ≈50–100 token output) $\rightarrow$ sekitar **$0.0003 – $0.0004 per keputusan**.
+* **Total Tambahan Biaya**: Dengan volume harian proyek, estimasi biaya berkisar **$3 – $5 / bulan** (Rp 45.000 – Rp 75.000).
+
+### **12.2 Strategi Optimasi & Penekanan Biaya (Cost-Reduction Strategies)**
+1. **Rule-Based Short-Circuit**: Supervisor tidak selalu memanggil LLM. Untuk artikel dengan nama AKD eksplisit (*high confidence*), sistem langsung mengeksekusi *Tier-1 Regex Fast Matcher* ($0 cost, 0ms).
+2. **Model Tiering**: Gunakan *Flash-Lite* untuk simpul routing Supervisor, dan gunakan *Flash/Pro* hanya untuk sintesis rekomendasi kebijakan bernilai tinggi.
+3. **Context Caching**: Memangkas biaya input token hingga 85–90% untuk bagian prompt yang tetap (definisi taksonomi 24 AKD dan instruksi sistem).
+4. **Batch Processing**: Menggunakan Batch API (diskon 50%) untuk penyerapan dan analisis berkala non-real-time.
 
 ---
 
 ## 13. Spesifikasi Kebutuhan Fungsional & Non-Fungsional (Berstandar IEEE 830)
 
-Sistem dirancang berdasarkan standar spesifikasi rekayasa perangkat lunak **IEEE 830**:
+Sistem dirancang berdasarkan standar spesifikasi rekayasa perangkat lunak **IEEE 830** dengan transparansi tingkat otonomi agen (*Autonomy Levels*):
 
-### **13.1 Kebutuhan Fungsional (Functional Requirements - FR)**
+### **13.1 Kebutuhan Fungsional (Functional Requirements - FR) & Autonomy Level**
 
-| ID Kebutuhan | Deskripsi Fungsionalitas | Komponen Penguji / Agen | Status |
-|---|---|---|---|
-| **FR-01** | Ingesti otomatis berita online dari 12 RSS portal nasional Tier-1 | `NewsCollectionAgent` | **Passing** |
-| **FR-02** | Ingesti otomatis tweet publik via REST API `TwitterAPI.io` | `TwitterCollectionAgent` | **Passing** |
-| **FR-03** | Redaksi PII otomatis (*Email/Phone Redaction*) sesuai UU PDP | Text Sanitizer & Privacy Filter | **Passing** |
-| **FR-04** | Deduplikasi data *in-memory* berbasis URL Hash & Title Normalization | Ingestion Deduplicator | **Passing** |
-| **FR-05** | Routing Klasifikasi 3-Tier (Tier-1 Regex, Tier-2 Gemini, Tier-3 Lexicon) | `AnalysisAgent` | **Passing** |
-| **FR-06** | Pengelompokan isu ke dalam 24 AKD Master DPR RI Periode 2024–2029 | AKD Validator & Gemini Prompt | **Passing** |
-| **FR-07** | Penilaian skor sentimen kontinu (-1.0 s.d. +1.0) & label Positif/Negatif/Netral | Lexicon Sentiment Scorer | **Passing** |
-| **FR-08** | Kalkulasi simpangan statistik Z-Score untuk deteksi lonjakan anomali isu | `TrendAgent` | **Passing** |
-| **FR-09** | Pembuatan draf rekomendasi narasi kebijakan politik untuk Fraksi | `InsightAgent` & `RecommendationAgent` | **Passing** |
-| **FR-10** | Visualisasi interaktif antarmuka Dasbor Eksekutif Fraksi | Streamlit Dashboard | **Passing** |
-| **FR-11** | Pembuatan dan pengunduhan Laporan Briefing PDF Rapat Pimpinan Fraksi | ReportLab PDF Engine | **Passing** |
-| **FR-12** | REST API Service pendukung integrasi eksternal | FastAPI Router Endpoints | **Passing** |
+| ID Kebutuhan | Deskripsi Fungsionalitas | Komponen / Agen Pelaksana | Autonomy Level | Status |
+|---|---|---|---|---|
+| **FR-01** | Ingesti otomatis berita online dari 12 RSS portal nasional Tier-1 | `NewsCollectionAgent` | **L2 (Semi-Autonomous)** | **Passing** |
+| **FR-02** | Redaksi PII otomatis (*Email/Phone Redaction*) sesuai UU PDP | Text Sanitizer & Privacy Filter | **L1 (Rule-Based)** | **Passing** |
+| **FR-03** | Deduplikasi data *in-memory* berbasis URL Hash & Title Normalization | Ingestion Deduplicator | **L1 (Rule-Based)** | **Passing** |
+| **FR-04** | Routing dinamis & orkestrasi siklus analisis multi-agen | `SupervisorAgent` (LangGraph) | **L3 (Fully Agentic)** | **Passing** |
+| **FR-05** | Klasifikasi isu 24 AKD Master DPR RI Periode 2024–2029 | `AnalysisAgent` (Hybrid Engine) | **L3 (Fully Agentic)** | **Passing** |
+| **FR-06** | Penilaian skor sentimen kontinu (-1.0 s.d. +1.0) berbasis leksikon berbobot | Lexicon Sentiment Scorer | **L1 (Rule-Based)** | **Passing** |
+| **FR-07** | Kalkulasi simpangan Z-Score & penalaran akar masalah (*Root-Cause Reasoning*) | `TrendAgent` | **L3 (Fully Agentic)** | **Passing** |
+| **FR-08** | Sintesis narasi isu strategis menggunakan memori kontekstual histori | `InsightAgent` | **L3 (Fully Agentic)** | **Passing** |
+| **FR-09** | Perumusan draf aksi kebijakan dengan validasi mandiri (*Critique Loop*) | `RecommendationAgent` | **L3 (Fully Agentic)** | **Passing** |
+| **FR-10** | Visualisasi interaktif antarmuka Dasbor Eksekutif Fraksi | Streamlit Dashboard | **L1 (Deterministic UI)** | **Passing** |
+| **FR-11** | Pembuatan dan pengunduhan Laporan Briefing PDF Rapat Pimpinan Fraksi | `ReportAgent` (ReportLab) | **L2 (Semi-Autonomous)** | **Passing** |
+| **FR-12** | REST API Service pendukung integrasi eksternal | FastAPI Router Endpoints | **L1 (Deterministic API)** | **Passing** |
 
 ### **13.2 Kebutuhan Non-Fungsional (Non-Functional Requirements - NFR)**
 1. **Ketersediaan Layanan (Availability)**: Minimal 99.5% uptime untuk service API dan Dashboard.
