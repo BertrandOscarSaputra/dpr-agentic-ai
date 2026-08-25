@@ -1,10 +1,11 @@
-"""Analysis Agent — performs sentiment analysis and AKD classification.
+"""Analysis Agent — sentiment analysis and AKD classification engine.
 
-Uses IndoBERT/Lexicon hybrid for sentiment analysis (Positif/Negatif/Netral)
-and Gemini zero-shot (with keyword fallback) for multi-label AKD classification.
+Uses a 3-tier hybrid architecture:
+- Tier 1: Fast Regex pattern matcher for explicit mentions (0ms, $0 cost)
+- Tier 2: Google Gemini Flash zero-shot LLM classifier for implicit/complex text
+- Tier 3: Multi-factor weighted keyword dictionary fallback
+- Policy Relevance Gatekeeper: Determines if content is actionable for DPR RI.
 """
-
-from __future__ import annotations
 
 import json
 import logging
@@ -12,60 +13,50 @@ import re
 from pathlib import Path
 from typing import Any
 
-from src.utils.gemini_client import gemini_classify_akd
+from src.utils.gemini_client import classify_akd as gemini_classify_akd
 from src.utils.validators import sanitize_text
 
 logger = logging.getLogger(__name__)
 
-AKD_MASTER_PATH = (
-    Path(__file__).resolve().parents[2] / "kamus" / "akd_master.json"
-)
+AKD_MASTER_PATH = Path(__file__).resolve().parents[2] / "kamus" / "akd_master.json"
 
-# Comprehensive Indonesian Sentiment Keywords for Lexicon-based Scoring
+# Core sentiment dictionaries
 POSITIVE_WORDS = {
-    # Approval & Support
-    "dukung", "mendukung", "dukungan", "apresiasi", "mengapresiasi", "setuju", "menyetujui",
-    "puji", "memuji", "sepakat", "komitmen", "optimis", "optimisme", "harapan",
-    # Success & Achievement
-    "sukses", "berhasil", "keberhasilan", "prestasi", "unggul", "keunggulan", "juara",
-    "menang", "kemenangan", "gemilang", "rekor", "capaian", "mencapai", "lolos",
-    # Improvement & Growth
-    "solusi", "baik", "membaik", "terbaik", "bantu", "membantu", "bantuan", "maju", "kemajuan",
-    "membangun", "pembangunan", "positif", "efektif", "efektivitas", "transparan", "transparansi",
-    "keadilan", "adil", "sejahtera", "kesejahteraan", "reformasi", "lancar", "sinergi", "sinergis",
-    "manfaat", "bermanfaat", "pulih", "pemulihan", "tumbuh", "pertumbuhan", "meningkat",
-    "peningkatan", "terobosan", "inovasi", "inovatif", "swasembada", "panen", "berkah",
-    "selamat", "aman", "tertib", "kondusif", "stabil", "stabilitas", "resmikan", "meresmikan",
-    "kolaborasi", "berkolaborasi", "subsidi", "beasiswa", "bansos", "renovasi", "mengatasi",
+    "setuju", "sepakat", "dukung", "mendukung", "apresiasi", "mengapresiasi",
+    "sukses", "berhasil", "prestasi", "efektif", "optimal", "positif",
+    "puji", "memuji", "sambut", "menyambut", "bagus", "baik", "unggul",
+    "maju", "kemajuan", "tumbuh", "pertumbuhan", "meningkat", "peningkatan",
+    "pulih", "pemulihan", "harmonis", "transparan", "akuntabel", "solid",
+    "kompak", "bersatu", "sinergi", "kolaborasi", "sejahtera", "kesejahteraan",
+    "bantu", "bantuan", "solutif", "responsif", "terobosan", "inovasi",
+    "resmikan", "meresmikan", "tuntaskan", "selesaikan", "aman", "kondusif",
 }
 
 NEGATIVE_WORDS = {
-    # Crime & Law Violation
-    "korupsi", "suap", "menyuap", "penyuapan", "gratifikasi", "pungli", "skandal",
-    "maling", "kemalingan", "curi", "mencuri", "pencurian", "rampok", "merampok", "perampokan",
-    "begal", "membegal", "pembegalan", "tembak", "menembak", "penembakan", "tembakan",
-    "bunuh", "membunuh", "pembunuhan", "aniaya", "menganiaya", "penganiayaan", "perkosa",
-    "kejahatan", "kriminal", "kriminalitas", "narkoba", "miras", "judi", "judol", "ilegal",
-    "tangkap", "menangkap", "penangkapan", "tahan", "ditahan", "penahanan", "tersangka",
-    "terdakwa", "vonis", "terpidana", "jerat", "terjerat", "polisi", "kepergok",
-    # Conflict & Protests
-    "gagal", "kegagalan", "kecewa", "kekecewaan", "tolak", "menolak", "penolakan", "rugi",
-    "kerugian", "buruk", "memburuk", "lambat", "kritik", "mengkritik", "masalah", "bermasalah",
-    "pelanggaran", "melanggar", "polemik", "ancam", "mengancam", "ancaman", "bahaya",
-    "berbahaya", "sengketa", "persengketaan", "gugat", "menggugat", "gugatan", "tuntut",
-    "tuntutan", "keluh", "keluhan", "mengeluh", "protes", "memprotes", "demonstrasi", "demo",
-    "ricuh", "kericuhan", "bentrok", "bentrokan", "tawuran", "rusuh", "kerusuhan", "mogok",
-    "PHK", "pecat", "pemecatan", "denda", "cacat", "horor", "teror", "terorisme", "teroris",
-    # Disasters & Casualties
+    "tolak", "menolak", "kritik", "mengkritik", "kecewa", "kekecewaan",
+    "gagal", "kegagalan", "buruk", "memburuk", "rugi", "kerugian",
+    "korupsi", "koruptor", "suap", "menyuap", "pungli", "gratifikasi",
+    "skandal", "polemik", "kontroversi", "protes", "memprotes", "demo",
+    "demonstrasi", "ricuh", "kericuhan", "bentrok", "bentrokan", "ancam",
+    "mengancam", "ancaman", "bahaya", "membahayakan", "lambat", "terlambat",
+    "cacat", "pelanggaran", "melanggar", "ilegal", "kejahatan", "kriminal",
     "bencana", "banjir", "kebanjiran", "longsor", "tanah longsor", "gempa", "tsunami",
     "kebakaran", "terbakar", "hangus", "ledakan", "meledak", "amblas", "tenggelam",
     "kecelakaan", "tabrakan", "korban", "tewas", "meninggal", "luka", "terluka",
     "kritis", "darurat", "waspada", "krisis", "defisit", "ambruk", "rusak", "kerusakan",
 }
 
+POLICY_GOVERNANCE_KEYWORDS = {
+    "kebijakan", "regulasi", "undang-undang", "uu", "ruu", "apbn", "rapbn",
+    "anggaran", "kementerian", "menteri", "pemerintah", "presiden", "wapres",
+    "bumn", "bappenas", "bpk", "kpk", "kejaksaan", "polri", "tni", "bi", "ojk",
+    "lps", "pajak", "subsidi", "impor", "ekspor", "bencana", "bansos",
+    "parlemen", "fraksi", "pokja", "komisi", "sidang", "paripurna", "rdp",
+}
+
 
 def _load_akd_master() -> list[dict[str, Any]]:
-    """Load 18 AKD definitions and keywords from kamus/akd_master.json."""
+    """Load 24 AKD definitions and keywords from kamus/akd_master.json."""
     if not AKD_MASTER_PATH.exists():
         return []
     try:
@@ -78,7 +69,7 @@ def _load_akd_master() -> list[dict[str, Any]]:
 
 
 class AnalysisAgent:
-    """Runs sentiment analysis and AKD classification on text content."""
+    """Runs sentiment analysis, AKD classification, and policy relevance auditing."""
 
     def __init__(self) -> None:
         self.akd_list = _load_akd_master()
@@ -99,7 +90,6 @@ class AnalysisAgent:
         if not cleaned:
             return "Netral", 0.0
 
-        # Tokenize text into words
         words = re.findall(r"\b\w+\b", cleaned)
         if not words:
             return "Netral", 0.0
@@ -118,85 +108,119 @@ class AnalysisAgent:
             elif any(w.startswith(root) or w.endswith(root) for root in {"korupsi", "bencana", "banjir", "maling", "curi", "begal", "rampok", "tembak", "bunuh", "rusak", "rugi"} if len(w) >= 4):
                 neg_count += 1
 
-        if pos_count == 0 and neg_count == 0:
+        total_sentiment_words = pos_count + neg_count
+        if total_sentiment_words == 0:
             return "Netral", 0.0
 
-        if pos_count > neg_count:
-            diff = pos_count - neg_count
-            sentiment_score = round(min(0.20 + (diff / max(pos_count + neg_count, 1)) * 0.60, 1.0), 2)
-            sentiment = "Positif"
-        elif neg_count > pos_count:
-            diff = neg_count - pos_count
-            sentiment_score = round(max(-0.20 - (diff / max(pos_count + neg_count, 1)) * 0.60, -1.0), 2)
-            sentiment = "Negatif"
+        raw_score = (pos_count - neg_count) / total_sentiment_words
+        score = round(raw_score, 2)
+
+        if score >= 0.15:
+            return "Positif", score
+        elif score <= -0.15:
+            return "Negatif", score
         else:
-            sentiment = "Netral"
-            sentiment_score = 0.0
+            return "Netral", score
 
-        return sentiment, sentiment_score
+    def evaluate_policy_relevance(self, text: str, akd_mappings: list[dict[str, Any]]) -> tuple[bool, float]:
+        """Evaluate if an article is relevant to DPR RI governance, legislation, or budget.
 
-    def _fast_explicit_akd_match(self, text: str) -> list[dict[str, Any]]:
-        """Tier 1: Fast deterministic regex matcher for explicit AKD mentions."""
+        Returns:
+            tuple (is_dpr_relevant: bool, relevance_score: float)
+        """
+        if akd_mappings and len(akd_mappings) > 0:
+            top_confidence = akd_mappings[0].get("confidence_score", 0.70)
+            return True, top_confidence
+
+        # Check secondary policy governance keywords
+        cleaned_lower = sanitize_text(text).lower()
+        matched_gov = sum(1 for kw in POLICY_GOVERNANCE_KEYWORDS if f" {kw} " in f" {cleaned_lower} ")
+
+        if matched_gov >= 2:
+            return True, round(min(0.60 + matched_gov * 0.05, 0.85), 2)
+
+        return False, 0.20
+
+    def _fast_explicit_akd_match(self, text: str) -> list[dict[str, Any]] | None:
+        """Tier 1: Check for explicit mentions of AKD names using high-precision Regex."""
         cleaned = sanitize_text(text)
         if not cleaned:
-            return []
+            return None
 
-        # Find explicit Komisi matches (e.g. "Komisi III", "Komisi I")
-        matches: list[dict[str, Any]] = []
-        seen_names = set()
+        # Pattern: "Komisi [1-13|I-XIII]"
+        komisi_match = re.search(
+            r"\bKomisi\s+([1-9]|1[0-3]|I{1,3}|IV|V|VI{1,3}|IX|X|XI{1,3})\b",
+            cleaned,
+            re.IGNORECASE,
+        )
+        if komisi_match:
+            raw_num = komisi_match.group(1).upper()
+            roman_map = {
+                "1": "I", "2": "II", "3": "III", "4": "IV", "5": "V",
+                "6": "VI", "7": "VII", "8": "VIII", "9": "IX", "10": "X",
+                "11": "XI", "12": "XII", "13": "XIII",
+            }
+            roman_num = roman_map.get(raw_num, raw_num)
+            akd_name = f"Komisi {roman_num}"
+
+            # Secondary check for partner/context keywords
+            secondary_matches = self._keyword_classify_akd(cleaned, exclude_akd=akd_name)
+            results = [
+                {
+                    "akd_name": akd_name,
+                    "akd_type": "Komisi",
+                    "confidence_score": 0.95,
+                    "rank": 1,
+                }
+            ]
+            for rank, sec in enumerate(secondary_matches[:2], 2):
+                if sec["akd_name"] != akd_name:
+                    sec["rank"] = rank
+                    sec["confidence_score"] = min(sec["confidence_score"], 0.75)
+                    results.append(sec)
+            return results
+
+        # Explicit check for leadership and bodies
+        explicit_bodies = [
+            ("Ketua DPR", "Pimpinan", [r"\bKetua DPR\b", r"\bPuan Maharani\b"]),
+            ("Badan Legislasi", "Badan", [r"\bBadan Legislasi\b", r"\bBaleg\b"]),
+            ("Badan Anggaran", "Badan", [r"\bBadan Anggaran\b", r"\bBanggar\b"]),
+            ("Mahkamah Kehormatan Dewan", "Badan", [r"\bMahkamah Kehormatan Dewan\b", r"\bMKD\b"]),
+            ("Badan Kerja Sama Antar Parlemen", "Badan", [r"\bBKSAP\b", r"\bKerja Sama Antar Parlemen\b"]),
+            ("Badan Akuntabilitas Keuangan Negara", "Badan", [r"\bBAKN\b"]),
+            ("Badan Urusan Rumah Tangga", "Badan", [r"\bBURT\b"]),
+        ]
+
+        for name, b_type, patterns in explicit_bodies:
+            for pat in patterns:
+                if re.search(pat, cleaned, re.IGNORECASE):
+                    return [
+                        {
+                            "akd_name": name,
+                            "akd_type": b_type,
+                            "confidence_score": 0.95,
+                            "rank": 1,
+                        }
+                    ]
+
+        return None
+
+    def _keyword_classify_akd(self, text: str, exclude_akd: str | None = None) -> list[dict[str, Any]]:
+        """Tier 3: Multi-factor weighted keyword dictionary fallback."""
+        cleaned = sanitize_text(text)
+        cleaned_lower = cleaned.lower()
+        scores: list[tuple[dict[str, Any], int]] = []
 
         for akd in self.akd_list:
-            name = akd.get("name", "")
-            if not name:
+            if exclude_akd and akd.get("name") == exclude_akd:
                 continue
 
-            # Build regex pattern for exact word boundary match
-            # e.g., "Komisi I" -> r"\bkomisi\s+i\b"
-            escaped_name = re.escape(name.lower())
-            pattern = rf"\b{escaped_name}\b"
-
-            if re.search(pattern, cleaned.lower()):
-                if name not in seen_names:
-                    seen_names.add(name)
-                    matches.append({
-                        "akd_name": name,
-                        "akd_type": akd.get("type", "Komisi"),
-                        "confidence_score": 0.98,
-                        "rank": len(matches) + 1,
-                    })
-                if len(matches) >= 3:
-                    break
-
-        return matches
-
-    def _keyword_classify_akd(self, text: str) -> list[dict[str, Any]]:
-        """Tier 3: Multi-factor keyword-based AKD classification fallback."""
-        cleaned = sanitize_text(text)
-        if not cleaned:
-            return []
-        cleaned_lower = cleaned.lower()
-
-        scores: list[tuple[dict[str, Any], int]] = []
-        for akd in self.akd_list:
-            name = akd.get("name", "")
-            full_name = akd.get("full_name", "").lower()
-            keywords = akd.get("keywords", [])
-
             match_count = 0
-            # Check name match with word boundary
-            if name and re.search(rf"\b{re.escape(name.lower())}\b", cleaned_lower):
-                match_count += 5
-
-            # Check full name match
-            if full_name and full_name in cleaned_lower:
-                match_count += 6
-
-            # Check keywords match with word boundary
+            keywords = akd.get("keywords", [])
             for kw in keywords:
                 kw_str = str(kw).strip()
                 if not kw_str:
                     continue
-                # For very short 2-letter acronyms (e.g. "AS", "BI", "SAR"), require exact standalone match
                 if len(kw_str) <= 2:
                     if re.search(rf"\b{re.escape(kw_str)}\b", cleaned):
                         match_count += 2
@@ -208,14 +232,11 @@ class AnalysisAgent:
             if match_count > 0:
                 scores.append((akd, match_count))
 
-        # Sort by match count descending
         scores.sort(key=lambda x: x[1], reverse=True)
-
         results: list[dict[str, Any]] = []
         max_matches = scores[0][1] if scores else 1
 
         for rank, (akd, match_cnt) in enumerate(scores[:3], 1):
-            # Normalize confidence score between 0.60 and 0.95
             confidence = round(
                 min(0.60 + (match_cnt / max(max_matches, 1)) * 0.35, 0.95), 2
             )
@@ -234,19 +255,14 @@ class AnalysisAgent:
         Returns:
             List of top 1..3 AKD mapping dicts.
         """
-        # Tier 1: Try fast explicit regex match first (0ms latency, zero API cost)
+        # Tier 1: Fast explicit regex match
         fast_matches = self._fast_explicit_akd_match(text)
         if fast_matches:
-            logger.debug(
-                "Tier 1 fast-path AKD match succeeded",
-                extra={"matches": [m["akd_name"] for m in fast_matches]},
-            )
             return fast_matches
 
-        # Tier 2: Try Gemini API zero-shot semantic classification
+        # Tier 2: Gemini API zero-shot semantic classification
         gemini_results = await gemini_classify_akd(text)
         if gemini_results:
-            # Enrich with akd_type from master list
             type_lookup = {
                 akd.get("name", ""): akd.get("type", "Komisi")
                 for akd in self.akd_list
@@ -256,29 +272,23 @@ class AnalysisAgent:
                 item["akd_type"] = type_lookup.get(name, "Komisi")
             return gemini_results
 
-        # Tier 3: Fallback to multi-factor keyword matcher
-        logger.info("Using keyword fallback for AKD classification", extra={})
+        # Tier 3: Keyword fallback
         return self._keyword_classify_akd(text)
 
     async def analyze(self, content: str) -> dict[str, Any]:
-        """Perform full analysis (sentiment + AKD classification) on content.
-
-        Args:
-            content: Text content string to analyze.
+        """Perform full analysis (sentiment + AKD classification + DPR policy relevance).
 
         Returns:
-            Dict containing sentiment, sentiment_score, and akd_mappings.
+            Dict containing sentiment, sentiment_score, akd_mappings, and is_dpr_relevant.
         """
-        logger.info(
-            "Analyzing content",
-            extra={"content_length": len(content)},
-        )
-
         sentiment, sentiment_score = self.analyze_sentiment(content)
         akd_mappings = await self.classify_akd(content)
+        is_relevant, relevance_score = self.evaluate_policy_relevance(content, akd_mappings)
 
         return {
             "sentiment": sentiment,
             "sentiment_score": sentiment_score,
             "akd_mappings": akd_mappings,
+            "is_dpr_relevant": is_relevant,
+            "relevance_score": relevance_score,
         }

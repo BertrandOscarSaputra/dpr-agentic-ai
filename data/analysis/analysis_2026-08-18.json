@@ -163,31 +163,6 @@
     "analyzed_at": "2026-08-18T12:00:00.000000"
   },
   {
-    "title": "Panduan Memilih Musim Terbaik untuk Liburan ke Bali",
-    "content": "Memahami musim liburan di Bali membantu wisatawan menentukan waktu perjalanan yang sesuai dengan cuaca, aktivitas, tingkat keramaian, dan anggaran.",
-    "url": "https://nasional.tempo.co/read/2117762/panduan-memilih-musim-terbaik-untuk-liburan-ke-bali",
-    "published_at": "2026-08-18T16:00:35+07:00",
-    "source_type": "news",
-    "source_name": "Tempo.co",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
-    "akd_mappings": [
-      {
-        "akd_name": "Komisi V",
-        "akd_type": "Komisi",
-        "confidence_score": 0.95,
-        "rank": 1
-      },
-      {
-        "akd_name": "Komisi VII",
-        "akd_type": "Komisi",
-        "confidence_score": 0.95,
-        "rank": 2
-      }
-    ],
-    "analyzed_at": "2026-08-18T12:00:00.000000"
-  },
-  {
     "title": "Sambut HUT ke-81 RI, Bank Mandiri Hadirkan Ragam Promo Spesial",
     "content": "Promo ini menjadi bagian dari komitmen Bank Mandiri untuk menghadirkan pengalaman perbankan yang semakin relevan dengan kebutuhan masyarakat, sekaligus memberikan nilai tambah dalam berbagai aktivitas sehari-hari.",
     "url": "https://nasional.tempo.co/read/2117751/sambut-hut-ke-81-ri-bank-mandiri-hadirkan-ragam-promo-spesial",

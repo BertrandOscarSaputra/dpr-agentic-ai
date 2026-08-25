@@ -1852,25 +1852,6 @@
     "analyzed_at": "2026-08-18T12:00:00.000000"
   },
   {
-    "title": "Cara Meredakan Kaki Pegal Setelah Seharian Pakai Heels",
-    "content": "Meski sering terjadi, kaki pegal setelah memakai heels tetap perlu ditangani.",
-    "url": "https://www.liputan6.com/lifestyle/read/8260724/cara-meredakan-kaki-pegal-setelah-seharian-pakai-heels",
-    "published_at": "2026-08-19T09:05:37+07:00",
-    "source_type": "news",
-    "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
-    "akd_mappings": [
-      {
-        "akd_name": "Tidak Terklasifikasi",
-        "akd_type": "Lainnya",
-        "confidence_score": 0.0,
-        "rank": 1
-      }
-    ],
-    "analyzed_at": "2026-08-18T12:00:00.000000"
-  },
-  {
     "title": "Mengenal Eisenhower Matrix, Cara Sederhana Menentukan Prioritas agar Hidup Lebih Teratur",
     "content": "Eisenhower matrix membantu seseorang memilah berbagai aktivitas berdasarkan tingkat kepentingan dan urgensinya.",
     "url": "https://www.liputan6.com/lifestyle/read/8266161/mengenal-eisenhower-matrix-cara-sederhana-menentukan-prioritas-agar-hidup-lebih-teratur",
@@ -2187,25 +2168,6 @@
         "akd_name": "Tidak Terklasifikasi",
         "akd_type": "Lainnya",
         "confidence_score": 0.0,
-        "rank": 1
-      }
-    ],
-    "analyzed_at": "2026-08-18T12:00:00.000000"
-  },
-  {
-    "title": "Resep Bolu Gula Merah Panggang yang Lembut dan Legit, Cocok untuk Teman Minum Teh",
-    "content": "Ingin membuat bolu gula merah panggang yang lembut dan legit? Simak resep lengkap beserta tips memilih bahannya.",
-    "url": "https://www.liputan6.com/lifestyle/read/8273316/resep-bolu-gula-merah-panggang-yang-lembut-dan-legit",
-    "published_at": "2026-08-19T18:00:36+07:00",
-    "source_type": "news",
-    "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
-    "akd_mappings": [
-      {
-        "akd_name": "Komisi VI",
-        "akd_type": "Komisi",
-        "confidence_score": 0.95,
         "rank": 1
       }
     ],

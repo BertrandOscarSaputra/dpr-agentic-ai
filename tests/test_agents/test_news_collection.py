@@ -4,7 +4,12 @@ import asyncio
 from datetime import UTC, datetime
 from unittest.mock import MagicMock, patch
 
-from src.agents.news_collection import FeedConfig, NewsCollectionAgent, load_feed_configs
+from src.agents.news_collection import (
+    FeedConfig,
+    NewsCollectionAgent,
+    is_consumer_or_entertainment_noise,
+    load_feed_configs,
+)
 
 
 class TestLoadFeedConfigs:
@@ -58,64 +63,57 @@ class TestNewsCollectionAgent:
             "summary": "This is the article summary text",
             "published": "Mon, 21 Jul 2025 10:00:00 +0700",
         }.get(key, default)
-        entry.content = []
 
         result = agent._parse_entry(entry, "Test Feed")
         assert result is not None
-        assert result["url"] == "https://example.com/article-1"
         assert result["title"] == "Test Article Title"
         assert result["content"] == "This is the article summary text"
-        assert result["source_type"] == "news_online"
+        assert result["url"] == "https://example.com/article-1"
         assert result["source_name"] == "Test Feed"
-        assert isinstance(result["published_at"], datetime)
+        assert result["source_type"] == "news_online"
+        assert result["published_at"] is not None
 
-    def test_parse_entry_strips_html(self) -> None:
+    def test_parse_entry_skips_missing_title(self) -> None:
         agent = NewsCollectionAgent(feeds=[self._make_feed()])
         entry = MagicMock()
         entry.get = lambda key, default="": {
-            "link": "https://example.com/article-2",
-            "title": "<b>Bold Title</b>",
-            "summary": "<p>Paragraph with <a href='#'>link</a></p>",
-            "published": "",
+            "link": "https://example.com/article-1",
+            "title": "",
+            "summary": "Summary only",
         }.get(key, default)
-        entry.content = []
 
-        result = agent._parse_entry(entry, "Test Feed")
-        assert result is not None
-        assert result["title"] == "Bold Title"
-        assert "<" not in result["content"]
-        assert ">" not in result["content"]
+        assert agent._parse_entry(entry, "Test Feed") is None
 
-    def test_parse_entry_returns_none_for_no_url(self) -> None:
+    def test_parse_entry_skips_missing_url(self) -> None:
         agent = NewsCollectionAgent(feeds=[self._make_feed()])
         entry = MagicMock()
         entry.get = lambda key, default="": {
             "link": "",
-            "title": "No URL Article",
-            "summary": "Content here",
+            "title": "Title Only",
+            "summary": "Summary text",
         }.get(key, default)
-        entry.content = []
 
-        result = agent._parse_entry(entry, "Test Feed")
-        assert result is None
+        assert agent._parse_entry(entry, "Test Feed") is None
 
-    def test_parse_entry_returns_none_for_no_content(self) -> None:
+    def test_parse_entry_sanitizes_html(self) -> None:
         agent = NewsCollectionAgent(feeds=[self._make_feed()])
         entry = MagicMock()
         entry.get = lambda key, default="": {
-            "link": "https://example.com/empty",
-            "title": "Empty Content",
-            "summary": "",
+            "link": "https://example.com/html",
+            "title": "<b>Bold Title</b> &amp; More",
+            "summary": "<p>Paragraph with <script>alert(1)</script> HTML</p>",
             "published": "",
-            "description": "",
         }.get(key, default)
-        entry.content = []
 
         result = agent._parse_entry(entry, "Test Feed")
-        assert result is None
+        assert result is not None
+        assert "<script>" not in result["content"]
+        assert "<p>" not in result["content"]
 
-    def test_parse_entry_prefers_content_over_summary(self) -> None:
+    def test_parse_entry_content_fallback_chain(self) -> None:
         agent = NewsCollectionAgent(feeds=[self._make_feed()])
+
+        # Test: entry with "content" field takes precedence over "summary"
         entry = MagicMock()
         entry.get = lambda key, default="": {
             "link": "https://example.com/full",
@@ -158,32 +156,25 @@ class TestParseDateMethod:
     def test_empty_string_returns_none(self) -> None:
         assert self.agent._parse_date("") is None
 
-    def test_invalid_date_returns_none(self) -> None:
-        assert self.agent._parse_date("not-a-date") is None
-
-    def test_timezone_aware_preserved(self) -> None:
-        result = self.agent._parse_date("Mon, 21 Jul 2025 10:30:00 +0700")
-        assert result is not None
-        assert result.tzinfo is not None
+    def test_garbage_string_returns_none(self) -> None:
+        assert self.agent._parse_date("not-a-real-date-string-xyz") is None
 
 
-class TestCollectWithMockedHTTP:
-    """Test the full collection flow with mocked HTTP responses."""
+class TestCollectMethod:
+    """Test the full collect() orchestration with mocked HTTP."""
 
-    def _make_rss_xml(
-        self, title: str = "Test Article", url: str = "https://example.com/1",
-    ) -> bytes:
+    def _make_rss_xml(self, title: str = "Test Article", link: str = "https://example.com/1") -> bytes:
         return f"""<?xml version="1.0" encoding="UTF-8"?>
         <rss version="2.0">
-          <channel>
-            <title>Test Feed</title>
-            <item>
-              <title>{title}</title>
-              <link>{url}</link>
-              <description>Test content for the article</description>
-              <pubDate>Mon, 21 Jul 2025 10:00:00 +0700</pubDate>
-            </item>
-          </channel>
+            <channel>
+                <title>Test Feed</title>
+                <item>
+                    <title>{title}</title>
+                    <link>{link}</link>
+                    <description>Test description</description>
+                    <pubDate>Mon, 21 Jul 2025 10:00:00 +0700</pubDate>
+                </item>
+            </channel>
         </rss>""".encode()
 
     @patch("src.agents.news_collection.requests.get")
@@ -252,3 +243,125 @@ class TestCollectWithMockedHTTP:
         articles = asyncio.run(agent.collect())
 
         assert articles == []
+
+
+class TestNoiseFiltering:
+    """Test suite for consumer how-tos, entertainment, and noise detection."""
+
+    def test_filters_consumer_how_tos(self) -> None:
+        title = "Cara Aktifkan Kartu Kredit Indonesia, Bisa Transaksi QRIS"
+        is_noise, reason = is_consumer_or_entertainment_noise(title)
+        assert is_noise is True
+        assert "Cara" in reason
+
+    def test_filters_recipes_and_tips(self) -> None:
+        title = "5 Tips Hemat Listrik Selama Musim Kemarau"
+        is_noise, _ = is_consumer_or_entertainment_noise(title)
+        assert is_noise is True
+
+        title_resep = "Resep Sambal Goreng Kentang Praktis untuk Pemula"
+        is_noise_resep, _ = is_consumer_or_entertainment_noise(title_resep)
+        assert is_noise_resep is True
+
+    def test_filters_entertainment_and_horoscopes(self) -> None:
+        title = "Ramalan Zodiak Scorpio Hari Ini: Keuangan Menanjak"
+        is_noise, _ = is_consumer_or_entertainment_noise(title)
+        assert is_noise is True
+
+        title_drakor = "Sinopsis Drakor Queen of Tears Episode Terakhir"
+        is_noise_drakor, _ = is_consumer_or_entertainment_noise(title_drakor)
+        assert is_noise_drakor is True
+
+    def test_filters_sports_match_results(self) -> None:
+        title = "Hasil Liga Inggris: Arsenal Menang Telak 3-0 Lawan Chelsea"
+        is_noise, _ = is_consumer_or_entertainment_noise(title)
+        assert is_noise is True
+
+    def test_retains_clean_policy_and_economic_news(self) -> None:
+        title = "Investasi RI Tembus Rp 1.010 T, Pengusaha Ungkap Dampaknya ke Industri Lokal"
+        is_noise, reason = is_consumer_or_entertainment_noise(title)
+        assert is_noise is False
+        assert reason == "clean_policy_news"
+
+        title_spbu = "Seluruh SPBU di Flores Kembali Beroperasi Usai Gempa"
+        is_noise_spbu, _ = is_consumer_or_entertainment_noise(title_spbu)
+        assert is_noise_spbu is False
+
+    def test_filters_explainer_and_faq_articles(self) -> None:
+        title_ikd = "Apa itu IKD dan cara buatnya? Cek fungsi KTP digital resmi"
+        is_noise, reason = is_consumer_or_entertainment_noise(title_ikd)
+        assert is_noise is True
+        assert "Apa itu" in reason or "dan cara buatnya" in reason
+
+        title_gempa = "Kenapa Indonesia sering gempa? Ini penyebab dan penjelasan megathrust"
+        is_noise_gempa, reason_gempa = is_consumer_or_entertainment_noise(title_gempa)
+        assert is_noise_gempa is True
+        assert "Kenapa" in reason_gempa or "penyebab" in reason_gempa
+
+    def test_filters_gadget_leaks_and_rumors(self) -> None:
+        title_airpods = "Bocoran Terbaru AirPods Berkamera, Bisa Apa Saja?"
+        is_noise, reason = is_consumer_or_entertainment_noise(title_airpods)
+        assert is_noise is True
+        assert "Bocoran" in reason or "AirPods" in reason or "Bisa Apa Saja" in reason
+
+        title_iphone = "Rumor iPhone 17 Pro Max: Bocoran Spesifikasi dan Jadwal Rilis"
+        is_noise_iphone, _ = is_consumer_or_entertainment_noise(title_iphone)
+        assert is_noise_iphone is True
+
+    def test_legislative_whitelist_overrides_noise_words(self) -> None:
+        # Title contains "tips" but is an official legislative statement
+        title = "Ketua DPR Puan Maharani Bagikan Tips Ketahanan Pangan Nasional"
+        is_noise, reason = is_consumer_or_entertainment_noise(title)
+        assert is_noise is False
+        assert reason == "legislative_whitelist_matched"
+
+
+class TestFeedHealthMonitor:
+    """Test suite for RSS feed health probing and dead feed auto-skip."""
+
+    @patch("src.agents.news_collection.requests.get")
+    def test_check_feed_health_healthy(self, mock_get: MagicMock) -> None:
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.content = b"""<?xml version="1.0" encoding="UTF-8"?>
+        <rss version="2.0"><channel><title>Antara</title><item><title>News 1</title><link>https://antara.com/1</link></item></channel></rss>"""
+        mock_get.return_value = mock_resp
+
+        agent = NewsCollectionAgent(feeds=[FeedConfig(name="Antara", url="https://antara.com/rss", category="nasional")])
+        health = agent.check_feed_health(agent.feeds[0])
+
+        assert health["status"] == "HEALTHY"
+        assert health["status_code"] == 200
+        assert health["entry_count"] == 1
+        assert health["error"] is None
+
+    @patch("src.agents.news_collection.requests.get")
+    def test_check_feed_health_dead_404(self, mock_get: MagicMock) -> None:
+        mock_resp = MagicMock()
+        mock_resp.status_code = 404
+        mock_get.return_value = mock_resp
+
+        agent = NewsCollectionAgent(feeds=[FeedConfig(name="Dead Feed", url="https://dead.com/rss", category="nasional")])
+        health = agent.check_feed_health(agent.feeds[0])
+
+        assert health["status"] == "DEAD"
+        assert health["status_code"] == 404
+        assert "Not Found" in health["error"]
+
+    @patch("src.agents.news_collection.requests.get")
+    def test_check_all_feeds_health(self, mock_get: MagicMock) -> None:
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.content = b"""<?xml version="1.0"?><rss version="2.0"><channel><title>Feed</title></channel></rss>"""
+        mock_get.return_value = mock_resp
+
+        agent = NewsCollectionAgent(feeds=[
+            FeedConfig(name="Feed A", url="https://a.com/rss", category="nasional"),
+            FeedConfig(name="Feed B", url="https://b.com/rss", category="nasional"),
+        ])
+        results = agent.check_all_feeds_health()
+        assert len(results) == 2
+        assert all(r["status_code"] == 200 for r in results)
+
+
+

@@ -145,3 +145,9 @@ async def gemini_summarize(texts: list[str], context: str = "") -> str:
     except Exception as e:
         logger.error("Gemini summarization failed", extra={"error": str(e)})
         return ""
+
+
+# Aliases for backward compatibility
+classify_akd = gemini_classify_akd
+summarize = gemini_summarize
+

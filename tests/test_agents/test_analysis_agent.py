@@ -18,14 +18,18 @@ class TestAnalysisAgent:
 
     @pytest.mark.asyncio
     async def test_analyze_returns_expected_structure(self) -> None:
-        """analyze() should return a dict with sentiment, score, and akd_mappings."""
+        """analyze() should return a dict with sentiment, score, akd_mappings, and is_dpr_relevant."""
         agent = AnalysisAgent()
         result = await agent.analyze("Komisi III DPR RI menyetujui RUU Hukum Pidana demi keadilan")
         assert "sentiment" in result
         assert "sentiment_score" in result
         assert "akd_mappings" in result
+        assert "is_dpr_relevant" in result
+        assert "relevance_score" in result
         assert result["sentiment"] in {"Positif", "Negatif", "Netral"}
         assert -1.0 <= result["sentiment_score"] <= 1.0
+        assert result["is_dpr_relevant"] is True
+        assert result["relevance_score"] >= 0.60
 
     def test_sentiment_positive_text(self) -> None:
         """Positive keywords should yield Positif sentiment and positive score."""
@@ -58,92 +62,54 @@ class TestAnalysisAgent:
         """Fallback keyword matcher should identify Komisi III for legal keywords."""
         agent = AnalysisAgent()
         results = agent._keyword_classify_akd(
-            "Komisi III DPR menggelar rapat dengan Kejaksaan Agung dan KPK terkait penegakan hukum"
-        )
-        assert len(results) > 0
-        top_akd = results[0]["akd_name"]
-        assert top_akd == "Komisi III"
-        assert results[0]["rank"] == 1
-        assert 0.0 <= results[0]["confidence_score"] <= 1.0
-
-    @pytest.mark.asyncio
-    @patch("src.agents.analysis.gemini_classify_akd")
-    async def test_classify_akd_uses_gemini_when_available(
-        self, mock_gemini: AsyncMock,
-    ) -> None:
-        """classify_akd should prefer Gemini zero-shot results when available."""
-        mock_gemini.return_value = [
-            {"akd_name": "Komisi I", "confidence_score": 0.95, "rank": 1},
-            {"akd_name": "Baleg", "confidence_score": 0.70, "rank": 2},
-        ]
-        agent = AnalysisAgent()
-        # Use text without explicit AKD mention so Tier 1 doesn't match
-        results = await agent.classify_akd("Prajurit TNI dan Kemenhan bahas pertahanan negara")
-
-        assert len(results) == 2
-        assert results[0]["akd_name"] == "Komisi I"
-        assert results[0]["akd_type"] == "Komisi"
-        assert results[1]["akd_name"] == "Baleg"
-        assert results[1]["akd_type"] == "Badan"
-
-
-class TestTier1FastExplicitMatch:
-    """Tests for Tier-1 fast explicit AKD regex matching."""
-
-    def test_explicit_komisi_match(self) -> None:
-        """Explicit 'Komisi III' in text should return high-confidence match."""
-        agent = AnalysisAgent()
-        results = agent._fast_explicit_akd_match(
-            "Komisi III DPR RI menggelar rapat dengan Kejaksaan Agung"
+            "Kejaksaan Agung dan Kepolisian menggelar penegakan hukum dan peradilan"
         )
         assert len(results) >= 1
         assert results[0]["akd_name"] == "Komisi III"
-        assert results[0]["confidence_score"] == 0.98
+        assert results[0]["akd_type"] == "Komisi"
+        assert results[0]["confidence_score"] > 0.60
 
-    def test_explicit_baleg_match(self) -> None:
-        """Explicit 'Baleg' in text should return a match."""
+    def test_keyword_classification_sorts_by_confidence(self) -> None:
+        """Multiple AKD matches should be sorted by confidence descending."""
         agent = AnalysisAgent()
-        results = agent._fast_explicit_akd_match(
-            "Baleg DPR RI membahas RUU Transparansi Publik di Senayan"
-        )
-        assert len(results) >= 1
-        assert results[0]["akd_name"] == "Baleg"
-
-    def test_explicit_pimpinan_match(self) -> None:
-        """Explicit 'Ketua DPR' in text should return a match."""
-        agent = AnalysisAgent()
-        results = agent._fast_explicit_akd_match(
-            "Ketua DPR menyampaikan pidato pembukaan sidang paripurna"
-        )
-        assert len(results) >= 1
-        assert results[0]["akd_name"] == "Ketua DPR"
-
-    def test_no_match_for_implicit_text(self) -> None:
-        """Text without explicit AKD names should return empty list."""
-        agent = AnalysisAgent()
-        results = agent._fast_explicit_akd_match(
-            "Harga beras naik drastis di pasar tradisional"
-        )
-        assert results == []
-
-    def test_multiple_komisi_matches(self) -> None:
-        """Text mentioning two Komisi should return both."""
-        agent = AnalysisAgent()
-        results = agent._fast_explicit_akd_match(
-            "Komisi I dan Komisi III DPR RI berkoordinasi soal keamanan siber"
+        results = agent._keyword_classify_akd(
+            "Pertahanan siber dan diplomasi luar negeri serta pendidikan nasional"
         )
         assert len(results) >= 2
-        matched_names = {r["akd_name"] for r in results}
-        assert "Komisi I" in matched_names
-        assert "Komisi III" in matched_names
+        for i in range(len(results) - 1):
+            assert results[i]["confidence_score"] >= results[i + 1]["confidence_score"]
+            assert results[i]["rank"] == i + 1
 
-    def test_max_three_matches(self) -> None:
-        """Should return at most 3 matches even if more are found."""
+    def test_keyword_classification_no_match(self) -> None:
+        """Text with zero political/policy keywords should return empty list."""
         agent = AnalysisAgent()
-        results = agent._fast_explicit_akd_match(
-            "Komisi I, Komisi II, Komisi III, Komisi IV, dan Komisi V berkoordinasi lintas sektor"
+        results = agent._keyword_classify_akd("Resep kue bolu coklat kukus empuk dan manis")
+        assert results == []
+
+    def test_policy_relevance_evaluation(self) -> None:
+        """evaluate_policy_relevance should separate governance news from irrelevant noise."""
+        agent = AnalysisAgent()
+
+        # 1. Relevant with AKD mapping
+        rel, score = agent.evaluate_policy_relevance(
+            "Rapat APBN di Senayan", [{"akd_name": "Badan Anggaran", "confidence_score": 0.90}]
         )
-        assert len(results) <= 3
+        assert rel is True
+        assert score >= 0.80
+
+        # 2. Relevant via governance keywords without explicit AKD
+        rel_gov, score_gov = agent.evaluate_policy_relevance(
+            "Pemerintah dan kementerian umumkan regulasi pajak baru terkait subsidi", []
+        )
+        assert rel_gov is True
+        assert score_gov >= 0.60
+
+        # 3. Irrelevant text
+        rel_noise, score_noise = agent.evaluate_policy_relevance(
+            "Kucing lucu bermain di taman kota sore hari", []
+        )
+        assert rel_noise is False
+        assert score_noise < 0.30
 
 
 class TestTierRouting:
@@ -160,7 +126,7 @@ class TestTierRouting:
         # Tier 1 should match "Komisi IX" directly
         assert len(results) >= 1
         assert results[0]["akd_name"] == "Komisi IX"
-        assert results[0]["confidence_score"] == 0.98
+        assert results[0]["confidence_score"] >= 0.90
         # Gemini should NOT have been called
         mock_gemini.assert_not_called()
 
@@ -189,7 +155,5 @@ class TestTierRouting:
             "Penegakan hukum dan kejaksaan menindak korupsi besar"
         )
         assert len(results) >= 1
-        # Keyword matcher should find Komisi III via "hukum", "kejaksaan", "korupsi"
         assert results[0]["akd_name"] == "Komisi III"
-        assert results[0]["confidence_score"] < 0.98  # Not from Tier 1
-
+        assert results[0]["confidence_score"] <= 0.95

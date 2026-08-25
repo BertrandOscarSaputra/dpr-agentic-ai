@@ -32,20 +32,56 @@ st.set_page_config(
 # ── Data Loaders ─────────────────────────────────────────────────────────────
 @st.cache_data(ttl=60)
 def load_analysis() -> list[dict]:
-    """Load analysis output JSON."""
-    if not ANALYSIS_PATH.exists():
-        return []
-    with open(ANALYSIS_PATH, encoding="utf-8") as f:
-        return json.load(f)
+    """Load analysis output JSON from all daily partitions or combined file."""
+    analysis_dir = PROJECT_ROOT / "data" / "analysis"
+    daily_files = sorted(analysis_dir.glob("analysis_2026-*.json"))
+    if daily_files:
+        items = []
+        seen = set()
+        for f in daily_files:
+            try:
+                with open(f, encoding="utf-8") as fp:
+                    for item in json.load(fp):
+                        key = (item.get("url", ""), str(item.get("published_at", ""))[:10])
+                        if key not in seen:
+                            seen.add(key)
+                            items.append(item)
+            except Exception:
+                continue
+        if items:
+            return items
+
+    if ANALYSIS_PATH.exists():
+        with open(ANALYSIS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return []
 
 
 @st.cache_data(ttl=60)
 def load_news() -> list[dict]:
-    """Load news output JSON."""
-    if not NEWS_PATH.exists():
-        return []
-    with open(NEWS_PATH, encoding="utf-8") as f:
-        return json.load(f)
+    """Load news output JSON from all daily partitions or combined file."""
+    news_dir = PROJECT_ROOT / "data" / "news"
+    daily_files = sorted(news_dir.glob("news_2026-*.json"))
+    if daily_files:
+        items = []
+        seen = set()
+        for f in daily_files:
+            try:
+                with open(f, encoding="utf-8") as fp:
+                    for item in json.load(fp):
+                        key = (item.get("url", ""), str(item.get("published_at", ""))[:10])
+                        if key not in seen:
+                            seen.add(key)
+                            items.append(item)
+            except Exception:
+                continue
+        if items:
+            return items
+
+    if NEWS_PATH.exists():
+        with open(NEWS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return []
 
 
 @st.cache_data(ttl=3600)

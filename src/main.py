@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from src.config import settings
 from src.logging_config import setup_logging
-from src.routes import analysis, recommendations, reports, trends
+from src.routes import agents, analysis, recommendations, reports, trends
 
 logger = logging.getLogger(__name__)
 
@@ -37,10 +37,12 @@ def create_app() -> FastAPI:
     )
 
     # Register routers
+    app.include_router(agents.router, prefix="/api/v1", tags=["Agents"])
     app.include_router(analysis.router, prefix="/api/v1", tags=["Analysis"])
     app.include_router(recommendations.router, prefix="/api/v1", tags=["Recommendations"])
     app.include_router(trends.router, prefix="/api/v1", tags=["Trends"])
     app.include_router(reports.router, prefix="/api/v1", tags=["Reports"])
+
 
     @app.get("/health")
     async def health_check() -> dict[str, str]:
