@@ -90,14 +90,14 @@ gantt
 
 ### 🔹 BULAN 3: REASONING, ANOMALY PERSISTENCE & ACTIVE MEMORY (HARI 41 – 60)
 
-#### **Sprint 5: Z-Score Anomaly Persistence & Benchmark Ground Truth (Hari 41 – 50) ⏳ [NEXT SPRINT]**
+#### **Sprint 5: Hybrid Sentiment-Weighted Z-Score & Ground Truth Benchmark (Hari 41 – 50) ✅**
+* **Hari 41–43**: Transformasi algoritma kalkulasi tren dari Pure Volume Z-Score menjadi **Sentiment-Weighted Augmented Z-Score ($Z_{\text{weighted}} \ge 2.0$)** dengan *Damping Smoothing* ($k=1.5$) untuk mendeteksi krisis kebijakan berbobot sentimen negatif pada `TrendAgent` (Inf 2 & SI 1).
+* **Hari 44–46**: Penguatan simpul **Anomaly Policy Reasoner & Self-Review (C3)** pada LangGraph Supervisor: AI (Gemini) melakukan audit kontekstual apakah lonjakan $Z_{\text{weighted}}$ merupakan isu regulasi DPR riil atau sekadar *noise* viral lokal (Inf 2).
+* **Hari 47–48**: Kurasi dataset **Ground Truth 100 Sampel Terverifikasi Manual** (`data/benchmark/ground_truth_100.json`) dan pembangunan modul evaluasi otomatis akurasi & Macro F1 (`src/utils/benchmark_evaluator.py`) (SI 2).
+* **Hari 49–50**: Persistensi hasil anomali Z-score ke tabel PostgreSQL `trend_windows`, review Sprint 5, dan pengujian unit test TDD (SI 1 & SI 2).
 
-* **Hari 41–43**: Pembangunan algoritma kalkulasi **Z-Score Anomaly Detection** ($Z > 2.0$) per AKD pada `TrendAgent` (Inf 2 & SI 1).
-* **Hari 44–46**: Implementasi simpul **Anomaly Self-Review (C3)**: AI melakukan penalaran kritis apakah lonjakan volume merupakan isu kebijakan riil atau sekadar *noise* kriminal/viral lokal (Inf 2).
-* **Hari 47–48**: Pembuatan dataset validasi Ground Truth 100 artikel berlabel manual untuk evaluasi akurasi sentimen (SI 2).
-* **Hari 49–50**: Review Sprint 5 & pengujian integrasi Z-score ke tabel `trend_windows` (SI 1 & SI 2).
+#### **Sprint 6: RecommendationAgent, Critique Loop & Contextual Memory (Hari 51 – 60) ⏳ [NEXT SPRINT]**
 
-#### **Sprint 6: RecommendationAgent, Critique Loop & Contextual Memory (Hari 51 – 60)**
 * **Hari 51–53**: Implementasi `RecommendationAgent` untuk merumuskan draf aksi kebijakan fraksi (RDP, pernyataan pers, kunjungan kerja) (Inf 2).
 * **Hari 54–56**: Pembangunan **Self-Correction Critique Loop**: simpul `CritiqueValidator` yang menguji risiko politik dan kesesuaian UU MD3, dengan mekanisme *looping revisi* otomatis jika skor $< 0.75$ (Inf 2).
 * **Hari 57–58**: Integrasi **Active Contextual Memory** (PostgreSQL memory) untuk memperkaya analisis dengan riwayat isu 30 hari terakhir (Inf 1 & SI 1).

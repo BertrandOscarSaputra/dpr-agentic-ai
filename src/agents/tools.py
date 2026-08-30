@@ -69,21 +69,32 @@ def analyze_sentiment_tool(text: str) -> dict:
 
 
 @tool
-def calculate_zscore_tool(daily_counts: list[int], current_count: int) -> dict:
-    """Calculate Z-Score anomaly for a given time-series of article counts for an AKD.
+def calculate_zscore_tool(
+    daily_counts: list[int],
+    current_count: int,
+    damping_k: float = 1.5,
+    neg_count: int = 0,
+    neg_weight: float = 2.5,
+) -> dict:
+    """Calculate Sentiment-Weighted Z-Score anomaly for an AKD volume time-series.
 
-    Returns z_score, is_anomaly (True if z_score > 2.0), mean, and std.
+    Applies negative sentiment weighting and damping factor k to prevent false alarms on small baselines.
+    Returns z_score, is_anomaly (True if z_score >= 2.0), mean, std, and effective_volume.
     """
     logger.info(
         "Tool invoked: calculate_zscore_tool",
-        extra={"history_len": len(daily_counts), "current_count": current_count},
+        extra={"history_len": len(daily_counts), "current_count": current_count, "neg_count": neg_count},
     )
+    # Effective volume weighting
+    effective_current = current_count + (neg_count * (neg_weight - 1.0)) if neg_count > 0 else float(current_count)
+
     if not daily_counts or len(daily_counts) < 2:
         return {
             "z_score": 0.0,
             "is_anomaly": False,
-            "mean": float(current_count),
+            "mean": float(effective_current),
             "std": 0.0,
+            "effective_volume": round(effective_current, 2),
         }
 
     n = len(daily_counts)
@@ -91,17 +102,17 @@ def calculate_zscore_tool(daily_counts: list[int], current_count: int) -> dict:
     variance = sum((x - mean) ** 2 for x in daily_counts) / (n - 1)
     std = math.sqrt(variance)
 
-    if std == 0:
-        z_score = 0.0
-    else:
-        z_score = round((current_count - mean) / std, 2)
+    denominator = std + damping_k
+    z_score = round((effective_current - mean) / denominator, 2)
 
     return {
         "z_score": z_score,
-        "is_anomaly": z_score > 2.0,
+        "is_anomaly": z_score >= 2.0,
         "mean": round(mean, 2),
         "std": round(std, 2),
+        "effective_volume": round(effective_current, 2),
     }
+
 
 
 @tool
