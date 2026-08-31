@@ -1,0 +1,35 @@
+﻿# Database
+DATABASE_URL=postgresql://dpr_user:dpr_dev_password@localhost:5432/dpr_agentic_ai
+DATABASE_POOL_SIZE=20
+DATABASE_MAX_OVERFLOW=10
+
+# Redis
+REDIS_URL=redis://localhost:6379
+
+# APIs
+GEMINI_API_KEY=AIzaSyAOPPA_nEeh1YLKXJ9QZ0YAb6vEgEsB4os
+HUGGINGFACE_API_KEY=
+TWITTER_BEARER_TOKEN=
+
+# X/Twitter Scraping (twikit — no API key required, just your X account)
+X_USERNAME="totoropoporo123"
+X_EMAIL="totoropoporo123@gmail.com"
+X_PASSWORD="Hazard123!"
+X_COOKIES_PATH=cookies.json
+
+# Application
+ENV=development
+DEBUG=True
+LOG_LEVEL=INFO
+SECRET_KEY=dev-secret-key-dpr-agentic-ai
+
+# Celery
+CELERY_BROKER_URL=redis://localhost:6379
+CELERY_RESULT_BACKEND=redis://localhost:6379
+
+# Authentication (comma-separated API keys; empty = no auth in dev)
+API_KEYS=[]
+
+# Scrapfly � browser-based X/Twitter scraping
+SCRAPFLY_KEY=scp-live-ea49448b82b04b009de5bf2ae76789ac
+
