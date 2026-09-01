@@ -47,3 +47,8 @@ migrations/versions/__pycache__/
 
 # Reports
 reports/*.pdf
+
+# Trained model files
+indobert_sentiment_final/
+*.safetensors
+*.zip
