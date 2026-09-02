@@ -7,7 +7,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -26,7 +26,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -70,7 +70,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -95,7 +95,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.72,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -114,7 +114,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -138,8 +138,8 @@
     "published_at": "2026-08-07T13:52:14+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -157,8 +157,8 @@
     "published_at": "2026-08-07T12:54:03+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -182,8 +182,8 @@
     "published_at": "2026-08-07T12:23:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -202,7 +202,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.43,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",

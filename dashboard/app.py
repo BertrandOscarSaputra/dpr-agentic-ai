@@ -3,7 +3,8 @@
 
 Reads real analyzed data from data/analysis/analysis_output.json
 and data/news/news_output.json to display live metrics,
-sentiment distributions, AKD breakdowns, and exact daily time-series counts.
+sentiment distributions (IndoBERT), AKD breakdowns, and exact daily time-series counts.
+Includes smart noise filtering for non-AKD unclassified articles.
 """
 
 import json
@@ -114,13 +115,13 @@ def build_analysis_df(items: list[dict]) -> pd.DataFrame:
             "sentiment": item.get("sentiment", "Netral"),
             "sentiment_score": item.get("sentiment_score", 0.0),
             "primary_akd": primary_akd,
+            "is_akd_classified": primary_akd != "Tidak Terklasifikasi",
             "confidence": primary_confidence,
             "published_at": pub_str,
             "url": item.get("url", ""),
         })
     df = pd.DataFrame(rows)
     if not df.empty and "published_at" in df.columns:
-        # Extract clean YYYY-MM-DD string
         df["date_str"] = df["published_at"].astype(str).str[:10]
         df["date"] = pd.to_datetime(df["date_str"], errors="coerce").dt.date
     return df
@@ -136,7 +137,7 @@ df = build_analysis_df(analysis_items)
 st.markdown("""
 <style>
     .main .block-container { padding-top: 1.5rem; }
-    [data-testid="stMetricValue"] { font-size: 2rem; font-weight: 700; }
+    [data-testid="stMetricValue"] { font-size: 1.9rem; font-weight: 700; }
     [data-testid="stMetricLabel"] { font-size: 0.85rem; }
     .stTabs [data-baseweb="tab-list"] { gap: 1.5rem; }
 </style>
@@ -144,71 +145,93 @@ st.markdown("""
 
 # ── Header ───────────────────────────────────────────────────────────────────
 st.markdown("## 🏛️ DPR Agentic AI — Executive Dashboard")
-st.caption("Sistem Monitoring Isu AKD & Analisis Sentimen Publik — Periode 1 s.d. 17 Agustus 2026")
+st.caption("Sistem Monitoring Isu 24 AKD & Analisis Sentimen IndoBERT — Periode Penuh 1 s.d. 31 Agustus 2026")
 st.markdown("---")
 
 # ── Sidebar Filters ──────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("### 🔍 Filter Data")
+    st.markdown("### 🔍 Pengaturan & Filter Data")
+
+    # Scope selection: Focus on AKD vs All vs Unclassified
+    data_scope = st.radio(
+        "Fokus Cakupan Berita:",
+        [
+            "🏛️ Hanya Berita Terklasifikasi AKD (24 AKD Resmi)",
+            "🌐 Semua Berita (Termasuk Non-AKD / Noise)",
+            "🗑️ Hanya Berita Non-AKD / Noise Terfilter"
+        ],
+        index=0,
+        help="Memisahkan berita yang relevan dengan kewenangan komisi DPR dari berita umum/noise (gosip, resep, trivia, olahraga luar)."
+    )
+
+    # Base filtering based on scope
+    if data_scope == "🏛️ Hanya Berita Terklasifikasi AKD (24 AKD Resmi)":
+        base_df = df[df["is_akd_classified"]].copy() if not df.empty else df
+    elif data_scope == "🗑️ Hanya Berita Non-AKD / Noise Terfilter":
+        base_df = df[~df["is_akd_classified"]].copy() if not df.empty else df
+    else:
+        base_df = df.copy()
 
     # Date filter
     available_dates = ["Semua Tanggal"]
-    if not df.empty and "date_str" in df.columns:
-        available_dates += sorted(df["date_str"].dropna().unique().tolist())
-    selected_date = st.selectbox("Pilih Tanggal Spesifik", available_dates)
+    if not base_df.empty and "date_str" in base_df.columns:
+        available_dates += sorted(base_df["date_str"].dropna().unique().tolist())
+    selected_date = st.selectbox("Pilih Tanggal Publikasi", available_dates)
 
     # Sentiment filter
     sentiment_options = ["Semua", "Positif", "Negatif", "Netral"]
-    selected_sentiment = st.selectbox("Sentimen", sentiment_options)
+    selected_sentiment = st.selectbox("Filter Sentimen (IndoBERT)", sentiment_options)
 
     # AKD filter
-    akd_options = ["Semua AKD"] + sorted(df["primary_akd"].unique().tolist()) if not df.empty else ["Semua AKD"]
-    selected_akd = st.selectbox("Alat Kelengkapan Dewan (AKD)", akd_options)
-
-    # Source type filter
-    source_options = ["Semua Sumber", "news_online", "twitter"]
-    selected_source = st.selectbox("Jenis Sumber", source_options)
+    if not base_df.empty and "primary_akd" in base_df.columns:
+        akd_options = ["Semua AKD"] + sorted(base_df["primary_akd"].unique().tolist())
+    else:
+        akd_options = ["Semua AKD"]
+    selected_akd = st.selectbox("Pilih Komisi / Badan (AKD)", akd_options)
 
     st.markdown("---")
-    st.markdown(f"**Total Data Teranalisis**: `{len(analysis_items):,}` artikel")
-    st.markdown(f"**Total Berita Terkumpul**: `{len(news_items):,}` artikel")
+    classified_count = df["is_akd_classified"].sum() if not df.empty else 0
+    noise_count = len(df) - classified_count if not df.empty else 0
+    st.markdown(f"**Total Artikel Diolah**: `{len(df):,}`")
+    st.markdown(f"🏛️ **Relevan AKD**: `{classified_count:,}` ({(classified_count/max(len(df),1))*100:.1f}%)")
+    st.markdown(f"🗑️ **Noise Terfilter**: `{noise_count:,}` ({(noise_count/max(len(df),1))*100:.1f}%)")
 
-# Apply filters
-filtered_df = df.copy()
+# Apply secondary filters
+filtered_df = base_df.copy()
 if selected_date != "Semua Tanggal" and not filtered_df.empty:
     filtered_df = filtered_df[filtered_df["date_str"] == selected_date]
 if selected_sentiment != "Semua" and not filtered_df.empty:
     filtered_df = filtered_df[filtered_df["sentiment"] == selected_sentiment]
 if selected_akd != "Semua AKD" and not filtered_df.empty:
     filtered_df = filtered_df[filtered_df["primary_akd"] == selected_akd]
-if selected_source != "Semua Sumber" and not filtered_df.empty:
-    filtered_df = filtered_df[filtered_df["source_type"] == selected_source]
 
 # ── KPI Metrics Row ─────────────────────────────────────────────────────────
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-    st.metric("📰 Total Berita", f"{len(filtered_df):,}")
+    st.metric("📰 Total Tampil", f"{len(filtered_df):,}")
 with col2:
-    st.metric("🔬 Teranalisis", f"{len(filtered_df):,}")
+    akd_unique = filtered_df["primary_akd"].nunique() if not filtered_df.empty else 0
+    st.metric("🏛️ AKD Terjangkau", f"{akd_unique} AKD")
 with col3:
     pos_count = len(filtered_df[filtered_df["sentiment"] == "Positif"]) if not filtered_df.empty else 0
-    st.metric("😊 Positif", f"{pos_count:,}")
+    st.metric("😊 Positif (IndoBERT)", f"{pos_count:,}")
 with col4:
     neg_count = len(filtered_df[filtered_df["sentiment"] == "Negatif"]) if not filtered_df.empty else 0
-    st.metric("😠 Negatif", f"{neg_count:,}")
+    st.metric("😠 Negatif (IndoBERT)", f"{neg_count:,}")
 with col5:
     net_count = len(filtered_df[filtered_df["sentiment"] == "Netral"]) if not filtered_df.empty else 0
-    st.metric("😐 Netral", f"{net_count:,}")
+    st.metric("😐 Netral (IndoBERT)", f"{net_count:,}")
 
 st.markdown("---")
 
 # ── Tabs ─────────────────────────────────────────────────────────────────────
-tab_overview, tab_akd, tab_sentiment, tab_data = st.tabs([
+tab_overview, tab_akd, tab_sentiment, tab_noise, tab_data = st.tabs([
     "📊 Ringkasan Umum",
-    "🏛️ Breakdown per AKD",
-    "📈 Analisis Sentimen",
-    "📋 Data Mentah",
+    "🏛️ Breakdown 24 AKD",
+    "📈 Analisis Sentimen IndoBERT",
+    "🗑️ Berita Non-AKD (Noise Terfilter)",
+    "📋 Data Mentah & Pencarian",
 ])
 
 # ── TAB 1: Overview ─────────────────────────────────────────────────────────
@@ -216,11 +239,10 @@ with tab_overview:
     if filtered_df.empty:
         st.warning("Tidak ada data yang sesuai dengan filter yang dipilih.")
     else:
-        # Top 2 columns: Sentiment pie + Top 10 AKD
         c1, c2 = st.columns(2)
 
         with c1:
-            st.markdown("#### Distribusi Sentimen (Jumlah & Persentase)")
+            st.markdown("#### Proporsi Sentimen Publik (IndoBERT)")
             sentiment_counts = filtered_df["sentiment"].value_counts().reset_index()
             sentiment_counts.columns = ["Sentimen", "Jumlah"]
             color_map = {"Positif": "#22c55e", "Negatif": "#ef4444", "Netral": "#94a3b8"}
@@ -232,7 +254,6 @@ with tab_overview:
                 color_discrete_map=color_map,
                 hole=0.45,
             )
-            # Display exact article count + percentage directly on slices
             fig_pie.update_traces(
                 textinfo="label+value+percent",
                 texttemplate="%{label}<br><b>%{value} artikel</b> (%{percent})",
@@ -246,8 +267,8 @@ with tab_overview:
             st.plotly_chart(fig_pie, width="stretch")
 
         with c2:
-            st.markdown("#### Top 10 AKD Paling Disorot Media")
-            akd_counts = filtered_df["primary_akd"].value_counts().head(10).reset_index()
+            st.markdown("#### Top Komisi / Badan Paling Disorot Media")
+            akd_counts = filtered_df[filtered_df["primary_akd"] != "Tidak Terklasifikasi"]["primary_akd"].value_counts().head(10).reset_index()
             akd_counts.columns = ["AKD", "Jumlah"]
             fig_bar = px.bar(
                 akd_counts,
@@ -271,12 +292,11 @@ with tab_overview:
             )
             st.plotly_chart(fig_bar, width="stretch")
 
-        # ── EXACT DAILY VOLUME BAR & SENTIMENT BREAKDOWN CHART ─────────────────
+        # ── Daily Time Series ─────────────────────────────────────────────────
         st.markdown("---")
-        st.markdown("#### 📅 Volume Berita per Tanggal Pasti (Exact Daily Article Count)")
+        st.markdown("#### 📅 Volume Berita per Tanggal Pasti (1–31 Agustus 2026)")
 
         if "date_str" in filtered_df.columns:
-            # Build daily summary with sentiment breakdown
             daily_sentiment = (
                 filtered_df.groupby(["date_str", "sentiment"])
                 .size()
@@ -300,7 +320,6 @@ with tab_overview:
                 labels={"date_str": "Tanggal Publikasi", "Jumlah": "Jumlah Artikel", "sentiment": "Sentimen"},
             )
 
-            # Add total count label above each bar
             for _, row in daily_total.iterrows():
                 fig_daily.add_annotation(
                     x=row["date_str"],
@@ -308,7 +327,7 @@ with tab_overview:
                     text=f"<b>{row['Total']}</b>",
                     showarrow=False,
                     yshift=12,
-                    font=dict(size=12, color="#1e293b"),
+                    font=dict(size=11, color="#1e293b"),
                 )
 
             fig_daily.update_traces(
@@ -317,31 +336,30 @@ with tab_overview:
             fig_daily.update_layout(
                 margin=dict(t=30, b=40, l=20, r=20),
                 height=380,
-                xaxis=dict(type="category", tickangle=-30),
+                xaxis=dict(type="category", tickangle=-35),
                 legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
             )
             st.plotly_chart(fig_daily, width="stretch")
 
-            # Quick summary table for exact daily counts
             with st.expander("📋 Lihat Tabel Rincian Jumlah Artikel per Tanggal"):
                 pivot_daily = pd.crosstab(filtered_df["date_str"], filtered_df["sentiment"], margins=True, margins_name="Total")
                 st.dataframe(pivot_daily, width="stretch")
 
 # ── TAB 2: Per-AKD Breakdown ────────────────────────────────────────────────
 with tab_akd:
-    if filtered_df.empty:
-        st.warning("Tidak ada data yang sesuai.")
+    valid_akd_df = filtered_df[filtered_df["primary_akd"] != "Tidak Terklasifikasi"]
+    if valid_akd_df.empty:
+        st.warning("Tidak ada data komisi/badan yang sesuai.")
     else:
-        st.markdown("#### Distribusi Sentimen per AKD (Heatmap & Matriks Angka)")
+        st.markdown("#### Matriks Sentimen 24 Alat Kelengkapan Dewan (AKD)")
 
-        # Build pivot: AKD vs Sentiment counts
-        pivot = pd.crosstab(filtered_df["primary_akd"], filtered_df["sentiment"])
+        pivot = pd.crosstab(valid_akd_df["primary_akd"], valid_akd_df["sentiment"])
         for col in ["Positif", "Negatif", "Netral"]:
             if col not in pivot.columns:
                 pivot[col] = 0
         pivot = pivot[["Positif", "Netral", "Negatif"]]
         pivot["Total"] = pivot.sum(axis=1)
-        pivot = pivot.sort_values("Total", ascending=False).head(20)
+        pivot = pivot.sort_values("Total", ascending=False).head(24)
         display_pivot = pivot[["Positif", "Netral", "Negatif"]]
 
         fig_heatmap = go.Figure(data=go.Heatmap(
@@ -351,31 +369,31 @@ with tab_akd:
             colorscale="RdYlGn",
             reversescale=True,
             text=display_pivot.values,
-            texttemplate="<b>%{text}</b> artikel",
+            texttemplate="<b>%{text}</b>",
             hovertemplate="<b>AKD:</b> %{y}<br><b>Sentimen:</b> %{x}<br><b>Jumlah:</b> %{z} artikel<extra></extra>",
         ))
         fig_heatmap.update_layout(
             margin=dict(t=20, b=20, l=20, r=20),
-            height=520,
+            height=580,
             yaxis=dict(autorange="reversed"),
         )
         st.plotly_chart(fig_heatmap, width="stretch")
 
-        # Per-AKD detail selector
         st.markdown("---")
-        detail_akd = st.selectbox("Pilih AKD untuk Rincian Detail:", sorted(filtered_df["primary_akd"].unique().tolist()))
-        akd_df = filtered_df[filtered_df["primary_akd"] == detail_akd]
+        akd_choices = sorted(valid_akd_df["primary_akd"].unique().tolist())
+        detail_akd = st.selectbox("Pilih AKD untuk Analisis Detail:", akd_choices)
+        akd_df = valid_akd_df[valid_akd_df["primary_akd"] == detail_akd]
 
         col_a, col_b, col_c = st.columns(3)
         with col_a:
-            st.metric("Total Artikel AKD Ini", f"{len(akd_df)} artikel")
+            st.metric("Total Artikel Komisi Ini", f"{len(akd_df)} artikel")
         with col_b:
             avg_score = akd_df["sentiment_score"].mean() if not akd_df.empty else 0
-            st.metric("Rata-rata Skor Sentimen", f"{avg_score:.2f}")
+            st.metric("Rata-rata Skor Sentimen", f"{avg_score:+.2f}")
         with col_c:
             akd_pos = len(akd_df[akd_df["sentiment"] == "Positif"])
             akd_neg = len(akd_df[akd_df["sentiment"] == "Negatif"])
-            st.metric("Sentimen Positif vs Negatif", f"{akd_pos} / {akd_neg}")
+            st.metric("Rasio Positif vs Negatif", f"{akd_pos} / {akd_neg}")
 
         if not akd_df.empty:
             st.dataframe(
@@ -391,7 +409,7 @@ with tab_sentiment:
     if filtered_df.empty:
         st.warning("Tidak ada data yang sesuai.")
     else:
-        st.markdown("#### Distribusi Skor Sentimen (-1.0 s.d. +1.0)")
+        st.markdown("#### Distribusi Skor Polaritas Sentimen IndoBERT (-1.0 s.d. +1.0)")
         fig_hist = px.histogram(
             filtered_df,
             x="sentiment_score",
@@ -411,8 +429,7 @@ with tab_sentiment:
         )
         st.plotly_chart(fig_hist, width="stretch")
 
-        # Sentiment by media source with exact numbers
-        st.markdown("#### Jumlah Artikel Berdasarkan Portal Media")
+        st.markdown("#### Portofolio Portal Berita Nasional")
         source_sentiment = (
             filtered_df.groupby(["source_name", "sentiment"])
             .size()
@@ -439,8 +456,7 @@ with tab_sentiment:
         )
         st.plotly_chart(fig_source, width="stretch")
 
-        # Top negative articles
-        st.markdown("#### 🚨 Berita dengan Sentimen Paling Negatif")
+        st.markdown("#### 🚨 Top 10 Isu Paling Kritis / Negatif Terdeteksi")
         neg_df = filtered_df[filtered_df["sentiment"] == "Negatif"].sort_values("sentiment_score").head(10)
         if not neg_df.empty:
             for _, row in neg_df.iterrows():
@@ -452,14 +468,37 @@ with tab_sentiment:
         else:
             st.info("Tidak ada berita negatif dalam filter ini.")
 
-# ── TAB 4: Raw Data Table ───────────────────────────────────────────────────
+# ── TAB 4: Noise Filtered Out ────────────────────────────────────────────────
+with tab_noise:
+    noise_df = df[~df["is_akd_classified"]].copy() if not df.empty else pd.DataFrame()
+    st.markdown("### 🗑️ Berita Non-AKD / Noise yang Berhasil Disaring Sistem")
+    st.info(
+        "💡 **Penjelasan Sistem Gatekeeper**: Berita-berita di bawah ini secara otomatis dikeluarkan dari grafik analisis parlemen "
+        "karena tidak bersentuhan dengan kebijakan, anggaran, regulasi, atau tupoksi 24 AKD DPR RI "
+        "(seperti berita resep masakan, tips gadget, gosip hiburan artis, ramalan, atau olahraga internasional)."
+    )
+
+    st.metric("Total Berita Non-AKD Terfilter", f"{len(noise_df):,} artikel")
+
+    if not noise_df.empty:
+        search_noise = st.text_input("🔍 Cari dalam berita non-AKD:", "", key="search_noise")
+        if search_noise:
+            noise_df = noise_df[noise_df["title"].str.contains(search_noise, case=False, na=False)]
+
+        st.dataframe(
+            noise_df[["date_str", "title", "sentiment", "source_name", "url"]].sort_values("date_str", ascending=False),
+            width="stretch",
+            height=450,
+        )
+
+# ── TAB 5: Raw Data Table ───────────────────────────────────────────────────
 with tab_data:
     if filtered_df.empty:
         st.warning("Belum ada data.")
     else:
-        st.markdown(f"#### Data Mentah ({len(filtered_df)} artikel)")
+        st.markdown(f"#### Data Mentah Terfilter ({len(filtered_df):,} artikel)")
 
-        search_query = st.text_input("🔍 Cari kata kunci dalam judul berita:", "")
+        search_query = st.text_input("🔍 Cari kata kunci dalam judul berita:", "", key="search_main")
         display_df = filtered_df.copy()
         if search_query:
             display_df = display_df[display_df["title"].str.contains(search_query, case=False, na=False)]
@@ -472,11 +511,10 @@ with tab_data:
             height=500,
         )
 
-        # Download button
         csv = display_df.to_csv(index=False).encode("utf-8")
         st.download_button(
-            "📥 Download CSV",
+            "📥 Download CSV Data Terfilter",
             csv,
-            "dpr_analysis_export.csv",
+            "dpr_analysis_filtered.csv",
             "text/csv",
         )

@@ -6,8 +6,8 @@
     "published_at": "2026-08-01T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -89,7 +89,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.64,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -114,7 +114,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.84,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -133,7 +133,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -177,7 +177,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -234,7 +234,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -252,8 +252,8 @@
     "published_at": "2026-08-01T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -316,7 +316,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -335,7 +335,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -354,7 +354,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -379,7 +379,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -398,7 +398,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",

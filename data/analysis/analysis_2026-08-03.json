@@ -113,8 +113,8 @@
     "published_at": "2026-08-03T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.65,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -171,7 +171,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -202,7 +202,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -221,7 +221,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -239,8 +239,8 @@
     "published_at": "2026-08-03T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.4,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -259,7 +259,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -290,7 +290,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.58,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -309,7 +309,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -340,7 +340,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -364,8 +364,8 @@
     "published_at": "2026-08-03T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.44,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -384,7 +384,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -433,8 +433,8 @@
     "published_at": "2026-08-03T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.43,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",

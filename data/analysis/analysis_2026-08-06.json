@@ -7,7 +7,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -32,7 +32,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -62,8 +62,8 @@
     "published_at": "2026-08-06T21:46:18+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -87,8 +87,8 @@
     "published_at": "2026-08-06T21:40:35+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -113,7 +113,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.52,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -138,7 +138,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -168,8 +168,8 @@
     "published_at": "2026-08-06T18:41:58+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -188,7 +188,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.64,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -206,8 +206,8 @@
     "published_at": "2026-08-06T16:13:51+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -250,8 +250,8 @@
     "published_at": "2026-08-06T15:32:05+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.4,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -270,7 +270,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -289,7 +289,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.46,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -308,7 +308,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi XI",
@@ -332,8 +332,8 @@
     "published_at": "2026-08-06T12:04:59+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -351,8 +351,8 @@
     "published_at": "2026-08-06T12:03:52+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.41,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -402,7 +402,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -420,8 +420,8 @@
     "published_at": "2026-08-06T09:54:39+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
