@@ -78,6 +78,7 @@ docs/            # Documentation & sprint guides
 - [Dokumentasi Resmi Model IndoBERT Final](docs/DOKUMENTASI_MODEL_INDOBERT_FINAL.md)
 - [Panduan Operasional Sentimen (SI 1 & SI 2)](docs/PANDUAN_OPERASIONAL_SENTIMEN_SI1_SI2.md)
 - [Panduan Task Informatika Sprint 6](docs/PANDUAN_TASK_INFORMATIKA_SPRINT_6.md)
+- [Panduan Task Sistem Informasi Sprint 6](docs/PANDUAN_TASK_SISTEM_INFORMASI_SPRINT_6.md)
 - [Architecture Blueprint](docs/ARCHITECTURE.md)
 - [Agent Design](docs/AGENTS.md)
 - [Database Schema](docs/DATABASE.md)

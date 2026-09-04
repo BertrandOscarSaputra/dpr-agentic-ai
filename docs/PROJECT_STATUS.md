@@ -1,10 +1,11 @@
 # 📋 DPR Agentic AI — Project Status & Structure
 
-> **Terakhir Diperbarui**: 3 September 2026  
+> **Terakhir Diperbarui**: 4 September 2026  
 > **Sprint Aktif**: **Sprint 6 — RecommendationAgent, Self-Correction Critique Loop & Active Contextual Memory** (Hari 51–60)  
 > **Status Build**: ✅ **102/102 Tests Passing (100%)** | 0 Lint Errors | 0 Failures  
 > **Model IndoBERT Sentimen**: ✅ **Terkalibrasi (Akurasi 90.00%, Macro F1 0.8997, INT8 Quantized)** ([Dokumentasi Model](docs/DOKUMENTASI_MODEL_INDOBERT_FINAL.md))  
-> **Volume Data Master**: 📰 **4,511 Berita & Analisis** (Lengkap 31 Partisi Harian: 1–31 Agustus 2026)
+> **Volume Data Master**: 📰 **4,636 Berita & Analisis** (Lengkap 31 Partisi Harian: 1–31 Agustus 2026)  
+> **Status Dashboard**: 🌐 **Streamlit Live (Port 8501)** — 6 Tab Interaktif & Filter Gatekeeper Noise  
 
 ---
 
@@ -159,8 +160,11 @@ dpr-agentic-ai/
 │
 └── docs/                         # 📝 Dokumentasi Teknis
     ├── DAY_TO_DAY_TIMELINE.md    # 📅 Roadmap 120 hari per sprint
+    ├── DOKUMENTASI_MODEL_INDOBERT_FINAL.md # 🤖 Model card resmi IndoBERT
     ├── PANDUAN_TASK_INFORMATIKA_SPRINT_6.md # 🟪 Guide teknis tim Informatika
+    ├── PANDUAN_TASK_SISTEM_INFORMASI_SPRINT_6.md # 📘 Guide teknis tim SI 1 & SI 2
     ├── PANDUAN_OPERASIONAL_SENTIMEN_SI1_SI2.md # 🔵 Guide praktis Zeavani & Marshanda
+    ├── FIGMA_DESIGN_GUIDE.md     # 🎨 Panduan UI/UX 6 Tab Dashboard Streamlit
     ├── PROJECT_OVERVIEW.md       # 🏛️ Ringkasan arsitektur & Autonomy Level
     └── PROJECT_STATUS.md         # 📋 Status pengerjaan real-time
 ```
@@ -174,9 +178,9 @@ dpr-agentic-ai/
 | **Sprint 1** | Inisialisasi & Fondasi Arsitektur | ✅ Selesai | FastAPI backend, PostgreSQL 16, Redis 7, Pydantic v2 schemas. |
 | **Sprint 2** | Model Database & AKD Taxonomy | ✅ Selesai | 24 Portofolio AKD (2024–2029), ORM models, Alembic migrations. |
 | **Sprint 3** | Multi-Source Ingestion & 3-Tier Classifier | ✅ Selesai | 17 RSS Feeds Tier-1, Regex + Gemini + Lexicon 3-Tier Classification. |
-| **Sprint 4** | LangGraph StateGraph & Dynamic Tools | ✅ Selesai | StateGraph dinamis, `@tool` registry, Dead Feed Health Monitor. |
+| **Sprint 4** | LangGraph StateGraph & Dynamic Tools | ✅ Selesai | StateGraph dinamis, `@tool` registry, Dead Feed Health Monitor, Noise Gatekeeper. |
 | **Sprint 5** | Sentiment-Weighted Z-Score & IndoBERT Final | ✅ Selesai | IndoBERT Fine-Tuned (Akurasi 90.00%, F1 0.8997, INT8), Z-Score $Z_{\text{weighted}} \ge 2.0$, Ground Truth 100. |
-| **Sprint 6** | **RecommendationAgent, Critique & Memory** | ⏳ **Aktif** | Formulasi aksi adaptif (RDP, Kunker, Pers), Reflexion Loop, Active Memory 30 hari. |
+| **Sprint 6** | **RecommendationAgent, Critique & Memory** | ⏳ **Aktif** | Formulasi aksi adaptif (RDP, Kunker, Pers), Reflexion Loop, Active Memory 30 hari, Tab Rekomendasi Dashboard. |
 | **Sprint 7** | Human-in-the-Loop Gate & Approval API | 📅 Terjadwal | Workflow status $\text{draft} \rightarrow \text{reviewed} \rightarrow \text{published}$. |
 | **Sprint 8** | Cross-AKD Domino Correlation & Narrative | 📅 Terjadwal | Deteksi efek isu lintas-komisi (Simpul C2) & ringkasan 1-paragraf. |
 | **Sprint 9** | Streamlit Executive UI & RBAC | 📅 Terjadwal | UI/UX berstandar DPR RI, personalized digest, JWT Auth. |
@@ -187,23 +191,23 @@ dpr-agentic-ai/
 ## 📈 Status Kualitas & Metrik Uji
 
 ```text
-============================= 102 passed in 18.06s =============================
+============================= 102 passed in 29.78s =============================
 Status: 100% Lulus (0 Failed, 0 Errors, 1 Deprecation Warning)
 Cakupan:
 ├── Agents        : Supervisor, TrendAgent, AnalysisAgent, NewsCollection, Tools
 ├── Repositories  : ContentRepository, TrendRepository
 ├── Routes        : Agent Routes, Analysis Routes
 ├── Schemas       : Analysis & Content Schemas
-└── Utils         : Benchmark Evaluator (Accuracy 83.33%, Macro F1 0.8354), Validators
+└── Utils         : Benchmark Evaluator (Accuracy 90.00%, Macro F1 0.8997), Validators
 ```
 
 ---
 
-## 👥 Pembagian Peran Tim Aktif
+## 👥 Pembagian Peran Tim Aktif (Sprint 6)
 
-| Nama / Peran | Tanggung Jawab Utama | Deliverable Aktif |
+| Nama / Peran | Tanggung Jawab Utama | Deliverable Aktif Sprint 6 |
 |---|---|---|
-| **Zeavani (SI 1)** | Data & Model Engineering Lead | Menjalankan `build_verified_dataset.py` & Fine-Tuning IndoBERT di Colab T4 GPU. |
-| **Marshanda (SI 2)** | System Analyst & QA Lead | Verifikasi 298 data anotasi manual, pengujian benchmark F1, kuantisasi INT8. |
-| **Inf 1 (Informatika)** | Backend & Database Lead | Membangun `MemoryRepository` 30 hari & endpoint REST API rekomendasi. |
+| **Marshanda / Marsha (SI)** | Database Architect & Executive Dashboard | Model `ContextMemory`, `MemoryRepository`, Seeder 4.636 berita Agustus, dan Tab Rekomendasi di `dashboard/app.py`. |
+| **Zeavani / Zea (SI)** | System Analyst, Legal Rules & QA Lead | Taksonomi Wewenang UU MD3 (`kamus/kebijakan_md3_rules.json`), Rubrik Skor Audit AI ($\ge 75$), dan Skenario Uji QA. |
+| **Inf 1 (Informatika)** | Backend & Database Lead | Endpoint REST API rekomendasi & integrasi PostgreSQL memory. |
 | **Inf 2 (Informatika)** | Agentic AI & Reasoning Lead | Mengembangkan `RecommendationAgent` & Self-Correction Critique Loop di LangGraph. |

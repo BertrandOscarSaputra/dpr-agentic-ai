@@ -1,759 +1,300 @@
-# 🎨 PANDUAN UI/UX DESIGN DASHBOARD — Figma Prototype Specifications
+# 🎨 PANDUAN UI/UX DESIGN DASHBOARD — Figma Prototype & Streamlit Specifications
+## Proyek DPR Agentic AI — Monitoring AKD & Rekomendasi Kebijakan Parlemen 2024–2029
 
-**Platform Target**: Streamlit (Web Dashboard)  
-**Purpose**: Real-time monitoring pemberitaan & opini publik untuk DPR RI  
-**Target Users**: Staf DPR RI Sub. Analisis Media + Unit Kerja (AKD)  
-**Phase**: Sprint 3 (Minggu 9–12)  
+> **Platform Target**: Streamlit Web Dashboard (`dashboard/app.py`) & Prototipe Desain Figma  
+> **Status Proyek**: **Sprint 6** (Bulan 3) — RecommendationAgent, Critique Loop & Contextual Memory  
+> **Ruang Lingkup Data**: 100% Media Berita Nasional Tier-1 (Bebas Twitter/X) | 24 AKD Resmi DPR RI  
+> **Model Sentimen**: IndoBERT Fine-Tuned (Akurasi 90.00%, Macro F1 0.8997, INT8 Quantized)  
+> **Target Pengguna**: Pimpinan DPR RI, Pimpinan Fraksi, Tenaga Ahli (TA) Fraksi, dan Sekretariat Komisi I–XIII  
 
 ---
 
 ## 📑 DAFTAR ISI
 
-1. [Dashboard Overview & App Structure](#1-dashboard-overview--app-structure)
-2. [Page 1: Home (Overview & Dashboard)](#2-page-1-home-overview--dashboard)
-3. [Page 2: AKD Monitor (Per-AKD Detail View)](#3-page-2-akd-monitor-per-akd-detail-view)
-4. [Page 3: Trends & Alerts (Anomaly Detection)](#4-page-3-trends--alerts-anomaly-detection)
-5. [Page 4: Recommendations (Human Workflow)](#5-page-4-recommendations-human-workflow)
-6. [Komponen Global (Sidebar, Header)](#6-komponen-global-sidebar-header)
-7. [Design Tokens (Warna, Tipografi, Spacing, Ikon)](#7-design-tokens-warna-tipografi-spacing-ikon)
-8. [Responsive Design](#8-responsive-design)
-9. [Data Entity Reference](#9-data-entity-reference)
-10. [Referensi: 18 AKD DPR RI](#10-referensi-18-akd-dpr-ri)
-11. [Deliverables Sprint 3](#11-deliverables-sprint-3)
+1. [Struktur Navigasi & Arsitektur 6 Tab](#1-struktur-navigasi--arsitektur-6-tab)
+2. [Sidebar Filter & Gatekeeper Kebijakan](#2-sidebar-filter--gatekeeper-kebijakan)
+3. [Header & Baris 5 KPI Metrics](#3-header--baris-5-kpi-metrics)
+4. [Tab 1: 📊 Ringkasan Umum (Overview)](#4-tab-1--ringkasan-umum-overview)
+5. [Tab 2: 🏛️ Breakdown 24 AKD DPR RI](#5-tab-2-️-breakdown-24-akd-dpr-ri)
+6. [Tab 3: 📈 Analisis Sentimen IndoBERT](#6-tab-3--analisis-sentimen-indobert)
+7. [Tab 4: 🗑️ Berita Non-AKD / Noise Terfilter](#7-tab-4-️-berita-non-akd--noise-terfilter)
+8. [Tab 5: 📋 Data Mentah & Pencarian Artikel](#8-tab-5--data-mentah--pencarian-artikel)
+9. [Tab 6: 🏛️ Rekomendasi Aksi Parlemen (AI-Generated) 🌟](#9-tab-6-️-rekomendasi-aksi-parlemen-ai-generated-)
+10. [Design Tokens (Warna Parlemen, Tipografi, Komponen UI)](#10-design-tokens-warna-parlemen-tipografi-komponen-ui)
+11. [Referensi Resmi: 24 AKD Master DPR RI 2024–2029](#11-referensi-resmi-24-akd-master-dpr-ri-20242029)
+12. [Alur Workflow Human-in-the-Loop (HITL)](#12-alur-workflow-human-in-the-loop-hitl)
 
 ---
 
-## 1. Dashboard Overview & App Structure
+## 1. Struktur Navigasi & Arsitektur 6 Tab
 
-### Sitemap
-```
-Dashboard Agentic AI Monitoring DPR RI
-├── 🏠 Home (Overview)
-├── 🎯 AKD Monitor (Per-AKD detail)
-├── 📈 Trends & Alerts (Anomaly detection)
-├── 📝 Recommendations (Human workflow)
-└── ⚙️ Settings (Optional)
-```
+Dashboard DPR Agentic AI menggunakan struktur **Single-Page Tabbed Layout** berbasis Streamlit (`dashboard/app.py`), memberikan performa cepat tanpa reload halaman berat:
 
-### Navigation
-- **Sidebar** (kiri): Navigasi antar halaman + quick filters
-- **Quick Filters** (sidebar): Date range picker, AKD selector dropdown, sentiment filter
-- **Header Bar** (atas): Logo, judul sistem, timestamp terakhir update
-
----
-
-## 2. Page 1: HOME (Overview & Dashboard)
-
-### Tujuan
-Dashboard utama dengan KPI overview & real-time monitoring untuk manajer/supervisor.
-
-### Wireframe Layout
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🏛️ AGENTIC AI MONITORING DASHBOARD — DPR RI              │
-│  Updated: Today 14:32 | Data Source: Twitter + Berita       │
-└─────────────────────────────────────────────────────────────┘
-
-┌─────────┬──────────┬──────────┬──────────┐
-│📊 2,847 │💬Neg 45% │📈3 Anom  │🚨2 Alert │
-│ +423 vs │ +8% vs   │  2 high  │ Needs    │
-│yesterday│ week avg │  1 med   │ attention│
-└─────────┴──────────┴──────────┴──────────┘
-
-┌──── SENTIMEN DISTRIBUTION ────┬──── TOP 5 AKD TRENDING ────────┐
-│                               │                                │
-│     [Pie Chart]               │  1. 🔴 BURT         ↑↑ 245 tw │
-│   Positif  32%  🟢            │  2. 🟡 Komisi III   ↑  187 tw │
-│   Netral   23%  ⚪            │  3. 🟢 MKD          →  142 tw │
-│   Negatif  45%  🔴            │  4. 🔵 Baleg        ↓   98 tw │
-│                               │  5. 🟣 Komisi VI    ↓   87 tw │
-│                               │                                │
-│                               │  [Lihat Semua 18 AKD »]       │
-└───────────────────────────────┴────────────────────────────────┘
-
-┌──── RECENT ANOMALIES & ALERTS ─────────────────────────────────┐
-│                                                                │
-│  🚨 [HIGH] BURT — Z-Score Spike (2.8)                        │
-│     135 tweets in 4-hour window (avg: 42)                     │
-│     Keywords: "tunjangan DPR", "gaji anggota"                 │
-│     → View Details »                                          │
-│                                                                │
-│  ⚠️ [MEDIUM] Komisi III — Sentiment Shift                    │
-│     Negative sentiment increased 35% in last 24h              │
-│     → View Details »                                          │
-│                                                                │
-│  ℹ️ [LOW] Baleg — Trend Reversal                              │
-│     After 3-day decline, tweet volume increasing              │
-│     → View Details »                                          │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
-
-┌──── SENTIMENT TREND OVER TIME (LINE CHART) ────────────────────┐
-│                                                                │
-│  [7-day line chart — 3 garis warna]                           │
-│  Y-axis: Jumlah tweet                                         │
-│  X-axis: Tanggal (7 hari terakhir)                            │
-│  Garis: 🟢 Positif, ⚪ Netral, 🔴 Negatif                    │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
+```text
+┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ 🏛️ DPR RI AGENTIC AI — SISTEM MONITORING AKD & REKOMENDASI KEBIJAKAN 2024–2029               │
+│ Tanggal Update: Real-time | Sumber: 17+ Portal Berita Nasional | Model: IndoBERT Fine-Tuned    │
+├───────────────────┬─────────────────────────────────────────────────────────────────────────────┤
+│ 🎛️ SIDEBAR FILTER │ 📊 BARIS 5 KARTU KPI UTAMA:                                                 │
+│                   │ [📰 Total Tampil] [🏛️ 24 AKD] [😊 Positif] [😠 Negatif] [😐 Netral]         │
+│ • Filter Lingkup  ├─────────────────────────────────────────────────────────────────────────────┤
+│   - Hanya AKD 🏛️ │ 📑 6 TAB MENU UTAMA:                                                        │
+│   - Semua Berita  │ 1. 📊 Ringkasan Umum (Overview)                                             │
+│   - Berita Non-AKD│ 2. 🏛️ Breakdown 24 AKD DPR RI                                               │
+│ • Filter Tanggal  │ 3. 📈 Analisis Sentimen IndoBERT (Model Card & Akurasi 90%)                 │
+│   (1–31 Agt 2026) │ 4. 🗑️ Berita Non-AKD / Noise Terfilter (Saringan Kuliner/Gosip)             │
+│ • Filter Sentimen │ 5. 📋 Data Mentah & Pencarian Artikel                                       │
+│ • Dropdown 24 AKD │ 6. 🏛️ Rekomendasi Aksi Parlemen (AI-Generated) 🌟 [SPRINT 6 BARU]           │
+└───────────────────┴─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Komponen Detail
+---
 
-#### 2.1 Quick Stats Cards (4 Kolom)
+## 2. Sidebar Filter & Gatekeeper Kebijakan
 
-| Card | Label | Contoh Nilai | Delta | Delta Color |
-|------|-------|-------------|-------|-------------|
-| 1 | 📊 Total Tweets (Today) | `2,847` | `+423 vs yesterday` | Hijau (naik = baik) |
-| 2 | 💬 Sentiment Breakdown | `Negatif 45%` | `+8% vs week avg` | Merah (naik negatif = buruk) |
-| 3 | 📈 Trending | `3 Anomalies` | `2 high, 1 medium` | Abu-abu (info) |
-| 4 | 🚨 Alerts | `2 Critical` | `Needs attention` | Abu-abu (info) |
+Sidebar di sebelah kiri layar berfungsi sebagai pusat kendali data yang dilihat pengguna:
 
-**Desain**: Card dengan border ringan, padding 16px, angka utama **36px Bold**, label 12px Caption, delta 12px dengan warna hijau/merah/abu sesuai konteks.
+### 2.1 Filter Lingkup Berita (Radio Selector)
+* `🏛️ Hanya Berita Terklasifikasi AKD (24 AKD Resmi)` *(Default)*:  
+  Hanya menampilkan berita yang memiliki relevansi kebijakan langsung dengan 24 komisi dan badan DPR RI.
+* `🌐 Semua Berita`:  
+  Menampilkan seluruh dataset mentah termasuk berita hiburan/olahraga.
+* `🗑️ Hanya Berita Non-AKD / Noise Terfilter`:  
+  Area audit untuk memeriksa artikel yang dibuang oleh filter gatekeeper.
+
+### 2.2 Filter Tanggal & Waktu
+* Pilihan cepat: *"Semua Tanggal"* atau tanggal pasti per hari (contoh: `2026-08-20`).
+* Data master mencakup 31 partisi harian penuh bulan Agustus 2026 (4.636 artikel).
+
+### 2.3 Filter Sentimen & 24 AKD
+* **Sentimen**: Multiselect / Selectbox (`Semua`, `Positif`, `Negatif`, `Netral`).
+* **AKD**: Dropdown dinamis 24 AKD DPR RI Periode 2024–2029 (Komisi I s.d. XIII + Badan-Badan).
 
 ---
 
-#### 2.2 Sentiment Pie Chart
+## 3. Header & Baris 5 KPI Metrics
 
-- **Tipe**: Donut / Pie Chart
-- **3 segmen**:
-  - 🟢 Positif (`#2ecc71`) — 32%
-  - ⚪ Netral (`#95a5a6`) — 23%
-  - 🔴 Negatif (`#e74c3c`) — 45%
-- **Judul**: "Distribusi Sentimen Tweets (Semua AKD)"
-- **Hover**: Tooltip menampilkan label + persentase
-- **Tinggi**: 400px
+Di bagian atas layar dashboard, tersaji 5 kartu metrik eksekutif yang langsung menghitung ulang secara real-time saat filter sidebar diubah:
 
----
-
-#### 2.3 Top 5 AKD Trending
-
-**Tipe**: Tabel ranking dengan ikon tren warna-warni
-
-| Kolom | Deskripsi |
-|-------|-----------|
-| Rank | 1–5 (angka) |
-| Status | Emoji warna: 🔴 (spike), 🟡 (naik), 🟢 (stabil), 🔵 (turun) |
-| AKD | Nama AKD |
-| Tweets | Jumlah tweet minggu ini |
-| Trend | Panah: ↑↑, ↑, →, ↓ |
-| Change | Persentase perubahan: `+24%`, `-8%` |
-
-**CTA Button** di bawah: `📋 Lihat Semua 18 AKD` → navigasi ke halaman AKD Monitor
+| Kartu KPI | Ikon | Label | Nilai Dinamis | Keterangan Desain |
+|:---:|:---:|---|---|---|
+| **Card 1** | 📰 | Total Tampil | `4,636 Artikel` | Angka besar 32px Bold, warna teks slate. |
+| **Card 2** | 🏛️ | AKD Terjangkau | `24 AKD` | Indikator keterwakilan komisi parlemen. |
+| **Card 3** | 😊 | Positif (IndoBERT) | `1,248 Artikel` | Warna hijau Emerald (`#22c55e`). |
+| **Card 4** | 😠 | Negatif (IndoBERT) | `1,684 Artikel` | Warna merah Crimson (`#ef4444`). |
+| **Card 5** | 😐 | Netral (IndoBERT) | `1,704 Artikel` | Warna abu-abu Slate (`#94a3b8`). |
 
 ---
 
-#### 2.4 Recent Anomalies & Alerts
+## 4. Tab 1: 📊 Ringkasan Umum (Overview)
 
-**Tipe**: List card dengan severity badge
+Tab pertama menyajikan gambaran makro situasi pemberitaan nasional:
 
-Setiap alert card berisi:
-```
-┌──────────────────────────────────────────┐
-│  [SEVERITY_BADGE] [AKD_NAME] — [TITLE]  │
-│  Deskripsi singkat anomali...            │
-│  Z-Score: 2.8 | Items: 135              │
-│  → View Details »                       │
-└──────────────────────────────────────────┘
-```
+### 4.1 Donut Chart Proporsi Sentimen Publik (Plotly)
+* **Visual**: Donut chart lubang tengah 45% (*hole=0.45*).
+* **Palet Warna**:
+  - Positif: `#22c55e` (Hijau Emerald)
+  - Negatif: `#ef4444` (Merah Bahaya)
+  - Netral: `#94a3b8` (Abu-abu Slate)
+* **Interaktivitas**: Hover tooltip menampilkan jumlah pasti artikel dan persentase proporsi.
 
-**Severity Levels**:
-| Level | Badge | Warna Background | Ikon |
-|-------|-------|-------------------|------|
-| HIGH | `🔴 [HIGH]` | `#fef2f2` (merah muda) | 🚨 |
-| MEDIUM | `🟡 [MEDIUM]` | `#fffbeb` (kuning muda) | ⚠️ |
-| LOW | `ℹ️ [LOW]` | `#eff6ff` (biru muda) | ℹ️ |
+### 4.2 Bar Chart Top 10 AKD Paling Disorot Media
+* **Visual**: Horizontal bar chart peringkat 10 komisi/badan dengan volume pemberitaan tertinggi.
+* **Warna**: Skala gradasi Teal (`Teal`).
+* **Tujuan**: Memberikan sinyal awal komisi mana yang sedang menjadi episentrum perhatian publik.
 
-Maksimal **3 alert** ditampilkan, masing-masing memiliki tombol **"▶ Detail"**.
+### 4.3 Grafik Tren Harian (1–31 Agustus 2026)
+* **Visual**: Stacked Bar Chart harian 31 tanggal berturut-turut.
+* **Informasi**: Naik-turunnya volume harian yang dipecah berdasarkan komposisi sentimen positif, negatif, dan netral.
 
 ---
 
-#### 2.5 Sentiment Trend Line Chart
+## 5. Tab 2: 🏛️ Breakdown 24 AKD DPR RI
 
-- **Tipe**: Line chart dengan area fill
-- **Periode**: 7 hari terakhir
-- **Sumbu X**: Tanggal
-- **Sumbu Y**: Jumlah tweet
-- **3 garis**:
-  - 🟢 Positif (`#2ecc71`, fill transparan)
-  - ⚪ Netral (`#95a5a6`, tanpa fill)
-  - 🔴 Negatif (`#e74c3c`, fill transparan)
-- **Hover mode**: Unified (semua nilai tampil saat hover 1 titik)
-- **Tinggi**: 400px
+Tab khusus untuk melihat kondisi seluruh 24 portofolio AKD DPR RI:
+* **Horizontal Bar Stacked Chart**: Setiap batang mewakili 1 AKD, terbagi menjadi 3 warna segmen (hijau, merah, abu-abu).
+* **Urutan**: Diurutkan dari komisi dengan total sentimen negatif tertinggi (misal: Komisi III Hukum, Komisi XII Energi, Komisi IV Pangan).
+* **Tabel Metrik AKD**: Rincian angka volume, persentase negatif, dan skor Z-Score anomali harian.
 
 ---
 
-## 3. Page 2: AKD MONITOR (Per-AKD Detail View)
+## 6. Tab 3: 📈 Analisis Sentimen IndoBERT
 
-### Tujuan
-Monitoring detail untuk **1 AKD tertentu** — digunakan oleh unit kerja AKD untuk memantau isu mereka.
-
-### Wireframe Layout
-
-```
-┌─────────────────────────────────────────────────────┐
-│  🎯 AKD MONITOR: [Dropdown: Pilih AKD ▼]          │
-│  Tanggal: [Date Range Picker]                      │
-└─────────────────────────────────────────────────────┘
-
-┌──── AKD INFO ───────────────────────────────────────┐
-│  📌 Lingkup Tugas: Pertahanan, Luar Negeri, ...    │
-│  🔑 Keywords: pertahanan, TNI, Kemenhan, ...       │
-└─────────────────────────────────────────────────────┘
-
-┌─────────┬──────────┬──────────┬──────────┐
-│📊 245   │📈 +24%   │💬Neg 58% │🔥 YA    │
-│Tweets   │vs avg    │          │Z: 2.8   │
-│hari ini │          │          │Trending │
-└─────────┴──────────┴──────────┴──────────┘
-
-┌──── SENTIMENT TREND (LINE CHART — 14 hari) ─────────┐
-│  Y: Jumlah tweet | X: Tanggal                       │
-│  3 garis: Positif, Netral, Negatif                   │
-└──────────────────────────────────────────────────────┘
-
-┌──── SENTIMENT DISTRIBUTION (HORIZONTAL BAR) ────────┐
-│  Positif  ███░░░░░░        32 tweets   13%          │
-│  Netral   ██░░░░░░░░░      25 tweets   10%          │
-│  Negatif  █████████░      142 tweets   58%          │
-└──────────────────────────────────────────────────────┘
-
-┌──── TOP KEYWORDS (TAG CLOUD) ────────────────────────┐
-│                                                      │
-│    tunjangan (45)   gaji (38)   fasilitas (32)      │
-│       DPR (28)   anggota (25)   naik (22)           │
-│          ketimpangan (18)   kritik (15)              │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-
-┌──── SAMPLE TWEETS (TABLE) ───────────────────────────┐
-│  Showing 1-10 of 245 | Search: [____________]       │
-│                                                      │
-│  Tanggal      | Author    | Tweet          | Sent.  │
-│  ─────────────┼───────────┼────────────────┼────────│
-│  29 Jul 14:21 | @user1    | "Tunjangan..." | 🔴-0.92│
-│  29 Jul 13:05 | @user2    | "Pemerintah.." | 🔴-0.85│
-│  28 Jul 08:30 | @user3    | "Terima kas.." | 🟢+0.78│
-│                                                      │
-│  [Load More »]                                       │
-└──────────────────────────────────────────────────────┘
-```
-
-### Komponen Detail
-
-#### 3.1 AKD Selector
-- **Tipe**: Dropdown (sidebar atau inline)
-- **Opsi**: 18 AKD dari kamus (lihat [Referensi AKD](#10-referensi-18-akd-dpr-ri))
-- **Format tampilan**: `"Komisi I — Pertahanan, Luar Negeri, Komunikasi dan Informatika"`
-
-#### 3.2 AKD Info Box
-- **2 kolom**: Lingkup Tugas (kiri, lebar) + Keywords (kanan, compact)
-- **Background**: Info blue (`#eff6ff`)
-- **Data**: Diambil dari `kamus/akd_master.json`
-
-#### 3.3 Daily Statistics (4 Metric Cards)
-| Card | Label | Contoh |
-|------|-------|--------|
-| 1 | 📊 Tweets Hari Ini | `245` |
-| 2 | 📈 Change vs Avg | `+24%` |
-| 3 | 💬 % Negatif | `58%` |
-| 4 | 🔥 Trending? | `YA (Z-Score: 2.8)` / `TIDAK` |
-
-#### 3.4 Sentiment Trend Chart
-- **Tipe**: Line chart, 14 hari
-- **3 garis warna** seperti Home
-
-#### 3.5 Sentiment Distribution Bar
-- **Tipe**: Horizontal bar chart
-- **3 bar**: Positif (hijau), Netral (abu), Negatif (merah)
-- **Label**: Nama + jumlah tweet + persentase
-
-#### 3.6 Top Keywords (Tag Cloud)
-- **Tipe**: Tag cloud / word cloud
-- **Font size**: Proporsional terhadap frekuensi
-- **Warna**: Variasi dari primary palette
-- **Data**: Kata kunci paling sering muncul dalam tweet AKD terpilih
-
-#### 3.7 Sample Tweets Table
-
-| Kolom | Tipe | Deskripsi |
-|-------|------|-----------|
-| Tanggal | datetime | Format: `29 Jul 14:21` |
-| Author | string | `@username` atau nama sumber |
-| Tweet | text | Teks dipotong 80 karakter + `...` |
-| Sentimen | badge + skor | `🔴 Negatif (0.92)` / `🟢 Positif (0.78)` |
-
-- **Fitur**: Search box, pagination (10 per halaman), "Load More"
+Tab teknis transparansi AI (*Explainable AI*) bagi analis dan tim penjamin mutu:
+* **Model Card Info**:
+  - Base Architecture: `indobenchmark/indobert-base-p1` (124.7 Juta Parameter)
+  - Evaluasi Uji: Akurasi **90.00%**, Macro F1 **0.8997**, Negative Recall **100.00%**.
+  - Format Deployment: PyTorch INT8 Quantized (Ukuran hemat 230 MB, latensi < 15ms).
+* **Formula Skor Kontinu**:
+  $$\text{Score} = P(\text{Positif}) - P(\text{Negatif}) \in [-1.0, +1.0]$$
+* **Kalibrasi Margin Batas Keputusan**:
+  Menampilkan penjelasan ambang batas $\Delta_{\text{margin}} = P(\text{Positif}) - P(\text{Netral}) \ge 0.12$ untuk mengeliminasi bias bahasa formal protokoler DPR.
 
 ---
 
-## 4. Page 3: TRENDS & ALERTS (Anomaly Detection)
+## 7. Tab 4: 🗑️ Berita Non-AKD / Noise Terfilter
 
-### Tujuan
-Monitor anomali & trend spikes per AKD — untuk quick decision-making.
+Tab transparansi penyaringan gatekeeper kebijakan:
+* **Tujuan**: Membuktikan bahwa sistem tidak memasukkan berita sampah/hiburan ke dalam portofolio komisi dewan.
+* **Kategori yang Disaring**:
+  - Resep makanan & kuliner daerah.
+  - Tips kecantikan, diet, dan ramalan zodiak.
+  - Berita transfer pemain sepak bola & olahraga non-kebijakan.
+  - Gosip perceraian selebriti & rumor gadget.
+* **Daftar Sampel Terfilter**: Tabel 20 artikel non-kebijakan terbaru yang dibuang dengan alasan filternya.
 
-### Wireframe Layout
+---
 
-```
-┌─────────────────────────────────────────────────┐
-│  📈 TRENDS & ANOMALIES MONITOR                 │
-│  Filter: [Date Range] [Severity: All ▼]        │
-└─────────────────────────────────────────────────┘
+## 8. Tab 5: 📋 Data Mentah & Pencarian Artikel
 
-┌──── ACTIVE ANOMALIES ───────────────────────────┐
-│                                                 │
-│  🔴 [HIGH] BURT — Z-Score Spike                │
-│     Detected: 2 jam lalu                       │
-│     Z-Score: 2.8 (threshold: 2.0)              │
-│     245 tweets/4h (avg: 42)                    │
-│     Peak Sentiment: Negatif 65%                │
-│     Keywords: tunjangan, gaji, fasilitas       │
-│     [📋 Lihat Tweets] [✕ Dismiss]              │
-│                                                 │
-│  🟡 [MEDIUM] Komisi III — Sentiment Shift      │
-│     Detected: 8 jam lalu                       │
-│     +35% negative vs 24h avg                   │
-│     78% Negative (was 43%)                     │
-│     Keyword: "polisi korup"                    │
-│     [📋 Lihat Tweets] [✕ Dismiss]              │
-│                                                 │
-│  ℹ️ [LOW] Baleg — Volume Increase              │
-│     Detected: 12 jam lalu                      │
-│     +22% vs 7d avg                             │
-│     98 tweets/day (avg: 80)                    │
-│     Sentiment: Netral (mostly news)            │
-│     [📋 Lihat Tweets] [✕ Dismiss]              │
-│                                                 │
-└─────────────────────────────────────────────────┘
+Tab eksplorasi artikel live untuk staf analis:
+* **Search Bar Interaktif**: Pencarian instan kata kunci pada judul berita.
+* **Filter Portal Berita**: Pilihan portal (Detik, Antara, Tempo, CNN Indonesia, CNBC, Republika, Kompas, dll.).
+* **Tabel Data Interaktif (`st.dataframe`)**:
+  - Kolom: Tanggal, Portal Media, Judul Artikel, Sentimen, Skor Sentimen, AKD Terpeta, dan Link URL asli ke portal berita.
 
-┌──── ANOMALY TIMELINE (7 DAYS) ──────────────────┐
-│                                                 │
-│  [Line chart + scatter markers]                 │
-│  Y: Z-Score | X: Tanggal                       │
-│  Garis abu: Z-Score normal                     │
-│  Bintang merah ★: Titik anomali               │
-│  Garis putus oranye: Threshold (2.0)           │
-│                                                 │
-└─────────────────────────────────────────────────┘
+---
 
-┌──── HISTORICAL COMPARISON ──────────────────────┐
-│                                                 │
-│  Minggu Ini vs Minggu Lalu                     │
-│                                                 │
-│  AKD          | This Week | Last Week | Change │
-│  ─────────────┼───────────┼───────────┼────────│
-│  BURT         |   1,245   |   847     | +47%  │
-│  Komisi III   |    987    |   1,102   | -10%  │
-│  MKD          |    542    |   534     |  +2%  │
-│  Baleg        |    392    |   478     | -18%  │
-│  Komisi VI    |    367    |   412     | -11%  │
-│  ... (18 AKD) |           |           |       │
-│                                                 │
-└─────────────────────────────────────────────────┘
+## 9. Tab 6: 🏛️ Rekomendasi Aksi Parlemen (AI-Generated) 🌟
+
+Ini adalah **fitur unggulan terbaru di Sprint 6** yang mengubah sistem dari alat analisis pasif menjadi asisten pengambil keputusan aktif.
+
+### 9.1 Wireframe & Komponen Visual Kartu Rekomendasi
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ 🔴 TINGKAT URGENSI : TINGGI (Krisis Isu Negatif Terdeteksi)                            │
+│ 🏛️ AKD PENANGGUNG  : Komisi XII (Energi, Sumber Daya Mineral & Lingkungan Hidup)       │
+│ 📌 BENTUK TINDAKAN : Rapat Dengar Pendapat (RDP)                                       │
+│ ⚖️ DASAR WEWENANG  : Pasal 72 ayat (1) huruf b UU No. 17/2014 (UU MD3)                 │
+│ 🛡️ STATUS AUDIT AI : Skor 88/100 (LULUS AUDIT MUTU & KEPATUHAN HUKUM)                  │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ 📋 LATAR BELAKANG & REKAM JEJAK 30 HARI:                                               │
+│ "Berdasarkan memori 30 hari terakhir, Komisi XII memuat 68 berita dengan sentimen       │
+│  82% Negatif. Terjadi lonjakan krisis kelangkaan gas elpiji 3 kg melon di berbagai      │
+│  daerah dengan harga tembus Rp35.000 dan antrean mengular di pangkalan."               │
+│                                                                                        │
+│ 🏢 MITRA KERJA YANG WAJIB DIPANGGIL:                                                   │
+│  1. Direktur Utama PT Pertamina Patra Niaga                                            │
+│  2. Direktur Jenderal Minyak dan Gas Bumi (Dirjen Migas) Kementerian ESDM              │
+│  3. Kepala Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas)                        │
+│                                                                                        │
+│ ✍️ 3 LANGKAH TINDAKAN KONKRET DEWAN:                                                   │
+│  1. Menggelar RDP darurat pada hari Selasa pekan depan pukul 10.00 WIB di Senayan.     │
+│  2. Meminta Pertamina membuka data alokasi kuota sub-penyalur dan pangkalan daerah.   │
+│  3. Mendesak Ditjen Migas & BPH Migas mencabut izin pangkalan yang terbukti curang.    │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ ⚙️ PANEL PERSETUJUAN DEWAN (HUMAN-IN-THE-LOOP):                                        │
+│  [ ✏️ Edit Draf Teks ]      [ 📄 Unduh Lembar Memo PDF ]      [ ✅ SETUJUI & JADWALKAN ] │
+└────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Komponen Detail
+### 9.2 Spesifikasi Badge & Label Kartu
 
-#### 4.1 Active Anomalies Cards
-Setiap card menampilkan:
-
-| Element | Deskripsi |
-|---------|-----------|
-| **Severity Badge** | `🔴 [HIGH]` / `🟡 [MEDIUM]` / `ℹ️ [LOW]` |
-| **AKD Name** | Nama AKD yang mengalami anomali |
-| **Title** | Jenis anomali: "Z-Score Spike" / "Sentiment Shift" / "Volume Increase" |
-| **Detected** | Waktu relatif: "2 jam lalu" |
-| **3 Metric Mini-Cards** | Z-Score, Tweet Count, Window time |
-| **Sentiment Breakdown** | Distribusi sentimen dalam window anomali |
-| **Top Keywords** | 3 kata kunci teratas |
-| **Action Buttons** | `📋 Lihat Tweets` + `✕ Dismiss` |
-
-**Severity Threshold**:
-- **HIGH**: z_score > 3.0
-- **MEDIUM**: z_score > 2.0
-- **LOW**: z_score > 1.5
+1. **Badge Tingkat Urgensi**:
+   - 🔴 **Tinggi (`#ef4444`)**: Isu anomali krisis publik dengan sentimen negatif $> 60\%$ atau lonjakan $Z_{\text{weighted}} \ge 2.0$.
+   - 🟡 **Sedang (`#f59e0b`)**: Isu penting yang sedang berkembang dalam 7 hari terakhir.
+   - 🟢 **Rutin (`#10b981`)**: Pemantauan program kerja rutin berkala komisi.
+2. **Badge Bentuk Aksi Parlemen**:
+   - **RDP**: Rapat Dengar Pendapat dengan Dirjen kementerian atau Dirut BUMN.
+   - **Raker**: Rapat Kerja dengan Menteri Kabinet.
+   - **RDPU**: Rapat Dengar Pendapat Umum dengan asosiasi warga/LSM/pakar.
+   - **Kunker**: Sidak Kunjungan Kerja Lapangan ke lokasi bencana/masalah.
+   - **Panja**: Pembentukan Panitia Kerja Investigasi isu sistemik berkepanjangan.
+   - **Rilis Pers**: Pernyataan sikap resmi fraksi dalam waktu $< 24$ jam.
+3. **Badge Skor Audit Mutu AI**:
+   - Menampilkan nilai evaluasi mandiri (*Critique Loop*): skor minimal **$\ge 75/100$** agar draf dinyatakan layak tayang.
+4. **Dasar Hukum Wewenang UU MD3**:
+   - Setiap draf wajib mencantumkan nomor pasal wewenang dari UU No. 17 Tahun 2014 jo UU No. 13 Tahun 2019.
 
 ---
 
-#### 4.2 Anomaly Timeline Chart
+## 10. Design Tokens (Warna Parlemen, Tipografi, Komponen UI)
 
-- **Tipe**: Line chart + scatter overlay
-- **Y-axis**: Z-Score
-- **X-axis**: Tanggal (7 hari)
-- **Elemen**:
-  - Garis abu-abu: Z-Score over time
-  - Titik ★ merah: Anomali terdeteksi (`is_anomaly=true`)
-  - Garis putus-putus oranye: Threshold line di `z_score = 2.0`
-- **Tinggi**: 400px
+### 10.1 Palet Warna Utama (Parliamentary Palette)
 
----
+| Nama Token | Hex Code | Tipe Penggunaan |
+|---|:---:|---|
+| **DPR Forest Green** | `#1B4D3E` | Warna identitas utama DPR RI, header, tombol primer. |
+| **DPR Gold Accent** | `#D4AF37` | Aksen lambang Garuda, penanda status kehormatan dewan. |
+| **Positive Emerald** | `#22c55e` | Sentimen positif, tombol approval berhasil. |
+| **Negative Crimson** | `#ef4444` | Sentimen negatif, badge urgensi krisis, anomali lonjakan. |
+| **Neutral Slate** | `#94a3b8` | Sentimen netral, border sekunder, teks caption. |
+| **Deep Dark Background**| `#0F172A` | Latar belakang mode gelap (*Dark Mode Slate*). |
+| **Card Surface Light** | `#F8FAFC` | Kontainer kartu mode terang (*Clean White Grey*). |
 
-#### 4.3 Historical Comparison Table
-
-| Kolom | Deskripsi |
-|-------|-----------|
-| AKD | Nama AKD |
-| This Week | Jumlah tweet minggu ini |
-| Last Week | Jumlah tweet minggu lalu |
-| Change % | Persentase perubahan (`+47%`, `-10%`) |
-
-- **Sorting**: Default by `Change %` descending
-- **Highlight**: Baris dengan change > +30% diberi warna background kuning muda
+### 10.2 Tipografi
+* **Font Family**: Inter, Roboto, atau System Sans-Serif.
+* **Heading 1**: 28px – 32px Bold (Judul Dasbor).
+* **Heading 2**: 20px – 24px SemiBold (Judul Tab & Kartu).
+* **Body Text**: 14px Regular (Uraian narasi berita).
+* **Badge Text**: 12px Bold Uppercase (Status urgensi & bentuk tindakan).
+* **Legal Caption**: 11px Italic (Rujukan pasal UU MD3).
 
 ---
 
-## 5. Page 4: RECOMMENDATIONS (Human Workflow)
+## 11. Referensi Resmi: 24 AKD Master DPR RI 2024–2029
 
-### Tujuan
-Human-in-the-loop workflow untuk draft → review → publish rekomendasi AI.
+Gunakan taksonomi master 24 AKD resmi ini dalam komponen dropdown Figma dan Streamlit:
 
-### Wireframe Layout
+### 13 Komisi Parlemen (Portofolio Resmi 2024–2029)
+1. **Komisi I**: Pertahanan, Hubungan Luar Negeri, Informatika, Siber, Intelijen.
+2. **Komisi II**: Pemerintahan Dalam Negeri, Otonomi Daerah, ASN, Pemilu, IKN.
+3. **Komisi III**: Penegakan Hukum, Kepolisian, Kejaksaan, KPK, Peradilan, HAM.
+4. **Komisi IV**: Pertanian, Pangan, Kehutanan, Kelautan & Perikanan.
+5. **Komisi V**: Infrastruktur, Transportasi, Perumahan Rakyat, BMKG, Basarnas.
+6. **Komisi VI**: Perdagangan, BUMN, Koperasi, UMKM, Investasi, Standardisasi.
+7. **Komisi VII**: Industri Manufaktur, Ekonomi Kreatif, Pariwisata, Seni Budaya.
+8. **Komisi VIII**: Agama, Penyelenggaraan Haji, Sosial, Kebencanaan, Pemberdayaan Perempuan & Anak.
+9. **Komisi IX**: Kesehatan, Ketenagakerjaan, BPJS Kesehatan & Ketenagakerjaan, Kependudukan.
+10. **Komisi X**: Pendidikan Dasar/Tinggi, Riset, Olahraga, Perpustakaan Nasional.
+11. **Komisi XI**: Keuangan Negara, Perbankan, APBN, Pajak, Bea Cukai, BI, OJK, LPS.
+12. **Komisi XII**: Energi Baru Terbarukan (EBT), Migas, Ketenagalistrikan, Tambang, Lingkungan Hidup.
+13. **Komisi XIII**: Reformasi Regulasi, Hak Asasi Manusia, Imigrasi, Pemasyarakatan.
 
-```
-┌─────────────────────────────────────────────────┐
-│  📝 RECOMMENDATIONS WORKFLOW                   │
-│  Filter: [📝 Draft | ✅ Reviewed | 📢 Published]│
-└─────────────────────────────────────────────────┘
-
-┌──── DRAFT RECOMMENDATIONS ──────────────────────┐
-│                                                 │
-│  📝 [1] BURT — Respons Spike Tunjangan         │
-│     Generated: 2 jam lalu | Status: DRAFT      │
-│     Trigger: Z-Score Spike (2.8)               │
-│                                                 │
-│     📋 SUMMARY:                                │
-│     Sentimen negatif terhadap tunjangan DPR     │
-│     mengalami lonjakan signifikan dalam 4 jam   │
-│     terakhir. Tweet mencakup kritik             │
-│     ketimpangan pendapatan dan seruan reformasi. │
-│                                                 │
-│     💡 RECOMMENDATION:                         │
-│     1. Siapkan statement official BURT         │
-│     2. Koordinasi dengan Komite Tunjangan      │
-│     3. Monitor sentimen 24 jam ke depan        │
-│     4. Pertimbangkan press release penjelasan   │
-│                                                 │
-│     [✅ Approve & Publish] [✏️ Edit] [❌ Reject] │
-│                                                 │
-└─────────────────────────────────────────────────┘
-
-┌──── REVIEWED (WAITING PUBLISH) ─────────────────┐
-│                                                 │
-│  ✅ [1] MKD — Respons Pelanggaran Etika        │
-│     Reviewed By: John Doe | 1 hari lalu        │
-│     Status: REVIEWED (siap publikasi)          │
-│     [📢 Publish] [✏️ Edit] [❌ Reject]          │
-│                                                 │
-└─────────────────────────────────────────────────┘
-
-┌──── PUBLISHED (ARCHIVE) ────────────────────────┐
-│                                                 │
-│  ▸ 🔗 Baleg — Strategi RUU Baru               │
-│    Published: 3 hari lalu | By: Jane Smith     │
-│    [↩️ Revert to Draft] [📋 Archive]            │
-│                                                 │
-│  ▸ 🔗 Komisi IX — Isu BPJS Kesehatan          │
-│    Published: 5 hari lalu | By: John Doe       │
-│    [↩️ Revert to Draft] [📋 Archive]            │
-│                                                 │
-└─────────────────────────────────────────────────┘
-```
-
-### Komponen Detail
-
-#### 5.1 Status Filter Tabs
-```
-[ 📝 Draft (3) | ✅ Reviewed (1) | 📢 Published (5) | Semua ]
-```
-- **Tipe**: Tab navigation atau segmented control
-- **Badge angka**: Jumlah rekomendasi per status
-
-#### 5.2 Draft Recommendation Card
-
-| Element | Deskripsi |
-|---------|-----------|
-| **Header** | `[ID] AKD_NAME — Judul Singkat` |
-| **Metadata** | Generated time + Status badge "DRAFT" |
-| **Trigger** | Informasi anomali yang memicu rekomendasi |
-| **Summary Box** | Rangkuman situasi (text area, read-only) |
-| **Recommendation Box** | Saran tindakan AI (numbered list) |
-| **Action Buttons** | `✅ Approve & Publish`, `✏️ Edit`, `❌ Reject` |
-
-**Status Badge Colors**:
-| Status | Badge Color | Text |
-|--------|------------|------|
-| Draft | 🟡 Kuning | `DRAFT` |
-| Reviewed | 🔵 Biru | `REVIEWED` |
-| Published | 🟢 Hijau | `PUBLISHED` |
+### Pimpinan & 10 Badan/Panitia Parlemen
+14. **Pimpinan DPR RI**: Ketua DPR RI (Puan Maharani) & 4 Wakil Ketua DPR RI.
+15. **Baleg**: Badan Legislasi.
+16. **Banggar**: Badan Anggaran.
+17. **BAKN**: Badan Akuntabilitas Keuangan Negara.
+18. **BKSAP**: Badan Kerja Sama Antar-Parlemen.
+19. **BURT**: Badan Urusan Rumah Tangga.
+20. **MKD**: Mahkamah Kehormatan Dewan.
+21. **Bamus**: Badan Musyawarah.
+22. **BAM**: Badan Aspirasi Masyarakat *(Baru Periode 2024–2029)*.
+23. **BPKPH**: Badan Penyelenggara Keuangan Haji.
+24. **Pansus**: Panitia Khusus DPR RI.
 
 ---
 
-#### 5.3 Edit Recommendation Modal / Form
+## 12. Alur Workflow Human-in-the-Loop (HITL)
 
-| Field | Input Type | Deskripsi |
-|-------|-----------|-----------|
-| Summary | Textarea (150px tinggi) | Teks rangkuman — editable |
-| Recommendation | Textarea (200px tinggi) | Teks rekomendasi — editable |
-| Buttons | 2 kolom | `💾 Save Changes` + `❌ Cancel` |
+Sistem menjamin anggota dewan memiliki kontrol penuh atas rekomendasi yang dikeluarkan:
 
----
+```mermaid
+sequenceDiagram
+    autonumber
+    participant AI as 🤖 RecommendationAgent
+    participant Audit as 🛡️ Critique Loop (AI)
+    participant UI as 🖥️ Executive Dashboard
+    participant User as 👤 Anggota / Pimpinan Dewan
+    participant Sekr as 📑 Sekretariat Komisi
 
-#### 5.4 Published Recommendations (Archive)
-- **Tipe**: Expandable / accordion list
-- **Saat tertutup**: AKD name + tanggal + reviewer
-- **Saat terbuka**: Menampilkan summary + recommendation lengkap
-- **Action**: `↩️ Revert to Draft`, `📋 Archive`
-
----
-
-## 6. Komponen Global (Sidebar, Header)
-
-### 6.1 Sidebar Navigasi
-
-```
-┌─────────────────────────┐
-│  🏛️ DPR Agentic AI      │
-│  Monitoring Dashboard    │
-│─────────────────────────│
-│  🏠 Home                 │
-│  🎯 AKD Monitor          │
-│  📈 Trends & Alerts      │
-│  📝 Rekomendasi          │
-│─────────────────────────│
-│  FILTERS                 │
-│  📅 Tanggal: [picker]   │
-│  🏷️ AKD: [dropdown]     │
-│  💬 Sentimen: [filter]  │
-│─────────────────────────│
-│  ⚙️ Settings             │
-└─────────────────────────┘
+    AI->>Audit: Kirim draf rekomendasi kebijakan
+    Audit->>Audit: Evaluasi 4 pilar mutu (Target Skor >= 75)
+    alt Skor < 75
+        Audit-->>AI: Tolak draf & beri catatan revisi (Maks 3x)
+    else Skor >= 75
+        Audit->>UI: Tayangkan kartu status "draft_ready" di Tab 6
+    end
+    UI->>User: Anggota dewan membaca kartu & dasar hukum
+    alt Opsi A: Perlu Koreksi
+        User->>UI: Klik "✏️ Edit Draf" & sesuaikan redaksi
+    else Opsi B: Setuju Langsung
+        User->>UI: Klik "✅ SETUJUI & JADWALKAN"
+    end
+    UI->>Sekr: Kirim memo persetujuan resmi untuk penerbitan surat RDP/Kunker
 ```
 
-### 6.2 Header Bar
-
-```
-┌────────────────────────────────────────────────────────────────┐
-│  🏛️ AGENTIC AI MONITORING DASHBOARD — DPR RI                 │
-│  Updated: Today 14:32 | Data Source: Twitter + Berita Online  │
-└────────────────────────────────────────────────────────────────┘
-```
-
-- **Background**: Primary Navy (`#1F4E5F`)
-- **Teks**: Putih
-- **Font**: Title 20px Bold
-
 ---
-
-## 7. Design Tokens (Warna, Tipografi, Spacing, Ikon)
-
-### 7.1 Color Palette
-
-#### Primary Colors
-| Token | Hex | Penggunaan |
-|-------|-----|------------|
-| `primary` | `#1F4E5F` | Header, sidebar, tombol utama |
-| `primary-light` | `#2A6F7F` | Hover state |
-| `background` | `#F8F9FA` | Background halaman |
-| `surface` | `#FFFFFF` | Card, panel |
-| `border` | `#E5E7EB` | Garis pembatas |
-
-#### Sentiment Colors
-| Token | Hex | Penggunaan |
-|-------|-----|------------|
-| `sentiment-positive` | `#2ecc71` | Positif — chart, badge, teks |
-| `sentiment-neutral` | `#95a5a6` | Netral — chart, badge, teks |
-| `sentiment-negative` | `#e74c3c` | Negatif — chart, badge, teks |
-
-#### Alert / Severity Colors
-| Token | Hex | Penggunaan |
-|-------|-----|------------|
-| `alert-high` | `#e74c3c` | 🔴 HIGH severity |
-| `alert-high-bg` | `#fef2f2` | Background card HIGH |
-| `alert-medium` | `#f39c12` | 🟡 MEDIUM severity |
-| `alert-medium-bg` | `#fffbeb` | Background card MEDIUM |
-| `alert-low` | `#3498db` | ℹ️ LOW severity |
-| `alert-low-bg` | `#eff6ff` | Background card LOW |
-
-#### Trend Arrow Colors
-| Token | Hex | Arti |
-|-------|-----|------|
-| `trend-spike` | `#e74c3c` | 🔴 Volume sangat tinggi |
-| `trend-up` | `#f39c12` | 🟡 Naik |
-| `trend-stable` | `#2ecc71` | 🟢 Stabil |
-| `trend-down` | `#3498db` | 🔵 Turun |
-
----
-
-### 7.2 Typography
-
-| Element | Size | Weight | Color |
-|---------|------|--------|-------|
-| Page Title | 32px | Bold (700) | `#1F4E5F` |
-| Section Subtitle | 24px | Bold (700) | `#1F4E5F` |
-| Heading (H3) | 20px | Semi-bold (600) | `#1F4E5F` |
-| Body | 14px | Regular (400) | `#374151` |
-| Caption / Label | 12px | Regular (400) | `#9CA3AF` |
-| Metric Number | 36px | Bold (700) | `#111827` |
-| Badge Text | 11px | Semi-bold (600) | Putih |
-
-**Font Family**: `Inter`, `Plus Jakarta Sans`, atau system default Streamlit
-
----
-
-### 7.3 Spacing
-
-| Token | Value | Penggunaan |
-|-------|-------|------------|
-| `page-padding` | 24px | Padding kiri-kanan halaman |
-| `section-gap` | 16px | Jarak antar section |
-| `card-padding` | 16px | Padding internal card |
-| `card-radius` | 8px | Border radius card |
-| `button-padding` | 12px 24px | Padding tombol |
-| `button-radius` | 6px | Border radius tombol |
-
----
-
-### 7.4 Icon Reference
-
-| Ikon | Konteks |
-|------|---------|
-| 📊 | Statistics / Data |
-| 💬 | Comments / Sentiment |
-| 📈 | Trends / Growth |
-| 🚨 | Alerts / Critical |
-| 🔥 | Hot / Popular / Trending |
-| 🎯 | Target / AKD |
-| 📝 | Document / Draft |
-| ✅ | Approved / Done |
-| ❌ | Rejected / Error |
-| ⚠️ | Warning / Medium |
-| ℹ️ | Info / Low severity |
-| 🔑 | Keywords |
-| 📌 | Pinned info |
-| 📅 | Date / Calendar |
-
----
-
-## 8. Responsive Design
-
-### Desktop (1200px+)
-- Full 3-column layout
-- Charts: full width
-- Tables: scrollable horizontal
-
-### Tablet (768px – 1200px)
-- 2-column layout
-- Charts: stacked vertikal
-- Tables: compact mode
-
-### Mobile (<768px)
-- 1-column layout
-- Charts: scroll horizontal
-- Cards: full width stacked
-
----
-
-## 9. Data Entity Reference
-
-Data yang tersedia dari backend untuk setiap komponen:
-
-### ContentItem
-| Field | Tipe | Deskripsi |
-|-------|------|-----------|
-| `source_type` | string | `"twitter"` / `"news"` |
-| `source_name` | string | `"@dpr_ri"`, `"Detik.com"` |
-| `title` | string | Judul / 80 char pertama tweet |
-| `content` | text | Teks lengkap |
-| `url` | string | URL sumber |
-| `published_at` | datetime | Waktu terbit |
-
-### AnalysisResult
-| Field | Tipe | Deskripsi |
-|-------|------|-----------|
-| `sentiment` | string | `"Positif"` / `"Negatif"` / `"Netral"` |
-| `sentiment_score` | float | `-1.0` s/d `+1.0` |
-
-### AKDMapping
-| Field | Tipe | Deskripsi |
-|-------|------|-----------|
-| `akd_name` | string | `"Komisi I"`, `"BURT"` |
-| `akd_type` | string | `"Komisi"` / `"Badan"` / `"Pimpinan"` |
-| `confidence_score` | float | `0.0` – `1.0` |
-
-### TrendWindow
-| Field | Tipe | Deskripsi |
-|-------|------|-----------|
-| `akd_name` | string | Nama AKD |
-| `window_start` / `window_end` | datetime | Rentang jendela |
-| `item_count` | integer | Jumlah konten |
-| `z_score` | float | >2.0 = anomali |
-| `is_anomaly` | boolean | Flag anomali |
-
-### Recommendation
-| Field | Tipe | Deskripsi |
-|-------|------|-----------|
-| `akd_name` | string | AKD tujuan |
-| `summary` | text | Rangkuman isu |
-| `recommendation` | text | Saran AI |
-| `status` | string | `"draft"` / `"reviewed"` / `"published"` |
-| `reviewed_by` | string | Nama reviewer |
-
----
-
-## 10. Referensi: 18 AKD DPR RI
-
-Gunakan data ini sebagai opsi dropdown, label chart, dan data dummy Figma:
-
-### Badan (6)
-| Nama | Nama Lengkap |
-|------|-------------|
-| BURT | Badan Urusan Rumah Tangga |
-| MKD | Mahkamah Kehormatan Dewan |
-| Baleg | Badan Legislasi |
-| BAKN | Badan Akuntabilitas Keuangan Negara |
-| BKSAP | Badan Kerja Sama Antar-Parlemen |
-| BPKPH | Badan Pembentukan Komisi Pemilihan, Penyelenggaraan dan Pengawasan Pemilu |
-
-### Komisi (11)
-| Nama | Bidang |
-|------|--------|
-| Komisi I | Pertahanan, Luar Negeri, Komunikasi dan Informatika |
-| Komisi II | Dalam Negeri, Otonomi Daerah, Aparatur Negara dan Agraria |
-| Komisi III | Hukum, HAM dan Keamanan |
-| Komisi IV | Pertanian, Kehutanan, Kelautan dan Pangan |
-| Komisi V | Perhubungan, Pekerjaan Umum, Perumahan Rakyat |
-| Komisi VI | Perdagangan, Perindustrian, Investasi, Koperasi, UKM dan BUMN |
-| Komisi VII | Energi, Sumber Daya Mineral, Riset dan Teknologi, Lingkungan Hidup |
-| Komisi VIII | Agama, Sosial dan Pemberdayaan Perempuan |
-| Komisi IX | Kesehatan, Ketenagakerjaan dan Kependudukan |
-| Komisi X | Pendidikan, Kebudayaan, Pariwisata dan Ekonomi Kreatif |
-| Komisi XI | Keuangan, Perencanaan Pembangunan Nasional, Perbankan |
-
-### Pimpinan (1)
-| Nama | Nama Lengkap |
-|------|-------------|
-| Pimpinan DPR | Pimpinan Dewan Perwakilan Rakyat |
-
----
-
-## 11. Deliverables Sprint 3
-
-**Minggu 9–10:**
-- [ ] Prototype Figma: Homepage (KPIs + charts)
-- [ ] Prototype Figma: AKD Monitor page
-- [ ] Design system (colors, typography, components)
-
-**Minggu 11:**
-- [ ] Prototype Figma: Trends & Alerts page
-- [ ] Prototype Figma: Recommendations page
-- [ ] Interactive prototyping (click flows)
-
-**Minggu 12:**
-- [ ] UI/UX polish & review
-- [ ] Handoff ke developer (Streamlit implementation)
-- [ ] User acceptance testing (UAT) dengan stakeholder
-
----
-
-**Next Step:** Mulai desain Figma halaman Home dengan SI 1 pada Sprint 3 Minggu 9! 🚀
+*Panduan Desain Resmi UI/UX Dashboard DPR Agentic AI — Parlemen Indonesia 2024–2029*
