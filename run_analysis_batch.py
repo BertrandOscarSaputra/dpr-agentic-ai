@@ -32,7 +32,9 @@ def _load_json_items(directory: Path) -> list[dict[str, Any]]:
     if not directory.exists():
         return items
 
-    for json_file in sorted(directory.glob("*.json")):
+    for json_file in sorted(directory.rglob("*.json")):
+        if json_file.name.endswith("_output.json"):
+            continue
         try:
             with open(json_file, encoding="utf-8") as f:
                 data = json.load(f)
@@ -50,7 +52,7 @@ def _load_already_analyzed_urls() -> set[str]:
     if not ANALYSIS_DIR.exists():
         return analyzed_urls
 
-    for json_file in ANALYSIS_DIR.glob("*.json"):
+    for json_file in ANALYSIS_DIR.rglob("*.json"):
         try:
             with open(json_file, encoding="utf-8") as f:
                 data = json.load(f)

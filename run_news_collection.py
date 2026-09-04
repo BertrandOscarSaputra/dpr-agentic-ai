@@ -69,11 +69,14 @@ async def main():
 
     print("📁 Partitioning articles by published date:")
     for date_key, date_articles in sorted(by_date.items()):
-        daily_file = OUTPUT_DIR / f"news_{date_key}.json"
+        month_str = date_key[:7] if len(date_key) >= 7 else "misc"
+        month_dir = OUTPUT_DIR / month_str
+        month_dir.mkdir(parents=True, exist_ok=True)
+        daily_file = month_dir / f"news_{date_key}.json"
         with open(daily_file, "w", encoding="utf-8") as f:
             json.dump(date_articles, f, ensure_ascii=False, indent=2)
             f.flush()
-        print(f"   • {date_key}: {len(date_articles)} articles -> '{daily_file.name}'")
+        print(f"   • {date_key}: {len(date_articles)} articles -> '{month_str}/{daily_file.name}'")
 
     # Save all combined articles to news_output.json
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
