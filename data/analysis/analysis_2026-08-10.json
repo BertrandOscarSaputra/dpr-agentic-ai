@@ -472,8 +472,8 @@
     "published_at": "2026-08-10T10:20:03+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.31,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -535,8 +535,8 @@
     "published_at": "2026-08-10T10:11:07+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.39,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1260,8 +1260,8 @@
     "published_at": "2026-08-10T10:30:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.29,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -1556,8 +1556,8 @@
     "published_at": "2026-08-10T09:09:40+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.31,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1631,8 +1631,8 @@
     "published_at": "2026-08-10T09:01:29+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.39,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1884,8 +1884,8 @@
     "published_at": "2026-08-10T06:50:18+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.33,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2811,8 +2811,8 @@
     "published_at": "2026-08-10T05:15:34+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.39,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -2867,8 +2867,8 @@
     "published_at": "2026-08-10T04:43:24+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.34,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2924,8 +2924,8 @@
     "published_at": "2026-08-10T11:05:57+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.39,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -3182,7 +3182,7 @@
     "published_at": "2026-08-10T10:48:12+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.5,
     "akd_mappings": [
       {
@@ -3668,7 +3668,7 @@
     "published_at": "2026-08-10T09:03:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.47,
     "akd_mappings": [
       {
@@ -4411,7 +4411,7 @@
     "published_at": "2026-08-10T10:49:46+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.43,
     "akd_mappings": [
       {
@@ -4430,8 +4430,8 @@
     "published_at": "2026-08-10T10:36:55+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.38,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -4726,8 +4726,8 @@
     "published_at": "2026-08-10T09:03:53+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.39,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",

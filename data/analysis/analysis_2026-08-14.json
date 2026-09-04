@@ -1141,8 +1141,8 @@
     "published_at": "2026-08-14T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.06,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -1380,7 +1380,7 @@
     "published_at": "2026-08-14T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.45,
     "akd_mappings": [
       {
@@ -1443,7 +1443,7 @@
     "published_at": "2026-08-14T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.42,
     "akd_mappings": [
       {
@@ -2179,8 +2179,8 @@
     "published_at": "2026-08-14T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
-    "sentiment_score": 0.34,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -2425,7 +2425,7 @@
     "published_at": "2026-08-14T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.42,
     "akd_mappings": [
       {

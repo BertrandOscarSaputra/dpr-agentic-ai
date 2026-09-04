@@ -1,0 +1,39 @@
+{
+  "total_items": 11,
+  "akd_stats": {
+    "Komisi I": {
+      "total": 10,
+      "positif": 0,
+      "netral": 10,
+      "negatif": 0
+    },
+    "Komisi X": {
+      "total": 1,
+      "positif": 0,
+      "netral": 1,
+      "negatif": 0
+    }
+  },
+  "effective_volumes": {
+    "Komisi I": 10.0,
+    "Komisi X": 1.0
+  },
+  "anomalies": [
+    {
+      "akd_name": "Komisi I",
+      "count": 10,
+      "effective_volume": 10.0,
+      "positif_count": 0,
+      "netral_count": 10,
+      "negatif_count": 0,
+      "negative_ratio": 0.0,
+      "z_score": 2.69,
+      "mean": 0.46,
+      "threshold": 1.0,
+      "severity": "HIGH",
+      "is_sentiment_driven": false
+    }
+  ],
+  "anomaly_count": 1,
+  "analyzed_at": "2026-09-03T14:17:55.577200+00:00"
+}

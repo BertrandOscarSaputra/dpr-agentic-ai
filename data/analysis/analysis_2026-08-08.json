@@ -302,8 +302,8 @@
     "published_at": "2026-08-08T15:03:06+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.29,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -327,8 +327,8 @@
     "published_at": "2026-08-08T14:46:30+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.38,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",

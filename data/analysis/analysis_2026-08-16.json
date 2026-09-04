@@ -6,8 +6,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -89,7 +89,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.64,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -114,7 +114,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.84,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -133,7 +133,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -177,7 +177,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -234,7 +234,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -252,8 +252,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -316,7 +316,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -335,7 +335,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -354,7 +354,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -379,7 +379,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -398,7 +398,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -423,7 +423,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.62,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -441,8 +441,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -461,7 +461,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -486,7 +486,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.57,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -505,7 +505,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.42,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -524,7 +524,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -543,7 +543,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.78,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -692,8 +692,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -712,7 +712,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -755,8 +755,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.44,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -774,8 +774,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -794,7 +794,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -969,8 +969,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.65,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1027,7 +1027,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1058,7 +1058,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1077,7 +1077,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1095,8 +1095,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.4,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1115,7 +1115,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1146,7 +1146,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.58,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1165,7 +1165,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1196,7 +1196,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1220,8 +1220,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.44,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1240,7 +1240,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1290,7 +1290,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.43,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1308,8 +1308,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -1327,8 +1327,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.53,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1346,8 +1346,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -1365,8 +1365,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -1415,8 +1415,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -1440,8 +1440,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.46,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -1459,8 +1459,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1498,7 +1498,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.58,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -1516,8 +1516,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1535,8 +1535,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1554,8 +1554,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -1573,8 +1573,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.42,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1617,8 +1617,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -1656,7 +1656,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.63,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1674,8 +1674,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1693,8 +1693,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Detik.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.36,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1713,7 +1713,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -1731,8 +1731,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.7,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1750,8 +1750,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -1769,8 +1769,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1800,8 +1800,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.75,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1831,8 +1831,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.29,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -1851,7 +1851,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -1889,7 +1889,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -1914,7 +1914,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -1944,8 +1944,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -1969,8 +1969,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -1995,7 +1995,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.52,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2020,7 +2020,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -2050,8 +2050,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2070,7 +2070,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.64,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2088,8 +2088,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -2132,8 +2132,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.4,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2152,7 +2152,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -2171,7 +2171,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.46,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2190,7 +2190,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi XI",
@@ -2214,8 +2214,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -2234,7 +2234,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.41,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2284,7 +2284,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -2302,8 +2302,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -2322,7 +2322,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -2341,7 +2341,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -2385,7 +2385,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -2410,7 +2410,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.72,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2429,7 +2429,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -2453,8 +2453,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -2472,8 +2472,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -2497,8 +2497,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2517,7 +2517,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.43,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",
@@ -2536,7 +2536,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.2,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -2555,7 +2555,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.78,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2580,7 +2580,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.86,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2599,7 +2599,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.85,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2618,7 +2618,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2637,7 +2637,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.86,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2655,8 +2655,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -2675,7 +2675,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.87,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2694,7 +2694,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -2713,7 +2713,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.36,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -2738,7 +2738,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.75,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2807,7 +2807,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -2875,8 +2875,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2894,8 +2894,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2913,8 +2913,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.83,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -2938,8 +2938,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -2958,7 +2958,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.88,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -3021,7 +3021,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3039,8 +3039,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3058,8 +3058,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.47,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -3084,7 +3084,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.79,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3103,7 +3103,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.83,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3122,7 +3122,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.76,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3140,8 +3140,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.49,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -3159,8 +3159,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3185,7 +3185,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.6,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3254,7 +3254,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.54,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3374,7 +3374,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.84,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3392,8 +3392,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3411,8 +3411,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -3437,7 +3437,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.32,
+    "sentiment_score": -0.76,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3455,8 +3455,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.57,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -3481,7 +3481,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.78,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3512,7 +3512,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.56,
+    "sentiment_score": -0.55,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3531,7 +3531,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.81,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3625,7 +3625,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -3644,7 +3644,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.76,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3663,7 +3663,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi XI",
@@ -3682,7 +3682,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -3732,7 +3732,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3750,8 +3750,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",
@@ -3795,7 +3795,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.79,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -3825,8 +3825,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -3845,7 +3845,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.66,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3864,7 +3864,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -3883,7 +3883,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.66,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -3902,7 +3902,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -3920,8 +3920,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -3940,7 +3940,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.42,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -3959,7 +3959,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -3977,8 +3977,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -3997,7 +3997,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.41,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -4015,8 +4015,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.66,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -4054,7 +4054,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.39,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -4073,7 +4073,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -4092,7 +4092,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.51,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4111,7 +4111,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4149,7 +4149,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4168,7 +4168,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.43,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -4192,8 +4192,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -4231,7 +4231,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -4255,8 +4255,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -4275,7 +4275,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4299,8 +4299,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -4318,8 +4318,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -4337,8 +4337,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -4382,7 +4382,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -4412,8 +4412,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -4432,7 +4432,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.63,
     "akd_mappings": [
       {
         "akd_name": "Komisi XIII",
@@ -4451,7 +4451,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -4470,7 +4470,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4494,8 +4494,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -4520,7 +4520,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.79,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -4538,8 +4538,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.4,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -4602,7 +4602,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.44,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -4620,8 +4620,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -4640,7 +4640,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.83,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -4659,7 +4659,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -4714,8 +4714,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4733,8 +4733,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -4759,7 +4759,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -4778,7 +4778,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -4797,7 +4797,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -4822,7 +4822,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -4866,7 +4866,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.83,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4884,8 +4884,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.76,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -4929,7 +4929,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -4948,7 +4948,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -4973,7 +4973,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.62,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -5010,8 +5010,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -5030,7 +5030,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.62,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5068,7 +5068,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5086,8 +5086,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -5111,8 +5111,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.27,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5167,8 +5167,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.34,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -5193,7 +5193,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.66,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5212,7 +5212,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5236,8 +5236,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -5350,7 +5350,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.64,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -5400,7 +5400,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.7,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -5418,8 +5418,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -5482,7 +5482,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5501,7 +5501,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.64,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5526,7 +5526,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.78,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5570,7 +5570,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.75,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5588,8 +5588,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5608,7 +5608,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5626,8 +5626,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -5646,7 +5646,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5665,7 +5665,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.57,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -5709,7 +5709,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -5765,8 +5765,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5784,8 +5784,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -5848,7 +5848,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.63,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5898,7 +5898,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -5916,8 +5916,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.23,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -5936,7 +5936,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.75,
     "akd_mappings": [
       {
         "akd_name": "Komisi VII",
@@ -5955,7 +5955,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.46,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -5985,8 +5985,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
-    "sentiment_score": 0.32,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.12,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -6010,8 +6010,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tempo.co",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6036,7 +6036,7 @@
     "source_type": "news_online",
     "source_name": "Tempo.co",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.79,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -6055,7 +6055,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.32,
+    "sentiment_score": -0.55,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -6098,8 +6098,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -6118,7 +6118,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.41,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6137,7 +6137,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.79,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -6161,8 +6161,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -6180,8 +6180,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.13,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -6199,8 +6199,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6224,8 +6224,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6244,7 +6244,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.32,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -6282,7 +6282,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.11,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -6301,7 +6301,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -6320,7 +6320,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -6338,8 +6338,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -6369,8 +6369,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.12,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -6420,7 +6420,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -6438,8 +6438,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.33,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -6458,7 +6458,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -6501,8 +6501,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -6533,7 +6533,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.62,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -6551,8 +6551,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.78,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -6577,7 +6577,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -6601,8 +6601,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6620,8 +6620,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -6639,8 +6639,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6658,8 +6658,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -6678,7 +6678,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.45,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6696,8 +6696,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -6716,7 +6716,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -6734,8 +6734,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.03,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -6754,7 +6754,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6784,8 +6784,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -6803,8 +6803,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -6822,8 +6822,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -6842,7 +6842,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.79,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -6860,8 +6860,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.38,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -6879,8 +6879,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -6904,8 +6904,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -6923,8 +6923,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -6961,8 +6961,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -6986,8 +6986,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Positif",
+    "sentiment_score": 0.71,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7005,8 +7005,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7024,8 +7024,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -7043,8 +7043,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi XI",
@@ -7068,8 +7068,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
     "akd_mappings": [
       {
         "akd_name": "Komisi XI",
@@ -7094,7 +7094,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -7112,8 +7112,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -7150,8 +7150,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Positif",
+    "sentiment_score": 0.42,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7170,7 +7170,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -7188,8 +7188,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -7208,7 +7208,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.59,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7227,7 +7227,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.78,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7265,7 +7265,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7283,8 +7283,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -7309,7 +7309,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.49,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -7333,8 +7333,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi VII",
@@ -7352,8 +7352,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -7377,8 +7377,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -7408,8 +7408,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7490,8 +7490,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -7515,8 +7515,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -7534,8 +7534,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -7553,8 +7553,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -7649,7 +7649,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.37,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7687,7 +7687,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.84,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -7724,8 +7724,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7768,8 +7768,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.34,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -7812,8 +7812,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7832,7 +7832,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.88,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -7856,8 +7856,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -7881,8 +7881,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.44,
     "akd_mappings": [
       {
         "akd_name": "Komisi XI",
@@ -7900,8 +7900,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -7919,8 +7919,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7963,8 +7963,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.37,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -7982,8 +7982,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.62,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8020,8 +8020,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8040,7 +8040,7 @@
     "source_type": "news_online",
     "source_name": "Antaranews.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi VII",
@@ -8059,7 +8059,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.75,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -8103,7 +8103,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.79,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -8127,8 +8127,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.38,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8146,8 +8146,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -8178,7 +8178,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.45,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -8197,7 +8197,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -8222,7 +8222,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.81,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -8241,7 +8241,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.6,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",
@@ -8259,8 +8259,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.46,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8278,8 +8278,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.56,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -8342,7 +8342,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -8360,8 +8360,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -8380,7 +8380,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.52,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -8404,8 +8404,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -8423,8 +8423,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -8449,7 +8449,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8467,8 +8467,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.51,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -8486,8 +8486,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.51,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8505,8 +8505,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -8537,7 +8537,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -8555,8 +8555,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -8599,8 +8599,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -8649,8 +8649,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8668,8 +8668,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.4,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -8693,8 +8693,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8713,7 +8713,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",
@@ -8731,8 +8731,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.36,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8750,8 +8750,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -8769,8 +8769,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -8807,8 +8807,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -8827,7 +8827,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.63,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8846,7 +8846,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.72,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -8883,8 +8883,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8921,8 +8921,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -8940,8 +8940,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -8997,8 +8997,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -9017,7 +9017,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment_score": -0.53,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9041,8 +9041,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.42,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -9085,8 +9085,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -9105,7 +9105,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.79,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9123,8 +9123,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.45,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -9162,7 +9162,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.69,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9186,8 +9186,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.38,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -9211,8 +9211,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -9237,7 +9237,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9281,7 +9281,7 @@
     "source_type": "news_online",
     "source_name": "Viva.co.id",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.14,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -9305,8 +9305,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -9325,7 +9325,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.84,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9363,7 +9363,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.4,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -9388,7 +9388,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.66,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -9406,8 +9406,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -9445,7 +9445,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.56,
+    "sentiment_score": -0.83,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9464,7 +9464,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.81,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -9483,7 +9483,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.73,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9526,8 +9526,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9546,7 +9546,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.83,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9564,8 +9564,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -9583,8 +9583,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -9609,7 +9609,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.86,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",
@@ -9627,8 +9627,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -9647,7 +9647,7 @@
     "source_type": "news_online",
     "source_name": "CNN Indonesia",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.75,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -9703,8 +9703,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -9747,8 +9747,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.42,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -9766,8 +9766,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -9810,8 +9810,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -9829,8 +9829,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Liputan6.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -9855,7 +9855,7 @@
     "source_type": "news_online",
     "source_name": "Liputan6.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.33,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -9923,8 +9923,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.35,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -9961,8 +9961,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.42,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -9987,7 +9987,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.64,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10005,8 +10005,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -10031,7 +10031,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -10056,7 +10056,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.88,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -10080,8 +10080,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.37,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10100,7 +10100,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10119,7 +10119,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -10137,8 +10137,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -10176,7 +10176,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.55,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -10201,7 +10201,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.5,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10239,7 +10239,7 @@
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.53,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -10301,8 +10301,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Tribunnews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10358,8 +10358,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10377,8 +10377,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.58,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10396,8 +10396,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10415,8 +10415,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.42,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10454,7 +10454,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10472,8 +10472,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -10511,7 +10511,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.49,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10529,8 +10529,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.58,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -10554,8 +10554,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -10574,7 +10574,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.26,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -10593,7 +10593,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.66,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -10611,8 +10611,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -10636,8 +10636,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.32,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -10667,8 +10667,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.49,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -10687,7 +10687,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.47,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10724,8 +10724,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -10743,8 +10743,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -10763,7 +10763,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.45,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",
@@ -10793,8 +10793,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.78,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -10837,8 +10837,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10857,7 +10857,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.76,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10875,8 +10875,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
     "akd_mappings": [
       {
         "akd_name": "Komisi VI",
@@ -10906,8 +10906,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi XII",
@@ -10925,8 +10925,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.4,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -10944,8 +10944,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -10963,8 +10963,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11008,7 +11008,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.82,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11027,7 +11027,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -11045,8 +11045,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.7,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -11071,7 +11071,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.78,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11090,7 +11090,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.73,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11109,7 +11109,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.81,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11127,8 +11127,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11147,7 +11147,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.77,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -11184,8 +11184,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -11203,8 +11203,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.62,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -11228,8 +11228,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
     "akd_mappings": [
       {
         "akd_name": "Komisi IV",
@@ -11260,7 +11260,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -11278,8 +11278,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11303,8 +11303,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11323,7 +11323,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.43,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11342,7 +11342,7 @@
     "source_type": "news_online",
     "source_name": "Mediaindonesia.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11361,7 +11361,7 @@
     "source_type": "news_online",
     "source_name": "Sindonews.com",
     "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment_score": 0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11380,7 +11380,7 @@
     "source_type": "news_online",
     "source_name": "Sindonews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.38,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -11410,8 +11410,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.31,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -11430,7 +11430,7 @@
     "source_type": "news_online",
     "source_name": "Sindonews.com",
     "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment_score": 0.43,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -11468,7 +11468,7 @@
     "source_type": "news_online",
     "source_name": "Sindonews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.41,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11511,8 +11511,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11530,8 +11530,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -11575,7 +11575,7 @@
     "source_type": "news_online",
     "source_name": "Sindonews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.74,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -11593,8 +11593,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -11613,7 +11613,7 @@
     "source_type": "news_online",
     "source_name": "Sindonews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.81,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -11637,8 +11637,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -11668,8 +11668,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11687,8 +11687,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.47,
     "akd_mappings": [
       {
         "akd_name": "Komisi VIII",
@@ -11763,8 +11763,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Negatif",
+    "sentiment_score": -0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11782,8 +11782,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
     "akd_mappings": [
       {
         "akd_name": "Komisi X",
@@ -11807,8 +11807,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -11832,8 +11832,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Positif",
+    "sentiment_score": 0.33,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -11852,7 +11852,7 @@
     "source_type": "news_online",
     "source_name": "Sindonews.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.68,
     "akd_mappings": [
       {
         "akd_name": "Komisi IX",
@@ -11876,8 +11876,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -11895,8 +11895,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.46,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -11914,8 +11914,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Netral",
-    "sentiment_score": 0.0,
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -11933,8 +11933,8 @@
     "published_at": "2026-08-16T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Sindonews.com",
-    "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
     "akd_mappings": [
       {
         "akd_name": "Komisi I",
@@ -11953,7 +11953,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.59,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -11972,7 +11972,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.5,
+    "sentiment_score": -0.58,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",
@@ -12041,7 +12041,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.71,
     "akd_mappings": [
       {
         "akd_name": "Komisi III",
@@ -12060,7 +12060,7 @@
     "source_type": "news_online",
     "source_name": "Detik.com",
     "sentiment": "Negatif",
-    "sentiment_score": -0.8,
+    "sentiment_score": -0.89,
     "akd_mappings": [
       {
         "akd_name": "Komisi V",

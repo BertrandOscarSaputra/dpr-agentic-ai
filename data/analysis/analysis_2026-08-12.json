@@ -176,7 +176,7 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.44,
     "akd_mappings": [
       {
@@ -251,7 +251,7 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.43,
     "akd_mappings": [
       {
@@ -270,7 +270,7 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.42,
     "akd_mappings": [
       {
@@ -472,7 +472,7 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.45,
     "akd_mappings": [
       {
@@ -605,8 +605,8 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Antaranews.com",
-    "sentiment": "Positif",
-    "sentiment_score": 0.39,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -958,7 +958,7 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.4,
     "akd_mappings": [
       {
@@ -1172,8 +1172,8 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.37,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Komisi II",
@@ -2171,8 +2171,8 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
-    "sentiment_score": 0.29,
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
     "akd_mappings": [
       {
         "akd_name": "Tidak Terklasifikasi",
@@ -2348,7 +2348,7 @@
     "published_at": "2026-08-12T12:00:00+07:00",
     "source_type": "news_online",
     "source_name": "Viva.co.id",
-    "sentiment": "Positif",
+    "sentiment": "Netral",
     "sentiment_score": 0.47,
     "akd_mappings": [
       {

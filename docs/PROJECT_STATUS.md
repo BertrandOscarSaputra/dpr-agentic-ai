@@ -1,8 +1,9 @@
 # 📋 DPR Agentic AI — Project Status & Structure
 
-> **Terakhir Diperbarui**: 1 September 2026  
+> **Terakhir Diperbarui**: 3 September 2026  
 > **Sprint Aktif**: **Sprint 6 — RecommendationAgent, Self-Correction Critique Loop & Active Contextual Memory** (Hari 51–60)  
 > **Status Build**: ✅ **102/102 Tests Passing (100%)** | 0 Lint Errors | 0 Failures  
+> **Model IndoBERT Sentimen**: ✅ **Terkalibrasi (Akurasi 90.00%, Macro F1 0.8997, INT8 Quantized)** ([Dokumentasi Model](docs/DOKUMENTASI_MODEL_INDOBERT_FINAL.md))  
 > **Volume Data Master**: 📰 **4,511 Berita & Analisis** (Lengkap 31 Partisi Harian: 1–31 Agustus 2026)
 
 ---
@@ -174,7 +175,7 @@ dpr-agentic-ai/
 | **Sprint 2** | Model Database & AKD Taxonomy | ✅ Selesai | 24 Portofolio AKD (2024–2029), ORM models, Alembic migrations. |
 | **Sprint 3** | Multi-Source Ingestion & 3-Tier Classifier | ✅ Selesai | 17 RSS Feeds Tier-1, Regex + Gemini + Lexicon 3-Tier Classification. |
 | **Sprint 4** | LangGraph StateGraph & Dynamic Tools | ✅ Selesai | StateGraph dinamis, `@tool` registry, Dead Feed Health Monitor. |
-| **Sprint 5** | Sentiment-Weighted Z-Score & Ground Truth | ✅ Selesai | Formula $Z_{\text{weighted}} \ge 2.0$ ($k=1.5$), Ground Truth 100, Evaluator F1. |
+| **Sprint 5** | Sentiment-Weighted Z-Score & IndoBERT Final | ✅ Selesai | IndoBERT Fine-Tuned (Akurasi 90.00%, F1 0.8997, INT8), Z-Score $Z_{\text{weighted}} \ge 2.0$, Ground Truth 100. |
 | **Sprint 6** | **RecommendationAgent, Critique & Memory** | ⏳ **Aktif** | Formulasi aksi adaptif (RDP, Kunker, Pers), Reflexion Loop, Active Memory 30 hari. |
 | **Sprint 7** | Human-in-the-Loop Gate & Approval API | 📅 Terjadwal | Workflow status $\text{draft} \rightarrow \text{reviewed} \rightarrow \text{published}$. |
 | **Sprint 8** | Cross-AKD Domino Correlation & Narrative | 📅 Terjadwal | Deteksi efek isu lintas-komisi (Simpul C2) & ringkasan 1-paragraf. |

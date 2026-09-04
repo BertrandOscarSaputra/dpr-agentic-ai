@@ -125,13 +125,19 @@ class AnalysisAgent:
                 with torch.no_grad():
                     outputs = self.indobert_model(**inputs)
                     probs = F.softmax(outputs.logits, dim=-1).squeeze()
-                    pred_id = int(torch.argmax(outputs.logits, dim=-1).item())
                     p_neg = float(probs[0].item())
                     p_net = float(probs[1].item())
                     p_pos = float(probs[2].item())
 
-                id2label = {0: "Negatif", 1: "Netral", 2: "Positif"}
-                label = id2label.get(pred_id, "Netral")
+                # Calibrated decision boundary:
+                # Requires Positif probability to exceed Netral by at least 0.12 margin
+                # to prevent polite/administrative parliamentary reports from being misclassified as positive.
+                if p_neg > p_pos and p_neg > p_net:
+                    label = "Negatif"
+                elif p_pos > p_net and (p_pos - p_net) >= 0.12:
+                    label = "Positif"
+                else:
+                    label = "Netral"
 
                 # Continuous polarity score: Positif prob - Negatif prob
                 score = round(p_pos - p_neg, 2)
@@ -141,6 +147,7 @@ class AnalysisAgent:
                 return label, score
             except Exception as exc:
                 logger.warning("IndoBERT inference error (%s), falling back to lexicon.", exc)
+
 
 
         # Tier 2: Offline Deterministic Lexicon Fallback

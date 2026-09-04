@@ -75,6 +75,7 @@ docs/            # Documentation & sprint guides
 - [Project Overview](docs/PROJECT_OVERVIEW.md)
 - [Project Status](docs/PROJECT_STATUS.md)
 - [Day-to-Day Timeline](docs/DAY_TO_DAY_TIMELINE.md)
+- [Dokumentasi Resmi Model IndoBERT Final](docs/DOKUMENTASI_MODEL_INDOBERT_FINAL.md)
 - [Panduan Operasional Sentimen (SI 1 & SI 2)](docs/PANDUAN_OPERASIONAL_SENTIMEN_SI1_SI2.md)
 - [Panduan Task Informatika Sprint 6](docs/PANDUAN_TASK_INFORMATIKA_SPRINT_6.md)
 - [Architecture Blueprint](docs/ARCHITECTURE.md)
