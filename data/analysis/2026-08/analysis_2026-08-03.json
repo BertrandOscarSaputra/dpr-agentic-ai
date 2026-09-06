@@ -1,0 +1,448 @@
+[
+  {
+    "title": "Di Hambalang, Prabowo Kumpulkan Mantan Ajudan dan Pengawal Saat Aktif TNI",
+    "content": "Di Hambalang, Prabowo Kumpulkan Mantan Ajudan dan Pengawal Saat Aktif TNI",
+    "url": "https://news.detik.com/berita/d-8390604/di-hambalang-prabowo-kumpulkan-mantan-ajudan-dan-pengawal-saat-aktif-tni",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Prabowo Rapat 'Maraton' di Hambalang, Bahas Geopolitik hingga Kesiapan Lebaran",
+    "content": "Prabowo Rapat 'Maraton' di Hambalang, Bahas Geopolitik hingga Kesiapan Lebaran",
+    "url": "https://news.detik.com/berita/d-8390597/prabowo-rapat-maraton-di-hambalang-bahas-geopolitik-hingga-kesiapan-lebaran",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Perumda Pasar Jaya Gelar Bazar Prime Ramadan di Balkot, Catat Tanggalnya",
+    "content": "Perumda Pasar Jaya Gelar Bazar Prime Ramadan di Balkot, Catat Tanggalnya",
+    "url": "https://news.detik.com/berita/d-8390586/perumda-pasar-jaya-gelar-bazar-prime-ramadan-di-balkot-catat-tanggalnya",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Cak Imin Bicara soal Indonesia Gabung Board of Peace",
+    "content": "Video Cak Imin Bicara soal Indonesia Gabung Board of Peace",
+    "url": "https://20.detik.com/detikupdate/20260308-260308207/-video-cak-imin-bicara-soal-indonesia-gabung-board-of-peace",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video: Kisah Tukang Servis Bedug di Ponorogo Ramai Order Jelang Lebaran",
+    "content": "Video: Kisah Tukang Servis Bedug di Ponorogo Ramai Order Jelang Lebaran",
+    "url": "https://20.detik.com/detikupdate/20260308-260308208/video-kisah-tukang-servis-bedug-di-ponorogo-ramai-order-jelang-lebaran",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Gegara Sopir Mengantuk, Truk Muatan Hebel Tabrak Warung dan 3 Motor di Bogor",
+    "content": "Gegara Sopir Mengantuk, Truk Muatan Hebel Tabrak Warung dan 3 Motor di Bogor",
+    "url": "https://news.detik.com/berita/d-8390571/gegara-sopir-mengantuk-truk-muatan-hebel-tabrak-warung-dan-3-motor-di-bogor",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.65,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Dinamika Sikap Iran ke Negara Tetangga Imbas Perang Lawan Israel-AS",
+    "content": "Dinamika Sikap Iran ke Negara Tetangga Imbas Perang Lawan Israel-AS",
+    "url": "https://news.detik.com/internasional/d-8390562/dinamika-sikap-iran-ke-negara-tetangga-imbas-perang-lawan-israel-as",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Swara Jakarta '80S Rilis Single 'Betawi Mash Up', Padukan 2 Lagu Tradisional",
+    "content": "Swara Jakarta '80S Rilis Single 'Betawi Mash Up', Padukan 2 Lagu Tradisional",
+    "url": "https://news.detik.com/berita/d-8390544/swara-jakarta-80s-rilis-single-betawi-mash-up-padukan-2-lagu-tradisional",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Banjir Rendam Sejumlah Wilayah Tangerang, Polisi Turun Tangan Evakuasi Warga",
+    "content": "Banjir Rendam Sejumlah Wilayah Tangerang, Polisi Turun Tangan Evakuasi Warga",
+    "url": "https://news.detik.com/berita/d-8390533/banjir-rendam-sejumlah-wilayah-tangerang-polisi-turun-tangan-evakuasi-warga",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Cabut Laporan, Pasutri Diduga Curi Makanan dan Nabilah O'brien Berakhir Damai",
+    "content": "Cabut Laporan, Pasutri Diduga Curi Makanan dan Nabilah O'brien Berakhir Damai",
+    "url": "https://news.detik.com/berita/d-8390531/cabut-laporan-pasutri-diduga-curi-makanan-dan-nabilah-obrien-berakhir-damai",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Kabar Terbaru dari Polisi soal Penahanan Richard Lee",
+    "content": "Kabar Terbaru dari Polisi soal Penahanan Richard Lee",
+    "url": "https://news.detik.com/berita/d-8390517/kabar-terbaru-dari-polisi-soal-penahanan-richard-lee",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Mendagri Minta Kepala Daerah Tetap Siaga di Wilayahnya Saat Libur Lebaran",
+    "content": "Mendagri Minta Kepala Daerah Tetap Siaga di Wilayahnya Saat Libur Lebaran",
+    "url": "https://news.detik.com/berita/d-8390505/mendagri-minta-kepala-daerah-tetap-siaga-di-wilayahnya-saat-libur-lebaran",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Gunung Sampah di Bantargebang Longsor, 3 Orang Tewas",
+    "content": "Video Gunung Sampah di Bantargebang Longsor, 3 Orang Tewas",
+    "url": "https://20.detik.com/detikupdate/20260308-260308174/video-gunung-sampah-di-bantargebang-longsor-3-orang-tewas",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Polisi: Ada Taburan Kopi di Jasad Wanita Tinggal Tulang di Depok",
+    "content": "Polisi: Ada Taburan Kopi di Jasad Wanita Tinggal Tulang di Depok",
+    "url": "https://news.detik.com/berita/d-8390479/polisi-ada-taburan-kopi-di-jasad-wanita-tinggal-tulang-di-depok",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.58,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Korban Tewas Longsor Gunung Sampah Bantargebang: Sopir Truk-Pemilik Warung",
+    "content": "Korban Tewas Longsor Gunung Sampah Bantargebang: Sopir Truk-Pemilik Warung",
+    "url": "https://news.detik.com/berita/d-8390469/korban-tewas-longsor-gunung-sampah-bantargebang-sopir-truk-pemilik-warung",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.77,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Kemlu Ungkap Kondisi 4 WNI di Kapal Musaffah 2 yang Meledak di Selat Hormuz",
+    "content": "Kemlu Ungkap Kondisi 4 WNI di Kapal Musaffah 2 yang Meledak di Selat Hormuz",
+    "url": "https://news.detik.com/berita/d-8390441/kemlu-ungkap-kondisi-4-wni-di-kapal-musaffah-2-yang-meledak-di-selat-hormuz",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Trump Sesumbar soal Opsi Kerahkan Pasukan Darat: Iran Bisa Hancur",
+    "content": "Video Trump Sesumbar soal Opsi Kerahkan Pasukan Darat: Iran Bisa Hancur",
+    "url": "https://20.detik.com/detikupdate/20260308-260308162/video-trump-sesumbar-soal-opsi-kerahkan-pasukan-darat-iran-bisa-hancur",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.44,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Polda Banten Evakuasi Balita dari Banjir di Cibeber Kota Cilegon",
+    "content": "Polda Banten Evakuasi Balita dari Banjir di Cibeber Kota Cilegon",
+    "url": "https://news.detik.com/berita/d-8390422/polda-banten-evakuasi-balita-dari-banjir-di-cibeber-kota-cilegon",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Kemenag Rilis Panduan Takbiran di Bali Jika Berbarengan dengan Nyepi",
+    "content": "Kemenag Rilis Panduan Takbiran di Bali Jika Berbarengan dengan Nyepi",
+    "url": "https://news.detik.com/berita/d-8390420/kemenag-rilis-panduan-takbiran-di-bali-jika-berbarengan-dengan-nyepi",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "BPJPH Siapkan UPT di Kalimantan Barat, Perkuat Ekosistem Halal Perbatasan",
+    "content": "BPJPH Siapkan UPT di Kalimantan Barat, Perkuat Ekosistem Halal Perbatasan",
+    "url": "https://news.detik.com/berita/d-8390397/bpjph-siapkan-upt-di-kalimantan-barat-perkuat-ekosistem-halal-perbatasan",
+    "published_at": "2026-08-03T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  }
+]

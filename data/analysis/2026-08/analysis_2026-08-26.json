@@ -1,0 +1,2473 @@
+[
+  {
+    "title": "Diskon 50% Biaya Layanan buat Seller Toko Online Belum Berlaku, Ada Apa?",
+    "content": "Ini kan tinggal permasalahan ada teknis saja nih, ini permasalahan teknis antara kami, sistem kami dengan sistem yang ada di e-commerce, ujar Maman.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642104/diskon-50-biaya-layanan-buat-seller-toko-online-belum-berlaku-ada-apa",
+    "published_at": "2026-08-26T07:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:51.420584+00:00"
+  },
+  {
+    "title": "Pola Liburan Berubah, Pelaku Usaha Bidik Pasar Wellness",
+    "content": "Perubahan tren wisatawan kini mengedepankan kenyamanan dan kebugaran.",
+    "url": "https://finance.detik.com/solusiukm/d-8642157/pola-liburan-berubah-pelaku-usaha-bidik-pasar-wellness",
+    "published_at": "2026-08-26T08:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:51.548895+00:00"
+  },
+  {
+    "title": "Danantara Housing Expo 2026 Catat Nilai Proyek Tembus Rp 2 Triliun",
+    "content": "Danantara Housing Expo (DHE) 2026 telah dikunjungi 10 ribu orang per hari dan membukukan nilai proyek Rp2 triliun.",
+    "url": "https://finance.detik.com/foto-bisnis/d-8642066/danantara-housing-expo-2026-catat-nilai-proyek-tembus-rp-2-triliun",
+    "published_at": "2026-08-26T09:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.7,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:51.669796+00:00"
+  },
+  {
+    "title": "5.600 KK di Pulo Gebang Terima Bantuan 30 Kg Beras",
+    "content": "Sebanyak 5.600 KK di Pulo Gebang menerima bantuan beras 30 kilogram. Bantuan ini menjadi penyangga kebutuhan pangan di tengah tekanan pengeluaran.",
+    "url": "https://finance.detik.com/foto-bisnis/d-8641754/5-600-kk-di-pulo-gebang-terima-bantuan-30-kg-beras",
+    "published_at": "2026-08-26T10:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.31,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:51.778682+00:00"
+  },
+  {
+    "title": "OJK Jatuhkan 1.277 Sanksi ke Pelaku Pasar Modal, Denda Ratusan Miliar!",
+    "content": "OJK menjatuhkan 1.277 sanksi administratif hingga Agustus 2026, denda ratusan miliar ke berbagai pelaku pasar.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8642025/ojk-jatuhkan-1-277-sanksi-ke-pelaku-pasar-modal-denda-ratusan-miliar",
+    "published_at": "2026-08-26T11:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:51.921757+00:00"
+  },
+  {
+    "title": "Liburan Musim Gugur Lebih Nyaman dengan BRI Kartu Kredit Infinite",
+    "content": "Liburan musim gugur menawarkan pengalaman unik. Persiapkan perjalanan dengan memilih waktu, pakaian, dan memesan tiket lebih awal untuk kenyamanan maksimal.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642019/liburan-musim-gugur-lebih-nyaman-dengan-bri-kartu-kredit-infinite",
+    "published_at": "2026-08-26T12:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:52.042749+00:00"
+  },
+  {
+    "title": "BRI Bukukan Laba Rp 31,2 T hingga Akhir Triwulan II 2026, Tumbuh 17,5%",
+    "content": "BRI mencatat laba bersih Rp 31,2 triliun hingga Triwulan II 2026, tumbuh 17,5% yoy, dengan 75,1% kredit disalurkan ke UMKM, mendukung ekonomi kerakyatan.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8641996/bri-bukukan-laba-rp-31-2-t-hingga-akhir-triwulan-ii-2026-tumbuh-17-5",
+    "published_at": "2026-08-26T13:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.78,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:52.186085+00:00"
+  },
+  {
+    "title": "Rating Inalum Naik Jadi idAA, Proyek Hilirisasi Digenjot",
+    "content": "Peringkat PT Indonesia Asahan Aluminium (Persero) atau Inalum naik menjadi idAA/Stable dari sebelumnya idAA-/Stable.",
+    "url": "https://finance.detik.com/industri/d-8641982/rating-inalum-naik-jadi-idaa-proyek-hilirisasi-digenjot",
+    "published_at": "2026-08-26T14:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:52.319857+00:00"
+  },
+  {
+    "title": "Danantara Buka Opsi Tawarkan Tukar Unit ke Konsumen LRT City",
+    "content": "Badan Pengelola Investasi Data Anagata Nusantara (Danantara) membuka peluang menawarkan tukar unit kepada para konsumen proyek mangkrak LRT City.",
+    "url": "https://finance.detik.com/infrastruktur/d-8641839/danantara-buka-opsi-tawarkan-tukar-unit-ke-konsumen-lrt-city",
+    "published_at": "2026-08-26T15:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:52.442961+00:00"
+  },
+  {
+    "title": "Prabowo Buka Suara Kabinetnya Dibilang Gemuk dan Tak Efisien",
+    "content": "Presiden Prabowo Subianto buka suara soal kritik terhadap Kabinet Merah Putih yang dianggap gemuk dan tidak efisien.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641822/prabowo-buka-suara-kabinetnya-dibilang-gemuk-dan-tak-efisien",
+    "published_at": "2026-08-26T16:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:52.572515+00:00"
+  },
+  {
+    "title": "13 Pejabat Kementerian Pertanian Terbukti Judol, Langsung Dicopot!",
+    "content": "Menteri Pertanian Amran Sulaiman mencopot 13 orang pejabat yang terlibat judi online.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641763/13-pejabat-kementerian-pertanian-terbukti-judol-langsung-dicopot",
+    "published_at": "2026-08-26T17:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.6,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:52.705874+00:00"
+  },
+  {
+    "title": "12 Bank di RI Tutup dalam 8 Bulan!",
+    "content": "OJK mencabut izin usaha 12 BPR, termasuk PT BPR Citra Bersada Abadi, akibat kondisi keuangan yang tidak sehat. Semua bank tersebut resmi tutup.",
+    "url": "https://finance.detik.com/moneter/d-8641753/12-bank-di-ri-tutup-dalam-8-bulan",
+    "published_at": "2026-08-26T18:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:52.824872+00:00"
+  },
+  {
+    "title": "Puluhan Perusahaan Baja Kemplang Pajak, Kemenperin Minta Industri Patuh",
+    "content": "Kami mengimbau perusahaan industri untuk patuh membayar pajak kepada pemerintah, terutama kepada Kementerian Keuangan, kata Febri.",
+    "url": "https://finance.detik.com/industri/d-8641741/puluhan-perusahaan-baja-kemplang-pajak-kemenperin-minta-industri-patuh",
+    "published_at": "2026-08-26T19:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:52.942980+00:00"
+  },
+  {
+    "title": "Cara Cek Desil Bansos secara Online, Cukup Pakai NIK KTP",
+    "content": "Cek posisi desil bansos kini mudah dengan NIK KTP. Kunjungi situs resmi Kemensos atau BPS untuk mengetahui kelayakan bantuan sosial Anda.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641724/cara-cek-desil-bansos-secara-online-cukup-pakai-nik-ktp",
+    "published_at": "2026-08-26T20:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.69,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:53.060468+00:00"
+  },
+  {
+    "title": "Ada Isu Mitratel Merger dengan Tower Bersama, Danantara Bilang Begini",
+    "content": "Danantara buka suara mengenai kabar merger PT Tower Bersama Infrastructure Tbk (TBIG) dan PT Dayamitra Telekomunikasi Tbk (MTEL) atau Mitratel.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8641700/ada-isu-mitratel-merger-dengan-tower-bersama-danantara-bilang-begini",
+    "published_at": "2026-08-26T07:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:53.173186+00:00"
+  },
+  {
+    "title": "Asing Ramai-ramai Jual Saham GOTO Saat IHSG Melemah",
+    "content": "Saham GOTO tercatat banyak dijual investor asing di kala IHSG melemah 0,01% pada perdagangan tengah hari ini.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8641682/asing-ramai-ramai-jual-saham-goto-saat-ihsg-melemah",
+    "published_at": "2026-08-26T08:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:53.331119+00:00"
+  },
+  {
+    "title": "Danantara Sebut Merger PT PP &amp; Adhi Karya Dikebut Tahun Ini",
+    "content": "COO Danantara sekaligus Kepala Badan Pengaturan BUMN Dony Oskaria mengatakan proses merger kedua entitas BUMN Karya dipercepat tahun ini.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641662/danantara-sebut-merger-pt-pp-adhi-karya-dikebut-tahun-ini",
+    "published_at": "2026-08-26T09:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:53.507614+00:00"
+  },
+  {
+    "title": "Kemenperin Pede Motor Listrik Tetap Laku Meski Subsidi Cuma Rp 3 Juta",
+    "content": "Kementerian Perindustrian (Kemenperin) menilai program subsidi motor listrik akan tetap menarik bagi masyarakat.",
+    "url": "https://finance.detik.com/industri/d-8641656/kemenperin-pede-motor-listrik-tetap-laku-meski-subsidi-cuma-rp-3-juta",
+    "published_at": "2026-08-26T10:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:53.645024+00:00"
+  },
+  {
+    "title": "Prabowo: Kita Ingin Rakyat Hidup Layak, Tak Perlu Pinjam Uang ke Rentenir",
+    "content": "Presiden Prabowo Subianto mengatakan pemerintah akan membuat masyarakat memiliki penghasilan yang layak dan tak perlu berutang kepada rentenir.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641648/prabowo-kita-ingin-rakyat-hidup-layak-tak-perlu-pinjam-uang-ke-rentenir",
+    "published_at": "2026-08-26T11:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:53.807248+00:00"
+  },
+  {
+    "title": "Kapal Mungil Ini Jadi 'Pengawal' Tanker Migas di Balongan",
+    "content": "PT Pertamina Trans Kontinental siagakan kapal Transko Dara 3218 untuk mendukung operasional tanker migas di RU VI Balongan.",
+    "url": "https://finance.detik.com/energi/d-8641618/kapal-mungil-ini-jadi-pengawal-tanker-migas-di-balongan",
+    "published_at": "2026-08-26T12:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:53.956414+00:00"
+  },
+  {
+    "title": "RI Tolak Tawaran Utang IMF, Prabowo: Kita Tak Mau Banyak Pinjam Uang!",
+    "content": "Presiden Prabowo Subianto mengatakan pemerintah akan mengurangi utang.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641615/ri-tolak-tawaran-utang-imf-prabowo-kita-tak-mau-banyak-pinjam-uang",
+    "published_at": "2026-08-26T13:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:54.098608+00:00"
+  },
+  {
+    "title": "Prabowo Mau Tutup 700 BUMN Lagi hingga Akhir Tahun Ini",
+    "content": "Presiden Prabowo Subianto mengatakan pihaknya bakal menutup lagi 700 BUMN yang kinerja kurang optimal dan merugi.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641582/prabowo-mau-tutup-700-bumn-lagi-hingga-akhir-tahun-ini",
+    "published_at": "2026-08-26T14:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:54.210065+00:00"
+  },
+  {
+    "title": "290 BUMN Rugi Ditutup, Prabowo: Kita Hemat Rp 50 Triliun!",
+    "content": "Presiden Prabowo Subianto mengatakan sudah ada 290 BUMN yang rugi ditutup dengan penghematan tembus Rp 50 triliun.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641544/290-bumn-rugi-ditutup-prabowo-kita-hemat-rp-50-triliun",
+    "published_at": "2026-08-26T15:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.51,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:54.353100+00:00"
+  },
+  {
+    "title": "Raja Minyak Afrika Lumpuh Dihantam Krisis: Listrik Padam, BBM Langka",
+    "content": "Krisis energi melanda Libya, raja minyak Afrika, dengan pemadaman listrik berkepanjangan dan kelangkaan BBM.",
+    "url": "https://finance.detik.com/energi/d-8641531/raja-minyak-afrika-lumpuh-dihantam-krisis-listrik-padam-bbm-langka",
+    "published_at": "2026-08-26T16:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.73,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:54.475700+00:00"
+  },
+  {
+    "title": "DJP Buka Relawan Pajak 2027, Mahasiswa Bisa Daftar Mulai Hari Ini",
+    "content": "Direktorat Jenderal Pajak membuka pendaftaran program Relawan Pajak untuk Negeri (Renjani) bagi mahasiswa. Daftar online hingga 2 September 2026.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641523/djp-buka-relawan-pajak-2027-mahasiswa-bisa-daftar-mulai-hari-ini",
+    "published_at": "2026-08-26T17:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:54.596786+00:00"
+  },
+  {
+    "title": "Laba Jasa Marga Tembus Rp 1,9 Triliun di Semester I 2026",
+    "content": "Jasa Marga mencatat pertumbuhan solid di Semester I 2026 dengan pendapatan Rp10,3 triliun. Fokus pada konektivitas dan layanan pengguna jalan yang lebih baik.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641403/laba-jasa-marga-tembus-rp-1-9-triliun-di-semester-i-2026",
+    "published_at": "2026-08-26T18:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.79,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:54.917980+00:00"
+  },
+  {
+    "title": "Malaysia Tambah Kuota BBM Subsidi demi Tekan Biaya Hidup Warga",
+    "content": "Perdana Menteri Malaysia Anwar Ibrahim mengumumkan sejumlah program untuk mengatasi kenaikan biaya hidup sekaligus mendukung dunia usaha.",
+    "url": "https://finance.detik.com/energi/d-8641397/malaysia-tambah-kuota-bbm-subsidi-demi-tekan-biaya-hidup-warga",
+    "published_at": "2026-08-26T19:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:55.063554+00:00"
+  },
+  {
+    "title": "Usai Anjlok Rp 48 Ribu, Harga Emas Antam Kini Rp 2,67 Juta",
+    "content": "Harga emas Antam stagnan di Rp 2.670.000 per gram. Rincian harga dari 0,5 gram hingga 1.000 gram juga disajikan. Cek harga buyback di Rp 2.523.000.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641370/usai-anjlok-rp-48-ribu-harga-emas-antam-kini-rp-2-67-juta",
+    "published_at": "2026-08-26T20:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:55.198275+00:00"
+  },
+  {
+    "title": "Dolar AS Hari Ini Menguat ke Rp 17.754",
+    "content": "Nilai tukar dolar Amerika Serikat (AS) hari ini menguat terhadap rupiah. Pagi ini mata uang Paman Sam naik ke level Rp 17.700.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8641331/dolar-as-hari-ini-menguat-ke-rp-17-754",
+    "published_at": "2026-08-26T07:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:55.321258+00:00"
+  },
+  {
+    "title": "IHSG Dibuka Dua Arah di Awal Pekan, Begini Pergerakannya",
+    "content": "Indeks Harga Saham Gabungan (IHSG) dibuka di dua arah awal pekan. IHSG awalnya melemah, namun tak lama kemudian menguat ke level 6.500.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8641326/ihsg-dibuka-dua-arah-di-awal-pekan-begini-pergerakannya",
+    "published_at": "2026-08-26T08:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:55.448941+00:00"
+  },
+  {
+    "title": "Kabut Asap Makin Pekat, Penerbangan Bandara Tjilik Riwut Terpaksa Dibatalkan",
+    "content": "Kabut asap kebakaran hutan dan lahan menyelimuti Bandara Tjilik Riwut, Palangka Raya, hingga mengganggu aktivitas penerbangan.",
+    "url": "https://finance.detik.com/foto-bisnis/d-8641032/kabut-asap-makin-pekat-penerbangan-bandara-tjilik-riwut-terpaksa-dibatalkan",
+    "published_at": "2026-08-26T09:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:55.605373+00:00"
+  },
+  {
+    "title": "IHSG Melemah Tipis, Cek Rekomendasi Saham Hari Ini",
+    "content": "ANTM membukukan laba Rp6,91 triliun, TOBA memperbesar bisnis hijau, sementara HATM menyiapkan private placement untuk ekspansi.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8641292/ihsg-melemah-tipis-cek-rekomendasi-saham-hari-ini",
+    "published_at": "2026-08-26T10:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:55.736937+00:00"
+  },
+  {
+    "title": "Kopdes Merah Putih Didorong Jadi Ekosistem Ekonomi Gotong Royong",
+    "content": "Koperasi Desa/Kelurahan Merah Putih (KDKMP) dinilai harus dibangun sebagai ekosistem ekonomi gotong royong.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641270/kopdes-merah-putih-didorong-jadi-ekosistem-ekonomi-gotong-royong",
+    "published_at": "2026-08-26T11:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:55.856169+00:00"
+  },
+  {
+    "title": "AS Gempur Iran, Harga Minyak Langsung Melejit",
+    "content": "Harga minyak mentah dunia langsung melompat 2% pada perdagangan Senin (31/8).",
+    "url": "https://finance.detik.com/energi/d-8641257/as-gempur-iran-harga-minyak-langsung-melejit",
+    "published_at": "2026-08-26T12:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:55.974361+00:00"
+  },
+  {
+    "title": "Rencana Besar KAI Rombak Stasiun Gambir",
+    "content": "Stasiun Gambir bakal dirombak besar-besaran oleh PT Kereta Api Indonesia (Persero) atau KAI.",
+    "url": "https://finance.detik.com/infrastruktur/d-8641048/rencana-besar-kai-rombak-stasiun-gambir",
+    "published_at": "2026-08-26T13:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:56.097473+00:00"
+  },
+  {
+    "title": "Bajaj BBG Masih Jadi Andalan, Jasa Perbaikannya Tetap Bertahan di Jakarta",
+    "content": "Bajaj BBG masih menjadi moda transportasi warga Jakarta. Kendaraan roda tiga ini tetap mengaspal di tengah modernisasi transportasi Ibu Kota.",
+    "url": "https://finance.detik.com/foto-bisnis/d-8640890/bajaj-bbg-masih-jadi-andalan-jasa-perbaikannya-tetap-bertahan-di-jakarta",
+    "published_at": "2026-08-26T14:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:56.223854+00:00"
+  },
+  {
+    "title": "Naik-Turun KRL Tak Bisa dari Stasiun Karet Mulai Besok, Dialihkan ke BNI City",
+    "content": "Mulai besok, Selasa 1 September 2026, Stasiun Karet tak bisa lagi digunakan untuk naik dan turun penumpang KRL.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641043/naik-turun-krl-tak-bisa-dari-stasiun-karet-mulai-besok-dialihkan-ke-bni-city",
+    "published_at": "2026-08-26T15:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:56.344961+00:00"
+  },
+  {
+    "title": "Utang Whoosh Dialihkan ke Kemenkeu 15 September",
+    "content": "Penyerahan pengelolaan utang proyek Kereta Cepat Jakarta-Bandung atau Whoosh dari Danantara ke Kementerian Keuangan (Kemenkeu) akan dilakukan pada 15 September.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641039/utang-whoosh-dialihkan-ke-kemenkeu-15-september",
+    "published_at": "2026-08-26T16:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:56.505865+00:00"
+  },
+  {
+    "title": "GT Cipeundeuy Tol Cipali Mulai Bertarif, Ini Rinciannya",
+    "content": "Gerbang Tol Cipeundeuy KM 87+950 Jalur A Tol Cikopo-Palimanan (Cipali) per hari ini mulai bertarif.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640941/gt-cipeundeuy-tol-cipali-mulai-bertarif-ini-rinciannya",
+    "published_at": "2026-08-26T17:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:56.626338+00:00"
+  },
+  {
+    "title": "154 Gardu Perlintasan Sebidang Dibangun buat Cegah Kecelakaan",
+    "content": "Hingga 27 Agustus 2026, KAI Properti telah melakukan pembangunan gardu JPL pada 190 titik prioritas telah terealisasi di 154 lokasi atau mencapai 81,05%.",
+    "url": "https://finance.detik.com/infrastruktur/d-8640936/154-gardu-perlintasan-sebidang-dibangun-buat-cegah-kecelakaan",
+    "published_at": "2026-08-26T18:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:56.742338+00:00"
+  },
+  {
+    "title": "Apa Fungsi Sensus Ekonomi? Begini Penjelasan BPS",
+    "content": "Sensus Ekonomi 2026 sedang dilakukan oleh Badan Pusat Statistik (BPS) sejak Mei lalu.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640782/apa-fungsi-sensus-ekonomi-begini-penjelasan-bps",
+    "published_at": "2026-08-26T19:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.44,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:56.849053+00:00"
+  },
+  {
+    "title": "Holding Kawasan Industri Perkuat Ketahanan Sosial Masyarakat, Begini Caranya",
+    "content": "Holding Kawasan Industri memperkuat ketahanan sosial masyarakat.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8641056/holding-kawasan-industri-perkuat-ketahanan-sosial-masyarakat-begini-caranya",
+    "published_at": "2026-08-26T20:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:56.955861+00:00"
+  },
+  {
+    "title": "Bank Wajib Transformasi Biar Nggak Kehilangan Nasabah",
+    "content": "Perbankan saat ini wajib melakukan transformasi.",
+    "url": "https://finance.detik.com/moneter/d-8641019/bank-wajib-transformasi-biar-nggak-kehilangan-nasabah",
+    "published_at": "2026-08-26T07:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:57.084328+00:00"
+  },
+  {
+    "title": "Purbaya Buka-bukaan Rencana Ambil Alih Utang Whoosh 15 September",
+    "content": "Purbaya menjelaskan penyelesaian utang Whoosh ini akan melibatkan Badan Layanan Umum (BLU) atau Special Mission Vehicle (SMV) yang di bawah Kemenkeu.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640705/purbaya-buka-bukaan-rencana-ambil-alih-utang-whoosh-15-september",
+    "published_at": "2026-08-26T08:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:57.204332+00:00"
+  },
+  {
+    "title": "Ekonom Sebut Tak Mudah Bikin Rupiah Menguat ke Depan",
+    "content": "Komisi XI DPR RI telah menyetujui penetapan Destry Damayanti sebagai Gubernur Bank Indonesia (BI).",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8640775/ekonom-sebut-tak-mudah-bikin-rupiah-menguat-ke-depan",
+    "published_at": "2026-08-26T09:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.75,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:57.222283+00:00"
+  },
+  {
+    "title": "Anggaran MBG &amp; Pendidikan Mau Dipisah, Purbaya Kejar Pajak-Cukai yang Bocor",
+    "content": "Ia menjelaskan tambahan uang negara akan ditingkatkan melalui perpajakan dan cukai hasil dari menutup kebocoran yang terjadi selama ini.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640691/anggaran-mbg-pendidikan-mau-dipisah-purbaya-kejar-pajak-cukai-yang-bocor",
+    "published_at": "2026-08-26T10:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:57.338017+00:00"
+  },
+  {
+    "title": "Bos BPS soal Sensus Ekonomi: Data Kami Jaga, Tak Ada Kaitannya dengan Pajak",
+    "content": "Badan Pusat Statistik (BPS) tahun ini melaksanakan Sensus Ekonomi.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640651/bos-bps-soal-sensus-ekonomi-data-kami-jaga-tak-ada-kaitannya-dengan-pajak",
+    "published_at": "2026-08-26T11:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:57.454294+00:00"
+  },
+  {
+    "title": "Usaha Mikro Terdampak Bencana Sumatera Bakal Dapat Bantuan Rp 3 Juta",
+    "content": "Pemerintah menyiapkan anggaran senilai lebih dari Rp 1,2 triliun secara bertahap di 2026 dan 2027 untuk rehabilitasi usaha mikro terdampak bencana di Sumatera.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640632/usaha-mikro-terdampak-bencana-sumatera-bakal-dapat-bantuan-rp-3-juta",
+    "published_at": "2026-08-26T12:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:57.567462+00:00"
+  },
+  {
+    "title": "Cuma di Transmart Full Day Sale! Beli Alat Masak Jadi Semurah Ini",
+    "content": "Pesta diskon Transmart Full Day Sale masih menyapa pelanggan setia seharian penuh.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640276/cuma-di-transmart-full-day-sale-beli-alat-masak-jadi-semurah-ini",
+    "published_at": "2026-08-26T13:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:57.686518+00:00"
+  },
+  {
+    "title": "Yuk Miliki Hunian Impian! Ada Promo BRI Multiguna di Danantara Expo 2026",
+    "content": "Dapatkan rumah impian Anda di Danantara Housing Expo 2026! Temukan berbagai properti dan solusi pembiayaan BRI Multiguna untuk renovasi dan perabotan.",
+    "url": "https://finance.detik.com/moneter/d-8640580/yuk-miliki-hunian-impian-ada-promo-bri-multiguna-di-danantara-expo-2026",
+    "published_at": "2026-08-26T14:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:57.808201+00:00"
+  },
+  {
+    "title": "Serbu! Tempat Tidur Diskon Gede-gedean di Transmart Full Day Sale",
+    "content": "Gelaran diskon Transmart Full Day Sale kembali hadir menyapa pelanggan.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640269/serbu-tempat-tidur-diskon-gede-gedean-di-transmart-full-day-sale",
+    "published_at": "2026-08-26T15:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:57.932362+00:00"
+  },
+  {
+    "title": "Stasiun Gambir Bakal Dipermak Besar-besaran, Nyambung MRT-Transjakarta",
+    "content": "Stasiun Gambir akan dikembangkan mengikuti kebutuhan mobilitas masyarakat yang semakin dinamis.",
+    "url": "https://finance.detik.com/infrastruktur/d-8640498/stasiun-gambir-bakal-dipermak-besar-besaran-nyambung-mrt-transjakarta",
+    "published_at": "2026-08-26T16:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:58.051537+00:00"
+  },
+  {
+    "title": "Buruh Minta RUU Perlindungan Tenaga Kerja Disahkan Oktober 2026",
+    "content": "Serikat pekerja mengingatkan pemerintah soal tenggat waktu pengesahan Rancangan Undang-Undang Perlindungan Ketenagakerjaan paling lambat Oktober 2026.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640460/buruh-minta-ruu-perlindungan-tenaga-kerja-disahkan-oktober-2026",
+    "published_at": "2026-08-26T17:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:58.164535+00:00"
+  },
+  {
+    "title": "Harga Emas Antam Anjlok Sedalam Ini Selama Sepekan",
+    "content": "Harga emas mengalami pelemahan selama sepekan ini.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640254/harga-emas-antam-anjlok-sedalam-ini-selama-sepekan",
+    "published_at": "2026-08-26T18:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:58.279410+00:00"
+  },
+  {
+    "title": "Tangga Multifungsi Jadi Semurah Ini di Transmart Full Day Sale",
+    "content": "Diskon bertajuk Transmart Full Day Sale hadir kembali seharian penuh menyapa pelanggan setia.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640268/tangga-multifungsi-jadi-semurah-ini-di-transmart-full-day-sale",
+    "published_at": "2026-08-26T19:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:58.437290+00:00"
+  },
+  {
+    "title": "Penumpang Tak Bisa Naik-Turun KRL di Stasiun Karet Mulai 1 September",
+    "content": "Proses pekerjaan integrasi Stasiun Sudirman Baru/BNI City dengan Stasiun Karet bakal dimulai 1 September 2026.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640248/penumpang-tak-bisa-naik-turun-krl-di-stasiun-karet-mulai-1-september",
+    "published_at": "2026-08-26T20:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:58.611867+00:00"
+  },
+  {
+    "title": "BNBR Cetak Pendapatan Rp 2,59 T, Laba Usaha Rp 301 M",
+    "content": "PT Bakrie &amp; Brothers Tbk (BNBR) membukukan pertumbuhan kinerja keuangan sepanjang semester I 2026.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8640303/bnbr-cetak-pendapatan-rp-2-59-t-laba-usaha-rp-301-m",
+    "published_at": "2026-08-26T07:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:58.727943+00:00"
+  },
+  {
+    "title": "Data BMKG Diminta Jadi Acuan Pembangunan Infrastruktur",
+    "content": "Penggunaan data BMKG didorong untuk pembangunan infrastruktur dan keselamatan transportasi.",
+    "url": "https://finance.detik.com/infrastruktur/d-8640332/data-bmkg-diminta-jadi-acuan-pembangunan-infrastruktur",
+    "published_at": "2026-08-26T08:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:58.855245+00:00"
+  },
+  {
+    "title": "Serbu! Aneka Sepeda Banting Harga di Transmart Full Day Sale",
+    "content": "Gelaran diskon bertajuk Transmart Full Day Sale kembali digelar selama seharian penuh.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640238/serbu-aneka-sepeda-banting-harga-di-transmart-full-day-sale",
+    "published_at": "2026-08-26T09:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:58.995948+00:00"
+  },
+  {
+    "title": "Ginandjar, Nasionalisme Ekonomi, dan Para 'Anak Didiknya'",
+    "content": "Sejumlah nama pengusaha kemudian kerap dikaitkan dengan pembinaan Ginandjar-mereka yang belakangan populer disebut sebagai Ginandjar Boys.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640169/ginandjar-nasionalisme-ekonomi-dan-para-anak-didiknya",
+    "published_at": "2026-08-26T10:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:59.121205+00:00"
+  },
+  {
+    "title": "Program Penjaminan Polis Asuransi Jalan 2028, Perusahaan Sakit Tak Bisa Ikut",
+    "content": "Otoritas Jasa Keuangan (OJK) menyebut tidak semua perusahaan asuransi bisa menjadi peserta Program Penjaminan Polis (PPP).",
+    "url": "https://finance.detik.com/moneter/d-8639989/program-penjaminan-polis-asuransi-jalan-2028-perusahaan-sakit-tak-bisa-ikut",
+    "published_at": "2026-08-26T11:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:59.247065+00:00"
+  },
+  {
+    "title": "Akses Keuangan Pelajar Makin Diperluas, Budaya Menabung Didorong",
+    "content": "Pelajar didorong untuk melek keuangan melalui edukasi dan program Tabungan SimPel. Bank Jakarta berkolaborasi untuk memperkuat literasi keuangan sejak dini.",
+    "url": "https://finance.detik.com/moneter/d-8640344/akses-keuangan-pelajar-makin-diperluas-budaya-menabung-didorong",
+    "published_at": "2026-08-26T12:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.74,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:59.379544+00:00"
+  },
+  {
+    "title": "Rencana Bursa Ubah Batas ARA &amp; ARB",
+    "content": "Bursa Efek Indonesia (BEI) berencana mengubah batas auto rejection atas dan bawah (ARA/ARB).",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8640037/rencana-bursa-ubah-batas-ara-arb",
+    "published_at": "2026-08-26T13:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:59.519130+00:00"
+  },
+  {
+    "title": "Tiga Masalah Besar di Balik PHK Tembus 43 Ribu Orang",
+    "content": "Data PHK yang mencapai 43.805 orang sepanjang Januari-Juli 2026 menjadi sorotan Penasihat Khusus Presiden sekaligus Presiden KSPI, Said Iqbal",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640035/tiga-masalah-besar-di-balik-phk-tembus-43-ribu-orang",
+    "published_at": "2026-08-26T14:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:59.682441+00:00"
+  },
+  {
+    "title": "Hari Ini Transmart Full Day Sale! Kejar Diskon Melimpah 50% + 20%",
+    "content": "Transmart Full Day Sale hadir hari ini, Minggu 30 Agustus 2026.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8638971/hari-ini-transmart-full-day-sale-kejar-diskon-melimpah-50-20",
+    "published_at": "2026-08-26T15:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:59.809485+00:00"
+  },
+  {
+    "title": "Seputar Desil yang Jadi Sorotan Tajam Masyarakat",
+    "content": "Istilah desil jadi buah bibir belakangan ini lantaran menjadi cerminan tingkat kesejahteraan.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640032/seputar-desil-yang-jadi-sorotan-tajam-masyarakat",
+    "published_at": "2026-08-26T16:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:59.935502+00:00"
+  },
+  {
+    "title": "Terungkap Modus 40 Perusahaan Baja Kemplang Pajak",
+    "content": "Menteri Keuangan Purbaya Yudhi Sadewa mengejar 40 perusahaan baja yang diduga melakukan pengemplangan pajak.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640013/terungkap-modus-40-perusahaan-baja-kemplang-pajak",
+    "published_at": "2026-08-26T17:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:00.063093+00:00"
+  },
+  {
+    "title": "Menhub Pastikan Tidak Ada Transportasi Umum Rusak Saat Demo 27 Agustus",
+    "content": "Menteri Perhubungan Dudy Purwagandhi memastikan tak ada kerusakan transportasi umum saat aksi demonstrasi di Jakarta pada Kamis (27/8/2026).",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8640003/menhub-pastikan-tidak-ada-transportasi-umum-rusak-saat-demo-27-agustus",
+    "published_at": "2026-08-26T18:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:00.219224+00:00"
+  },
+  {
+    "title": "Dustpan Set Harga Miring di Transmart Full Day Sale",
+    "content": "Transmart kembali menghadirkan program belanja hemat Full Day Sale pada Minggu (30/8/2026)",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8639983/dustpan-set-harga-miring-di-transmart-full-day-sale",
+    "published_at": "2026-08-26T19:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:00.384643+00:00"
+  },
+  {
+    "title": "Aneka Sepeda di Transmart Full Day Sale Mulai Rp 1 Juta",
+    "content": "Transmart kembali menghadirkan program belanja hemat Full Day Sale pada Minggu (30/8/2026).",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8639954/aneka-sepeda-di-transmart-full-day-sale-mulai-rp-1-juta",
+    "published_at": "2026-08-26T20:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:00.546183+00:00"
+  },
+  {
+    "title": "Aturan Penempatan DHE SDA: Eksportir Bisa Parkir 3 Bulan hingga Daftar Bank Devisa",
+    "content": "Kementerian Koordinator Perekonomian menyelenggarakan sosialisasi implementasi Pasal 18A Peraturan Pemerintah (PP) Nomor 21 Tahun 2026 penempatan DHE SDA.",
+    "url": "https://finance.detik.com/moneter/d-8639939/aturan-penempatan-dhe-sda-eksportir-bisa-parkir-3-bulan-hingga-daftar-bank-devisa",
+    "published_at": "2026-08-26T07:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.45,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:00.727884+00:00"
+  },
+  {
+    "title": "OJK Genjot Literasi Keuangan dan Budaya Menabung Anak Muda",
+    "content": "Otoritas Jasa Keuangan (OJK) mendorong budaya menabung serta meningkatkan literasi dan inklusi keuangan, khususnya di kalangan generasi muda.",
+    "url": "https://finance.detik.com/moneter/d-8639906/ojk-genjot-literasi-keuangan-dan-budaya-menabung-anak-muda",
+    "published_at": "2026-08-26T08:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:00.872340+00:00"
+  },
+  {
+    "title": "Cek! 7 Lokasi Perbaikan di Tol Jakarta-Cikampek hingga 4 September",
+    "content": "Perbaikan jalan dilakukan di tujuh titik Tol Jakarta-Cikampek arah ke Cikampek dan Jakarta.",
+    "url": "https://finance.detik.com/infrastruktur/d-8639853/cek-7-lokasi-perbaikan-di-tol-jakarta-cikampek-hingga-4-september",
+    "published_at": "2026-08-26T09:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:01.004558+00:00"
+  },
+  {
+    "title": "Wamendagri dorong pemanfaatan IMM perkuat pembangunan SDM daerah",
+    "content": "Wakil Menteri Dalam Negeri (Wamendagri) Akhmad Wiyagus mendorong pemanfaatan Indeks Modal Manusia (IMM) sebagai ...",
+    "url": "https://www.antaranews.com/berita/5719596/wamendagri-dorong-pemanfaatan-imm-perkuat-pembangunan-sdm-daerah",
+    "published_at": "2026-08-26T10:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:01.250534+00:00"
+  },
+  {
+    "title": "Mendagri minta calon pemimpin Polri susun kebijakan berbasis sains",
+    "content": "Menteri Dalam Negeri (Mendagri) Muhammad Tito Karnavian meminta peserta Sekolah Staf dan Pimpinan (Sespim) Lembaga ...",
+    "url": "https://www.antaranews.com/berita/5719593/mendagri-minta-calon-pemimpin-polri-susun-kebijakan-berbasis-sains",
+    "published_at": "2026-08-26T11:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:01.404076+00:00"
+  },
+  {
+    "title": "Volatilitas pasar mempengaruhi investasi industri asuransi jiwa",
+    "content": "Asosiasi Asuransi Jiwa Indonesia (AAJI) mencatatkan kinerja investasi industri asuransi jiwa pada semester I-2026 yang ...",
+    "url": "https://www.antaranews.com/berita/5719587/volatilitas-pasar-mempengaruhi-investasi-industri-asuransi-jiwa",
+    "published_at": "2026-08-26T12:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:01.584505+00:00"
+  },
+  {
+    "title": "Kemendikdasmen bentuk karakter murid SMP lewat perkemahan lima hari",
+    "content": "Kementerian Pendidikan Dasar dan Menengah (Kemendikdasmen) membentuk karakter peserta didik jenjang pendidikan SMP ...",
+    "url": "https://www.antaranews.com/berita/5719581/kemendikdasmen-bentuk-karakter-murid-smp-lewat-perkemahan-lima-hari",
+    "published_at": "2026-08-26T13:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:01.738220+00:00"
+  },
+  {
+    "title": "Kowani dorong kain Nusantara jadi kekuatan budaya - ekonomi perempuan",
+    "content": "Kongres Wanita Indonesia (Kowani) menyampaikan pelestarian kain Nusantara perlu dikembangkan bersamaan dengan ...",
+    "url": "https://www.antaranews.com/berita/5719577/kowani-dorong-kain-nusantara-jadi-kekuatan-budaya-ekonomi-perempuan",
+    "published_at": "2026-08-26T14:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:01.862478+00:00"
+  },
+  {
+    "title": "Akademisi Undiksha kembangkan aplikasi konseling cegah kekerasan anak",
+    "content": "Akademisi Undiksha Singaraja Bali mengembangkan aplikasi SI-Konseling Pro, sistem informasi konseling berbasis website ...",
+    "url": "https://www.antaranews.com/berita/5719576/akademisi-undiksha-kembangkan-aplikasi-konseling-cegah-kekerasan-anak",
+    "published_at": "2026-08-26T15:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:02.004809+00:00"
+  },
+  {
+    "title": "Bali Interfood hadirkan seleksi Gelato World Cup berbahan lokal",
+    "content": "ANTARA - Bali Interfood 2026 akan menghadirkan Gelato World Cup Indonesian Selection di Bali Nusa Dua Convention ...",
+    "url": "https://www.antaranews.com/video/5719564/bali-interfood-hadirkan-seleksi-gelato-world-cup-berbahan-lokal",
+    "published_at": "2026-08-26T16:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.58,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:02.131571+00:00"
+  },
+  {
+    "title": "Pertamina salurkan bantuan tanggap darurat karhutla Kalbar",
+    "content": "PT Pertamina Patra Niaga Regional Kalimantan melalui Refinery Unit (RU) V Balikpapan mengirimkan bantuan tanggap ...",
+    "url": "https://www.antaranews.com/berita/5719575/pertamina-salurkan-bantuan-tanggap-darurat-karhutla-kalbar",
+    "published_at": "2026-08-26T17:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:02.255137+00:00"
+  },
+  {
+    "title": "Timnas basket mulai TC Asian Games 2026 pada 3 September",
+    "content": "Timnas bola basket Indonesia segera mengalihkan fokus ke Asian Games 2026 Aichi-Nagoya di Jepang, dengan agenda ...",
+    "url": "https://www.antaranews.com/berita/5719573/timnas-basket-mulai-tc-asian-games-2026-pada-3-september",
+    "published_at": "2026-08-26T18:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:02.371921+00:00"
+  },
+  {
+    "title": "Menhut tinjau pemadaman karhutla, minta maksimalkan OMC di Sumsel",
+    "content": "Menteri Kehutanan (Menhut), Raja Juli Antoni meninjau penanganan kebakaran hutan dan lahan (karhutla) memantau langsung ...",
+    "url": "https://www.antaranews.com/berita/5719572/menhut-tinjau-pemadaman-karhutla-minta-maksimalkan-omc-di-sumsel",
+    "published_at": "2026-08-26T19:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.32,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:02.500766+00:00"
+  },
+  {
+    "title": "Polda Kalbar tangani 56 laporan karhutla lima orang jadi tersangka",
+    "content": "Kepolisian Daerah Kalimantan Barat menangani 56 laporan terkait kebakaran hutan dan lahan (karhutla) hingga 30 Agustus ...",
+    "url": "https://www.antaranews.com/berita/5719571/polda-kalbar-tangani-56-laporan-karhutla-lima-orang-jadi-tersangka",
+    "published_at": "2026-08-26T20:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.73,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:02.628902+00:00"
+  },
+  {
+    "title": "Kemendukbangga: Kader TPK berhak tolak MBG 3B dengan kondisi tak layak",
+    "content": "Kementerian Kependudukan dan Pembangunan Keluarga (Kemendukbangga)/BKKBN menyatakan kader tim pendamping keluarga (TPK) ...",
+    "url": "https://www.antaranews.com/berita/5719568/kemendukbangga-kader-tpk-berhak-tolak-mbg-3b-dengan-kondisi-tak-layak",
+    "published_at": "2026-08-26T07:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:02.754458+00:00"
+  },
+  {
+    "title": "Jakbar canangkan gerakan tanam pangan pendamping beras di 135 lokasi",
+    "content": "Pemerintah Kota (Pemkot) Jakarta Barat (Jakbar) bersama Tim Penggerak Pemberdayaan&nbsp;Kesejahteraan Keluarga (TP PKK) ...",
+    "url": "https://www.antaranews.com/berita/5719561/jakbar-canangkan-gerakan-tanam-pangan-pendamping-beras-di-135-lokasi",
+    "published_at": "2026-08-26T08:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:02.887365+00:00"
+  },
+  {
+    "title": "IWAPI sebut dua kandidat calon ketua umum siap hadapi munas",
+    "content": "Ikatan Wanita Pengusaha Indonesia (IWAPI) menyebut sebanyak dua calon Ketua Umum IWAPI periode 2026-2031 siap ...",
+    "url": "https://www.antaranews.com/berita/5719557/iwapi-sebut-dua-kandidat-calon-ketua-umum-siap-hadapi-munas",
+    "published_at": "2026-08-26T09:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:03.003544+00:00"
+  },
+  {
+    "title": "BI dan MAS tunjuk bank yang bisa fasilitasi transaksi LCT RI-Singapura",
+    "content": "Bank Indonesia (BI) dan the Monetary Authority of Singapore (MAS) telah menunjuk sejumlah bank di Indonesia dan ...",
+    "url": "https://www.antaranews.com/berita/5719555/bi-dan-mas-tunjuk-bank-yang-bisa-fasilitasi-transaksi-lct-ri-singapura",
+    "published_at": "2026-08-26T10:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:03.123976+00:00"
+  },
+  {
+    "title": "Kemenpora komitmen putus praktik atlet dan pelatih titipan",
+    "content": "ANTARA - Kemenpora berkomitmen memutus nepotisme berupa praktik atlet dan pelatih titipan dalam sistem pembinaan ...",
+    "url": "https://www.antaranews.com/video/5719497/kemenpora-komitmen-putus-praktik-atlet-dan-pelatih-titipan",
+    "published_at": "2026-08-26T11:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:03.243220+00:00"
+  },
+  {
+    "title": "Gubernur Kalsel: Karhutla di ring 1 bandara mulai terkendali",
+    "content": "Gubernur Kalimantan Selatan (Kalsel)&nbsp;Muhidin menyebut kebakaran hutan dan lahan (karhutla) di area ring 1 Bandara ...",
+    "url": "https://www.antaranews.com/berita/5719551/gubernur-kalsel-karhutla-di-ring-1-bandara-mulai-terkendali",
+    "published_at": "2026-08-26T12:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:03.366071+00:00"
+  },
+  {
+    "title": "ASPPI gencarkan promosi tingkatkan kunjungan wisatawan ke Aceh",
+    "content": "Asosiasi Pelaku Pariwisata Indonesia (ASPPI) Aceh terus menggencarkan promosi pariwisata guna meningkatkan kunjungan ...",
+    "url": "https://www.antaranews.com/berita/5719549/asppi-gencarkan-promosi-tingkatkan-kunjungan-wisatawan-ke-aceh",
+    "published_at": "2026-08-26T13:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:03.492980+00:00"
+  },
+  {
+    "title": "Polisi temukan indikasi pidana dalam kematian presenter TVRI Papua",
+    "content": "Kepolisian menemukan indikasi tindak pidana dalam kasus kematian presenter TVRI Papua Barat Suryanto Tuwing Idorway ...",
+    "url": "https://www.antaranews.com/berita/5719545/polisi-temukan-indikasi-pidana-dalam-kematian-presenter-tvri-papua",
+    "published_at": "2026-08-26T14:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:03.615766+00:00"
+  },
+  {
+    "title": "Indonesia fokus tatap fase kedua Prakualifikasi Piala Asia 2029",
+    "content": "Timnas bola basket Indonesia ingin segera fokus ke Putaran Kedua Prakualifikasi Piala Asia 2029 setelah menuntaskan ...",
+    "url": "https://www.antaranews.com/berita/5719541/indonesia-fokus-tatap-fase-kedua-prakualifikasi-piala-asia-2029",
+    "published_at": "2026-08-26T15:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:03.737691+00:00"
+  },
+  {
+    "title": "Kateterisasi jantung anak kini tersedia di Aceh",
+    "content": "ANTARA - RSUD Meuraxa Kota Banda Aceh kini menyediakan layanan kateterisasi jantung anak dan penyakit jantung bawaan. ...",
+    "url": "https://www.antaranews.com/video/5719528/kateterisasi-jantung-anak-kini-tersedia-di-aceh",
+    "published_at": "2026-08-26T16:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:03.877152+00:00"
+  },
+  {
+    "title": "Wamen HAM tegaskan penanganan karhutla harus lindungi masyarakat",
+    "content": "Wakil Menteri Hak Asasi Manusia (HAM) Mugiyanto menegaskan penanganan kebakaran hutan dan lahan (karhutla) harus ...",
+    "url": "https://www.antaranews.com/berita/5719537/wamen-ham-tegaskan-penanganan-karhutla-harus-lindungi-masyarakat",
+    "published_at": "2026-08-26T17:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.022853+00:00"
+  },
+  {
+    "title": "PPh final dinilai dapat sederhanakan pelaporan pajak ETF emas",
+    "content": "PT Syailendra Capital, selaku manajer investasi Reksa Dana Syariah Syailendra ETF Sharia Gold (XSGO), menilai usulan ...",
+    "url": "https://www.antaranews.com/berita/5719536/pph-final-dinilai-dapat-sederhanakan-pelaporan-pajak-etf-emas",
+    "published_at": "2026-08-26T18:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.141060+00:00"
+  },
+  {
+    "title": "Gubernur Sumut imbau masyarakat Karo siaga erupsi Gunung Sinabung",
+    "content": "Gubernur Sumatera Utara (Sumut) Bobby Nasution mengimbau masyarakat Karo untuk&nbsp;bersiaga menghadapi dampak erupsi ...",
+    "url": "https://www.antaranews.com/berita/5719535/gubernur-sumut-imbau-masyarakat-karo-siaga-erupsi-gunung-sinabung",
+    "published_at": "2026-08-26T19:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.34,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.268157+00:00"
+  },
+  {
+    "title": "Indonesia kalah 63-77 lawan Malaysia",
+    "content": "Timnas bola basket Indonesia menelan kekalahan 63-77 dari Malaysia pada Grup C putaran&nbsp;pertama&nbsp;prakualifikasi ...",
+    "url": "https://www.antaranews.com/berita/5719532/indonesia-kalah-63-77-lawan-malaysia",
+    "published_at": "2026-08-26T20:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.401708+00:00"
+  },
+  {
+    "title": "FISIP UB usulkan ambang batas parlemen 3,5 persen pada Pemilu 2029",
+    "content": "Tim Kajian Parliamentary Threshold Fakultas Ilmu Sosial dan Ilmu Politik Universitas Brawijaya (FISIP UB) ...",
+    "url": "https://www.antaranews.com/berita/5719527/fisip-ub-usulkan-ambang-batas-parlemen-35-persen-pada-pemilu-2029",
+    "published_at": "2026-08-26T07:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.58,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.552898+00:00"
+  },
+  {
+    "title": "DKUM Depok ajak UMKM kuasai teknologi digital untuk bisa naik kelas",
+    "content": "Dinas Koperasi dan Usaha Mikro (DKUM) Kota Depok Jawa Barat mengajak pelaku usaha mikro, kecil, dan menengah (UMKM) ...",
+    "url": "https://www.antaranews.com/berita/5719525/dkum-depok-ajak-umkm-kuasai-teknologi-digital-untuk-bisa-naik-kelas",
+    "published_at": "2026-08-26T08:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.722894+00:00"
+  },
+  {
+    "title": "JPU tuntut 10 tahun anak dalam kasus pembunuhan siswi di Nabire",
+    "content": "Jaksa Penuntut Umum (JPU) Kejaksaan Negeri Nabire menuntut anak yang berkonflik dengan hukum berinisial AWS dengan ...",
+    "url": "https://www.antaranews.com/berita/5719524/jpu-tuntut-10-tahun-anak-dalam-kasus-pembunuhan-siswi-di-nabire",
+    "published_at": "2026-08-26T09:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.71,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.860522+00:00"
+  },
+  {
+    "title": "Probolinggo genjot gerakan tanam padi untuk tingkatkan luas tanam",
+    "content": "Pemerintah Kabupaten Probolinggo, Jawa Timur terus menggenjot gerakan percepatan tanam padi untuk meningkatkan luas ...",
+    "url": "https://www.antaranews.com/berita/5719523/probolinggo-genjot-gerakan-tanam-padi-untuk-tingkatkan-luas-tanam",
+    "published_at": "2026-08-26T10:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:04.998271+00:00"
+  },
+  {
+    "title": "Mariano Peralta antar Persib ke fase grup ACL Two",
+    "content": "Mariano Peralta membawa Persib Bandung lolos ke fase grup AFC Champions League (ACL) Two setelah menekuk Manila Digger ...",
+    "url": "https://www.antaranews.com/berita/5719519/mariano-peralta-antar-persib-ke-fase-grup-acl-two",
+    "published_at": "2026-08-26T11:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.44,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:05.147502+00:00"
+  },
+  {
+    "title": "Korban bencana Nepal tembus 951 orang, 590 warga asing hilang",
+    "content": "Jumlah korban meninggal akibat tanah longsor di Nepal utara kini telah mencapai 951 orang, lapor China Central ...",
+    "url": "https://www.antaranews.com/berita/5719515/korban-bencana-nepal-tembus-951-orang-590-warga-asing-hilang",
+    "published_at": "2026-08-26T12:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.84,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.69,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.69,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:05.291862+00:00"
+  },
+  {
+    "title": "Guru PPPK bisa ikut seleksi CPNS mulai 2027",
+    "content": "Pemerintah memberikan kesempatan kepada guru berstatus Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) untuk ...",
+    "url": "https://www.antaranews.com/berita/5719511/guru-pppk-bisa-ikut-seleksi-cpns-mulai-2027",
+    "published_at": "2026-08-26T13:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:05.424626+00:00"
+  },
+  {
+    "title": "Ekonom ingatkan setoran Danantara tak jadi “kantong cadangan” APBN",
+    "content": "Ekonom Institute for Development of Economics and Finance (INDEF) M Rizal Taufikurahman mengingatkan pemerintah agar ...",
+    "url": "https://www.antaranews.com/berita/5719507/ekonom-ingatkan-setoran-danantara-tak-jadi-kantong-cadangan-apbn",
+    "published_at": "2026-08-26T14:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:05.584074+00:00"
+  },
+  {
+    "title": "Konflik ego trio GJLS warnai film aksi damkar \"GJLS: Berapi-Api\"",
+    "content": "Aktor sekaligus salah satu pendiri GJLS Entertainment Rigen Rakelna menyatakan film &quot;GJLS: Berapi-Api&quot; akan ...",
+    "url": "https://www.antaranews.com/berita/5719504/konflik-ego-trio-gjls-warnai-film-aksi-damkar-gjls-berapi-api",
+    "published_at": "2026-08-26T15:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:05.754865+00:00"
+  },
+  {
+    "title": "BI: Sinergi lintas negara kunci jaga stabilitas di tengah disrupsi",
+    "content": "Deputi Gubernur Bank Indonesia (BI) Thomas Djiwandono menilai sinergi kebijakan lintas otoritas dan lintas negara dapat ...",
+    "url": "https://www.antaranews.com/berita/5719500/bi-sinergi-lintas-negara-kunci-jaga-stabilitas-di-tengah-disrupsi",
+    "published_at": "2026-08-26T16:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:05.911812+00:00"
+  },
+  {
+    "title": "Mirae Asset: Arbitrase bantu kurangi selisih harga ETF emas dan NAB",
+    "content": "PT Mirae Asset Sekuritas Indonesia menjelaskan bahwa mekanisme arbitrase oleh dealer partisipan dapat membantu ...",
+    "url": "https://www.antaranews.com/berita/5719499/mirae-asset-arbitrase-bantu-kurangi-selisih-harga-etf-emas-dan-nab",
+    "published_at": "2026-08-26T17:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:06.064498+00:00"
+  },
+  {
+    "title": "OJK dorong literasi dan inklusi keuangan bagi mahasiswa di Batam",
+    "content": "ANTARA - Otoritas Jasa Keuangan (OJK) memberikan kuliah umum terkait pengenalan kripto hingga stablecoin, kepada ...",
+    "url": "https://www.antaranews.com/video/5719408/ojk-dorong-literasi-dan-inklusi-keuangan-bagi-mahasiswa-di-batam",
+    "published_at": "2026-08-26T18:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:06.190850+00:00"
+  },
+  {
+    "title": "Orang tertua di Jepang meninggal pada usia 115 tahun",
+    "content": "Shigeko Kagawa, orang tertua di Jepang yang merupakan warga Prefektur Nara di Jepang barat meninggal dalam usia 115 ...",
+    "url": "https://www.antaranews.com/berita/5719493/orang-tertua-di-jepang-meninggal-pada-usia-115-tahun",
+    "published_at": "2026-08-26T19:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.53,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:06.320918+00:00"
+  },
+  {
+    "title": "AAJI mencatat klaim asuransi jiwa tembus Rp75,57 triliun",
+    "content": "Asosiasi Asuransi Jiwa Indonesia (AAJI) mencatat industri asuransi jiwa telah membayarkan klaim dan manfaat sebesar ...",
+    "url": "https://www.antaranews.com/berita/5719491/aaji-mencatat-klaim-asuransi-jiwa-tembus-rp7557-triliun",
+    "published_at": "2026-08-26T20:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:06.434521+00:00"
+  },
+  {
+    "title": "Kejati Maluku tahan eks Kadis PUPR kasus air bersih Haruku",
+    "content": "Kejaksaan Tinggi Maluku menetapkan sekaligus menahan mantan Kepala Dinas Pekerjaan Umum dan Penataan Ruang (PUPR) ...",
+    "url": "https://www.antaranews.com/berita/5719489/kejati-maluku-tahan-eks-kadis-pupr-kasus-air-bersih-haruku",
+    "published_at": "2026-08-26T07:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.58,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:06.602191+00:00"
+  },
+  {
+    "title": "APPI ungkapkan 28 klub tunggak gaji pemain total Rp14,8 miliar",
+    "content": "Asosiasi Pesepak Bola Profesional Indonesia (APPI) mengatakan 28 klub Liga 1 Indonesia (Super League) hingga Liga 4 ...",
+    "url": "https://www.antaranews.com/berita/5719487/appiungkapkan-28-klub-tunggak-gaji-pemaintotal-rp148-miliar",
+    "published_at": "2026-08-26T08:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:06.725976+00:00"
+  },
+  {
+    "title": "Anggota DPR minta Ombudsman beri hasil kerja yang jelas untuk publik",
+    "content": "Anggota Komisi II DPR RI Muhammad Khozin meminta agar Ombudsman Republik Indonesia harus memiliki fungsi, keluaran ...",
+    "url": "https://www.antaranews.com/berita/5719484/anggota-dpr-minta-ombudsman-beri-hasil-kerja-yang-jelas-untuk-publik",
+    "published_at": "2026-08-26T09:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:06.732123+00:00"
+  },
+  {
+    "title": "Baznas Jakbar bedah 58 rumah sepanjang 2026",
+    "content": "Badan Amil Zakat Nasional (Baznas) Bazis Jakarta Barat (Jakbar) telah memperbaiki atau membedah sebanyak 58 rumah warga ...",
+    "url": "https://www.antaranews.com/berita/5719483/baznas-jakbar-bedah-58-rumah-sepanjang-2026",
+    "published_at": "2026-08-26T10:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:06.848258+00:00"
+  },
+  {
+    "title": "GREAT Institute: Ketepatan mitigasi produksi padi tetap diperlukan",
+    "content": "GREAT Institute mengingatkan bahwa surplus padi nasional kini diikuti oleh bayang-bayang ancaman El-Nino yang berisiko ...",
+    "url": "https://www.antaranews.com/berita/5719480/great-institute-ketepatan-mitigasi-produksi-padi-tetap-diperlukan",
+    "published_at": "2026-08-26T11:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:06.970858+00:00"
+  },
+  {
+    "title": "Mendikdasmen terima Lencana Darma Bakti perkuat Pramuka di sekolah",
+    "content": "Ketua Kwartir Nasional Gerakan Praja Muda Karana (Kwarnas Pramuka), Budi Waseso menganugerahkan Lencana Darma Bakti ...",
+    "url": "https://www.antaranews.com/berita/5719477/mendikdasmen-terima-lencana-darma-bakti-perkuat-pramuka-di-sekolah",
+    "published_at": "2026-08-26T12:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:07.105519+00:00"
+  },
+  {
+    "title": "Polda Metro Jaya tangkap WNA Malaysia pembuat etomidate di Jaksel",
+    "content": "Seorang warga negara asing (WNA) asal Malaysia berinisial LYL (42) diringkus oleh jajaran Direktorat Reserse Narkoba ...",
+    "url": "https://www.antaranews.com/berita/5719476/polda-metro-jaya-tangkap-wna-malaysia-pembuat-etomidate-di-jaksel",
+    "published_at": "2026-08-26T13:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.81,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:07.232414+00:00"
+  },
+  {
+    "title": "Kemendukbangga prioritaskan MBG 3B di lima provinsi stunting tinggi",
+    "content": "Kementerian Kependudukan dan Pembangunan Keluarga (Kemendukbangga)/BKKBN memprioritaskan distribusi Makan Bergizi ...",
+    "url": "https://www.antaranews.com/berita/5719472/kemendukbangga-prioritaskan-mbg-3b-di-lima-provinsi-stunting-tinggi",
+    "published_at": "2026-08-26T14:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:07.349365+00:00"
+  },
+  {
+    "title": "Gubernur Lampung pantau gajah di Way Kambas aman dari kebakaran",
+    "content": "Gubernur Lampung Rahmat Mirzani Djausal bersama Pangdam XXI/Radin Inten Mayjen TNI Kristomei Sianturi ...",
+    "url": "https://www.antaranews.com/berita/5719468/gubernur-lampung-pantau-gajah-di-way-kambas-aman-dari-kebakaran",
+    "published_at": "2026-08-26T15:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.31,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:07.473801+00:00"
+  },
+  {
+    "title": "Kasus ISPA Banjarmasin capai 1.874 dalam sepekan",
+    "content": "ANTARA - Kasus Infeksi Saluran Pernapasan Akut atau ISPA di Kota Banjarmasin meningkat di tengah kondisi kabut asap ...",
+    "url": "https://www.antaranews.com/video/5719277/kasus-ispa-banjarmasin-capai-1874-dalam-sepekan",
+    "published_at": "2026-08-26T16:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:07.651475+00:00"
+  },
+  {
+    "title": "Polda Kaltim tangani 34 perkara karhutla, sembilan jadi tersangka",
+    "content": "Kepolisian Daerah Kalimantan Timur (Polda Kaltim) menangani 34 perkara kebakaran hutan dan lahan (karhutla) sepanjang ...",
+    "url": "https://www.antaranews.com/berita/5719467/polda-kaltim-tangani-34-perkara-karhutla-sembilan-jadi-tersangka",
+    "published_at": "2026-08-26T17:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:07.773206+00:00"
+  },
+  {
+    "title": "Spesifikasi KRI Gajah Mada, kapal induk baru TNI AL dari Italia",
+    "content": "Kapal induk Giuseppe Garibaldi mulai berlayar dari Italia menuju Indonesia dan diproyeksikan menjadi kapal induk ...",
+    "url": "https://www.antaranews.com/berita/5716391/spesifikasi-kri-gajah-mada-kapal-induk-baru-tni-al-dari-italia",
+    "published_at": "2026-08-26T18:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:07.903425+00:00"
+  },
+  {
+    "title": "Apa itu IKD dan cara buatnya? Cek fungsi KTP digital resmi",
+    "content": "Identitas Kependudukan Digital (IKD) menjadi bagian dari transformasi administrasi kependudukan di Indonesia. Layanan ...",
+    "url": "https://www.antaranews.com/berita/5706309/apa-itu-ikd-dan-cara-buatnya-cek-fungsi-ktp-digital-resmi",
+    "published_at": "2026-08-26T19:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:08.035028+00:00"
+  },
+  {
+    "title": "Paskibra vs Paskibraka: Ini perbedaan dan tugasnya",
+    "content": "Paskibra dan Paskibraka sama-sama berkaitan dengan tugas pengibaran bendera Merah Putih. Namun, keduanya memiliki ...",
+    "url": "https://www.antaranews.com/berita/5690197/paskibra-vs-paskibraka-ini-perbedaan-dan-tugasnya",
+    "published_at": "2026-08-26T20:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:08.175188+00:00"
+  },
+  {
+    "title": "Formasi 17-8-45 Paskibraka: Sejarah dan makna di baliknya",
+    "content": "Formasi 17-8-45 menjadi bagian penting dalam pelaksanaan tugas Pasukan Pengibar Bendera Pusaka (Paskibraka) pada ...",
+    "url": "https://www.antaranews.com/berita/5690195/formasi-17-8-45-paskibraka-sejarah-dan-makna-di-baliknya",
+    "published_at": "2026-08-26T07:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Antaranews.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:08.725783+00:00"
+  }
+]

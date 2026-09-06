@@ -1,0 +1,4711 @@
+[
+  {
+    "title": "NeutraDC Gandeng PLN Siapkan Energi untuk Ekspansi Data Center 200 MW",
+    "content": "Ekspansi ini diharapkan memperkuat kesiapan Indonesia dalam menyediakan infrastruktur digital berskala besar di tengah pesatnya pertumbuhan kebutuhan akal imitasi (AI), cloud computing, dan layanan digital.",
+    "url": "https://bisnis.tempo.co/read/2117494/neutradc-gandeng-pln-siapkan-energi-untuk-ekspansi-data-center-200-mw",
+    "published_at": "2026-08-29T08:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:47.759545+00:00"
+  },
+  {
+    "title": "Pegadaian Gandeng Kadin Perluas Ekosistem Emas",
+    "content": "Pegadaian dan Kadin berharap kolaborasi yang dilakukan dapat memperluas akses layanan keuangan, memperkuat pelaku usaha, serta mendorong pemanfaatan emas dalam kegiatan ekonomi.",
+    "url": "https://bisnis.tempo.co/read/2117491/pegadaian-gandeng-kadin-perluas-ekosistem-emas",
+    "published_at": "2026-08-29T09:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.76,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:47.889964+00:00"
+  },
+  {
+    "title": "PT Pertamina Patra Niaga RU Cilacap Buka Tender Penggantian Column Assy 11C-1",
+    "content": "PT Pertamina Patra Niaga Refinery Unit (RU) IV Cilacap secara resmi mengumumkan pelaksanaan tender terbuka untuk pekerjaan bertajuk \"PENGGANTIAN COLUMN ASSY 11C-1 AREA FOC I PT. PERTAMINA PATRA NIAGA DI RU IV CILACAP\".",
+    "url": "https://bisnis.tempo.co/read/2117192/pt-pertamina-patra-niaga-ru-cilacap-buka-tender-penggantian-column-assy-11c-1",
+    "published_at": "2026-08-29T10:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:48.111802+00:00"
+  },
+  {
+    "title": "BNI Perkuat Pengembangan SDM Melalui Sertifikasi dan Standar Internasional",
+    "content": "BNI memperkuat pengembangan sumber daya manusia melalui lisensi LSP BNI dan penerapan standar internasional di BNI Corporate University.",
+    "url": "https://bisnis.tempo.co/read/2117401/bni-perkuat-pengembangan-sdm-melalui-sertifikasi-dan-standar-internasional",
+    "published_at": "2026-08-29T11:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.73,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:48.264117+00:00"
+  },
+  {
+    "title": "PT Pertamina Patra Niaga RU Cilacap Buka Tender Penggantian Column Assy 11C-1",
+    "content": "PT Pertamina Patra Niaga Refinery Unit (RU) IV Cilacap secara resmi mengumumkan pelaksanaan tender terbuka untuk pekerjaan bertajuk \"PENGGANTIAN COLUMN ASSY 11C-1 AREA FOC I PT. PERTAMINA PATRA NIAGA DI RU IV CILACAP\".",
+    "url": "https://bisnis.tempo.co/read/2117188/pt-pertamina-patra-niaga-ru-cilacap-buka-tender-penggantian-column-assy-11c-1",
+    "published_at": "2026-08-29T12:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:48.416456+00:00"
+  },
+  {
+    "title": "Ketua Baznas Tekankan Peran PUSDAI Jawa Barat sebagai Penggerak Umat",
+    "content": "Ketua Badan Amil Zakat Nasional (Baznas) sekaligus Wakil Pimpinan Pusat Dakwah Islam (PUSDAI) Jawa Barat periode pertama, Sodik Mudjahid, mengatakan PUSDAI Jawa Barat harus terus menjadi motor penggerak gerakan umat. Hal itu dilakukan melalui pengoptimalan empat fungsi utama, yaitu sebagai fasilitator, koordinator, dinamisator, dan inovator gerakan umat.",
+    "url": "https://bisnis.tempo.co/read/2117354/ketua-baznas-tekankan-peran-pusdai-jawa-barat-sebagai-penggerak-umat",
+    "published_at": "2026-08-29T13:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.71,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:48.551239+00:00"
+  },
+  {
+    "title": "Iftitah Sulaiman Dorong Kampus Hadirkan Inovasi di Kawasan Transmigrasi",
+    "content": "Menteri Transmigrasi Iftitah Sulaiman mendorong perguruan tinggi terlibat dalam pengembangan kawasan transmigrasi melalui riset, inovasi, dan penerapan ilmu pengetahuan.",
+    "url": "https://bisnis.tempo.co/read/2117316/iftitah-sulaiman-dorong-kampus-hadirkan-inovasi-di-kawasan-transmigrasi",
+    "published_at": "2026-08-29T14:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:48.674702+00:00"
+  },
+  {
+    "title": "PT Pertamina Patra Niaga RU Cilacap Buka Tender Penggantian Column Assy 11C-1",
+    "content": "PT Pertamina Patra Niaga Refinery Unit (RU) IV Cilacap secara resmi mengumumkan pelaksanaan tender terbuka untuk pekerjaan bertajuk \"PENGGANTIAN COLUMN ASSY 11C-1 AREA FOC I PT. PERTAMINA PATRA NIAGA DI RU IV CILACAP\".",
+    "url": "https://bisnis.tempo.co/read/2117185/pt-pertamina-patra-niaga-ru-cilacap-buka-tender-penggantian-column-assy-11c-1",
+    "published_at": "2026-08-29T15:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:48.795430+00:00"
+  },
+  {
+    "title": "KKP Selamatkan 1.286 Telur Penyu di Sambas",
+    "content": "KKP menyelamatkan 1.286 butir telur penyu di Kabupaten Sambas, Kalimantan Barat, yang ditemukan di dua lokasi dan ditangani sesuai hasil identifikasi serta prosedur konservasi.",
+    "url": "https://bisnis.tempo.co/read/2117230/kkp-selamatkan-1-286-telur-penyu-di-sambas",
+    "published_at": "2026-08-29T16:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:48.917813+00:00"
+  },
+  {
+    "title": "PT Pertamina Patra Niaga RU Cilacap Buka Tender Penggantian Column Assy 11C-1",
+    "content": "PT Pertamina Patra Niaga Refinery Unit (RU) IV Cilacap secara resmi mengumumkan pelaksanaan tender terbuka untuk pekerjaan bertajuk \"PENGGANTIAN COLUMN ASSY 11C-1 AREA FOC I PT. PERTAMINA PATRA NIAGA DI RU IV CILACAP\".",
+    "url": "https://bisnis.tempo.co/read/2117183/pt-pertamina-patra-niaga-ru-cilacap-buka-tender-penggantian-column-assy-11c-1",
+    "published_at": "2026-08-29T17:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:49.054481+00:00"
+  },
+  {
+    "title": "Bank Mandiri Gandeng Paramount Dorong Pertumbuhan Properti Berkelanjutan",
+    "content": "Bank Mandiri menggandeng Paramount untuk memperluas kerja sama bisnis dan menciptakan nilai tambah yang dapat memperkuat ekosistem industri properti.",
+    "url": "https://bisnis.tempo.co/read/2117152/bank-mandiri-gandeng-paramount-dorong-pertumbuhan-properti-berkelanjutan",
+    "published_at": "2026-08-29T18:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.77,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:49.174208+00:00"
+  },
+  {
+    "title": "Bea Cukai Gagalkan Penyelundupan 10 Kilogram Ganja dari Thailand di Bandara Ngurah Rai",
+    "content": "Bea Cukai Ngurah Rai menggagalkan penyelundupan 10 kilogram ganja dari Thailand yang dibawa dua warga negara India melalui Bandara I Gusti Ngurah Rai, Bali.",
+    "url": "https://bisnis.tempo.co/read/2116942/bea-cukai-gagalkan-penyelundupan-10-kilogram-ganja-dari-thailand-di-bandara-ngurah-rai",
+    "published_at": "2026-08-29T19:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:49.302118+00:00"
+  },
+  {
+    "title": "Pemkab Bogor: Serah Terima PSU Sentul City Rampung, Tinggal Tunggu Sertifikat BPN",
+    "content": "Eko mengatakan ada klaster-klaster tertentu yang bahkan sudah lebih dulu menjalani proses penyerahan pengelolaan, terlepas dari status sertifikasi yang masih berjalan secara keseluruhan.",
+    "url": "https://bisnis.tempo.co/read/2116937/pemkab-bogor-serah-terima-psu-sentul-city-rampung-tinggal-tunggu-sertifikat-bpn",
+    "published_at": "2026-08-29T08:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:49.423819+00:00"
+  },
+  {
+    "title": "APMF 2026 Dorong Industri Bangun Kolaborasi Berkelanjutan",
+    "content": "APMF 2026 mendorong pelaku industri mengubah fokus dari sekadar menciptakan kampanye menjadi membangun kolaborasi dan kemitraan yang mampu menciptakan nilai secara berkelanjutan.",
+    "url": "https://bisnis.tempo.co/read/2116923/apmf-2026-dorong-industri-bangun-kolaborasi-berkelanjutan",
+    "published_at": "2026-08-29T09:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.83,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:49.550555+00:00"
+  },
+  {
+    "title": "Sektor Jasa Keuangan Stabil, Kredit Perbankan Melesat",
+    "content": "Stabilitas sektor jasa keuangan didukung oleh kinerja industri yang tumbuh positif dan berkontribusi terhadap pertumbuhan ekonomi nasional.",
+    "url": "https://bisnis.tempo.co/read/2116680/sektor-jasa-keuangan-stabil-kredit-perbankan-melesat",
+    "published_at": "2026-08-29T10:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:49.661710+00:00"
+  },
+  {
+    "title": "Kebutuhan akan Layanan Pengelolaan Kekayaan Terus Berkembang, OCBC Perkuat Kapabilitas Wealth Management",
+    "content": "Nasabah tidak hanya memiliki kesempatan mengembangkan aset, tapi juga dapat mempersiapkan perlindungan terhadap berbagai risiko.",
+    "url": "https://bisnis.tempo.co/read/2116586/kebutuhan-akan-layanan-pengelolaan-kekayaan-terus-berkembang-ocbc-perkuat-kapabilitas-wealth-management",
+    "published_at": "2026-08-29T11:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:49.789611+00:00"
+  },
+  {
+    "title": "Efek Komisi Ojol, GoTo Ungkap Penyesuaian Bisnis Mobilitas",
+    "content": "Selain mempertahankan kinerja, GoTo tetap berkomitmen untuk meningkatkan kesejahteraan mitra.",
+    "url": "https://bisnis.tempo.co/read/2116577/efek-komisi-ojol-goto-ungkap-penyesuaian-bisnis-mobilitas",
+    "published_at": "2026-08-29T12:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:49.919906+00:00"
+  },
+  {
+    "title": "Mengapa Pertamina Menurunkan Harga BBM Nonsubsidi",
+    "content": "Tiga jenis BBM Pertamina seperti Pertamax Turbo, Pertamax Green 95, dan Pertamax turun harga per 1 Agustus.",
+    "url": "https://bisnis.tempo.co/read/2116425/mengapa-pertamina-menurunkan-harga-bbm-nonsubsidi",
+    "published_at": "2026-08-29T13:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:50.073486+00:00"
+  },
+  {
+    "title": "Kata OJK soal Penerbitan Panda Bond dan Patriot Bond",
+    "content": "Berbeda dengan Panda Bond, dokumen penerbitan Patriot Bond oleh PT Danantara Investment Management (DIM) dilaporkan atau terdaftar di OJK.",
+    "url": "https://bisnis.tempo.co/read/2116420/kata-ojk-soal-penerbitan-panda-bond-dan-patriot-bond",
+    "published_at": "2026-08-29T14:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:50.185806+00:00"
+  },
+  {
+    "title": "IHSG Sepekan Menguat Tipis ke Level 6.236,1",
+    "content": "Pergerakan IHSG seiring menguatnya mayoritas bursa regional Asia.",
+    "url": "https://bisnis.tempo.co/read/2116406/ihsg-sepekan-menguat-tipis-ke-level-6-2361",
+    "published_at": "2026-08-29T15:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:50.289370+00:00"
+  },
+  {
+    "title": "Hyundai Targetkan Prototipe Mobil Neira Capai TKDN 80 Persen",
+    "content": "Chief Operating Officer PT Hyundai Motors Indonesia Fransiscus Soerjopranoto mengatakan TKDN produk itu sudah dominan lokal.",
+    "url": "https://bisnis.tempo.co/read/2116396/hyundai-targetkan-prototipe-mobil-neira-capai-tkdn-80-persen",
+    "published_at": "2026-08-29T16:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:50.403681+00:00"
+  },
+  {
+    "title": "Garuda Ungkap Perkembangan Merger dengan Pelita Air",
+    "content": "Garuda Indonesia juga tengah mengukur dampak merger terhadap kegiatan operasional dan kinerja keuangan.",
+    "url": "https://bisnis.tempo.co/read/2116312/garuda-ungkap-perkembangan-merger-dengan-pelita-air",
+    "published_at": "2026-08-29T17:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:50.523758+00:00"
+  },
+  {
+    "title": "PLN Bakal Serap Listrik 40,79 MW dari PSEL Legok Nangka",
+    "content": "PLN telah meneken Perjanjian Jual Beli Listrik (PJBL) PSEL Legok Nangka untuk jangka waktu 20 tahun.",
+    "url": "https://bisnis.tempo.co/read/2116304/pln-bakal-serap-listrik-4079-mw-dari-psel-legok-nangka",
+    "published_at": "2026-08-29T18:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:50.627614+00:00"
+  },
+  {
+    "title": "Pembangunan Pipa Gas Dumai-Sei Mangkei Capai 32 Persen",
+    "content": "Pipa gas Dumai-Sei Mangkei (Dusem) akan membentang sepanjang 535 kilometer dan ditargetkan rampung pada awal 2028.",
+    "url": "https://bisnis.tempo.co/read/2116275/pembangunan-pipa-gas-dumai-sei-mangkei-capai-32-persen",
+    "published_at": "2026-08-29T19:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.44,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:50.746459+00:00"
+  },
+  {
+    "title": "Proyek PSEL di Jawa Barat Senilai Rp 7,2 T Mulai Dibangun",
+    "content": "PSEL Legok Nangka diproyeksikan menghasilkan listrik sebesar 40,79 megawatt.",
+    "url": "https://bisnis.tempo.co/read/2116264/proyek-psel-di-jawa-barat-senilai-rp-72-t-mulai-dibangun",
+    "published_at": "2026-08-29T08:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:50.875531+00:00"
+  },
+  {
+    "title": "Bandara Soekarno-Hatta Bersiap Pendaratan Airbus A380-800",
+    "content": "PT Angkasa Pura Indonesia (Persero) Kantor Cabang Bandara Soekarno-Hatta siap menyambut operasional perdana Airbus A380-800 milik maskapai Emirates.",
+    "url": "https://bisnis.tempo.co/read/2116261/bandara-soekarno-hatta-bersiap-pendaratan-airbus-a380-800",
+    "published_at": "2026-08-29T09:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:50.997692+00:00"
+  },
+  {
+    "title": "Agung Podomoro Land Bukukan Pendapatan Rp 3,66 T",
+    "content": "Pendapatan Agung Podomoro Land naik 117 persen dibanding periode sama tahun sebelumnya.",
+    "url": "https://bisnis.tempo.co/read/2116250/agung-podomoro-land-bukukan-pendapatan-rp-366-t",
+    "published_at": "2026-08-29T10:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.62,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:51.120791+00:00"
+  },
+  {
+    "title": "MRT Jakarta Kembangkan Bisnis TOD, Pendanaan di Luar APBD",
+    "content": "MRT Jakarta menggunakan berbagai skema pembiayaan di luar APBD dalam mengembangkan bisnis kawasan berorientasi transit atau Transit-Oriented Development (TOD).",
+    "url": "https://bisnis.tempo.co/read/2116246/mrt-jakarta-kembangkan-bisnis-tod-pendanaan-di-luar-apbd",
+    "published_at": "2026-08-29T11:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:51.249000+00:00"
+  },
+  {
+    "title": "APPBI Perpanjang Indonesia Shopping Festival 2026",
+    "content": "Penyelenggaraan Indonesia Shopping Festival (ISF) 2026 diperpanjang dari 11 hari menjadi 17 hari dan akan berlangsung pada 7-23 Agustus.",
+    "url": "https://bisnis.tempo.co/read/2116244/appbi-perpanjang-indonesia-shopping-festival-2026",
+    "published_at": "2026-08-29T12:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:51.362692+00:00"
+  },
+  {
+    "title": "BPJS Kesehatan Percepat Implementasi Klaim Elektronik Terintegrasi SATUSEHAT",
+    "content": "Melalui Surat Edaran Bersama (SEB) tentang Percepatan Implementasi Rekam Medis Elektronik (RME) Terintegrasi SATUSEHAT, rumah sakit mitra BPJS Kesehatan didorong untuk beralih dari klaim berbasis dokumen hasil pemindaian PDF menuju klaim elektronik berbasis data RME.",
+    "url": "https://bisnis.tempo.co/read/2116242/bpjs-kesehatan-percepat-implementasi-klaim-elektronik-terintegrasi-satusehat",
+    "published_at": "2026-08-29T13:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:51.496263+00:00"
+  },
+  {
+    "title": "Menperin: Penjualan Kendaraan Listrik Pesat",
+    "content": "Menperin Agus Guwimang menyebut penjualan mobil listrik mencapai 117 ribu unit pada semester I 2026 atau naik 69,4 persen secara tahunan.",
+    "url": "https://bisnis.tempo.co/read/2116181/menperin-penjualan-kendaraan-listrik-pesat",
+    "published_at": "2026-08-29T14:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.71,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:51.648311+00:00"
+  },
+  {
+    "title": "Pegadaian Kantongi SK PKB 2026-2028, Perkuat Kepastian Hukum Ketenagakerjaan",
+    "content": "PT Pegadaian (Persero) menerima Surat Keputusan Perjanjian Kerja Bersama (PKB) Periode 2026-2028 dari Kementerian Ketenagakerjaan sebagai landasan baru untuk memperkuat hubungan industrial dan kepastian hukum ketenagakerjaan di lingkungan perusahaan.",
+    "url": "https://bisnis.tempo.co/read/2116172/pegadaian-kantongi-sk-pkb-2026-2028-perkuat-kepastian-hukum-ketenagakerjaan",
+    "published_at": "2026-08-29T15:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.73,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:51.768982+00:00"
+  },
+  {
+    "title": "Danamon Bukukan Laba Bersih Rp 2,4 Triliun pada Semester I",
+    "content": "PT Bank Danamon Indonesia Tbk. membukukan laba bersih periode berjalan konsolidasian sebesar Rp 2,4 triliun pada semester I 2026.",
+    "url": "https://bisnis.tempo.co/read/2116168/danamon-bukukan-laba-bersih-rp-24-triliun-pada-semester-i",
+    "published_at": "2026-08-29T16:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.74,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:51.885214+00:00"
+  },
+  {
+    "title": "Rans Belum Tunjuk Pengganti Direktur yang Mundur",
+    "content": "Grandy Prajayakti mundur dari posisinya sebagai Direktur Rans Entertainmen karena alasan pribadi.",
+    "url": "https://bisnis.tempo.co/read/2116166/rans-belum-tunjuk-pengganti-direktur-yang-mundur",
+    "published_at": "2026-08-29T17:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:52.003688+00:00"
+  },
+  {
+    "title": "Pemerintah Optimistis Produksi Mobil Tembus 850 Ribu Unit",
+    "content": "Menteri Perindustrian Agus Gumiwang Kartasasmita menyatakan Indonesia sedang bertransisi sebagai salah satu basis produksi mobil di dunia.",
+    "url": "https://bisnis.tempo.co/read/2116143/pemerintah-optimistis-produksi-mobil-tembus-850-ribu-unit",
+    "published_at": "2026-08-29T18:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:52.131460+00:00"
+  },
+  {
+    "title": "Nissan Fairlady Z, Mobil Sport Baru di GIIAS 2026",
+    "content": "Nissan Fairlady Z merupakan segmen mobil sport generasi terbaru. Ditaksir seharga di atas Rp 1 miliar per unit.",
+    "url": "https://bisnis.tempo.co/read/2116140/nissan-fairlady-z-mobil-sport-baru-di-giias-2026",
+    "published_at": "2026-08-29T19:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:52.249081+00:00"
+  },
+  {
+    "title": "Pasukan Emak Dikerahkan Tagih Pajak Kendaraan Bermotor",
+    "content": "Kelurahan yang disasar merupakan kawasan dengan potensi tunggakan pajak kendaraan bermotor tertinggi hingga terendah di Kota Cirebon.",
+    "url": "https://bisnis.tempo.co/read/2116130/pasukan-emak-dikerahkan-tagih-pajak-kendaraan-bermotor",
+    "published_at": "2026-08-29T08:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.31,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:52.353359+00:00"
+  },
+  {
+    "title": "Kasus Hukum: Ditjen HKI Diminta Tolak Merek Cap Kaki Tiga",
+    "content": "Direktorat Jenderal Hak dan Kekayaan Intelektual (Ditjen HKI), diminta menolak pendaftaran merek Cap Kaki Tiga karena mempunyai kasus hukum",
+    "url": "https://hukum.tempo.co/read/1086010/kasus-hukum-ditjen-hki-diminta-tolak-merek-cap-kaki-tiga",
+    "published_at": "2026-08-29T09:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:52.462395+00:00"
+  },
+  {
+    "title": "Pengacara David Tobing Kembali Gugat Garuda",
+    "content": "Pengacara David Tobing mengadukan Garuda ke Pengadilan Negeri Jakarta Pusat.",
+    "url": "https://hukum.tempo.co/read/1078939/pengacara-david-tobing-kembali-gugat-garuda",
+    "published_at": "2026-08-29T10:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:52.571096+00:00"
+  },
+  {
+    "title": "Saat Ketua Saracen Dihukum 10 Bulan Penjara",
+    "content": "Majelis hakim memvonis Ketua Saracen jauh dari tuntutan jaksa. Padahal admin grup Saracen dihukum dua tahun penjara.",
+    "url": "https://hukum.tempo.co/read/1077592/saat-ketua-saracen-dihukum-10-bulan-penjara",
+    "published_at": "2026-08-29T11:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.75,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:52.681829+00:00"
+  },
+  {
+    "title": "Ketua KPPU Syarkawi Rauf: Syarat Komisioner Baru",
+    "content": "Syarkawi Rauf menyebut calon komisioner KPPU harus mengerti hukum persaingan usaha dan pengetahuan industrial organization. Tugas KPPU masih berat.",
+    "url": "https://hukum.tempo.co/read/1076441/ketua-kppu-syarkawi-rauf-syarat-komisioner-baru",
+    "published_at": "2026-08-29T12:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:52.801836+00:00"
+  },
+  {
+    "title": "David Tobing: Garuda Mestinya Mengakui Saja Ada Kelalaian",
+    "content": "Garuda menyatakan telah memberi minuman sebagai kompensasi keterlambatan pemberangkatan. Menurut David Garuda mestinya memberi makanan ringan.",
+    "url": "https://hukum.tempo.co/read/1076056/david-tobing-garuda-mestinya-mengakui-saja-ada-kelalaian",
+    "published_at": "2026-08-29T13:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:52.919144+00:00"
+  },
+  {
+    "title": "David Tobing: Harusnya Garuda Mengakui Saja Ada Kelalaian",
+    "content": "Garuda menyatakan telah memberi minuman ringan sebagai kompensasi keterlambatan. David siap membuktikan Garuda terlambat lebih 6o menit.",
+    "url": "https://hukum.tempo.co/read/1076026/david-tobing-harusnya-garuda-mengakui-saja-ada-kelalaian",
+    "published_at": "2026-08-29T14:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:53.047616+00:00"
+  },
+  {
+    "title": "Setelah Setya Novanto Dituntut 16 Tahun Penjara dalam Kasus E-KTP",
+    "content": "Jaksa mestinya berani menuntut hukuman Setya Novanto di atas 16 tahun dalam kasus E-KTP.",
+    "url": "https://hukum.tempo.co/read/1075381/setelah-setya-novanto-dituntut-16-tahun-penjara-dalam-kasus-e-ktp",
+    "published_at": "2026-08-29T15:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:53.184960+00:00"
+  },
+  {
+    "title": "Kejaksaan Agung Tahan Dua Petinggi Bank Mandiri",
+    "content": "Kedua petinggi itu dinilai melakukan pelanggaran dalam pengucuran kredit ke PT Tirta Amarta sehingga Bank Mandiri kebobolan lebih dari Rp 1 triliun.",
+    "url": "https://hukum.tempo.co/read/1075221/kejaksaan-agung-tahan-dua-petinggi-bank-mandiri",
+    "published_at": "2026-08-29T16:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.12,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:53.302426+00:00"
+  },
+  {
+    "title": "MAKI: Ada Kejanggalan dalam Penetapan Pembobolan Bank Mandiri",
+    "content": "Pembobolan oleh pimpinan PT Tirta Amarta Bottling, Teddy Rony ini telah membuat tiga manajer Bank Mandiri masuk bui.",
+    "url": "https://hukum.tempo.co/read/1074656/maki-ada-kejanggalan-dalam-penetapan-pembobolan-bank-mandiri",
+    "published_at": "2026-08-29T17:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.38,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:53.436332+00:00"
+  },
+  {
+    "title": "Menganggap Mereknya Ditiru, Hugo Boss Gugat Tiga Pengusaha Lokal",
+    "content": "Hugo Boss menggugat tujuh merek milik pengusaha Indonesia ke Pengadilan Niaga Jakarta Pusat. Hugo memenangkan kasus yang sama di Mahkamah Agung.",
+    "url": "https://hukum.tempo.co/read/1073963/menganggap-mereknya-ditiru-hugo-boss-gugat-tiga-pengusaha-lokal",
+    "published_at": "2026-08-29T18:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.25,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:53.557501+00:00"
+  },
+  {
+    "title": "Menolak RKUHP Rasa Kolonial",
+    "content": "Kalau Presiden dan DPR menyetujui RKUHP ini, Presiden dan DPR bermufakat untuk bertindak bertentangan dengan konstitusi.",
+    "url": "https://hukum.tempo.co/read/1073600/menolak-rkuhp-rasa-kolonial",
+    "published_at": "2026-08-29T19:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:53.686432+00:00"
+  },
+  {
+    "title": "Pelajaran dari Hukuman Mati Zaini Misrin",
+    "content": "Pemerintah punya daftar nama-nama buruh migran yang terancam hukuman mati. Daftar itu seharusnya menjadi landasan untuk memperjuangkan mereka.",
+    "url": "https://hukum.tempo.co/read/1073244/pelajaran-dari-hukuman-matizaini-misrin",
+    "published_at": "2026-08-29T08:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:53.791819+00:00"
+  },
+  {
+    "title": "Hanung tentang Benyamin Biang Kerok-nya yang Masuk Pengadilan",
+    "content": "Penulis Syamsul Fuad menyatakan Film Benyamin Biang Kerok telah melanggar hak cipta. Hanung Bramantyo menilai \"biang kerok\" merupakan ungkapan.",
+    "url": "https://hukum.tempo.co/read/1072789/hanungtentang-benyamin-biang-kerok-nya-yang-masuk-pengadilan",
+    "published_at": "2026-08-29T09:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:53.922578+00:00"
+  },
+  {
+    "title": "Hanung Tidak Tahu Benyamin Biang Kerok Digugat ke Pengadilan",
+    "content": "Penulis Syamsul Fuad menuntut Falcon, pembuat film Benyamin Biang Kerok, Rp 1 miliar untuk hak cipta dan Rp 10 miliar untuk kerugian immateril.",
+    "url": "https://hukum.tempo.co/read/1072002/hanung-tidak-tahu-benyamin-biang-kerok-digugat-ke-pengadilan",
+    "published_at": "2026-08-29T10:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:54.050486+00:00"
+  },
+  {
+    "title": "KPK dan Calon Pemimpin Berstatus Tersangka Korupsi",
+    "content": "KPK berencana mengumumkan nama calon kepala daerah yang diduga korupsi. Semestinya politik tunduk pada hukum. KPK tak perlu mundur untuk hal ini.",
+    "url": "https://hukum.tempo.co/read/1071870/kpk-dan-calon-pemimpin-berstatus-tersangka-korupsi",
+    "published_at": "2026-08-29T11:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.37,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:54.159966+00:00"
+  },
+  {
+    "title": "Saksi PPATK Diharap Bisa Ungkap Aliran Uang First Travel",
+    "content": "Saksi menyatakan uang membeli tiket dan booking hotel di luar negeri adalah uang jemaah First Travel. First Travel diduga menilap Rp 900 miliar.",
+    "url": "https://hukum.tempo.co/read/1071302/saksi-ppatk-diharap-bisa-ungkap-aliran-uang-first-travel",
+    "published_at": "2026-08-29T12:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:54.272759+00:00"
+  },
+  {
+    "title": "Pengadilan Tangerang dan Suap Hakim Wahyu Widya Nurfitri",
+    "content": "Penangkapan hakim Pengadilan Negeri Tangerang Wahyu Widya Nurfitri membuktikan betapa masih saja ada hakim yang bobrok.",
+    "url": "https://hukum.tempo.co/read/1070967/pengadilan-tangerang-dansuap-hakim-wahyu-widya-nurfitri",
+    "published_at": "2026-08-29T13:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.54,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:54.384875+00:00"
+  },
+  {
+    "title": "Merevisi UU Narkotika",
+    "content": "DPR meminta Pemerintah segera mengirim draf revisi UU Narkotika. Hal penting dalam revisi UU Narkotika adalah dekriminalisasi pengguna narkoba.",
+    "url": "https://hukum.tempo.co/read/1070157/merevisi-uu-narkotika",
+    "published_at": "2026-08-29T14:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:54.535726+00:00"
+  },
+  {
+    "title": "Bebas Gender, UU Perkawinan Sejenis Australia",
+    "content": "Berkat UU Perkawinan pasangan sejenis di Australia berhak menikah. UU Perkawinan untuk membangun masyarakat bebas gender.",
+    "url": "https://hukum.tempo.co/read/1069865/bebas-gender-uu-perkawinan-sejenis-australia",
+    "published_at": "2026-08-29T15:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:54.637278+00:00"
+  },
+  {
+    "title": "Pengacara: Penyitaan Lahan Bogor Nirwana Residence Sah",
+    "content": "Penetapan sita jaminan lahan Bogor Nirwana Residence tak cacat hukum. Berita acara penyitaan lahan Bogor Nirwana Residence ada pada dua dokumen.",
+    "url": "https://hukum.tempo.co/read/1069538/pengacara-penyitaan-lahan-bogor-nirwana-residence-sah",
+    "published_at": "2026-08-29T16:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:54.757229+00:00"
+  },
+  {
+    "title": "Jika Dokter Merintangi KPK",
+    "content": "Langkah Bimanesh merintangi penyidikan KPK mencoreng citra dunia kedokteran. KPK sering menerima alasan sakit dari para koruptor agar tak disidik.",
+    "url": "https://hukum.tempo.co/read/1069507/jika-dokter-merintangi-kpk",
+    "published_at": "2026-08-29T17:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:54.882546+00:00"
+  },
+  {
+    "title": "Presiden dan Pengesahan Undang-Undang",
+    "content": "Ada rumor Presiden Jokowi tak bersedia mengesahkan Rancangan Undang-Undang MD3. Padahal undang-undang itu sudah disetujui oleh pemerintah dan DPR.",
+    "url": "https://hukum.tempo.co/read/1069108/presiden-dan-pengesahan-undang-undang",
+    "published_at": "2026-08-29T18:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:55.008816+00:00"
+  },
+  {
+    "title": "Sidang Dugaan Monopoli Angkasa Pura II Digelar di Medan",
+    "content": "Angkasa Pura II diperiksa KPPU karena diduga melakukan praktik monopoli di Bandara Kualanamu. Angkasa Pura II menolak tuduhan itu.",
+    "url": "https://hukum.tempo.co/read/1068841/sidang-dugaanmonopoliangkasa-pura-ii-digelar-di-medan",
+    "published_at": "2026-08-29T19:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:55.134758+00:00"
+  },
+  {
+    "title": "KPPU Awasi Harga Beras agar Stabil Menjelang Ramadan.",
+    "content": "Komisi Pengawas Persaingan Usaha (KPPU) menggagas berdirinya Pasar Induk Beras di wilayah sentra beras nasional. KPPU mengawasi Pasar Cipinang.",
+    "url": "https://hukum.tempo.co/read/1068407/kppu-awasi-harga-beras-agar-stabil-menjelang-ramadan",
+    "published_at": "2026-08-29T08:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:55.265703+00:00"
+  },
+  {
+    "title": "David Tobing, Sosok Pengacara Pelawan Goliat",
+    "content": "Pengacara David Tobing dikenal sebagai pengacara pembela hak-hak publik. Ibaratnya, sebagai pengacara, ia bak David melawan raksasa Goliat.",
+    "url": "https://hukum.tempo.co/read/1068099/david-tobing-sosok-pengacara-pelawan-goliat",
+    "published_at": "2026-08-29T09:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:55.395005+00:00"
+  },
+  {
+    "title": "Lubang Korupsi di MOU Kementerian Dalam Negeri, Polisi, Kejaksaan",
+    "content": "Dengan kesepakatan ini pelaku korupsi bisa tak diusut jika dalam 60 hari mengembalikan hasil korupsinya. Bisa menyuburkan praktik korupsi.",
+    "url": "https://hukum.tempo.co/read/1067355/lubang-korupsi-di-mou-kementerian-dalam-negeri-polisi-kejaksaan",
+    "published_at": "2026-08-29T10:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:55.521708+00:00"
+  },
+  {
+    "title": "Presiden Diminta Bicara dengan Berbagai Pihak Soal RKUHP.",
+    "content": "Aliansi Nasional Reformasi KUHP Minta Pemerintah dan DPR tidak terburu-buru sahkan RKUHP. Presiden perlu dialog dengan banyak pihak tentang RKUHP.",
+    "url": "https://hukum.tempo.co/read/1066682/presiden-diminta-bicara-dengan-berbagai-pihak-soal-rkuhp",
+    "published_at": "2026-08-29T11:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:55.637395+00:00"
+  },
+  {
+    "title": "Miko Ginting:Ke Mana Arah Pembaruan dalam RKUHP?",
+    "content": "RKUHP masih kental dengan naluri pengawas yang berupaya mengontrol sebagian besar perilaku masyarakat. Sebaiknya RKUHP ini ditarik dari pembahasan.",
+    "url": "https://hukum.tempo.co/read/1065862/miko-gintingke-mana-arah-pembaruan-dalam-rkuhp",
+    "published_at": "2026-08-29T12:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:55.749110+00:00"
+  },
+  {
+    "title": "Pengacara: Mendengar Musik Sambil Mengemudi Bukan Pelanggaran",
+    "content": "David Tobing meminta Polri memberi klarifikasi mengemudi sambil medengar musik merupakan pelanggaran. UU Lalu Lintas tidak menyebut pelanggaran.",
+    "url": "https://hukum.tempo.co/read/1065853/pengacara-mendengar-musik-sambil-mengemudi-bukan-pelanggaran",
+    "published_at": "2026-08-29T13:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:55.869542+00:00"
+  },
+  {
+    "title": "Diperpanjang Tugasnya, KPPU Harap Komisioner Baru Segera Terpilih",
+    "content": "Untuk kedua kali Presiden memperpanjang masa tugas anggota Komisi Pengawas Persaingan Usaha (KPPU). Ada 18 nama calon anggota KPPU yang kini di DPR.",
+    "url": "https://hukum.tempo.co/read/1065508/diperpanjang-tugasnya-kppu-harap-komisioner-baru-segera-terpilih",
+    "published_at": "2026-08-29T14:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:55.976656+00:00"
+  },
+  {
+    "title": "Dimensi Hukum Pelecehan Seksual di Rumah Sakit",
+    "content": "Beredarnya rekaman video pelecehan seksual oleh seorang perawat menyentak kita semua.Tak mudah menuduh tenaga kesehatan melakukan pelecehan seksual.",
+    "url": "https://hukum.tempo.co/read/1064927/dimensi-hukum-pelecehan-seksual-di-rumah-sakit",
+    "published_at": "2026-08-29T15:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.78,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:56.094745+00:00"
+  },
+  {
+    "title": "Bank CIMB Gugat Menara Properti Permata Ke Pengadilan Niaga",
+    "content": "Dalam berkas gugatan ke Pengadilan Niaga, CIMB menunjuk utang Menara Rp 172, 46 miliar. Gugatan ke Pengadilan Niaga juga memasukkan kreditur lain.",
+    "url": "https://hukum.tempo.co/read/1064690/bank-cimbgugatmenara-properti-permata-ke-pengadilan-niaga",
+    "published_at": "2026-08-29T16:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:56.233517+00:00"
+  },
+  {
+    "title": "Komisi Pengawas Persaingan Usaha Siap Putusannya Digugat Aqua",
+    "content": "Komisi Pengawas Persaingan Usaha menyatakan Tirta Investama melanggar UU No.5/1999. Aqua banding atas putusan Komisi Pengawas Persaingan Usaha",
+    "url": "https://hukum.tempo.co/read/1064113/komisi-pengawas-persaingan-usaha-siap-putusannya-digugat-aqua",
+    "published_at": "2026-08-29T17:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:56.383131+00:00"
+  },
+  {
+    "title": "Pengacara Suria Nataatmadja Berburu Gurita di Bawah Laut",
+    "content": "Pengacara senior yang satu ini memang unik. Di antara waktu luangnya pengacara Suria Nataadmadja sering memotret hewan-hewan renik di dalam laut.",
+    "url": "https://hukum.tempo.co/read/1064108/pengacara-suria-nataatmadjaberburu-guritadi-bawah-laut",
+    "published_at": "2026-08-29T18:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:56.525012+00:00"
+  },
+  {
+    "title": "Konspirasi Pelemahan Komisi Pengawas Persaingan Usaha",
+    "content": "Cita-Cita penguatan kelembagaan Komisi Pengawas Persaingan Usaha sirna jika pengendalian KPPU terjadi. Komisi Pengawas Persaingan Usaha harus kuat.",
+    "url": "https://hukum.tempo.co/read/1063203/konspirasi-pelemahan-komisi-pengawas-persaingan-usaha",
+    "published_at": "2026-08-29T19:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:56.645275+00:00"
+  },
+  {
+    "title": "RUU Penyiaran Diminta Segera Selesai Tahun Ini",
+    "content": "DPR dan Pemerintah sepakat menggunakan sistem hybrid multiplexing dalam RUU Penyiaran. Setidaknya ada empat hal lain mengganjal dalam RUU Penyiaran.",
+    "url": "https://hukum.tempo.co/read/1062844/ruu-penyiaran-diminta-segera-selesai-tahun-ini",
+    "published_at": "2026-08-29T08:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:56.760419+00:00"
+  },
+  {
+    "title": "Wanprestasi, Dalil Pengacara Menggugat Biro Umrah Hannien Tour",
+    "content": "David Maruhum L. Tobing mewakili sekitar 200 calon jamaah umrah menggugat Biro Umrah Hannien Tour. Biro Umrah ini dinilai melakukan wanprestasi.",
+    "url": "https://hukum.tempo.co/read/1062425/wanprestasi-dalil-pengacara-menggugat-biro-umrah-hannien-tour",
+    "published_at": "2026-08-29T09:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:56.868440+00:00"
+  },
+  {
+    "title": "Sulardi: DPR yang Merendahkan Kehormatannya Sendiri",
+    "content": "Anggota DPR pasti mendapat kehormatan tinggi bila bekerja sesuai yang dimaui rakyat. Tapi yang dilakukan DPR tidak melakukan itu.",
+    "url": "https://hukum.tempo.co/read/1062328/sulardi-dpr-yang-merendahkan-kehormatannya-sendiri",
+    "published_at": "2026-08-29T10:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:56.991580+00:00"
+  },
+  {
+    "title": "Penyitaan Lahan Bogor Nirwana Residence Dinilai Cacat Hukum",
+    "content": "Penetapan Sita Jaminan terhadap lahan di perumahan Bogor Nirwana Residence mengandung cacat hukum.",
+    "url": "https://hukum.tempo.co/read/1062324/penyitaan-lahan-bogor-nirwana-residence-dinilai-cacat-hukum",
+    "published_at": "2026-08-29T11:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.26,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:57.125959+00:00"
+  },
+  {
+    "title": "Indonesia Masih Kekurangan Notaris",
+    "content": "Widodo menunjuk Indonesia timur yang masih kekurangan tenaga notaris. Kualitas notaris bergantung pada universitas tempat ia belajar.",
+    "url": "https://hukum.tempo.co/read/1062029/indonesia-masih-kekurangan-notaris",
+    "published_at": "2026-08-29T12:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:57.639901+00:00"
+  },
+  {
+    "title": "Bogor Nirwana Residence Diminta Membayar Ganti Rugi Rp 218 Miliar",
+    "content": "Bogor Nirwana Residence merupakan kompleks perumahan milik PT Graha Andrasentra Propertindo. Bogor Nirwana Residence dulu bernama Bogor River Valey,",
+    "url": "https://hukum.tempo.co/read/1061637/bogor-nirwana-residence-diminta-membayar-ganti-rugi-rp-218-miliar",
+    "published_at": "2026-08-29T13:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:57.754315+00:00"
+  },
+  {
+    "title": "Reza Indragiri Amriel: Gangguan Kejiwaan dan Pasal 44 KUHP",
+    "content": "Tidak semua jenis gangguan kejiwaan bisa membuat pelaku lolos dari Pasal 44 KUHP. Perlu dicek sejak kapan pelaku mengalami gangguan kejiwaan.",
+    "url": "https://hukum.tempo.co/read/1061543/reza-indragiri-amriel-gangguan-kejiwaan-dan-pasal-44-kuhp",
+    "published_at": "2026-08-29T14:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.68,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:58.092218+00:00"
+  },
+  {
+    "title": "Pengacara David Tobing dan Kebiasaan Menyapu Jalan Setiap Pagi",
+    "content": "Pengacara David Tobing punya hobi menyapu jalan setiap pagi. Ia dikenal sebagai pengacara publik karena kerap membela kepentingan konsumen.",
+    "url": "https://hukum.tempo.co/read/1061528/pengacara-david-tobing-dan-kebiasaan-menyapu-jalan-setiap-pagi",
+    "published_at": "2026-08-29T15:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:58.226628+00:00"
+  },
+  {
+    "title": "Pengadilan Sita 11 Hektare Lahan Bogor Nirwana Residence",
+    "content": "Pengadilan menyita sekitar sebelas hektare lahan di dalam lokasi Bogor Nirwana Residence milik grup Bakri. Lahan itu tak bisa diperjualbelikan.",
+    "url": "https://hukum.tempo.co/read/1060865/pengadilan-sita-11-hektare-lahan-bogor-nirwana-residence",
+    "published_at": "2026-08-29T16:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:58.635289+00:00"
+  },
+  {
+    "title": "Malaysia dan Kebebasan Pers",
+    "content": "Malaysia memiliki sejumlah aturan yang cenderung mengekang kebebasan pers. Pasal karet Sedition Act digunakan untuk mengekang kebebasan pers.",
+    "url": "https://hukum.tempo.co/read/1060537/malaysia-dan-kebebasan-pers",
+    "published_at": "2026-08-29T17:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:58.769253+00:00"
+  },
+  {
+    "title": "Aliansi Nasional Tetap Minta Pembahasan RKUHP Dihentikan",
+    "content": "Menurut Aliansi, kendati pembahasan RKUHP diperpanjang, mereka tetap meminta dihentikan. DPR menyatakan pembahasan RKUHP diundur sampai April.",
+    "url": "https://hukum.tempo.co/read/1060272/aliansi-nasional-tetap-minta-pembahasan-rkuhp-dihentikan",
+    "published_at": "2026-08-29T18:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:58.889845+00:00"
+  },
+  {
+    "title": "Febri Diansyah: Menolak Dianggap Karismatik",
+    "content": "Lantaran wajahnya dikenal luas, Febri Diansyah acapkali menjadi sasaran penilaian orang. Ada yang menyebut namanya Febridiansyah tidak Febri Diansyah.",
+    "url": "https://hukum.tempo.co/read/1060150/febri-diansyah-menolak-dianggap-karismatik",
+    "published_at": "2026-08-29T19:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:59.034670+00:00"
+  },
+  {
+    "title": "Setelah Mahkamah Konstitusi Menyatakan KPK Bagian dari Eksekutif",
+    "content": "PUTUSAN MK yang menyatakan KPK bagian dari eksekutif membawa konsekuensi lembaga ini tidak independen. MK tak konsisten atas putusannya terhadap KPK.",
+    "url": "https://hukum.tempo.co/read/1060137/setelah-mahkamah-konstitusi-menyatakan-kpkbagian-dari-eksekutif",
+    "published_at": "2026-08-29T08:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:59.182591+00:00"
+  },
+  {
+    "title": "Tujuh Alasan RKUHP Harus Dihentikan",
+    "content": "Aliansi Nasional Reformasi KUHP minta penghentian pembahasan RKUHP. RKUHP berperspektif pemenjaraan dan sangat represif membuka ruang kriminalisasi.",
+    "url": "https://hukum.tempo.co/read/1059744/tujuh-alasan-rkuhp-harus-dihentikan",
+    "published_at": "2026-08-29T09:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:59.293047+00:00"
+  },
+  {
+    "title": "Kebebasan Pers di Indonesia",
+    "content": "Kebebasan pers di Indonesia lahir setelah Orde Baru tumbang pada 1998. Kebebasan Pers diatur dalam UU No. 40/1999 tentang Pers.",
+    "url": "https://hukum.tempo.co/read/1059485/kebebasan-pers-di-indonesia",
+    "published_at": "2026-08-29T10:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:59.405794+00:00"
+  },
+  {
+    "title": "Roy Suryo Tetap Ajukan Praperadilan: Sudah Sesuai KUHAP",
+    "content": "Roy Suryo mengajukan permohonan praperadilan kelimanya. Sudah berpegang pada KUHAP.",
+    "url": "https://metro.tempo.co/read/2118628/roy-suryo-tetap-ajukan-praperadilan-sudah-sesuai-kuhap",
+    "published_at": "2026-08-29T11:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:35:59.518492+00:00"
+  },
+  {
+    "title": "Sidang Korupsi Haji Berlanjut ke Tahap Pembuktian",
+    "content": "Majelis Hakim menolak perlawanan mantan menteri agama, Yaqut Cholil Qoumas, dalam sidang perkara dugaan korupsi kuota haji",
+    "url": "https://metro.tempo.co/read/2118426/sidang-korupsi-haji-berlanjut-ke-tahap-pembuktian",
+    "published_at": "2026-08-29T12:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.36,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:59.670084+00:00"
+  },
+  {
+    "title": "Hakim Tolak Perlawanan Yaqut Cholil Qoumas",
+    "content": "Tim hukum Yaqut Cholil Qoumas menilai polemik pembagian kuota haji 2023-2024 semestinya lebih dulu diuji di Pengadilan Tata Usaha Negara.",
+    "url": "https://metro.tempo.co/read/2118425/hakim-tolak-perlawanan-yaqut-cholil-qoumas",
+    "published_at": "2026-08-29T13:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:59.822963+00:00"
+  },
+  {
+    "title": "Rentetan Hambatan Mahasiswa UI Sebelum Demonstrasi",
+    "content": "Mahasiswa UI mendapatkan beberapa hambatan saat akan menggelar demonstrasi pada Selasa, 18 Agustus 2026. Mahasiswa lain dikabarkan diintimidasi.",
+    "url": "https://metro.tempo.co/read/2117882/rentetan-hambatan-mahasiswa-ui-sebelum-demonstrasi",
+    "published_at": "2026-08-29T14:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.37,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:35:59.947714+00:00"
+  },
+  {
+    "title": "Aksi Mahasiswa UI Tertahan di Dukuh Atas",
+    "content": "Delapan tuntutan yang dibawa mahasiswa dalam aksi unjuk rasa hari ini tertahan barikade polisi di Dukuh Atas.",
+    "url": "https://metro.tempo.co/read/2117767/aksi-mahasiswa-ui-tertahan-di-dukuh-atas",
+    "published_at": "2026-08-29T15:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:00.137099+00:00"
+  },
+  {
+    "title": "Pengacara Yaqut Soroti Dakwaan Jaksa soal Penerimaan Duit",
+    "content": "Pengacara Yaqut Cholil Qoumas menilai dakwaan jaksa kabur karena tidak menguraikan secara detail tuduhan penerimaan duit korupsi haji oleh kliennya",
+    "url": "https://metro.tempo.co/read/2117752/pengacara-yaqut-soroti-dakwaan-jaksa-soal-penerimaan-duit",
+    "published_at": "2026-08-29T16:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.44,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:00.375260+00:00"
+  },
+  {
+    "title": "Mengapa Mahasiswa UI Menggelar Unjuk Rasa Hari Ini",
+    "content": "Mahasiswa UI mengambil tema #MerebutKemerdekaan dalam unjuk rasa yang berlangsung hari ini. BEM UI menyiapkan 8 tuntutan",
+    "url": "https://metro.tempo.co/read/2117749/mengapa-mahasiswa-ui-menggelar-unjuk-rasa-hari-ini",
+    "published_at": "2026-08-29T17:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:00.729084+00:00"
+  },
+  {
+    "title": "Yaqut Cholil Qoumas akan Bacakan Eksepsi Kasus Kuota Haji",
+    "content": "Jaksa mendakwa Yaqut Cholil Qoumas memperkaya diri sekitar Rp 4,83 miliar dalam pengaturan kuota haji",
+    "url": "https://metro.tempo.co/read/2117741/yaqut-cholil-qoumas-akan-bacakan-eksepsi-kasus-kuota-haji",
+    "published_at": "2026-08-29T18:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:00.975058+00:00"
+  },
+  {
+    "title": "Polisi Bongkar Penyelundupan Emas Ilegal WNA India di Sunter",
+    "content": "Polisi membongkar kasus dugaan penyelundupan emas ilegal oleh WNA asal India. Penyidik menemukan barang bukti 2,5 kilogram emas.",
+    "url": "https://metro.tempo.co/read/2117629/polisi-bongkar-penyelundupan-emas-ilegal-wna-india-di-sunter",
+    "published_at": "2026-08-29T19:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.82,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:01.127563+00:00"
+  },
+  {
+    "title": "Diduga Pelempar Bom Molotov Pos Polisi di Surabaya Ditangkap",
+    "content": "Polisi menangkap laki-laki yang diduga berkaitan dengan pelemparan bom molotov ke kantor polisi di Surabaya. Motif hingga barang bukti di dalami.",
+    "url": "https://metro.tempo.co/read/2117624/diduga-pelempar-bom-molotov-pos-polisi-di-surabaya-ditangkap",
+    "published_at": "2026-08-29T08:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.84,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:01.635144+00:00"
+  },
+  {
+    "title": "197 Orang Ditangkap dalam Penggerebekan Kasino di Batam",
+    "content": "Polisi menangkap 197 orang dalam penggerebekan dugaan perjudian jenis kasino di kawasan Nagoya, Batam. Mereka adalah pemilik hingga pemain.",
+    "url": "https://metro.tempo.co/read/2117621/197-orang-ditangkap-dalam-penggerebekan-kasino-di-batam",
+    "published_at": "2026-08-29T09:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.79,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:02.328378+00:00"
+  },
+  {
+    "title": "Polisi Tangkap Pencuri Motor Bersenjata di Tanjung Priok",
+    "content": "Polisi menangkap pria berinisial AR, 29 tahun, dengan senjata tajam di di kawasan Sunter Jaya, Tanjung Priok. Diduga hendak mencuri sepeda motor.",
+    "url": "https://metro.tempo.co/read/2117619/polisi-tangkap-pencuri-motor-bersenjata-di-tanjung-priok",
+    "published_at": "2026-08-29T10:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.83,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:02.738834+00:00"
+  },
+  {
+    "title": "Polisi Sempat Tangkap Warga saat Peringatan Hari Damai Aceh",
+    "content": "Polisi sempat menahan sejumlah warga akibat peringatan Hari Damai Aceh ke-21 yang berujung bentrokan. Namun, sudah dibebaskan.",
+    "url": "https://metro.tempo.co/read/2117605/polisi-sempat-tangkap-warga-saat-peringatan-hari-damai-aceh",
+    "published_at": "2026-08-29T11:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.87,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:03.325305+00:00"
+  },
+  {
+    "title": "LBH: Sudah Ada Pengerahan Tentara Sebelum Hari Damai Aceh",
+    "content": "LBH Banda Aceh mengungkap sudah ada pengerahan prajurit TNIsehari sebelum peringatan Hari Damai Aceh. Melakukan razia dan pemeriksaan terhadap warga.",
+    "url": "https://metro.tempo.co/read/2117604/lbh-sudah-ada-pengerahan-tentara-sebelum-hari-damai-aceh",
+    "published_at": "2026-08-29T12:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:05.398437+00:00"
+  },
+  {
+    "title": "Kondisi Terkini Andrie Yunus setelah Jalani 7 Kali Operasi",
+    "content": "Koordinator KontraS, Dimas Bagus Arya, mengungkap kondisi terkini Andrie Yunus. Sudah menjaqlani tujuh kali operasi besar.",
+    "url": "https://metro.tempo.co/read/2117457/kondisi-terkini-andrie-yunus-setelah-jalani-7-kali-operasi",
+    "published_at": "2026-08-29T13:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.49,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:06.183369+00:00"
+  },
+  {
+    "title": "Lodewyk Pusung Minta Hakim Putuskan 7 Sprindik Jaksa Tak Sah",
+    "content": "Lodewyk Pusung, melalui tim pengacaranya menggugat rangkaian penyidikan jaksa di kasus dugaan korupsi MBG. Minta hakim putuskan 7 sprindik tidak sah.",
+    "url": "https://metro.tempo.co/read/2117443/lodewyk-pusung-minta-hakim-putuskan-7-sprindik-jaksa-tak-sah",
+    "published_at": "2026-08-29T14:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:06.787034+00:00"
+  },
+  {
+    "title": "Lodewyk Pusung Surati Hakim Praperadilan, Apa Isinya?",
+    "content": "Mantan Wakil Kepala BGN, Lodewyk Pusung, kirim surat untuk hakim tunggal Pengadilan Negeri Jakarta Pusat. Isinya ada lima bantahan atas tuduhan.",
+    "url": "https://metro.tempo.co/read/2117422/lodewyk-pusung-surati-hakim-praperadilan-apa-isinya",
+    "published_at": "2026-08-29T15:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.38,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:07.048459+00:00"
+  },
+  {
+    "title": "Pihak Dokter Tifa: Revisi Dakwaan Harus Perintah Hakim",
+    "content": "Pengacara Dokter Tifa sebut jaksa tidak dapat memperbaiki surat dakwaan setelah hakim menyatakan batal demi hukum. Harus berdasarkan perintah hakim.",
+    "url": "https://metro.tempo.co/read/2117405/pihak-dokter-tifa-revisi-dakwaan-harus-perintah-hakim",
+    "published_at": "2026-08-29T16:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:07.250775+00:00"
+  },
+  {
+    "title": "Yaqut: Saya Tak Pernah Terima Uang dari Kuota Haji",
+    "content": "Jaksa mendakwa Yaqut menyebabkan negara rugi Rp 622,09 miliar dalam penyelenggaraan haji periode 2023-2024.",
+    "url": "https://metro.tempo.co/read/2117369/yaqut-saya-tak-pernah-terima-uang-dari-kuota-haji",
+    "published_at": "2026-08-29T17:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:07.428561+00:00"
+  },
+  {
+    "title": "Dokter Tifa Gugat Jaksa karena Kembali Dijadikan Terdakwa",
+    "content": "Terdakwa perkara pencemaran nama baik mantan presiden Joko Widodo, Tifauzia Tyassuma, menilai penetapannya sebagai terdakwa cacat prosedur",
+    "url": "https://metro.tempo.co/read/2117325/dokter-tifa-gugat-jaksa-karena-kembali-dijadikan-terdakwa",
+    "published_at": "2026-08-29T18:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:07.583863+00:00"
+  },
+  {
+    "title": "Pengacara Pertanyakan Kerugian Negara dalam Dakwaan Yaqut",
+    "content": "Pengacara Yaqut Cholil Qoumas mempersoalkan konstruksi kerugian keuangan negara Rp 622,09 miliar dalam dakwaan kliennya. Penerapan hukum dipersoalkan.",
+    "url": "https://metro.tempo.co/read/2117256/pengacara-pertanyakan-kerugian-negara-dalam-dakwaan-yaqut",
+    "published_at": "2026-08-29T19:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:07.712411+00:00"
+  },
+  {
+    "title": "Polisi Gelar 51 Adegan Rekonstruksi Kasus Mutilasi di Depok",
+    "content": "Polisi menggelar reka adegan ulang kasus mutilasi di Depok. Rekonstruksi digelar di rumah kontrakan yang ditempati tersangka.",
+    "url": "https://metro.tempo.co/read/2117246/polisi-gelar-51-adegan-rekonstruksi-kasus-mutilasi-di-depok",
+    "published_at": "2026-08-29T08:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.81,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:07.850295+00:00"
+  },
+  {
+    "title": "Eks Menag Yaqut Cholil Didakwa Rugikan Negara Rp 622 M",
+    "content": "Yaqut Cholil didakwa merugikan keuangan negara Rp 622,09 miliar di kasus dugaan korupsi kuota haji. Pengisian kuota tambahan tidak sesuai mekanisme.",
+    "url": "https://metro.tempo.co/read/2117245/eks-menag-yaqut-cholil-didakwa-rugikan-negara-rp-622-m",
+    "published_at": "2026-08-29T09:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:07.982821+00:00"
+  },
+  {
+    "title": "Eks Menag Yaqut Hadiri Sidang Perdana Meski Kondisi Sakit",
+    "content": "Yaqut Cholil Qoumas, menghadiri sidang perdana korupsi kuota haji meski sedang kondisi sakit. Ruang sidang sempat diisi lantunan sholawat asyghil.",
+    "url": "https://metro.tempo.co/read/2117212/eks-menag-yaqut-hadiri-sidang-perdana-meski-kondisi-sakit",
+    "published_at": "2026-08-29T10:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:08.108213+00:00"
+  },
+  {
+    "title": "Bigmo Akui Salah Soal Konten Ajak Anak Promosi Vape",
+    "content": "Bigmo, mengakui kesalahannya terkait konten siaran langsung mengajak anak promosi vape. Janji buat konten lebih positif dan bermanfaat.",
+    "url": "https://metro.tempo.co/read/2117197/bigmo-akui-salah-soal-konten-ajak-anak-promosi-vape",
+    "published_at": "2026-08-29T11:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:08.232392+00:00"
+  },
+  {
+    "title": "Bigmo Dicecar 40 Pertanyaan oleh Polisi Soal Promosi Vape",
+    "content": "Pembuat konten, Bigmo memenuhi undangan klarifikasi dari polisi Polda Metro Jaya pada Senin, 10 Agustus 2026. Dicecar 40 pertanyaan.",
+    "url": "https://metro.tempo.co/read/2117194/bigmo-dicecar-40-pertanyaan-oleh-polisi-soal-promosi-vape",
+    "published_at": "2026-08-29T12:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:08.391252+00:00"
+  },
+  {
+    "title": "Pengacara: 432 Saksi Tak Buktikan Yaqut Terima Duit Korupsi",
+    "content": "Pengacara Yaqut, Mellisa Anggraini, mengklaim keterangan 432 saksi tidak membuktikan aliran duit ke kliennya. Duit yang disita KPK bukan milik Yaqut.",
+    "url": "https://metro.tempo.co/read/2117189/pengacara-432-saksi-tak-buktikan-yaqut-terima-duit-korupsi",
+    "published_at": "2026-08-29T13:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.56,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:08.889837+00:00"
+  },
+  {
+    "title": "KPK Periksa Eks Bos Bank BJB sebagai Saksi Korupsi Iklan",
+    "content": "Penyidik KPK memeriksa jajaran pimpinan Bank BJB di kasus dugaan korupsi pengadaan iklan. Salah satunya eks Direktur Utama PT Bank BJB, Yuddy Renaldi.",
+    "url": "https://metro.tempo.co/read/2117150/kpk-periksa-eks-bos-bank-bjb-sebagai-saksi-korupsi-iklan",
+    "published_at": "2026-08-29T14:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.6,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:09.087658+00:00"
+  },
+  {
+    "title": "Polisi Tangkap 6 Pencuri Mengincar Nasabah Bank di Bekasi",
+    "content": "Polisi menangkap enam orang komplotan pencuri. Diduga mengincar nasabah bank yang baru mengambil uang.",
+    "url": "https://metro.tempo.co/read/2117139/polisi-tangkap-6-pencuri-mengincar-nasabah-bank-di-bekasi",
+    "published_at": "2026-08-29T15:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:09.418376+00:00"
+  },
+  {
+    "title": "Jubir TPNPB: Korban Penembakan di Walesi Bukan Warga Sipil",
+    "content": "Jubir TPNPB OPM, Sebby Sambom, mengklaim salah satu korban penembakan di pintu masuk Festival Budaya Lembah Baliem merupakan anggota TNI.",
+    "url": "https://metro.tempo.co/read/2117136/jubir-tpnpb-korban-penembakan-di-walesi-bukan-warga-sipil",
+    "published_at": "2026-08-29T16:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:09.596582+00:00"
+  },
+  {
+    "title": "Ada 8 Selongsong Peluru di Lokasi Festival Lembah Baliem",
+    "content": "Polisi menemukan delapan selongsong peluru di lokasi penembakan Festival Budaya Lembah Baliem.",
+    "url": "https://metro.tempo.co/read/2117119/ada-8-selongsong-peluru-di-lokasi-festival-lembah-baliem",
+    "published_at": "2026-08-29T17:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.76,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:09.707547+00:00"
+  },
+  {
+    "title": "Polisi Bongkar Peredaran Narkoba di HH Club di Batam",
+    "content": "Polisi mengungkap kasus peredaran narkoba di tempat hiburan malam HH Club Planet 3.0 Pub & KTV, Kota Batam. Ada 32 orang ditangkap.",
+    "url": "https://metro.tempo.co/read/2117116/polisi-bongkar-peredaran-narkoba-di-hh-club-di-batam",
+    "published_at": "2026-08-29T18:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.82,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:09.925792+00:00"
+  },
+  {
+    "title": "Jubir TPNPB: Kami Dalang Penembakan Festival Lembah Baliem",
+    "content": "Jubir TPNPB OPM, Sebby Sambom, menyatakan kelompoknya bertanggung jawab atas penembakan yang terjadi di Festival Budaya Lembah Baliem.",
+    "url": "https://metro.tempo.co/read/2117114/jubir-tpnpb-kami-dalang-penembakan-festival-lembah-baliem",
+    "published_at": "2026-08-29T19:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:10.093318+00:00"
+  },
+  {
+    "title": "2 Warga Ditembak Saat Antar Makanan Festival Lembah Baliem",
+    "content": "Penembakan terjadi di Festival Budaya Lembah Baliem pada Sabtu, 8 Agustus 2026. Dua warga ditembak saat mengantar makanan.",
+    "url": "https://metro.tempo.co/read/2117109/2-warga-ditembak-saat-antar-makanan-festival-lembah-baliem",
+    "published_at": "2026-08-29T08:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.85,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:10.196594+00:00"
+  },
+  {
+    "title": "TPNPB Diduga Dalang Penembakan di Festival Lembah Baliem",
+    "content": "Penembakan terjadi di sekitar pintu masuk utama Festival Budaya Lembah Baliem. Pelakunya diduga TPNPB-OPM pimpinan Egianus Kogoya.",
+    "url": "https://metro.tempo.co/read/2117107/tpnpb-diduga-dalang-penembakan-di-festival-lembah-baliem",
+    "published_at": "2026-08-29T09:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.84,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:10.323886+00:00"
+  },
+  {
+    "title": "Penembakan di Festival Budaya Lembah Baliem, 2 Korban Luka",
+    "content": "Penembakan terjadi di pintu masuk Festival Budaya Lembah Baliem pada Sabtu, 8 Agustus 2026. Dua warga sipil terluka, pengnunjung dievakuasi.",
+    "url": "https://metro.tempo.co/read/2117100/penembakan-di-festival-budaya-lembah-baliem-2-korban-luka",
+    "published_at": "2026-08-29T10:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.86,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:10.489290+00:00"
+  },
+  {
+    "title": "Keluarga Curiga dengan Luka di Tubuh Winda Lorenza",
+    "content": "Keluarga Winda Lorenza Gowasa membuat laporan pengaduan ke Kepolisian Daerah Sumatera Utara. Diduga menjadi korban pembunuhan.",
+    "url": "https://metro.tempo.co/read/2117057/keluarga-curiga-dengan-luka-di-tubuh-winda-lorenza",
+    "published_at": "2026-08-29T11:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.87,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:10.648478+00:00"
+  },
+  {
+    "title": "KPK Ungkap Bukti Baru Penyidikan Korupsi Rejang Lebong",
+    "content": "KPK mengungkap perkembangan penyidikan dugaan suap proyek lingkungan di Kabupaten Rejang Lebong. Penyidik memperluas penelusuran terhadap proyek lain.",
+    "url": "https://metro.tempo.co/read/2116867/kpk-ungkap-bukti-baru-penyidikan-korupsi-rejang-lebong",
+    "published_at": "2026-08-29T12:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:10.803915+00:00"
+  },
+  {
+    "title": "Polisi Tangkap Pelaku Mutilasi di Depok",
+    "content": "Warga Pancoran Mas, Kota Depok, digegerkan dengan penemuan mayat tanpa kaki yang terbungkus karung",
+    "url": "https://metro.tempo.co/read/2116779/polisi-tangkap-pelaku-mutilasi-di-depok",
+    "published_at": "2026-08-29T13:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.78,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:10.986803+00:00"
+  },
+  {
+    "title": "Warga Depok Temukan Mayat Tanpa Kaki Dalam Karung",
+    "content": "Karung berisi mayat diduga sudah ada di sebuah lapangan di Kelurahan Pancoran Mas, Depok, sejak pekan lalu",
+    "url": "https://metro.tempo.co/read/2116706/warga-depok-temukan-mayat-tanpa-kaki-dalam-karung",
+    "published_at": "2026-08-29T14:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.67,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:11.116650+00:00"
+  },
+  {
+    "title": "Polisi Bongkar Jaringan Narkoba Fredy Pratama di Kalsel",
+    "content": "Polisi menangkap dua anggota jaringan narkoba Fredy Pratama di Kalsel. Membawa 32 kilogram sabu untuk diselundupkan ke Banjarmasin.",
+    "url": "https://metro.tempo.co/read/2116656/polisi-bongkar-jaringan-narkoba-fredy-pratama-di-kalsel",
+    "published_at": "2026-08-29T15:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.83,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:11.343472+00:00"
+  },
+  {
+    "title": "Polisi Buru Koboi Penembak Acak dengan Airsoft Gun di Yogya",
+    "content": "Polisi memburu dua orang misterius yang melakukan aksi penembakan acak menggunakan airsoft gun di Yogya. Pelajar berusia 17 tahun terkena luka tembak.",
+    "url": "https://metro.tempo.co/read/2116633/polisi-buru-koboi-penembak-acak-dengan-airsoft-gun-di-yogya",
+    "published_at": "2026-08-29T16:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.86,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:11.507532+00:00"
+  },
+  {
+    "title": "Respons MA Soal 121 Hakim Bermasalah yang Diungkap KY",
+    "content": "Juru bicara MA, Yanto, batal memberikan keterangan resmi mengklarifikasi dugaan pelanggaran etik 121 hakim yang diungkap KY. Apa alasannya?",
+    "url": "https://metro.tempo.co/read/2116632/respons-ma-soal-121-hakim-bermasalah-yang-diungkap-ky",
+    "published_at": "2026-08-29T17:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.65,
+    "akd_mappings": [
+      {
+        "akd_name": "MKD",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:11.657198+00:00"
+  },
+  {
+    "title": "Pengacara Febrie Adriansyah Ungkap 9 Kejanggalan Penyidikan",
+    "content": "Pengacara Febrie Adriansyah, Febri Diansyah, membawa catatan setelah bertemu kliennya pada Senin, 3 Agustus 2026. Ada 9 kejanggalan penyidikan.",
+    "url": "https://metro.tempo.co/read/2116597/pengacara-febrie-adriansyah-ungkap-9-kejanggalan-penyidikan",
+    "published_at": "2026-08-29T18:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.46,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:11.832208+00:00"
+  },
+  {
+    "title": "Mengapa KPK Belum Periksa Raja Juli di Kasus Suap Kuansing",
+    "content": "KPK mengungkapkan alasan belum menjadwalkan pemeriksaan terhadap Menteri Kehutanan Raja Juli Antoni. Bergantung prinsip hukum due process of law.",
+    "url": "https://metro.tempo.co/read/2116560/mengapa-kpk-belum-periksa-raja-juli-di-kasus-suap-kuansing",
+    "published_at": "2026-08-29T19:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:12.277481+00:00"
+  },
+  {
+    "title": "Dugaan Suap Proyek dan Jual-Beli Jabatan di Pemkab Pemalang",
+    "content": "KPK mengembangkan kasus Bupati Pemalang Anom Widiyantoro untuk menyelidiki dugaan suap proyek dan jual beli jabatan",
+    "url": "https://metro.tempo.co/read/2116448/dugaan-suap-proyek-dan-jual-beli-jabatan-di-pemkab-pemalang",
+    "published_at": "2026-08-29T08:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.51,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:12.639448+00:00"
+  },
+  {
+    "title": "KPK akan Tahan Tersangka Korupsi Pengadaan Mesin EDC BRI",
+    "content": "KPK tengah menunggu hasil laporan penghitungan kerugian keuangan negara di kasus korupsi pengadaan mesin EDC BRI.",
+    "url": "https://metro.tempo.co/read/2116412/kpk-akan-tahan-tersangka-korupsi-pengadaan-mesin-edc-bri",
+    "published_at": "2026-08-29T09:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:12.758924+00:00"
+  },
+  {
+    "title": "LeIP Soroti Dua Calon Hakim Agung yang Tak Lolos Seleksi",
+    "content": "Lembaga Kajian dan Advokasi Independensi Peradilan menyayangkan ada calon hakim agung yang dinilai berintegritas tidak lolos seleksi",
+    "url": "https://metro.tempo.co/read/2116409/leip-soroti-dua-calon-hakim-agung-yang-tak-lolos-seleksi",
+    "published_at": "2026-08-29T10:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:12.978507+00:00"
+  },
+  {
+    "title": "KPK: Geisz Chalifah Diperiksa soal Rita Widyasari",
+    "content": "KPK menjelaskan materi pemeriksaan terhadap Geisz Chalifah",
+    "url": "https://metro.tempo.co/read/2116390/kpk-geisz-chalifah-diperiksa-soal-rita-widyasari",
+    "published_at": "2026-08-29T11:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:13.454717+00:00"
+  },
+  {
+    "title": "Pegawai KPK Diduga Hapus Pecakapan di Kasus Bupati Pemalang",
+    "content": "Salah satu pegawai KPK ikut ditahan dalam operasi tangkap tangan terhadap Bupati Pemalang Anom Widiyantoro",
+    "url": "https://metro.tempo.co/read/2116380/pegawai-kpk-diduga-hapus-pecakapan-di-kasus-bupati-pemalang",
+    "published_at": "2026-08-29T12:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.75,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:13.821478+00:00"
+  },
+  {
+    "title": "Guru PPPK Bisa Jadi CPNS Mulai 2027, Ini Mekanismenya",
+    "content": "Kesempatan guru menjadi CPNS diberikan melalui seleksi, bukan pengangkatan otomatis.",
+    "url": "https://www.liputan6.com/news/read/8281630/guru-pppk-bisa-jadi-cpns-mulai-2027-ini-mekanismenya",
+    "published_at": "2026-08-29T13:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:13.968467+00:00"
+  },
+  {
+    "title": "Pemerintah Siagakan 1.425 Relawan Tangani Kebakaran Hutan di 6 Provinsi",
+    "content": "Kementerian Lingkungan Hidup fokus menangani karhutla, penanggulangan pencemaran udara, serta pengawasan dan penegakan hukum lingkungan.",
+    "url": "https://www.liputan6.com/news/read/8281634/pemerintah-siagakan-1425-relawan-tangani-kebakaran-hutan-di-6-provinsi",
+    "published_at": "2026-08-29T14:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.01,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.83,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.83,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:14.228499+00:00"
+  },
+  {
+    "title": "93 Persen Bantuan BI untuk Korban Gempa NTT Sudah Disalurkan",
+    "content": "BNPB menyebut 1,2 ton bantuan masih tersimpan di gudang Posduklognas Halim untuk selanjutnya didistribusikan ke wilayah terdampak.",
+    "url": "https://www.liputan6.com/news/read/8281561/93-persen-bantuan-bi-untuk-korban-gempa-ntt-sudah-disalurkan",
+    "published_at": "2026-08-29T15:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.39,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:14.345681+00:00"
+  },
+  {
+    "title": "Api Melahap Permukiman di Gambir Padam, 880 Warga Terdampak",
+    "content": "Menurut Kasi Operasi Sudin Gulkarmat Jakarta Pusat Syarifudin, jumlah tersebut merupakan pendataan sementara dari pihak kecamatan.",
+    "url": "https://www.liputan6.com/news/read/8281625/api-melahap-permukiman-di-gambir-padam-880-warga-terdampak",
+    "published_at": "2026-08-29T16:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:14.474958+00:00"
+  },
+  {
+    "title": "Survei Median: 56,2 Persen Publik Puas Kinerja Prabowo-Gibran",
+    "content": "Survei Median juga mencatat Prabowo masih unggul dalam elektabilitas calon presiden.",
+    "url": "https://www.liputan6.com/news/read/8281621/survei-median-562-persen-publik-puas-kinerja-prabowo-gibran",
+    "published_at": "2026-08-29T17:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:14.607096+00:00"
+  },
+  {
+    "title": "Padamkan Kebakaran di Gambir, 2 Petugas Damkar Dibawa ke Rumah Sakit",
+    "content": "Dua petugas pemadam kebakaran itu dilarikan ke rumah sakit usai terpapar asap saat memadamkan api melahap permukiman di kawasan Gambir, Jakarta Pusat.",
+    "url": "https://www.liputan6.com/news/read/8281611/padamkan-kebakaran-di-gambir-2-petugas-damkar-dibawa-ke-rumah-sakit",
+    "published_at": "2026-08-29T18:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.87,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:14.749088+00:00"
+  },
+  {
+    "title": "Kebakaran di Gambir Hanguskan 114 Rumah",
+    "content": "Petugas masih melakukan pendinginan setelah api yang merambat cepat akibat kepadatan hunian itu berhasil diblokir sehingga tidak meluas.",
+    "url": "https://www.liputan6.com/news/read/8281582/kebakaran-di-gambir-hanguskan-114-rumah",
+    "published_at": "2026-08-29T19:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.71,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:14.891512+00:00"
+  },
+  {
+    "title": "Kemendagri Dorong Bantuan Presiden untuk Gempa NTT Segera Dipakai",
+    "content": "Bantuan Presiden Rp200 miliar telah dialokasikan ke BTT dan didorong segera menjangkau warga terdampak hingga pelosok desa.",
+    "url": "https://www.liputan6.com/news/read/8281573/kemendagri-dorong-bantuan-presiden-untuk-gempa-ntt-segera-dipakai",
+    "published_at": "2026-08-29T08:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:15.002609+00:00"
+  },
+  {
+    "title": "Pesan Ibam untuk Prabowo Usai Hukuman Diperberat",
+    "content": "Ibam menegaskan tidak meminta perlakuan istimewa, melainkan keadilan bagi dirinya dan rekan-rekan eks diaspora yang telah kembali ke Indonesia.",
+    "url": "https://www.liputan6.com/news/read/8281574/pesan-ibam-untuk-prabowo-usai-hukuman-diperberat",
+    "published_at": "2026-08-29T09:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:15.134144+00:00"
+  },
+  {
+    "title": "Titik Panas di 3 Provinsi Kalimantan Bertambah",
+    "content": "Jumlah titik panas di tiga provinsi Kalimantan relatif bertambah. Jarak pandang di wilayah terdampak berada di kisaran 1-2 kilometer.",
+    "url": "https://www.liputan6.com/news/read/8281571/titik-panas-di-3-provinsi-kalimantan-bertambah",
+    "published_at": "2026-08-29T10:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:15.265043+00:00"
+  },
+  {
+    "title": "Prabowo Siapkan Pinjaman Lunak agar Rakyat Tak Terjerat Rentenir",
+    "content": "Prabowo bertekad mengangkat sebanyak-banyaknya rakyat Indonesia keluar dari jurang kemiskinan.",
+    "url": "https://www.liputan6.com/news/read/8281569/prabowo-siapkan-pinjaman-lunak-agar-rakyat-tak-terjerat-rentenir",
+    "published_at": "2026-08-29T11:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:15.388318+00:00"
+  },
+  {
+    "title": "Terungkap Motif WNA Aljazair Nyemplung ke Danau Sunter",
+    "content": "Pihak imigrasi menyebut kondisi WN Aljazair saat ini membuatnya stres. Ia kemudian pergi ke kawasan Danau Sunter untuk mencari udara segar.",
+    "url": "https://www.liputan6.com/news/read/8281547/terungkap-motif-wna-aljazair-nyemplung-ke-danau-sunter",
+    "published_at": "2026-08-29T12:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.75,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:15.502256+00:00"
+  },
+  {
+    "title": "Kejagung Nilai Anggaran 2027 Belum Ideal, Minta Tambahan Rp 22,1 T",
+    "content": "Pagu Kejagung 2027 naik menjadi Rp21,5 triliun, tetapi masih jauh di bawah kebutuhan ideal lembaga yang mencapai Rp43,6 triliun.",
+    "url": "https://www.liputan6.com/news/read/8281533/kejagung-nilai-anggaran-2027-belum-ideal-minta-tambahan-rp-221-t",
+    "published_at": "2026-08-29T13:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:15.626217+00:00"
+  },
+  {
+    "title": "Poltracking: 47,2 Persen Publik Merasa Tak Terwakili Parpol",
+    "content": "Hanta menyampaikan dari hasil survei nasional Poltracking Indonesia, hanya 29,9 persen publik yang merasa terwakili oleh parpol.",
+    "url": "https://www.liputan6.com/news/read/8281543/poltracking-472-persen-publik-merasa-tak-terwakili-parpol",
+    "published_at": "2026-08-29T14:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:15.746253+00:00"
+  },
+  {
+    "title": "Survei Poltracking: Mayoritas Publik Nilai Pengangguran Belum Teratasi",
+    "content": "Survei Poltracking juga menemukan tekanan ekonomi masyarakat terlihat dari kenaikan pengeluaran dan mahalnya harga kebutuhan pokok.",
+    "url": "https://www.liputan6.com/news/read/8281503/survei-poltracking-mayoritas-publik-nilai-pengangguran-belum-teratasi",
+    "published_at": "2026-08-29T15:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:15.940193+00:00"
+  },
+  {
+    "title": "Infografis: Gus Kikin, Kiai Entrepreneur Jadi Ketum PBNU",
+    "content": "Gus Kikin kini memimpin PBNU, simak profil dan kiprahnya.",
+    "url": "https://www.liputan6.com/news/read/8281535/infografis-gus-kikin-kiai-entrepreneur-jadi-ketum-pbnu",
+    "published_at": "2026-08-29T16:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:16.071001+00:00"
+  },
+  {
+    "title": "Dewan Pers Bahas Penyelenggaraan HPN, Tak Lagi Dipegang Satu Organisasi",
+    "content": "Dewan Pers akan mengundang seluruh konstituennya untuk membahas penyelenggaraan HPN sekaligus mengkaji Keppres Nomor 5 Tahun 1985.",
+    "url": "https://www.liputan6.com/news/read/8281522/dewan-pers-bahas-penyelenggaraan-hpn-tak-lagi-dipegang-satu-organisasi",
+    "published_at": "2026-08-29T17:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.46,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:16.253203+00:00"
+  },
+  {
+    "title": "BPS Ungkap Cara Koreksi Desil DTSEN Tak Sesuai",
+    "content": "BPS juga telah berkoordinasi dengan Kementerian Pendidikan terkait mahasiswa yang mengalami perubahan status beasiswa akibat perubahan desil.",
+    "url": "https://www.liputan6.com/news/read/8281517/bps-ungkap-cara-koreksi-desil-dtsen-tak-sesuai",
+    "published_at": "2026-08-29T18:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:16.548110+00:00"
+  },
+  {
+    "title": "Halimun Salak, Rumah Macan Tutul dan Penyangga Energi",
+    "content": "Halimun Salak menyimpan habitat macan tutul sekaligus sumber energi penting.",
+    "url": "https://www.liputan6.com/news/read/8281518/halimun-salak-rumah-macan-tutul-dan-penyangga-energi",
+    "published_at": "2026-08-29T19:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:16.709880+00:00"
+  },
+  {
+    "title": "Menhan: Syarat Masuk TNI bagi Dayak Pedalaman Bisa Disesuaikan",
+    "content": "Pemerintah mempertimbangkan penyesuaian syarat perekrutan agar masyarakat Dayak pedalaman memiliki peluang lebih besar menjadi prajurit TNI.",
+    "url": "https://www.liputan6.com/news/read/8281497/menhan-syarat-masuk-tni-bagi-dayak-pedalaman-bisa-disesuaikan",
+    "published_at": "2026-08-29T08:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:16.873667+00:00"
+  },
+  {
+    "title": "Hukuman Diperberat, Ibam Pertanyakan Konsultan Tanggung Kesalahan",
+    "content": "Kecewa Vonis Banding, Ibam Pertanyakan Konsultan Harus Tanggung Kesalahan",
+    "url": "https://www.liputan6.com/news/read/8281489/hukuman-diperberat-ibam-pertanyakan-konsultan-tanggung-kesalahan",
+    "published_at": "2026-08-29T09:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:17.017152+00:00"
+  },
+  {
+    "title": "Survei Poltracking: Ekonomi Jadi PR Terberat Pemerintah",
+    "content": "Tingkat kepuasan terhadap kinerja pemerintah di bidang ekonomi hanya 41,8 persen pada Agustus 2026.",
+    "url": "https://www.liputan6.com/news/read/8281492/survei-poltracking-ekonomi-jadi-pr-terberat-pemerintah",
+    "published_at": "2026-08-29T10:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:17.174223+00:00"
+  },
+  {
+    "title": "Pengacara Tagih Hasil Ekshumasi dan Keberadaan Ponsel Sutrimo",
+    "content": "Keluarga ajukan Surat Pemberitahuan Perkembangan Hasil Penyidikan (SP2HP) karena tenggat waktu sudah dekat.",
+    "url": "https://www.liputan6.com/news/read/8281487/pengacara-tagih-hasil-ekshumasi-dan-keberadaan-ponsel-sutrimo",
+    "published_at": "2026-08-29T11:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.45,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:17.325718+00:00"
+  },
+  {
+    "title": "Poltracking: Popularitas MBG Capai 93,9 Persen, Tapi 49,2 Persen Publik Belum Puas",
+    "content": "Hasil survei Poltracking menunjukkan, 44,6 persen publik menilai program MBG tak perlu dilanjutkan. Sedangkan 42,1 persen publik ingin MBG tetap berjalan.",
+    "url": "https://www.liputan6.com/news/read/8281471/poltracking-popularitas-mbg-capai-939-persen-tapi-492-persen-publik-belum-puas",
+    "published_at": "2026-08-29T12:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:17.460642+00:00"
+  },
+  {
+    "title": "Prabowo: Indonesia Terlalu Besar untuk Dipimpin Satu Partai",
+    "content": "Prabowo menilai koalisi sangat dibutuhkan agar seorang Kepala Negara dapat mengurus Indonesia sangat besar baik luas maupun penduduknya.",
+    "url": "https://www.liputan6.com/news/read/8281467/prabowo-indonesia-terlalu-besar-untuk-dipimpin-satu-partai",
+    "published_at": "2026-08-29T13:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.58,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:17.588439+00:00"
+  },
+  {
+    "title": "3 Jam Petugas Damkar Bujuk WNA Aljazair Keluar dari Danau Sunter",
+    "content": "WNA Aljazair Berendam di Danau Sunter untuk Ritual, Damkar Evakuasi Usai Dibujuk 3 Jam",
+    "url": "https://www.liputan6.com/news/read/8281450/3-jam-petugas-damkar-bujuk-wna-aljazair-keluar-dari-danau-sunter",
+    "published_at": "2026-08-29T14:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:17.724279+00:00"
+  },
+  {
+    "title": "Cegah Stunting Sejak Kehamilan, Pegadaian dan POGI Beri USG Gratis untuk 1.080 Ibu Hamil",
+    "content": "Pegadaian dan POGI menggelar Merdeka Stunting 2026 di 36 kota, memberi USG, konsultasi dokter dan dukungan gizi bagi 1.080 ibu hamil.",
+    "url": "https://www.liputan6.com/news/read/8281452/cegah-stunting-sejak-kehamilan-pegadaian-dan-pogi-beri-usg-gratis-untuk-1080-ibu-hamil",
+    "published_at": "2026-08-29T15:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.36,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:17.848223+00:00"
+  },
+  {
+    "title": "Kata Prabowo Usai Terima Kartu Anggota Seumur Hidup NU",
+    "content": "Dengan kartu anggota ini, Prabowo berharap kesiapan NU bekerja sama dengan pemerintah dan berbagai unsur",
+    "url": "https://www.liputan6.com/news/read/8281445/kata-prabowo-usai-terima-kartu-anggota-seumur-hidup-nu",
+    "published_at": "2026-08-29T16:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:18.061765+00:00"
+  },
+  {
+    "title": "Kebakaran Desa Adat Sade Hanguskan Rumah hingga Tempat Usaha, PNM Salurkan Bantuan untuk Warga",
+    "content": "Kebakaran Desa Adat Sade menghanguskan rumah hingga tempat usaha warga. PNM menyalurkan bantuan dan mendampingi nasabah terdampak.",
+    "url": "https://www.liputan6.com/news/read/8281440/kebakaran-desa-adat-sade-hanguskan-rumah-hingga-tempat-usaha-pnm-salurkan-bantuan-untuk-warga",
+    "published_at": "2026-08-29T17:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:18.218124+00:00"
+  },
+  {
+    "title": "Poltracking: 51,9 Persen Publik Nilai Kabinet Perlu Direshuffle",
+    "content": "Hasil survei Poltracking menunjukkan sektor ekonomi menempati posisi teratas dengan 30,8 persen direshuflle, disusul bidang hukum sebesar 22 persen.",
+    "url": "https://www.liputan6.com/news/read/8281438/poltracking-519-persen-publik-nilai-kabinet-perlu-direshuffle",
+    "published_at": "2026-08-29T18:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:18.361901+00:00"
+  },
+  {
+    "title": "Survei Poltracking: Kepuasan Publik soal Penyerapan Aspirasi di DPR 33,9 Persen",
+    "content": "Selain itu, 47,2 persen publik merasa tidak terwakili dengan partai politik.",
+    "url": "https://www.liputan6.com/news/read/8281431/survei-poltracking-kepuasan-publik-soal-penyerapan-aspirasi-di-dpr-339-persen",
+    "published_at": "2026-08-29T19:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:18.520200+00:00"
+  },
+  {
+    "title": "Kejagung Terima Rp 401 Miliar dari PT CNI dalam Kasus Korupsi Nikel",
+    "content": "Kejaksaan Agung menerima penyerahan kerugian negara sebesar Rp 401,65 miliar dari PT Ceria Nugraha Indotama (CNI) dalam perkara dugaan korupsi tata kelola nikel periode 2017–2020. Uang tersebut telah dititipkan di Rekening Pemerintah Lainnya pada Bank Mandiri. Dalam perkara ini, penyidik telah memeriksa 116 saksi, tiga ahli, serta menyita 143 dokumen. BPKP menghitung kerugian negara mencapai Rp 401,65 miliar. Perkara berkaitan dengan dugaan ekspor nikel menggunakan dokumen tidak sah.",
+    "url": "https://www.liputan6.com/photo/read/8281421/kejagung-terima-rp-401-miliar-dari-pt-cni-dalam-kasus-korupsi-nikel",
+    "published_at": "2026-08-29T08:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.12,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:18.681929+00:00"
+  },
+  {
+    "title": "Survei Poltracking: Kepuasan Publik Terhadap Pemerintahan 55,1 Persen",
+    "content": "Pemerintah perlu segera membalik tren agar penurunan kepuasan tidak berlanjut pada bulan-bulan berikutnya.",
+    "url": "https://www.liputan6.com/news/read/8281415/survei-poltracking-kepuasan-publik-terhadap-pemerintahan-551-persen",
+    "published_at": "2026-08-29T09:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:18.801514+00:00"
+  },
+  {
+    "title": "Penampakan Tumpukan Uang Sitaan Rp 401,65 Miliar Kasus Korupsi Ekspor Nikel",
+    "content": "Uang hasil sitaan tersebut dipamerkan di Gedung Bundar Jampidsus, Kejagung, Jakarta Selatan, Senin (31/8/2026).",
+    "url": "https://www.liputan6.com/news/read/8281414/penampakan-tumpukan-uang-sitaan-rp-40165-miliar-kasus-korupsi-ekspor-nikel",
+    "published_at": "2026-08-29T10:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.31,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:18.924115+00:00"
+  },
+  {
+    "title": "Modus Ekspor Nikel Ilegal yang Bikin Negara Rugi Rp 401 M",
+    "content": "Saiful Bahri Siregar, mengatakan pengusutan perkara tersebut dilakukan melalui serangkaian tindakan penyidikan.",
+    "url": "https://www.liputan6.com/news/read/8281402/modus-ekspor-nikel-ilegal-yang-bikin-negara-rugi-rp-401-m",
+    "published_at": "2026-08-29T11:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:19.039450+00:00"
+  },
+  {
+    "title": "Kronologi Kebakaran di Permukiman Gambir Jakpus",
+    "content": "17 Unit mobil damkar dan 85 personel dikerahkan ke titik kebakaran.",
+    "url": "https://www.liputan6.com/news/read/8281385/kronologi-kebakaran-di-permukiman-gambir-jakpus",
+    "published_at": "2026-08-29T12:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.84,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:19.164236+00:00"
+  },
+  {
+    "title": "Prabowo Ucapkan Selamat Ulang ke Zulkifli Hasan di Penutupan Muktamar NU",
+    "content": "Hari ini, Zulhas genap berusia 64 tahun.",
+    "url": "https://www.liputan6.com/news/read/8281372/prabowo-ucapkan-selamat-ulang-ke-zulkifli-hasan-di-penutupan-muktamar-nu",
+    "published_at": "2026-08-29T13:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:19.378714+00:00"
+  },
+  {
+    "title": "Komnas HAM Bakal Berikan Rapor Penilaian HAM terhadap Kinerja Polri",
+    "content": "Ada 15 indikator yang dipakai Komnas HAM dalam penilaian.",
+    "url": "https://www.liputan6.com/news/read/8281361/komnas-ham-bakal-berikan-rapor-penilaian-ham-terhadap-kinerja-polri",
+    "published_at": "2026-08-29T14:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:19.847738+00:00"
+  },
+  {
+    "title": "Anggota DPR: Banyak APH Iri dengan Penghasilan Hakim",
+    "content": "Benny menilai kondisi tersebut menjadi tantangan bagi Komisi Yudisial (KY) dan Mahkamah Agung (MA).",
+    "url": "https://www.liputan6.com/news/read/8281366/anggota-dpr-banyak-aph-iri-dengan-penghasilan-hakim",
+    "published_at": "2026-08-29T15:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:20.036706+00:00"
+  },
+  {
+    "title": "Kasus Chromebook: Hukuman Ibam Diperberat jadi 5 Tahun dan Uang Pengganti Rp 5 M",
+    "content": "Di pengadilan tingkat pertama, Ibam divonis 4 tahun.",
+    "url": "https://www.liputan6.com/news/read/8281338/kasus-chromebook-hukuman-ibam-diperberat-jadi-5-tahun-dan-uang-pengganti-rp-5-m",
+    "published_at": "2026-08-29T16:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.33,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:20.161242+00:00"
+  },
+  {
+    "title": "Viral Jembatan Gantung Pongpet Pangandaran Ambruk, TNI AD Beri Penjelasan",
+    "content": "TNI AD buka suara soal Jembatan Gantung Pongpet di Pangandaran ambruk.",
+    "url": "https://www.liputan6.com/news/read/8281298/viral-jembatan-gantung-pongpet-pangandaran-ambruk-tni-ad-beri-penjelasan",
+    "published_at": "2026-08-29T17:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.75,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:20.279580+00:00"
+  },
+  {
+    "title": "Siapa Waled NU, Kalahkan Miftachul Akhyar dan Said Aqil di Voting Tim AHWA",
+    "content": "Waled Nu mendapat 477 suara. Sementara KH Miftachul Akhyar 350 suara, KH Lirboyo 303 suara dan KH. Said Aqil 273 suara.",
+    "url": "https://www.liputan6.com/news/read/8281265/siapa-waled-nu-kalahkan-miftachul-akhyar-dan-said-aqil-di-voting-tim-ahwa",
+    "published_at": "2026-08-29T18:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:20.393306+00:00"
+  },
+  {
+    "title": "Istana Buka Suara soal Polemik Desil Tak Sesuai Ekonomi Warga",
+    "content": "Bambang mengaku belum dapat memastikan apakah polemik tersebut disebabkan kesalahan dalam proses pendataan.",
+    "url": "https://www.liputan6.com/news/read/8281266/istana-buka-suara-soal-polemik-desil-tak-sesuai-ekonomi-warga",
+    "published_at": "2026-08-29T19:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:20.512425+00:00"
+  },
+  {
+    "title": "Mulai Besok, Naik Transjabodetabek Blok M ke Bandara Soekarno-Hatta Rp 15.000",
+    "content": "Pemerintah telah melakukan sosialisasi selama satu bulan sebelum tarif baru diberlakukan.",
+    "url": "https://www.liputan6.com/news/read/8281215/mulai-besok-naik-transjabodetabek-blok-m-ke-bandara-soekarno-hatta-rp-15000",
+    "published_at": "2026-08-29T08:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:20.625325+00:00"
+  },
+  {
+    "title": "Cerita Prabowo Tolak Tawaran Utang IMF: Indonesia Bisa Tanpa Pinjaman",
+    "content": "Prabowo mengatakan pemerintah berupaya mengurangi ketergantungan terhadap pinjaman.",
+    "url": "https://www.liputan6.com/news/read/8281208/cerita-prabowo-tolak-tawaran-utang-imf-indonesia-bisa-tanpa-pinjaman",
+    "published_at": "2026-08-29T09:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:20.786821+00:00"
+  },
+  {
+    "title": "Komnas HAM Temui Wakapolri, Bahas Demo Ricuh 27 Agustus",
+    "content": "Pihak yang diamankan dan tak terlibat diminta dibebaskan.",
+    "url": "https://www.liputan6.com/news/read/8281199/komnas-ham-temui-wakapolri-bahas-demo-ricuh-27-agustus",
+    "published_at": "2026-08-29T10:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.74,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:20.925482+00:00"
+  },
+  {
+    "title": "Prabowo Puji Muktamar ke-35 NU Berjalan Damai",
+    "content": "Prabowo menunggu kontribusi nyata NU untuk Indonesia.",
+    "url": "https://www.liputan6.com/news/read/8281159/prabowo-puji-muktamar-ke-35-nu-berjalan-damai",
+    "published_at": "2026-08-29T11:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:21.066495+00:00"
+  },
+  {
+    "title": "3 Kapolres Polda Metro Jaya Diganti, Ini Daftarnya",
+    "content": "Tiga wilayah yang mengalami pergantian Kapolres adalah Jakarta Utara, Tangerang Kota, dan Bekasi.",
+    "url": "https://www.liputan6.com/news/read/8281142/3-kapolres-polda-metro-jaya-diganti-ini-daftarnya",
+    "published_at": "2026-08-29T12:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:21.203236+00:00"
+  },
+  {
+    "title": "Gunung Sinabung Erupsi Hebat, Abu Vulkanik Capai 3,5 Kilometer",
+    "content": "Saat ini, Gunung Sinabung masih berstatus Level II atau Waspada.",
+    "url": "https://www.liputan6.com/news/read/8281125/gunung-sinabung-erupsi-hebat-abu-vulkanik-capai-35-kilometer",
+    "published_at": "2026-08-29T13:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.65,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:21.312036+00:00"
+  },
+  {
+    "title": "Prabowo Dapat Kartu Anggota NU, Berlaku Seumur Hidup",
+    "content": "Prabowo sumringah menerima kartu anggota NU seumur hidup.",
+    "url": "https://www.liputan6.com/news/read/8281099/prabowo-dapat-kartu-anggota-nu-berlaku-seumur-hidup",
+    "published_at": "2026-08-29T14:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:21.457393+00:00"
+  },
+  {
+    "title": "43 Titik Perlintasan Kereta Api Sebidang Berisiko Tinggi Kecelakaan",
+    "content": "KAI menyiapkan sejumlah langkah untuk mengurangi risiko karena perlintasan sebidang.",
+    "url": "https://www.liputan6.com/bisnis/read/8281632/43-titik-perlintasan-kereta-api-sebidang-berisiko-tinggi-kecelakaan",
+    "published_at": "2026-08-29T15:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:21.597304+00:00"
+  },
+  {
+    "title": "Bahlil Dongkrak Target Lifting Minyak 612.500 Barel per Hari pada 2027",
+    "content": "Ada penambahan sumur pada 2027 diharapkan dapat dukung lifting minyak.",
+    "url": "https://www.liputan6.com/bisnis/read/8281628/bahlil-dongkrak-target-lifting-minyak-612500-barel-per-hari-pada-2027",
+    "published_at": "2026-08-29T16:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:21.710930+00:00"
+  },
+  {
+    "title": "Cuti Hamil Bikin Tajir, Mantan Guru Jadi Miliarder E-Commerce Raksasa Rusia",
+    "content": "Simak kisah Tatyana Kim, miliarder asal Rusia, mulai dari membangun bisnis, ekspansi, hingga konflik pribadi yang membentuk bisnisnya.",
+    "url": "https://www.liputan6.com/bisnis/read/8281133/cuti-hamil-bikin-tajir-mantan-guru-jadi-miliarder-e-commerce-raksasa-rusia",
+    "published_at": "2026-08-29T17:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:21.858285+00:00"
+  },
+  {
+    "title": "Gubernur Bank of England Ingatkan Ancaman AI terhadap Ekonomi Global",
+    "content": "Selain khawatir AI, Gubernur Bank of England Andrew Bailey menyoroti pemakaian utang untuk investasi.",
+    "url": "https://www.liputan6.com/bisnis/read/8281592/gubernur-bank-of-england-ingatkan-ancaman-ai-terhadap-ekonomi-global",
+    "published_at": "2026-08-29T18:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:21.997888+00:00"
+  },
+  {
+    "title": "Tunggu Data Valid, Pemerintah Kaji Batasi Pertalite untuk Desil 9–10",
+    "content": "Pemerintah mematangkan validasi data untuk membatasi pembelian Pertalite bagi warga mampu (desil 9–10) guna memastikan subsidi energi tepat sasaran.",
+    "url": "https://www.liputan6.com/bisnis/read/8281594/tunggu-data-valid-pemerintah-kaji-batasi-pertalite-untuk-desil-910",
+    "published_at": "2026-08-29T19:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:22.110761+00:00"
+  },
+  {
+    "title": "Warga Beralih ke Pertalite, Bahlil Hitung Potensi Kelebihan Kuota Subsidi",
+    "content": "Imbas migrasi pengguna Pertamax ke Pertalite, Bahlil menghitung potensi kelebihan kuota BBM subsidi, namun memastikan harga Pertalite aman hingga akhir 2026.",
+    "url": "https://www.liputan6.com/bisnis/read/8281586/warga-beralih-ke-pertalite-bahlil-hitung-potensi-kelebihan-kuota-subsidi",
+    "published_at": "2026-08-29T08:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:22.236207+00:00"
+  },
+  {
+    "title": "AS Siap Sanksi Bank Lagi demi Menekan Iran",
+    "content": "Pada pertemuan G20, Menteri Keuangan Scott Bessent juga akan mengajak kerja sama anggota negara G20 untuk melawan Iran.",
+    "url": "https://www.liputan6.com/bisnis/read/8281521/as-siap-sanksi-bank-lagi-demi-menekan-iran",
+    "published_at": "2026-08-29T09:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:22.351818+00:00"
+  },
+  {
+    "title": "Bahlil Buka Suara Soal Potensi Pembengkakan Subsidi Energi",
+    "content": "Menteri ESDM Bahlil Lahadalia mengingatkan potensi kenaikan subsidi energi 2027 imbas fluktuasi harga minyak dunia dan penyesuaian nilai tukar rupiah.",
+    "url": "https://www.liputan6.com/bisnis/read/8281565/bahlil-buka-suara-soal-potensi-pembengkakan-subsidi-energi",
+    "published_at": "2026-08-29T10:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:22.490293+00:00"
+  },
+  {
+    "title": "Pelabuhan Ciwandan Layani Ekspor Wind Mill Tower ke Pasar Global",
+    "content": "Pelabuhan Ciwandan menangani ekspor Wind Mill Tower dengan volume 269.006 MT sepanjang Januari-Agustus 2026.",
+    "url": "https://www.liputan6.com/bisnis/read/8281556/pelabuhan-ciwandan-layani-ekspor-wind-mill-tower-ke-pasar-global",
+    "published_at": "2026-08-29T11:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:22.611212+00:00"
+  },
+  {
+    "title": "Danantara Housing Expo 2026 Catat Nilai Proyek Rp 2 Triliun",
+    "content": "Danantara Housing Expo 2026 mencatat sekitar 40 ribu pengunjung dan nilai proyek Rp 2 triliun selama empat hari penyelenggaraan.",
+    "url": "https://www.liputan6.com/bisnis/read/8281550/danantara-housing-expo-2026-catat-nilai-proyek-rp-2-triliun",
+    "published_at": "2026-08-29T12:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:22.776195+00:00"
+  },
+  {
+    "title": "Bahlil Ungkap Alokasi Minyak Tanah Naik pada 2027: Indonesia Timur Masih Butuh",
+    "content": "Sejumlah wilayah di Indonesia tidak memakai LPG sehingga memakai minyak tanah.",
+    "url": "https://www.liputan6.com/bisnis/read/8281505/bahlil-ungkap-alokasi-minyak-tanah-naik-pada-2027-indonesia-timur-masih-butuh",
+    "published_at": "2026-08-29T13:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:22.913221+00:00"
+  },
+  {
+    "title": "Inflasi Agustus 2026 Berpeluang Naik, Ekonom Ungkap Pemicunya",
+    "content": "Berikut prediksi inflasi Agustus 2026 dan sentimen yang mempengaruhi inflasi.",
+    "url": "https://www.liputan6.com/bisnis/read/8281464/inflasi-agustus-2026-berpeluang-naik-ekonom-ungkap-pemicunya",
+    "published_at": "2026-08-29T14:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.45,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:23.096417+00:00"
+  },
+  {
+    "title": "Asap Karhutla Ganggu 10 Penerbangan di Bandara Supadio",
+    "content": "Jarak pandang anjlok di bawah 1.000 meter akibat kabut asap karhutla. 10 penerbangan di Bandara Supadio terpaksa menyesuaikan jadwal.",
+    "url": "https://www.liputan6.com/bisnis/read/8281493/asap-karhutla-ganggu-10-penerbangan-di-bandara-supadio",
+    "published_at": "2026-08-29T15:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.76,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:23.266880+00:00"
+  },
+  {
+    "title": "Banyak Pengelola Jalan Tol Belum Untung, Pengamat Minta Pemerintah Benahi Ekosistem",
+    "content": "Pengamat menilai pemerintah perlu membangun ekosistem jalan tol yang sehat dan konsisten demi mendukung target pertumbuhan ekonomi nasional 8%.",
+    "url": "https://www.liputan6.com/bisnis/read/8281473/banyak-pengelola-jalan-tol-belum-untung-pengamat-minta-pemerintah-benahi-ekosistem",
+    "published_at": "2026-08-29T16:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:23.476960+00:00"
+  },
+  {
+    "title": "Aturan Diubah, Buruh Tani Tanpa Lahan Kini Berhak Dapat Alsintan",
+    "content": "Kementan prioritaskan bantuan alsintan bagi buruh tani tak bersawah. Cukup bentuk kelompok 10 orang untuk ajukan bantuan via PPL.",
+    "url": "https://www.liputan6.com/bisnis/read/8281468/aturan-diubah-buruh-tani-tanpa-lahan-kini-berhak-dapat-alsintan",
+    "published_at": "2026-08-29T17:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:23.646888+00:00"
+  },
+  {
+    "title": "Orang Indonesia Ternyata Paling Doyan Makan Mi Instan di Dunia, Ini Buktinya",
+    "content": "Hingga 2025, permintaan global untuk mi instan mencapai 124 miliar porsi, naik 0,7% dari 2024.",
+    "url": "https://www.liputan6.com/bisnis/read/8281311/orang-indonesia-ternyata-paling-doyan-makan-mi-instan-di-dunia-ini-buktinya",
+    "published_at": "2026-08-29T18:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:23.777593+00:00"
+  },
+  {
+    "title": "Tak Punya Izin, OJK Blokir Kegiatan Dua Perusahaan Kripto",
+    "content": "Satgas PASTI menghentikan kegiatan YWWSDC dan RTHAE karena tidak memiliki izin OJK sebagai Pedagang Aset Keuangan Digital.",
+    "url": "https://www.liputan6.com/bisnis/read/8281462/tak-punya-izin-ojk-blokir-kegiatan-dua-perusahaan-kripto",
+    "published_at": "2026-08-29T19:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:23.896773+00:00"
+  },
+  {
+    "title": "BI Jamin Pasokan Uang Tunai di NTT Aman",
+    "content": "BI memastikan ketersediaan uang tunai di NTT aman pascagempa bumi, sekaligus menyalurkan lebih dari 32 ton bantuan logistik bagi warga terdampak.",
+    "url": "https://www.liputan6.com/bisnis/read/8281374/bi-jamin-pasokan-uang-tunai-di-ntt-aman",
+    "published_at": "2026-08-29T08:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:24.027578+00:00"
+  },
+  {
+    "title": "Indeks Kepercayaan Industri Turun, Kemenperin: Masih Ekspansi",
+    "content": "Indeks Kepercayaan Industri melambat 0,8 poin, Kemenperin pastikan manufaktur RI masih kuat.",
+    "url": "https://www.liputan6.com/bisnis/read/8281432/indeks-kepercayaan-industri-turun-kemenperin-masih-ekspansi",
+    "published_at": "2026-08-29T09:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:24.211139+00:00"
+  },
+  {
+    "title": "Rupiah Tertekan Konflik AS-Iran, Hari Ini Tembus 17.722 per Dolar AS",
+    "content": "Rupiah melemah ke 17.722 per dolar AS pada Senin, tertekan memanasnya konflik AS-Iran dan sinyal kebijakan suku bunga The Fed.",
+    "url": "https://www.liputan6.com/bisnis/read/8281423/rupiah-tertekan-konflik-as-iran-hari-ini-tembus-17722-per-dolar-as",
+    "published_at": "2026-08-29T10:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:24.368880+00:00"
+  },
+  {
+    "title": "Harga Gas Eropa Melonjak ke Level Tertinggi Sejak 2023",
+    "content": "Harga gas Eropa melonjak ke level tertinggi sejak 2023 di tengah minimnya pasokan dan ancaman krisis.",
+    "url": "https://www.liputan6.com/bisnis/read/8281384/harga-gas-eropa-melonjak-ke-level-tertinggi-sejak-2023",
+    "published_at": "2026-08-29T11:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:24.493207+00:00"
+  },
+  {
+    "title": "Amran Sulaiman Minta Pejabat Bapanas Pelototi Harga Beras",
+    "content": "Kepala Bapanas Andi Amran Sulaiman siap menyegel toko yang jual harga beras di atas harga eceran tertinggi (HET).",
+    "url": "https://www.liputan6.com/bisnis/read/8281386/amran-sulaiman-minta-pejabat-bapanas-pelototi-harga-beras",
+    "published_at": "2026-08-29T12:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:24.637979+00:00"
+  },
+  {
+    "title": "Tak Perlu Dolar AS, RI-Singapura Sepakat Pakai Mata Uang Lokal",
+    "content": "Kerangka LCT Indonesia-Singapura resmi berlaku per 31 Agustus 2026.",
+    "url": "https://www.liputan6.com/bisnis/read/8281362/tak-perlu-dolar-as-ri-singapura-sepakat-pakai-mata-uang-lokal",
+    "published_at": "2026-08-29T13:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.45,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:24.771687+00:00"
+  },
+  {
+    "title": "Won Korea Selatan Sentuh Level Terkuat Sejak Juli 2025, Ini Pemicunya",
+    "content": "Won Korea Selatan perkasa terhadap dolar Amerika Serikat pada awal pekan ini.",
+    "url": "https://www.liputan6.com/bisnis/read/8281345/won-korea-selatan-sentuh-level-terkuat-sejak-juli-2025-ini-pemicunya",
+    "published_at": "2026-08-29T14:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:24.910799+00:00"
+  },
+  {
+    "title": "Rampung Bulan Ini, Danantara Bereskan Masalah 2.400 Konsumen LRT City",
+    "content": "Danantara siapkan langkah cepat selesaikan polemik proyek hunian LRT City. Nasib 2.400 konsumen dipastikan aman bulan ini.",
+    "url": "https://www.liputan6.com/bisnis/read/8281340/rampung-bulan-ini-danantara-bereskan-masalah-2400-konsumen-lrt-city",
+    "published_at": "2026-08-29T15:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.45,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:25.098494+00:00"
+  },
+  {
+    "title": "OJK Jatuhkan 1.277 Sanksi Pelanggaran Peraturan Pasar Modal dan Kepatuhan Pelaporan",
+    "content": "Pengenaan sanksi administratif, larangan, dan/atau perintah tertulis tersebut merupakan langkah tegas OJK dalam menegakkan kepatuhan terhadap ketentuan.",
+    "url": "https://www.liputan6.com/bisnis/read/8281351/ojk-jatuhkan-1277-sanksi-pelanggaran-peraturan-pasar-modal-dan-kepatuhan-pelaporan",
+    "published_at": "2026-08-29T16:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:25.273883+00:00"
+  },
+  {
+    "title": "Merger Adhi Karya dan PTPP Dikebut Tahun Ini, Danantara Belum Tentukan Entitas Survivor",
+    "content": "COO Danantara Dony Oskaria mengonfirmasi bahwa proses merger BUMN karya ditargetkan rampung pada 2026.",
+    "url": "https://www.liputan6.com/bisnis/read/8281301/merger-adhi-karya-dan-ptpp-dikebut-tahun-ini-danantara-belum-tentukan-entitas-survivor",
+    "published_at": "2026-08-29T17:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:25.400754+00:00"
+  },
+  {
+    "title": "Kuota LPG 3 Kg Diprediksi Jebol, Ini Langkah Baru Kementerian ESDM",
+    "content": "Penyaluran LPG 3 kg diproyeksi mencapai 8,67 juta ton pada 2026. Kementerian ESDM memperkuat basis data penerima subsidi agar lebih tepat sasaran.",
+    "url": "https://www.liputan6.com/bisnis/read/8281320/kuota-lpg-3-kg-diprediksi-jebol-ini-langkah-baru-kementerian-esdm",
+    "published_at": "2026-08-29T18:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:25.519679+00:00"
+  },
+  {
+    "title": "Seleksi Petugas Haji 2026 Dimulai, 3.220 Nakes Ikuti Ujian CAT BKN",
+    "content": "Sebanyak 3.220 nakes mengikuti ujian CAT seleksi petugas haji 2026 di 34 titik BKN seluruh Indonesia.",
+    "url": "https://www.liputan6.com/bisnis/read/8281327/seleksi-petugas-haji-2026-dimulai-3220-nakes-ikuti-ujian-cat-bkn",
+    "published_at": "2026-08-29T19:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:25.632425+00:00"
+  },
+  {
+    "title": "Merger Mitratel dan Tower Bersama Masih Dikaji, Danantara: Tunggu Roadmap Telkom",
+    "content": "COO Danantara, Dony Oskaria menanggapi mengenai kabar merger PT Dayamitra Telekomunikasi Tbk (MTEL) dan PT Tower Bersama Infrastructure Tbk (TBIG).",
+    "url": "https://www.liputan6.com/bisnis/read/8281300/merger-mitratel-dan-tower-bersama-masih-dikaji-danantara-tunggu-roadmap-telkom",
+    "published_at": "2026-08-29T08:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:25.799241+00:00"
+  },
+  {
+    "title": "Self Check-Out Mulai Masuk Supermarket Indonesia",
+    "content": "Layanan self check-out mulai menjadi bagian dari pengalaman belanja di supermarket, termasuk di Hypermart yang memasukkan transaksi mandiri.",
+    "url": "https://www.liputan6.com/bisnis/read/8281294/self-check-out-mulai-masuk-supermarket-indonesia",
+    "published_at": "2026-08-29T09:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:25.933605+00:00"
+  },
+  {
+    "title": "Garap Pasar Diaspora, BRI Rilis BRImo Taiwan untuk Transaksi Keuangan Global",
+    "content": "BRI resmi meluncurkan aplikasi BRImo Taiwan pada 23 Agustus 2026 untuk mempermudah transaksi keuangan dan pengiriman uang bagi diaspora Indonesia.",
+    "url": "https://www.liputan6.com/bisnis/read/8281225/garap-pasar-diaspora-bri-rilis-brimo-taiwan-untuk-transaksi-keuangan-global",
+    "published_at": "2026-08-29T10:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:26.063498+00:00"
+  },
+  {
+    "title": "Pendaftaran Relawan Pajak Dibuka 31 Agustus 2026, Cek Link Ini",
+    "content": "Ditjen Pajak (DJP) membuka program Relawan Pajak untuk 2027 bagi mahasiswa dan dosen. Pendaftaran dibuka hari ini, Senin, (31/8/2026).",
+    "url": "https://www.liputan6.com/bisnis/read/8281222/pendaftaran-relawan-pajak-dibuka-31-agustus-2026-cek-link-ini",
+    "published_at": "2026-08-29T11:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:26.186992+00:00"
+  },
+  {
+    "title": "BRI Cetak Laba Rp31,2 Triliun, 75,1 Persen Portofolio Kredit Mengalir ke UMKM",
+    "content": "BRI membukukan laba Rp31,2 triliun pada Triwulan II 2026, tumbuh 17,5 persen yoy, dengan 75,1 persen portofolio kredit mengalir ke UMKM.",
+    "url": "https://www.liputan6.com/bisnis/read/8281257/bri-cetak-laba-rp312-triliun-751-persen-portofolio-kredit-mengalir-ke-umkm",
+    "published_at": "2026-08-29T12:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.76,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:26.294482+00:00"
+  },
+  {
+    "title": "BPDP Percepat Program Perkebunan Rakyat dari Hulu hingga Hilir",
+    "content": "BPDP memperkuat sinergi dengan pemerintah kabupaten untuk mempercepat program perkebunan rakyat dari sektor hulu hingga hilir.",
+    "url": "https://www.liputan6.com/bisnis/read/8281217/bpdp-percepat-program-perkebunan-rakyat-dari-hulu-hingga-hilir",
+    "published_at": "2026-08-29T13:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.77,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:26.464540+00:00"
+  },
+  {
+    "title": "Daftar Lengkap Harga Emas 24 Karat Antam, Pegadaian dan Hartadinata 31 Agustus 2026",
+    "content": "Simak rincian harga emas 24 karat dari Antam, Pegadaian (Galeri24 & Antam), UBS, dan Hartadinata Abadi per Senin, 31 Agustus 2026, sebagai patokan investasi.",
+    "url": "https://www.liputan6.com/bisnis/read/8281196/daftar-lengkap-harga-emas-24-karat-antam-pegadaian-dan-hartadinata-31-agustus-2026",
+    "published_at": "2026-08-29T14:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:26.604699+00:00"
+  },
+  {
+    "title": "Kuota LPG 3 Kg Diprediksi Jebol, Pemerintah Buka Suara",
+    "content": "Stok LPG 3 kg diproyeksikan membengkak melebihi alokasi APBN 2026. Pemerintah pastikan kebutuhan masyarakat tetap aman.",
+    "url": "https://www.liputan6.com/bisnis/read/8281168/kuota-lpg-3-kg-diprediksi-jebol-pemerintah-buka-suara",
+    "published_at": "2026-08-29T15:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:26.731002+00:00"
+  },
+  {
+    "title": "Simak Daftar Lengkap Harga Emas Perhiasan Hari Ini 31 Agustus 2026",
+    "content": "Berikut daftar lengkap harga emas perhiasan di Raja Emas dan Laku Emas saat harga emas dunia kembali turun pada Senin, (31/8/2026).",
+    "url": "https://www.liputan6.com/bisnis/read/8281154/simak-daftar-lengkap-harga-emas-perhiasan-hari-ini-31-agustus-2026",
+    "published_at": "2026-08-29T16:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:26.933572+00:00"
+  },
+  {
+    "title": "Negara Kaya Minyak Dihantam Krisis: Antre BBM 6 Jam dan Listrik Padam",
+    "content": "Punya cadangan minyak terbesar di Afrika, negara ini justru diterpa krisis energi parah.",
+    "url": "https://www.liputan6.com/bisnis/read/8281150/negara-kaya-minyak-dihantam-krisis-antre-bbm-6-jam-dan-listrik-padam",
+    "published_at": "2026-08-29T17:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:27.073440+00:00"
+  },
+  {
+    "title": "Tumbuh 17,5%, Ini Rahasia Laba BRI Tembus Rp 31,2 Triliun",
+    "content": "Laba BRI tembus Rp 31,2 triliun, terungkap sektor penopang utama yang bikin kinerja perusahaan melesat.",
+    "url": "https://www.liputan6.com/bisnis/read/8281095/tumbuh-175-ini-rahasia-laba-bri-tembus-rp-312-triliun",
+    "published_at": "2026-08-29T18:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:27.191704+00:00"
+  },
+  {
+    "title": "Rupiah Melemah ke 17.750 terhadap Dolar AS, Intip Prediksi Hari Ini",
+    "content": "Pidato Ketua The Fed Kevin Warsh saat Simposium Ekonomi Jackson Hole menjadi katalis rupiah terhadap dolar AS pada Senin, (31/8/2026).",
+    "url": "https://www.liputan6.com/bisnis/read/8281111/rupiah-melemah-ke-17750-terhadap-dolar-as-intip-prediksi-hari-ini",
+    "published_at": "2026-08-29T19:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:27.326718+00:00"
+  },
+  {
+    "title": "24 Jam Siaga, Kapal Transko Dara 3218 Jaga Distribusi Energi dari RU Balongan",
+    "content": "Secara rerata, Transko Dara 3218 beroperasi hingga 3 kali per hari, bergantian dengan kapal-kapal penunjang PTK lainnya di RU VI.",
+    "url": "https://www.liputan6.com/bisnis/read/8281151/24-jam-siaga-kapal-transko-dara-3218-jaga-distribusi-energi-dari-ru-balongan",
+    "published_at": "2026-08-29T08:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:27.511062+00:00"
+  },
+  {
+    "title": "BRI Pastikan Likuiditas Terjaga di Tengah Kondisi Industri yang Ketat",
+    "content": "BRI berkomitmen menjaga likuiditas dengan disiplin.",
+    "url": "https://www.liputan6.com/bisnis/read/8281093/bri-pastikan-likuiditas-terjaga-di-tengah-kondisi-industri-yang-ketat",
+    "published_at": "2026-08-29T09:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:27.779133+00:00"
+  },
+  {
+    "title": "Harga Emas Pegadaian Hari Ini 31 Agustus 2026: Galeri24 dan UBS Sentuh Rp 2,6 Juta",
+    "content": "Berikut daftar lengkap harga emas Galeri24, Antam dan UBS di Pegadaian pada Senin, (31/8/2026).",
+    "url": "https://www.liputan6.com/bisnis/read/8281083/harga-emas-pegadaian-hari-ini-31-agustus-2026-galeri24-dan-ubs-sentuh-rp-26-juta",
+    "published_at": "2026-08-29T10:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:27.931492+00:00"
+  },
+  {
+    "title": "Harga Pangan 31 Agustus 2026: Cabai dan Bawang Melejit",
+    "content": "Berikut adalah rincian harga pangan termasuk cabai dan bahan pangan lainnya pada Senin (31/8/2026).",
+    "url": "https://www.liputan6.com/bisnis/read/8281020/harga-pangan-31-agustus-2026-cabai-dan-bawang-melejit",
+    "published_at": "2026-08-29T11:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:28.074380+00:00"
+  },
+  {
+    "title": "Berapa Untung jadi Agen Galon Air Minum? Ini Struktur Margin dan Risikonya",
+    "content": "Bisnis agen galon bermargin tipis dan mengandalkan volume. Simak potensi keuntungan, modal, biaya operasional hingga risikonya.",
+    "url": "https://www.liputan6.com/bisnis/read/8281101/berapa-untung-jadi-agen-galon-air-minum-ini-struktur-margin-dan-risikonya",
+    "published_at": "2026-08-29T12:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.47,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:28.198033+00:00"
+  },
+  {
+    "title": "Update Harga BBM Pertamina, Shell, dan BP Jelang September",
+    "content": "Sebelum isi bensin, pantau dulu update harga BBM Pertamina, Shell, dan BP jelang September.",
+    "url": "https://www.liputan6.com/bisnis/read/8281071/update-harga-bbm-pertamina-shell-dan-bp-jelang-september",
+    "published_at": "2026-08-29T13:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:28.331952+00:00"
+  },
+  {
+    "title": "Harga Pangan Hari Ini: Beras, Gula, dan Minyak Terpantau Merangkak Naik",
+    "content": "Disimak harga beras, minyak, dan gula berdasarkan data Pusat Informasi Harga Pangan Strategis (PIHPS)",
+    "url": "https://www.liputan6.com/bisnis/read/8281045/harga-pangan-hari-ini-beras-gula-dan-minyak-terpantau-merangkak-naik",
+    "published_at": "2026-08-29T14:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:28.462733+00:00"
+  },
+  {
+    "title": "Bandara Soa Bajawa Rusak Akibat Gempa NTT, Kemenhub Prioritas Bangun Terminal",
+    "content": "Kemenhub akan segera memulihkan fasilitas bandar udara (bandara) di NTT, termasuk Bandara Soa Bajawa.",
+    "url": "https://www.liputan6.com/bisnis/read/8281058/bandara-soa-bajawa-rusak-akibat-gempa-ntt-kemenhub-prioritas-bangun-terminal",
+    "published_at": "2026-08-29T15:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:28.579268+00:00"
+  },
+  {
+    "title": "Laba BRI Naik Tembus Rp 31,2 Triliun di Kuartal II 2026",
+    "content": "BRI mencatat total aset Rp 2.352 triliun pada kuartal II 2026, tumbuh 11,7% secara tahunan.",
+    "url": "https://www.liputan6.com/bisnis/read/8281054/laba-bri-naik-tembus-rp-312-triliun-di-kuartal-ii-2026",
+    "published_at": "2026-08-29T16:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.74,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:28.719040+00:00"
+  },
+  {
+    "title": "Cara Bikin Liptint Sendiri di Rumah dari Bahan Alami yang Aman dan Mudah",
+    "content": "Cara bikin liptint sendiri di rumah dari buah naga, buah bit, sampai mica powder. Simak bahan, langkah, serta tips agar hasilnya tahan lama dan aman di bibir.",
+    "url": "https://www.liputan6.com/hot/read/8272179/cara-bikin-liptint-sendiri-di-rumah-dari-bahan-alami-yang-aman-dan-mudah",
+    "published_at": "2026-08-29T17:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:28.847034+00:00"
+  },
+  {
+    "title": "9 Perawatan Rumah yang Tidak Boleh Ditunda, Panduan Lengkap Pemeliharaan Hunian",
+    "content": "Pelajari daftar perawatan rumah yang tidak boleh ditunda untuk mencegah kerusakan mahal, mulai dari filter AC, selang pengering, hingga coil kulkas.",
+    "url": "https://www.liputan6.com/hot/read/8281447/perawatan-rumah-yang-tidak-boleh-ditunda",
+    "published_at": "2026-08-29T18:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:28.969459+00:00"
+  },
+  {
+    "title": "7 Perbedaan Cheetah dan Leopard, Kenali dari Bintik hingga Cara Berburu",
+    "content": "Perbedaan cheetah dan leopard, memiliki perbedaan signifikan dalam evolusi, pola bulu, ciri fisik, gaya berburu, dan habitat yang unik.",
+    "url": "https://www.liputan6.com/hot/read/8281420/perbedaan-cheetah-dan-leopard",
+    "published_at": "2026-08-29T19:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:29.095324+00:00"
+  },
+  {
+    "title": "10 Pasar Mie Instan Terbesar di Dunia, Asia Mendominasi Daftar",
+    "content": "Pasar mie instan terbesar di dunia, Indonesia menempati posisi kedua menurut laporan WINA Agustus 2026.",
+    "url": "https://www.liputan6.com/hot/read/8281379/pasar-mie-instan-terbesar-di-dunia",
+    "published_at": "2026-08-29T08:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:29.233944+00:00"
+  },
+  {
+    "title": "7 Cara Menata Kasur agar Kamar Kecil Terasa Luas, Bikin Istirahat Lebih Nyaman",
+    "content": "Ketahui 7 cara menata kasur agar kamar kecil terasa luas, mulai dari posisi strategis hingga pemilihan furnitur, untuk menciptakan kesan lapang dan nyaman.",
+    "url": "https://www.liputan6.com/hot/read/8281371/7-cara-menata-kasur-agar-kamar-kecil-terasa-luas-bikin-istirahat-lebih-nyaman",
+    "published_at": "2026-08-29T09:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:29.360717+00:00"
+  },
+  {
+    "title": "Cara Menanam Bawang Bombay dalam Pot buat Stok Dapur Sendiri",
+    "content": "Cara menanam bawang bombay dalam pot bisa dicoba dari umbi dapur tanpa beli bibit baru. Simak langkah lengkapnya mulai dari tanam sampai panen.",
+    "url": "https://www.liputan6.com/hot/read/8281368/cara-menanam-bawang-bombay-dalam-pot-buat-stok-dapur-sendiri",
+    "published_at": "2026-08-29T10:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:29.490683+00:00"
+  },
+  {
+    "title": "Mengatasi Bed Cover yang Cepat Bau Apek, 7 Cara Ilmiah Terbukti Jaga Kesegaran Kamar Tidur",
+    "content": "Bingung mengatasi bed cover yang cepat bau apek? Simak panduan lengkap menghilangkan bakteri penumpuk aroma tidak sedap menggunakan trik sederhana ini.",
+    "url": "https://www.liputan6.com/hot/read/8281357/mengatasi-bed-cover-yang-cepat-bau-apek-7-cara-ilmiah-terbukti-jaga-kesegaran-kamar-tidur",
+    "published_at": "2026-08-29T11:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:29.604499+00:00"
+  },
+  {
+    "title": "8 Inspirasi Model Kloset Elegan untuk Kamar Mandi Impian",
+    "content": "Temukan inspirasi model kloset paling cocok untuk kamar mandimu, dari yang hemat air sampai yang serba otomatis.",
+    "url": "https://www.liputan6.com/hot/read/8281347/8-inspirasi-model-kloset-elegan-untuk-kamar-mandi-impian",
+    "published_at": "2026-08-29T12:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:29.722698+00:00"
+  },
+  {
+    "title": "Jadwal dan Cara Sanggah Seleksi Sekolah Kedinasan 2026, Ini Tahapan dan Ketentuannya",
+    "content": "Ini jadwal dan cara sanggah seleksi sekolah kedinasan 2026 lewat SSCASN bagi peserta yang keberatan hasil administrasi.",
+    "url": "https://www.liputan6.com/hot/read/8281353/jadwal-dan-cara-sanggah-seleksi-sekolah-kedinasan-2026-ini-tahapan-dan-ketentuannya",
+    "published_at": "2026-08-29T13:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:29.867575+00:00"
+  },
+  {
+    "title": "10 Cara Membuat Sistem Ternak Ikan dan Kebun Sayur yang Saling Menguntungkan, Hemat Lahan dan Pakan",
+    "content": "Cara membuat sistem ternak ikan dan kebun sayur yang hemat lahan, efisien, dan saling menguntungkan untuk diterapkan di rumah.",
+    "url": "https://www.liputan6.com/hot/read/8281383/cara-membuat-sistem-ternak-ikan-dan-kebun-sayur-yang-saling-menguntungkan",
+    "published_at": "2026-08-29T14:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:29.984673+00:00"
+  },
+  {
+    "title": "5 Hewan Berwarna Warni Tapi Ganas, Keindahannya Bisa Jadi Tanda Peringatan",
+    "content": "Hewan berwarna warni tapi ganas di alam liar justru menjadi peringatan bahaya.",
+    "url": "https://www.liputan6.com/hot/read/8281339/hewan-berwarna-warni-tapi-ganas",
+    "published_at": "2026-08-29T15:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.44,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:30.127497+00:00"
+  },
+  {
+    "title": "7 Kesalahan Umum Saat Membeli Frozen Food, Tips Memilih Olahan Beku Aman Menurut Ahli Nutrisi",
+    "content": "Hindari berbagai kesalahan umum saat membeli frozen food yang sering bikin rugi. Simak tips memilih makanan beku yang sehat dan aman di sini!",
+    "url": "https://www.liputan6.com/hot/read/8281337/kesalahan-umum-saat-membeli-frozen-food",
+    "published_at": "2026-08-29T16:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:30.272793+00:00"
+  },
+  {
+    "title": "8 Inspirasi Desain Pintu Kamuflase yang Menyatu dengan Interior Rumah, Estetik dan Aman",
+    "content": "Temukan inspirasi desain pintu kamuflase untuk hunian modern Anda, padukan perpaduan fungsionalitas, estetika, dan keamanan.",
+    "url": "https://www.liputan6.com/hot/read/8281296/inspirasi-desain-pintu-kamuflase",
+    "published_at": "2026-08-29T17:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:36:30.404883+00:00"
+  },
+  {
+    "title": "8 Pohon Tertinggi di Dunia, Capai Ratusan Meter dan Rahasia Mereka Bertahan Hidup",
+    "content": "Jelajahi keunikan pohon tertinggi di dunia yang tersembunyi di berbagai belahan bumi. Simak fakta menarik seputar teknologi penemuannya di sini.",
+    "url": "https://www.liputan6.com/hot/read/8281313/pohon-tertinggi-di-dunia",
+    "published_at": "2026-08-29T18:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:30.575185+00:00"
+  },
+  {
+    "title": "7 Trik Cuci Helm Pakai Shampo Bayi agar Bersih, Tidak Bau Apek, dan Tetap Awet",
+    "content": "Ketahui metode mencuci helm menggunakan shampo bayi yang lembut dan efektif. Panduan lengkap ini membantu menjaga kebersihan, mencegah bau apek, serta memperpan",
+    "url": "https://www.liputan6.com/hot/read/8281291/trik-cuci-helm-pakai-shampo-bayi",
+    "published_at": "2026-08-29T19:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:36:30.692143+00:00"
+  }
+]

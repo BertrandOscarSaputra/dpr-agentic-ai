@@ -1,0 +1,2581 @@
+[
+  {
+    "title": "DPR RI Setujui Usulan Tambahan Anggaran Ombudsman RI Tahun 2027",
+    "content": "DPR RI Setujui Usulan Tambahan Anggaran Ombudsman RI Tahun 2027&nbsp;&nbsp;Ombudsman Republik Indonesia",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQmFpempBMDlrWl90WXhYNnNZNHB6NkhLa1FKUFM2a0xjWWU5WUwzejNaVENjeGY2UFNHVVIxSUNCaUc0bTRkSEdCdjBNMXNnUGFUQVFNRk1yY2Z3ZzhxR280TTV3SzF4ZW5OUHk3cWV6ajZBZ3NKS2E1RDgzNjNzZE9ZUHFZTkphNlBISWhIQmFoTmVyR1VweHp3?oc=5",
+    "published_at": "2026-09-01T15:23:24+07:00",
+    "source_type": "news_online",
+    "source_name": "Ombudsman Republik Indonesia",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:28:19.527920"
+  },
+  {
+    "title": "SIARAN PERS: Komisi X DPR RI Setujui Usulan Penambahan Anggaran Perpusnas 2027",
+    "content": "SIARAN PERS: Komisi X DPR RI Setujui Usulan Penambahan Anggaran Perpusnas 2027&nbsp;&nbsp;Perpusnas",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOWJXTHNvTGZFTWVZNzFFUFFCcUtyYklLYVNIZlo2Z3FwNzBuYktBOUxwS0h6N1Z0Q2U1dVBHVXhkS2J0dmtIZkg2cG5UbkVvdFpqU2pjdWVMbllwRUlxYlRpVWtBNHp2b0hGbkRtS3FBdEd0Mk5GT3VrRUNRdkIxV0ZrQVd6VEhrWlNCRkNOZUdiNzVRY1NtX0FjaGh5YzFoQzlYU0FERlFIRER3YTNkRUV3?oc=5",
+    "published_at": "2026-09-01T19:59:44+07:00",
+    "source_type": "news_online",
+    "source_name": "Perpusnas",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:19.689780"
+  },
+  {
+    "title": "Puan Dorong Penanganan Karhutla Lintas Kementerian dan Komisi DPR",
+    "content": "Puan Dorong Penanganan Karhutla Lintas Kementerian dan Komisi DPR&nbsp;&nbsp;detikNews",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZllqMnJpNlNRNVhHemZjbUx1S0hRaTlDMktyaUE2U19TMEYyQkRmS3hGMmd3dUgtQ0RNdDdKTmNkbmg3U1p1X1o1SWJCNHlhSmhKbHIwSzNCOUg5Z3lod3JGQ01ORG1CTkNoaWdtNWw3WW0zcnRzTFFobWhQNElxN0pvcFZpTjRqc1BFVmJEVWlUZ0o1OFVkV0d5NVAwZmtZZENEd2huQTHSAa4BQVVfeXFMUHItZktWSWFCNzI3cFJVTjNFQnBDbkVUSV9KbEJrYmNkYVExQUw2T19sa1gydWkwd2d3NTVKSUxGLUFfSVVYcXc1MFNWRGctcjBobHRiOENobm9VaEt4YnhNbVpSM0J6dmtvaU4weE5RMGVtZjJ1ZEtxTzhOdTRCNHNQMkotNF9yRzdZUkMxX3NENko3Y0x5emNtUjItMWJOVTdLOTBtck5fcUctYkhn?oc=5",
+    "published_at": "2026-09-01T13:23:16+07:00",
+    "source_type": "news_online",
+    "source_name": "detikNews",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:20.519272"
+  },
+  {
+    "title": "Puan Desak Polisi Selidiki Kasus Bambang yang Tewas Diduga Dikeroyok Ormas saat Demo Ricuh",
+    "content": "Puan Desak Polisi Selidiki Kasus Bambang yang Tewas Diduga Dikeroyok Ormas saat Demo Ricuh&nbsp;&nbsp;news.okezone.com",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV0s2MWVVMWVQNk56dVNaUWZpbG5oN1JXWVNQajZHeGlPdTNlZUgzSHNWdk1OR3VNUGlWZExFdjd1cGRzV2d2YWVCR1ptR2dUVFkxc3V5bm1wcWJxdmk4QkhJQjVfakpLUThrQ2wxdFFQRlFuNkZERHFrWThrVTkxb0piYVRJMkgzT1NEVzVNXzBFMDYzMVRoQU5GbDVHcHBNRGZlQ2VKS2JCQXRJdDVPVkpvSzZMV1NpUThIZDltQlFKa3ZGQXFfc1pfMlFMbWdGSWl5Uk1sdmY1UVnSAdoBQVVfeXFMT3hEMzVFZ095eXMwSzBGS3Q3SzRlall2RTJMSUtpRWt5VDlPWnYzRGV2ZjRMTm1obmt6eWxBNVI5QVVYZEVvT0VRMmxRVmxvdWdlVVNHVXBpZE5IaDlqdmd6Wm1GdG1xZkJpSmdOOC15TU9kaWQteXNZVndWSTBXWWhWX3U2X2tSdW10R3RPeEhTS1M3VTNZN3hOQnkxaVl3RlRKT2xXMVBIZlk2QXBiT0NIN0JLT3JVWFBXWlhHQ3padExWM1dWN3Y5Qk1SaE5lUFMtZGtxR3ZWanc?oc=5",
+    "published_at": "2026-09-01T13:28:31+07:00",
+    "source_type": "news_online",
+    "source_name": "news.okezone.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:20.988584"
+  },
+  {
+    "title": "Puan Ingatkan Tugas DPR Makin Berat: Aspirasi Rakyat Sampai dalam Hitungan Detik",
+    "content": "Puan Ingatkan Tugas DPR Makin Berat: Aspirasi Rakyat Sampai dalam Hitungan Detik&nbsp;&nbsp;Kompas.com",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb0R2clFMbmZ1NkdBQUlIcDhBT1l5M3VpU3piNV9GWnd5TlgyTU9QSElpQzFSTTdKUEN0T3FzeHFqaDI5cEF2UHpDZEx6LTJXRmpBd3NNNnRGUEVKdlpmbHpnc25tZ19qMl9kdmptcEtHbnJ4X09JVlEzUmU0OThCQ0dNempkR0VIeVM5SmpxZDdkbmpQQWgwSjZjMGN1Mzc0Nm96MUhSSlYxRlkyS0NrY1hTU1NERTRrLURvRjU2Rk1XZi1G?oc=5",
+    "published_at": "2026-09-01T11:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "BAM",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:21.386109"
+  },
+  {
+    "title": "Puan Minta Warga Meninggal di Pejompongan 27 Agustus Diusut Tuntas",
+    "content": "Puan Minta Warga Meninggal di Pejompongan 27 Agustus Diusut Tuntas&nbsp;&nbsp;cnnindonesia.com",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeTlXOFF2dHdRazBaOVd4N3RlSm1adWRoTXE2Mmw2NUcxTjI4MVRNQ2xYQl9EeWVfby1Qc0RHRGJiZ3RHSWJVZ05uc0VxQUNQM1VNZWlJZWtRc0lNU2FhTXVfbXp1My1MU2c2SlZpc3oyT2ZNR0dFQ04yZUtSa3o5RW5xNXpKbmNYaGE4TVFtVEc5SzRyemFkcE5xdWg0M2RzWlRhcGNGSnlxb0hQa3IwRi1oSEJZTUdObzhBTFVqc0l3c2xWdjdWeXJn0gHPAUFVX3lxTFBORTZFY0JTcTJmcTlpVHJodW54cVlXRXBMekN6bGlfclNXaW1CelNLSVZCbnRDSjRfdGtnVTZFSzVPSEU5cjl3ZGp2R3QySXFBTDMyQV9Zd215R2t2Z25raTZESXJCbDAtemhUMVBOOUVwMTJsbXRTeEpCOVRRRFRHS3pCUTVBdDN5OWJEMERaMVA4dklqdFJPZW8zMDJYQkxFUGJjd1oxYTBFNnNycDdSTlZ6SFcySDFhRWh5dTRpZWJuOFFoLWRPbHZqNWktcw?oc=5",
+    "published_at": "2026-09-01T12:58:31+07:00",
+    "source_type": "news_online",
+    "source_name": "cnnindonesia.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.53,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:21.882850"
+  },
+  {
+    "title": "Puan Pamer 16 RUU Disahkan Jadi Undang-undang Selama 2025-2026",
+    "content": "Puan Pamer 16 RUU Disahkan Jadi Undang-undang Selama 2025-2026&nbsp;&nbsp;cnnindonesia.com",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRkdsSkJQZkhBVW5fbUVJLTJtZzFDOWZqWFpBSmY0Nlg3dXdkR1lYcUhCMlJYb1lwNDhjVnpDWHhmV2swZnBjNnU0ZVU1ck5RenlncnQ0dTYzaktHZUdnQjNySDFPaDI3eTMxWE9lRWJNV1Q1YjhjeFJkM0pZZV9CbjdfcHNwX3BUSEx2YXR5eTV4QlVVQ3k4VW9SVzdQZTVQRDc1eXU4emNDLUVSelYwMDU0cHM1Ykl0RFk3UV9JLUdlbHRZ0gHKAUFVX3lxTE9NOFZXcURSejlnTjZZcThHZ2NpcDdUTkZvTzA4WHNVeDJMLUJmd09jU0o5MVhiUTFKSG94Ymxxb1I0WFJNUm9sN2ZyTzJ5Zkk3a0RIaVpkRjY2bWlELUpsb2ZXU3FXX1J2Z3BlcXh6Wlk0Rmxta1Y3dVdTU3RFNlVZTmU0a0FOTmk3cU1RYzhjelh4RWtnTzd2U0NEcFh1cFlweDZYYnFLclZzSXQ1SEZhUW1ZVl84QjBMVzNKTGZQSzBsOERSZXgxamc?oc=5",
+    "published_at": "2026-09-01T10:58:02+07:00",
+    "source_type": "news_online",
+    "source_name": "cnnindonesia.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:22.365805"
+  },
+  {
+    "title": "Puan Maharani Desak Pemerintah Perkuat Koordinasi Lintas Kementerian Atasi Karhutla",
+    "content": "Puan Maharani Desak Pemerintah Perkuat Koordinasi Lintas Kementerian Atasi Karhutla&nbsp;&nbsp;BorneoFlash.com",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDJUd1FGbVRDNHR2ak9ZaUZ5dFZBamUzeDRKY3hlTnA2MWp6ZWNWOGRNazl2Tmx6TjFKbThjVVF4MUhBXy1CRVdqd1gzSzR1TC1KMGRaSjJTT2hCeHo0LWpHU2NPelZYMExMWnNaOFo1WTV4aWZkY09hSUplYXJ3YmpZMVBwLVU0QjJKUmgtcVJHUEdoTEdrRDcwMXNEVXlvMVlxSFM3a0VGR0FpQ3lmdDRpYUVXb2w2Umc?oc=5",
+    "published_at": "2026-09-01T19:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "BorneoFlash.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:42.866613"
+  },
+  {
+    "title": "Puan Maharani Soroti Kinerja DPR Tak Hanya dari UU yang Dibentuk",
+    "content": "Puan Maharani Soroti Kinerja DPR Tak Hanya dari UU yang Dibentuk&nbsp;&nbsp;SuaraGarut.ID",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xeTNPRE8zOW4wOFltYlBfVkNIY0FrRG5uUnFQU3JkMG0tN3l6LW1VbXo2RGZoME9SNWJHN0MyaWFyU1Z2SHBtTHZSclRROWRCNHNwQW12WHNkUGNXQjNmX2NXeTE?oc=5",
+    "published_at": "2026-09-01T17:35:46+07:00",
+    "source_type": "news_online",
+    "source_name": "SuaraGarut.ID",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:22.493581"
+  },
+  {
+    "title": "HUT Ke-81 DPR, Puan dorong penguatan kinerja dan kepercayaan rakyat",
+    "content": "HUT Ke-81 DPR, Puan dorong penguatan kinerja dan kepercayaan rakyat&nbsp;&nbsp;ANTARA News Sultra",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT2ZYMmQ4cWcxMS1MUjFFVERKT2E1dDZyai1Qa09sbUFSWFhObWVXd1VMOGVfenFHdVBQNHJTZlJ2X3R0SnVqSktRT29rajBCN2E1cTEwdzROb3Qxc0VhY1FnbVA5T0c0SnhlXzUtNnhvdGFLRzMzbzZrLUdWVUdWelh3Vi10YTRucnVjRnppZWN0VF84cC0tMUo0aXFydzdaeTdqZjRGZ0pSMzBPOXdj?oc=5",
+    "published_at": "2026-09-01T13:28:18+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News Sultra",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:23.048111"
+  },
+  {
+    "title": "HUT ke-81 DPR RI, Puan Maharani: Kritik Publik Jadi Bagian dari Hubungan Demokratis",
+    "content": "HUT ke-81 DPR RI, Puan Maharani: Kritik Publik Jadi Bagian dari Hubungan Demokratis&nbsp;&nbsp;timesindonesia.co.id",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdkFWVVlQUDVaR2pVakgyZWtvcVNneXltQkducTBOQ2RwdVRnUGpQM3V6RzhLYmUzZS1sV1dvajBaOTEtWGZBLXRxSEhhbzVmN19ZN2FZenVxbkFDVHN6a04tN2xoejd2dTRkUmtzVmhrM0ZwM1FBbXkzVHpDNHFqbGllaWkwb093dUsxN0tUMll6anZYRWxReXRJUy0wLW1MN0ROWEJZZVFwd3FzTWhtX3VucnM5ZFE3ZE1GSUdQVVFFdw?oc=5",
+    "published_at": "2026-09-01T14:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "timesindonesia.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:23.413596"
+  },
+  {
+    "title": "Puan Maharani Pimpin Rapat Paripurna Khusus dalam Rangka HUT ke-81 DPR RI",
+    "content": "Puan Maharani Pimpin Rapat Paripurna Khusus dalam Rangka HUT ke-81 DPR RI&nbsp;&nbsp;gesuri.id",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVzlDRXo0SHA2bkFfdEwyek9uZlhVT3Q0Wlc5ZXQwTnZQNGF4SUt5WTBnQU5ROFRaRkN2WlQ5aHlRWnNqLS12S3pSVEtieXRMSS05ZmhXX1NqcHlXWGRCQ2QwUWhYeEJBa2dOanotaWtyYmEtZTAzTl9neFcwWmpEak5DQ2s0RlJRSkU2aVd0T29kWGFlb2NJbWJ3R1BEd19sYmljU2NjcHpnOFotZjU2UGNFMjdTcVp5Mll3?oc=5",
+    "published_at": "2026-09-01T12:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "gesuri.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:23.657726"
+  },
+  {
+    "title": "HUT ke-81 DPR RI, Puan Maharani Sebut Rakyat Sebagai Sumber Legitimasi Kekuasaan",
+    "content": "HUT ke-81 DPR RI, Puan Maharani Sebut Rakyat Sebagai Sumber Legitimasi Kekuasaan&nbsp;&nbsp;MetroTVNews.com",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVThfXzZXaV9pNk5NTk9haGlhRElJN3FBd1BFWGtOWk9ZTUJCbjRSa0ZCclR6QlVxRkZIMlJacllmRFcwMGhDeW0xQ2Vlem9FZUlOOEx6V01LU2ZhcklHLTlUdE8tdnNIVS11cW5aQXV6Q3JQVXl2NHVCRkwtLXo1X0FKcjd3QnNmV1J2NHg0NnVKYVVXa0dYU0V5MXYzTmp4ckk3dDlXNmpfb0N5R0RreVR4S05aUldfcHNPb1Bn?oc=5",
+    "published_at": "2026-09-01T18:10:49+07:00",
+    "source_type": "news_online",
+    "source_name": "MetroTVNews.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:23.960025"
+  },
+  {
+    "title": "Puan Maharani Ungkap 16 RUU Disahkan Jadi UU Sepanjang Tahun Sidang 2025-2026",
+    "content": "Puan Maharani Ungkap 16 RUU Disahkan Jadi UU Sepanjang Tahun Sidang 2025-2026&nbsp;&nbsp;beritabuana.co",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFh5S2Q2WHZNWXFOdEV0Tll4WDhrNTN6aUZHQ2hWY3VmZllXQkV2emc3Mnk4bUJQUEIycDB5ZnF4U0pmdTY4VUo1RlZBXzVPdGlGVGxsdzRXdzEzOW9CamRSXzhXQ04yaEVnZFgwMWUxclFXc3g0OTk0ZnZPYnNaU01Ta2xCWkY4Z0tXNGRVQ1ZyS01xNTJhWnJFU1NQRWptZUFqdEhCdHI5YlRQRTUtR1ZB?oc=5",
+    "published_at": "2026-09-01T11:57:42+07:00",
+    "source_type": "news_online",
+    "source_name": "beritabuana.co",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:24.306704"
+  },
+  {
+    "title": "Puan Maharani: Kami DPR RI Jadikan Kritik sebagai Pendorong Memperbaiki Diri",
+    "content": "Puan Maharani: Kami DPR RI Jadikan Kritik sebagai Pendorong Memperbaiki Diri&nbsp;&nbsp;Warta Ekonomi",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLXZmam5ILVBHMVBOZ1hOZTdBU2IxU053NEdUMHNybzY3UzY2dm1id1NMM181NjlmM2JoZkhKSEhFQ0dPRWZZZFZqcWpHSEh5Q09uYmpJblYtcHdIOC10SFNRSWgxT3QyWjdTQmQyOV9qa3dmNXNvZ2xWSnAtLVR4dmxtbVpGREdudnU3blpvN1JjdU1jam9zMmdjX2NTQTVfV21PaWVYR2o3ZWs2cmVseUkwNNIBuAFBVV95cUxQYXdNSklPcF9NZU10Nld5cENxOHJuYm9uLUFrWFpRMnVTTmNXQUZaNHVfTEtPUTQ4bXlOZ1ZrVUZqbFlqZzNGRTl3NkNEd1pzeWFjdy12RUNsRS1xdTV5UFdhUE9DQjVfRDdXWWRTckF3YWQ5MXBWOEtzUVFjdDdnYzJ3RnFSeUhhWDFCaXhCbW4ycWtDQlBWOWEza01lUktQYVczZm8zamVhZmt5eXFia3FfY2ZHSU5X?oc=5",
+    "published_at": "2026-09-01T16:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Warta Ekonomi",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:24.644054"
+  },
+  {
+    "title": "Sepanjang 2025-2026, DPR terima 9.205 pengaduan dari masyarakat",
+    "content": "Sepanjang 2025-2026, DPR terima 9.205 pengaduan dari masyarakat&nbsp;&nbsp;ANTARA News Sultra",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0FQa1ZHVV9aOHJtdHRpT1p5dVBjd2MzLUVseVJUOGxFSk03OU9wUDZEZmxLQU5ROXhTeVpRam5HYmJiWm02WWhINDFXQUo2T0dxY081emhkUnNZR2VBVVNxS3JZaUR4Snk1VHBQcURtc3RPTjZlRUYzOWRPSVlkMG1tZ3BudkRISWhsRkEyQnRvTFQ1Skk3SHdyZU5EOWZITzhwMFpmM2E?oc=5",
+    "published_at": "2026-09-01T13:29:47+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News Sultra",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:28:25.375863"
+  },
+  {
+    "title": "Puan Maharani Minta Kematian Pedagang Cermin Bambang Setiyawan di Pejompongan Diusut Tuntas",
+    "content": "Puan Maharani Minta Kematian Pedagang Cermin Bambang Setiyawan di Pejompongan Diusut Tuntas&nbsp;&nbsp;timesindonesia.co.id",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeU9zb0NwMkYxdnZEdHQyQ2JtYzdSMEZkMDlITW5QbGhjUmYtWkxyNmZ6b1dKanE0b1NzNzduYUNTdlVyY092VzZhbWFyNW9qMFZ6dFdJcGJKR3c1UHpjNldmX1N0a0o4NjVJa2pWaEtsVHhXTzJBYmhhSGFMODlFYTVQTzh2R1QtNmtiUGxUNG9Mb04zcHBSckJQc1pzdEFIemJOXzk1TkN6VXZ5SkkwZmJKWDZIa0VLZTFOZGgwWC1lckViM2pyXzZiMl9yWFc0?oc=5",
+    "published_at": "2026-09-01T14:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "timesindonesia.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.37,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:25.578478"
+  },
+  {
+    "title": "Puan Maharani Minta Polisi Usut Tuntas Kematian Warga Di Pejompongan",
+    "content": "Puan Maharani Minta Polisi Usut Tuntas Kematian Warga Di Pejompongan&nbsp;&nbsp;Detak.co",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNkhkX29ZSEVBb2RGVWhud0hTSlJUT3dmS1hNYl9hcVVRdDU5c2xvd2dyWmNBM2NJc2R0bndIX0hCaU9mU0t5UWc5NUhjbXJFVjctOEJSeGNwTmh4R1J3VG9YbzJLX0VwQ3F3OVN5UlJKNVRadHJEV2tINFZWTHdoMkM1cFE2U2cyZFNUbVVXeml3NFFpVFNTS0RsQ00zY0otX3dHUkVB?oc=5",
+    "published_at": "2026-09-01T14:49:55+07:00",
+    "source_type": "news_online",
+    "source_name": "Detak.co",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:24.881794"
+  },
+  {
+    "title": "Puan: Kinerja DPR Tak Cukup Dinilai dari Banyaknya UU yang Dibentuk",
+    "content": "Puan: Kinerja DPR Tak Cukup Dinilai dari Banyaknya UU yang Dibentuk&nbsp;&nbsp;detikNews",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalc0aGM2V1BlRVNmRVRMZmdDVUEtMV9DYk5vVXpmeWVjZUdUNno4TkRPeFhrUGp4Vnd3aGdiMUduUU5CemRRQ1hoMXRsWkt1VEJWWjhhWDZ3UEt4QnkyZjA3eXkzbW1BdzhhZWVQSVJmamE3TldSb1ZHTW1TbXJTSXFOYUZ6MTF3eFVrcFNqbjNyX0lySWVjTjJ2VnJwVWRuSmduRk1CakpBUdIBrwFBVV95cUxNRk03cjl0RnUwb2lNanZuUVdKOWp4R2Ywam9YTmVRcGVqUEw0ZTlod3RSQ0w0U21LM254RnRkLUNsVGIwaGdkWWZsVWJnOURiTlNDZHJnRGRXSE1GcDAzaXg1WUR4VUhINXc1cjN2azMzRUh1MVdzd3E1dVh1dlVmQVhWSEFWbkdDdjFveWxSbktDWUF1dFh6SmtCVUNDREdGV2xybTduMEYwOVZDZGZN?oc=5",
+    "published_at": "2026-09-01T11:07:50+07:00",
+    "source_type": "news_online",
+    "source_name": "detikNews",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:25.918508"
+  },
+  {
+    "title": "Puan Maharani Ingatkan Tuntutan Kinerja Lembaga Legislatif Semakin Berat di Era Teknologi Digital",
+    "content": "Puan Maharani Ingatkan Tuntutan Kinerja Lembaga Legislatif Semakin Berat di Era Teknologi Digital&nbsp;&nbsp;gesuri.id",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQXzI0SkJmM2VVLWdEY1RkQl9nLWZKVXJKRlVfVTdwcUk1TUNhU0xvNmdYVE42MHBBOGs0MThFRW1WcnVWYnN3b21xaHdEOER3XzJYMFpOWFpwWFJPUjh6NGJOSTk4WVRxeU5BMmxOZk04aUZHN0JjUVFGcEFhbGFQYXdjRzUyRVRsb2ZDeXlvMzlBRV96ZEYyYzk5UzJ1RjdCeHVXOGFjanV2cTFmQ2szMV9JbnQzX2hOZEE3dkxwMmxaRUhxdmNVMV9ZOHlET2FmZVRkRThheEdWS0XSAeABQVVfeXFMTm5JejBFVGR2MF9SY0VRYVFJdTFwYWpWWW5CTl9naU1Yb3R6N3pBeWxZeGhfaW0wTkFXLTJYUWVkT1EtNWpMOXE2RC03cDBBb0NZdF9OdUkzaFRSRzV4c01BS3FaVEViMWIyMlhKVUwyUmFPUmhtNi1ZaGh0T3hfQjJucmNaaXRySzVuR1dzYW9iR0RYLUlWLVVaeU8zSVp2ZlQxSGs2UDlvNDZDakJHOVlFOXFMWm5MODk4VU5qQVV5ODFscUQ4NGVINlNtMDNQOWp5QmYwTElPdm5nVUI3ajA?oc=5",
+    "published_at": "2026-09-01T16:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "gesuri.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:26.197018"
+  },
+  {
+    "title": "Puan Ungkap Cara DPR Bangun Kepercayaan Rakyat",
+    "content": "Puan Ungkap Cara DPR Bangun Kepercayaan Rakyat&nbsp;&nbsp;Liputan6.com",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMlhBc0tlTmpaRlpfVFdZNlhZeDVRdHpWUnd6TUUwdkpsT3RHY1ptY1ZWOGNmOUp6dDNLazlURm51NU1uZzF3TzN0bXZKMDFmUllqTEI2ZEJORE1yWTJ6RzdpcnpyTXpVenBMTXdNdFpYZGNnQ2J6aGxubTR1QUNLbjhTenJ1NXJwdjgwY3lIT3ZLOXNicDZVM2diQdIBjwFBVV95cUxQNmlRaDlqSVlUYVZjdlYzSFZtckh1UmMwYjM2MFlqLUI3aFJIcmpTNXBOSkJwMDFaYU9oUTl0bmpNM3U4a2ZOdE5mb2xCM2FuY1pjRkE0dzlTamgtMFRTajVLQ2owYWRfSWRENUpPbGhXa1RkT2wtRUhPNXhMWWxjbktfSHlVN1N5ekR5OEZiMA?oc=5",
+    "published_at": "2026-09-01T12:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:26.512558"
+  },
+  {
+    "title": "Puan Maharani di HUT DPR ke-81: Kritik Rakyat Itu Pendorong untuk Berbenah Diri",
+    "content": "Puan Maharani di HUT DPR ke-81: Kritik Rakyat Itu Pendorong untuk Berbenah Diri&nbsp;&nbsp;Suara.com",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc2hlNzZfbDZtMlZKVUdZaDRNNlZlcnlNR3hQdmFNMHgzN2xJdVJnWlU2M2F3VVpwMFpMSldUbmc5MGtzbzlicEc2c2dBV2JPZk9ET0hxWmJmcjAxUDNJRi1qbUdhR08wSUE0YUxfNmV5X2s3NjFqR3JuVjhEX3NJUFQyMXBUWTRwemp4OWZyMXFlQWgxUU93MDQxM1c2bFNpZFJwRXJOc3Z5MHNDZGdEZmlwVWRmOG8xUVgySUk3NWfSAcABQVVfeXFMTldmRjZiWVRNQ29JUmJmMnYzdWZxV2tab05sVkU2d2lVZ2lmZ3RRcWZIeW5VUnA5RHlaYTl0SVB5bjRpVEQ1TzM4OTBSYm1XM1kzNW5TRVhtVzVNR3RCaXpLZXQwNkw0R1NIemctQnZfX055Sjd1VkxoX3puV1VUbm9XMm1DaUEyRjZIQ0V1ZmJuVFpsQUJXanVfbXBJd1NTQjhiMkRyWEtOWFRNLTVjMTk1cGdndG9xNEdLZzA5dWpP?oc=5",
+    "published_at": "2026-09-01T12:06:21+07:00",
+    "source_type": "news_online",
+    "source_name": "Suara.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.44,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:26.706761"
+  },
+  {
+    "title": "Puan Sambut Miftachul-Gus Kikin Pimpin PBNU, Doakan Semakin Baik",
+    "content": "Puan Sambut Miftachul-Gus Kikin Pimpin PBNU, Doakan Semakin Baik&nbsp;&nbsp;detikNews",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWnlMV1NvZlRQUnFQd3hocWhGcElaSU02bGY5dXpBVGZNeEQwUm5IVTBabVEwV1BrQkx1a0FVSWRfOGN6NnZ3Qndya2gyT3JGZEhkLTY1TEVvSFB2S3MtSTVpQldveDJnZWdMd2VVMWg2UVB5b1hQcndvU0xGQ1ZtV1BvcEdjSWtLT0dFRVpFdDAyUGhVbEdFcDBiSGxCSmozMWNlV2ln0gGrAUFVX3lxTE9RS2V2andPU0lVM2haV0NtQUh5cDdWd0cyN2hTVU5zMG5zUmdZT0FQZGRHMWdHYzZSUU9pei1xazhLYUdKc0RKQWZZaDc2WXRYRHhoc3ZaQlY2UVN0WTdFb1l5RVNrejFRX1NHWmIxSC1mdkptUnFCa2hQWVFpTkNnNUpyZlFjaFhwbk9mWWJ5UnpsQy1BM0RsZGJzV3hjVm9sOWFCVVJRSU9vcw?oc=5",
+    "published_at": "2026-09-01T13:39:33+07:00",
+    "source_type": "news_online",
+    "source_name": "detikNews",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:27.234156"
+  },
+  {
+    "title": "HUT ke-81 DPR, Puan: Kritik Rakyat Jadi Energi untuk Berbenah dan Hadirkan Perubahan Nyata",
+    "content": "HUT ke-81 DPR, Puan: Kritik Rakyat Jadi Energi untuk Berbenah dan Hadirkan Perubahan Nyata&nbsp;&nbsp;suarasurabaya.net",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHN1bVRkNS1vT3JUX1B1dGREdmhRS3dxbk16Wjg2Ui1xNkNMTGdVNlpZT016Zmo3ajYtaV9VcHc4QWlqNFB5dzFYOXhPbmFXNHJ1d3N3bVVaUTUxSlBDdEtnQnFEVXk4VTVpbXVrdGJ5WHJ2eGszQjI4Vy1sWnBIb2UwT1NVNzFueG9nTjFpUzVWbVlScUFnM0VObjlDWHVva2JyanlIOHdrMWtqcUJoQTZvNkp2dkZzYjE3OTRDbkFyR3BhMkc0RngyZzDSAdIBQVVfeXFMTXdzUmlNSm1qa1BGU0hQVXJFREZ4OVAzM1JGd2lDbE16NERmM1JYV21GMnhSNmdId2pOLXM5ZHBMNnpLMkFMZUdWeUFTOWk1NnprVkVVbHh6dGUtZ2FSTkEyR3J6enF1eUhwV01pRkxVTVFEMU9wWTM4Q2RWWjk5cUwtSjNFRGpBai1mek1HanZGTThkYzBrYlI2ZlducHBuM3Nub3lEZmVwUVVXNmtUbE4wNWtJbldrcV9kSTVZSEJuVFNraDFQZndhRmYzQkRQVWdB?oc=5",
+    "published_at": "2026-09-01T14:00:38+07:00",
+    "source_type": "news_online",
+    "source_name": "suarasurabaya.net",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:27.900890"
+  },
+  {
+    "title": "HUT Ke-81 DPR, Puan Maharani: Kritik Publik Harus Jadi Bahan Evaluasi",
+    "content": "HUT Ke-81 DPR, Puan Maharani: Kritik Publik Harus Jadi Bahan Evaluasi&nbsp;&nbsp;VOI.ID",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb2twRTVFMDhsTDQxd2xfRndDXzRzV2h2cFV5Q0dJS29zd1lZYVE0QnRjMU5yWEVCYnBSVUVGMVNVVGxhRENvV09LUWxwSXp3ZXJTaUNtdmtaN201U0dxWVpjUHZhdEREYmhFQ3JEV2lZZ0NVd3Rua2d4VU50SFN6UlFGc3FDQ3JhXzJ3VDUxaFJCMGs3Zm5XbXdRZkzSAZgBQVVfeXFMTWkzRlRBekJubXgxZzNMWUFyMVhXd0NsOVhHS2dSalMzcUI4d0NPQXcxbDVFVFFjSllPNndVc2NSV2VRRU1WV20tOEZfSXZManloYVcyQm0xeGMyU0lTWGZOMlFyWVNQZFQxY2ttSkE5cUoxZ0pyTzNPQWl2ODJtdU96b0xpWkIyc2J5LVBkQlpXcXpLWlprang?oc=5",
+    "published_at": "2026-09-01T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "VOI.ID",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:28.053401"
+  },
+  {
+    "title": "HUT Ke-81 DPR, Puan tekankan parlemen terbuka terhadap kritik publik",
+    "content": "HUT Ke-81 DPR, Puan tekankan parlemen terbuka terhadap kritik publik&nbsp;&nbsp;ANTARA News",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNenVRQmdCc2dCeFAtRW52SGMzYS1va2dVWjlfRTdZTG5jaVBRNGJDaERQUHk5clZxaEZVUmVpQ1NUbGxJeFVNc2wtcjRaZXVWU2ZTQWt2T0FJV0Z5cUJQTjZQMjNUbUJzWnhSeUJGYjBNbWprdGM2djExSEJlS3NlT2FvOGdPb1ZUUEZOTFo2U1lfV3kzYkxqT0VXQmZNbmFmQ21LdlZfVDl5M25KMjJN0gG0AUFVX3lxTE9ERDRSelBJLUd5V1hxVm5qX0o5clhHNjZDU2RSZXowSmg0U1RKbFBtS2d2bDhKc3Z1WXJIdk01ZnFJaVpiTTJzQlJyS0k5YWl6SkFsa1huYXN6Y1A3aVI3WjNaQlBRcG5WNTQ0X2ZGM2FobHhwMzNzN3A4WldTaXViemtWTkZFMFdZeTFHeDVUS0h1RUw0RFZlbEp5THNFY19vR0V1T012X09feVhqRjc2NzQ2dQ?oc=5",
+    "published_at": "2026-09-01T11:19:05+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:28.357682"
+  },
+  {
+    "title": "Puan Maharani Tegaskan DPR RI Terbuka Terhadap Aspirasi dan Kritik Publik Pada HUT Ke-81",
+    "content": "Puan Maharani Tegaskan DPR RI Terbuka Terhadap Aspirasi dan Kritik Publik Pada HUT Ke-81&nbsp;&nbsp;detik suara rakyat",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGtfS25EMTdnZFJLQlJRS1JtMElGeTRueHZyUkZxdXpnaFdLM2kyem13LXptdmtTSWxnbU1WYlNCaEF0NGVIZzVaMDVBQVA5U29oYURQMHM2U3FmVVZLdUNxZFFUUGdWRXZDTnQ0bVpTYzc3aW9lWHp0R3huSkphcFdQdlhwbXEtclpQQl9YV0R0SXlQLWxfTy1iUzY5VzlvSHFwQm5wVmRKRWdIZ3BfeW44bDFjeG4z?oc=5",
+    "published_at": "2026-09-01T13:25:23+07:00",
+    "source_type": "news_online",
+    "source_name": "detik suara rakyat",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.51,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:28.511332"
+  },
+  {
+    "title": "Puan Bicara Kerusuhan Pejompongan, Minta Proses Hukum Dituntaskan",
+    "content": "Puan Bicara Kerusuhan Pejompongan, Minta Proses Hukum Dituntaskan&nbsp;&nbsp;Liputan6.com",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVEVaQzdBZmZ6Z2VGck8tdTM2YVdXN0tRTTFPcGZNWTZ1WHctcDNvOFdEc2FkVWpfQUZDX3hnUEgxNklsck1wV25ITEp0QU5XTUZ2WVAxRXZRa1ZCRDB2T18ySDhHNnF3cEtGbnpBdDhCM0RmcHY4SlhtQ05qQ3VRRmZrdTFUVEx2NF9Wc0I2NHA5ZXU5SzRpcUZxY18zTEZ3Z25aSnpGZ29NMDFhaVZJU1ZvWUNIdw?oc=5",
+    "published_at": "2026-09-01T13:50:16+07:00",
+    "source_type": "news_online",
+    "source_name": "Liputan6.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.37,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:28.855414"
+  },
+  {
+    "title": "Puan Maharani Minta Pemerintah Perkuat Koordinasi Lintas Instansi Tangani Karhutla",
+    "content": "Puan Maharani Minta Pemerintah Perkuat Koordinasi Lintas Instansi Tangani Karhutla&nbsp;&nbsp;MetroTVNews.com",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaVB2cGowZHdabF9YMmZGV1hKTWFSWEdvMGdKQ1NfUThxckJqWWIxRDBiM0VLeWZpTi1UUExqVWk0Q1k1LU5TdzFKYkFSQ1BJd3J2cUNFTmx0Snloemp1TUluN184WHZrSXI5MU5UcHg0MnRuMDFfUXhrbkdZeHZ2eXFzdnE3T3FUWUUteUIzck9uVTlvVzVrTjdHdHl2bnN4cHV1ZUM5Q2VEbU1VbllKSFZJZTNGUS1VS09jSDhJcjJQUQ?oc=5",
+    "published_at": "2026-09-01T14:57:25+07:00",
+    "source_type": "news_online",
+    "source_name": "MetroTVNews.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:28.990763"
+  },
+  {
+    "title": "Gus Kikin Pimpin PBNU 2026-2031, Ini Harapan Puan Maharani",
+    "content": "Gus Kikin Pimpin PBNU 2026-2031, Ini Harapan Puan Maharani&nbsp;&nbsp;Harianjogja.com",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTWN5YkxIWE00aGZkRHdaQzMySDN0V0NsRnNWZHBfN055ZmhfeFdVT0pTamRRQnlzNHBSYlpPUnN6Q2NLLUpfbGxXRDU4OHltSFc5TmlOM1ZDcFhyZDVFZjZvc3preUtEQ2plQ0lJemcwZ2dhQXpfOTIwRWhhZG1LZUkxbTRYOVhaSTN0UnE5TWlQcFNWNGd5VGhNTlI?oc=5",
+    "published_at": "2026-09-01T16:17:52+07:00",
+    "source_type": "news_online",
+    "source_name": "Harianjogja.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.51,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:29.123444"
+  },
+  {
+    "title": "HUT ke-81 DPR RI Digelar Hari Ini, Puan Maharani Akan Paparkan Kinerja Setahun Terakhir",
+    "content": "HUT ke-81 DPR RI Digelar Hari Ini, Puan Maharani Akan Paparkan Kinerja Setahun Terakhir&nbsp;&nbsp;Suara.com",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORXR6anJjTU56Nmp5eTRNVHZmczFWd1FvR2ZkY1lrUnd1M291aHdUUVBJVjNVNE9PdzNDbV9lSEk2Nndkc29FdGIwTFZseTdJcEEteUNGYWt3MXZsdDBuZXd3MjJNRnhMeTdUcnpzSGU4R2hzWFBqbkpMMVFtTlZTeDBkelM5UFhVbmFtQU5zYUc2bkVXdWtOdU9wQVI1V043U0JtYTEta1lqWUtoN1cwOVd3MzUtNHlGSTN2M2tGRmxlSUdlRHJkellOTdIBywFBVV95cUxObFYyanZIWU5ETmpwZ2J4MGxMcTJTRjk2ZlRQTnM2N2Q3amN0RkJyY0ZJMlhweWVLS2ptbUc3M0JDX3ZkcS1KMUNGa3hma0liZzZTM3ZMcWZVdEtUOXpKbTNOT1h0Y2VDclZJaFRMb1N3ZkNRYm9wZWFRSlM2cFhJQ1QyblhaOTFPMHlWdlBic3ZMNnc0YUVhVTZMMkVYVl9BZ01kZWpoX29pN0ZIUnI4eERaZnBkS1o1QWxDb29PNlJJcnh5OFBfZUxnbw?oc=5",
+    "published_at": "2026-09-01T09:09:11+07:00",
+    "source_type": "news_online",
+    "source_name": "Suara.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:29.406435"
+  },
+  {
+    "title": "GRIB Jaya Terseret Kematian Warga di Pejompongan, Puan Maharani: Bila Terbukti Ya Harus Tuntas",
+    "content": "GRIB Jaya Terseret Kematian Warga di Pejompongan, Puan Maharani: Bila Terbukti Ya Harus Tuntas&nbsp;&nbsp;Suara.com",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZ2FjWWVZLWNCd3RYX1lkbXh3S21LYTAtM3N5NW5GZFJLZmcyWTZyTEl4akZxR0NoMWJNTDk1a0Jfai1yMFhTUm5zOTIwVmF5U1pkMm9kMzBOMU1lUlpmNksxUUx4dDg0Qy11Vll2QjNuWFp3MUxlQ1JQQnVUVjFZODJlcldIaURrSG5yQzRjbHh1c3Fodk9HbXF6enlWYlFOam9DYkhFWktxV2Z5S2hOUjNKNjRrMzRfbExEZWJ3WXlGamVRZGlTaWxIa3J6MEVBYUpF0gHTAUFVX3lxTFBWRkdRSE1jVXFlYzdEclBndDViVkpuYXk1ZFJrcnBUZzlvaUs2bWZMcFFHRlBndlR3bHZTSmh2SXdHeDBJZEkwZjdhRGN4T0pkZ2NGR2VfOGJZbzd6S2Z2YmU2dGZfR05fUzZXWUMzR3NubU5vVmJYQkZyZDlsbVRwMkE5VmIydzBDOTAySlJiZEhLd2NOQkNMMGV3NGUxY3kySjVJaFl1NHltREpHenJkcVRPSTU2a3FHTW1hRjJyd3VRaWFIR25OUXhDbkZEd2M2TnM?oc=5",
+    "published_at": "2026-09-01T14:04:12+07:00",
+    "source_type": "news_online",
+    "source_name": "Suara.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.34,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:29.690158"
+  },
+  {
+    "title": "HUT ke-81 DPR, Puan Akui Masih Banyak yang Mesti Dibenahi",
+    "content": "HUT ke-81 DPR, Puan Akui Masih Banyak yang Mesti Dibenahi&nbsp;&nbsp;Inilah.com",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY3FFeUg2SUpBaVhQUXNIcHJ6VDBKTllzRlRTbjJfdk14OUJ6dktYcjJFRGJlSUhSdHFlT2lYa041bkU2MHpSRzZWVVhxVEl3cW92XzBoSHB1WHE5WVJwR1RvUGlXVm10V2RvemN4dEpzdWkxcG9ra2J6SmlwTTh5cHczYVctVGl0UXNWNHBsdzhOUQ?oc=5",
+    "published_at": "2026-09-01T14:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Inilah.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:30.056193"
+  },
+  {
+    "title": "[FULL] Pidato Puan Maharani di HUT ke-81 DPR: Harus Berbenah dan Kembali Dekat dengan Rakyat",
+    "content": "[FULL] Pidato Puan Maharani di HUT ke-81 DPR: Harus Berbenah dan Kembali Dekat dengan Rakyat&nbsp;&nbsp;Kompas.tv",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPXy1VT2hsU2ZWQWRTSEdGaVFsV016alJSWURpbVdCOFpWRTBvSTlrUndoZjdabGtNLVZ4Zng4djZnM05VNE1UX3dUMmRZelFfdm96WGNVRjZFZXlVY1o3UVBTbDZueVAxbVZpMElUenpOSmo5Y2tPbVRNY1RkdjEyeFdVSVBDR3dYZ2lyWC1lVVpxX205RDJXSWtWelRXaHplb1VNMlVwS1VnVEFRa21qWEczMURUc3FxQmhkTzhpbHRIUdIBxwFBVV95cUxNUkY3THZDOHU0bGRhSTNCU0JLMHd2UV8wRWtWQWI2X3NBclAydnZ2cnphVjRSelVrdFpzbmRiOUtvQjN3NGRUS05yNVJkYmV1eGhDdUptNm1nS3VHZVpEM0h4cko4SzJoVXV6OXRDY1RubGpRV2taN2VQSHROU1BjOGRsZGVxbW1Ibk1pandmbHJOSU8yRzM5SXRuTFlDbEROTDJQSTV5aGR1UElxdGhzaXF6b09qNmFQQTNqdGVMNC1jUGkzUlcw?oc=5",
+    "published_at": "2026-09-01T11:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.tv",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:30.315963"
+  },
+  {
+    "title": "Pimpin Paripurna, Puan Maharani Tegaskan Komitmen Sempurnakan Kinerja Demi Rakyat",
+    "content": "Pimpin Paripurna, Puan Maharani Tegaskan Komitmen Sempurnakan Kinerja Demi Rakyat&nbsp;&nbsp;Harian Bhirawa",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZy05Tlg2OUVyNXBWaDJuTVpNYVo3YXJ4OEZjcUFGTjJOcWUxNlZraHZJRllVa3MydmhiSm9MaUJTTVlDSlk0cmk3SVduR3dzWHpPOWk3UlVjRTlQN1pXcDFkbVMwVDFsMGx0TTRsR1JlRjFwYzh5Z3pNeTd3WHlFNF9RU1oyNUQ4YnFDLXlEc0h3R3c5M291eFRYSjVfcmFmQmFHcHpVSm5ZSW9pUWc?oc=5",
+    "published_at": "2026-09-01T20:33:44+07:00",
+    "source_type": "news_online",
+    "source_name": "Harian Bhirawa",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:30.571309"
+  },
+  {
+    "title": "Puan: DPR Jadikan Kritik dan Masukan Sebagai Pendorong Perbaikan Diri",
+    "content": "Puan: DPR Jadikan Kritik dan Masukan Sebagai Pendorong Perbaikan Diri&nbsp;&nbsp;Kompas.com",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSFFzXzFGbE43Um96UXBYNmZUVFhFSmZFeEpudXhFaERxV1RhYks2RGFCdnJlTDZTcDY1WXNVT0RwUW5vMzNGNzVZTFJHczFzaXh3amNhQnF2VE1OU3ZaMnRXU245TkRNbnJ1MG5HeGd0MU1IcXJIMklOOXBtTnBXOUxWSjd0YVBTdkNGcVdSVlFnZng4SnN5Ml92cThxMmE1QWg3NkNCUkV1My1MdGZIOE1OSjFzMkhRaWZlVWtB?oc=5",
+    "published_at": "2026-09-01T10:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.44,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:30.907905"
+  },
+  {
+    "title": "DPR Terima 9.205 Aduan Masyarakat dalam Setahun, Puan: Kritik Bukan Jarak, tapi Penguat Demokrasi",
+    "content": "DPR Terima 9.205 Aduan Masyarakat dalam Setahun, Puan: Kritik Bukan Jarak, tapi Penguat Demokrasi&nbsp;&nbsp;indoposco.id",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbFRKSnlqbzdrUzg3eVROb2RBTHpuX2t2OExCbVpWMVdNYXU3UERxaXJTck5VRWItT1dVaDVqeXQyaE9yWlZmektRNnZKM2hMYVNEWFFFVVBVM21obno2RVY3Slh5eXYteVpwMFhXUkNhN3lFbEsyYVRxWURsLWhCUnc1Y1oteDJZMC1qLW5oVi1IZzloTGdrSnpNbS1MdXoxSm5FQmdEcC1EYXE2TnZ4N0JmdzV4MUQ4Uk1tTXVIbm42OGk3V3c?oc=5",
+    "published_at": "2026-09-01T21:31:43+07:00",
+    "source_type": "news_online",
+    "source_name": "indoposco.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:31.245274"
+  },
+  {
+    "title": "DPR Gelar Rapat Paripurna Peringati HUT Ke-81 Hari Ini",
+    "content": "DPR Gelar Rapat Paripurna Peringati HUT Ke-81 Hari Ini&nbsp;&nbsp;detikNews",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUXBqUUdWQjFIX2I2Ykh6WUpfTFE1Wkd5Ym8ySmtOMlZOcGxXemducllnMElYX19kSEpRZ0paZmh6eTZBTFotTDRkeVVRLVE3UlNDdi1kVU5lYnkzOFhxMjBIVlFYNVI4ak5YYWRiNHZrYnRaM0JQYlJVcmt2VE04ZnFvQjdZbElCTU81YnBNejcyb0tTdkpPd3pn0gGfAUFVX3lxTE9ZWTBZRjVwTzYwdzkyOWt1NTBRNVlMSHlIb25NTDZYQjFwYUlaaTE0OWUweGQ0NmdaTFpuRWNVcmZJTS1hREV6M2cwVTlzdWJ5YTJnai1UcTJBdUNYb0FCSHRGdmtsVGtpM3E1N29zWE0yWndwZTBPbEV5YkN6ZkZnam1UM19aN3RuUDlpdUdCZ1h5X2Ezakc0M2VwejJJbw?oc=5",
+    "published_at": "2026-09-01T10:18:22+07:00",
+    "source_type": "news_online",
+    "source_name": "detikNews",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:31.509302"
+  },
+  {
+    "title": "Puan Maharani Buka Suara di HUT DPR: Kami Terbuka Dikritik Rakyat",
+    "content": "Puan Maharani Buka Suara di HUT DPR: Kami Terbuka Dikritik Rakyat&nbsp;&nbsp;jurnalpatrolinews.co.id",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUnV1R1p6eXlKSGt0VmNMeWNPblI2TEJTVkNYUlB2MFYwVDBud2xMc041RHBGSTFtZlpSM005WFZad3pDdGVSWGQ5aHNXRm5nZldobkF4NXBYSzRfQ2p0WXVtOV9JQkNONUFzdDhMeEU0aEM5QjNvdFhkcUtza3o0dlBhSEgxTU5TYV9tRzFrSFQtSHVCbC1HampFUHZQNHdBbjFKNktqSHE1UQ?oc=5",
+    "published_at": "2026-09-01T18:23:09+07:00",
+    "source_type": "news_online",
+    "source_name": "jurnalpatrolinews.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:31.640188"
+  },
+  {
+    "title": "Selama Hampir Setahun DPR Terima 9.205 Aduan Warga",
+    "content": "Selama Hampir Setahun DPR Terima 9.205 Aduan Warga&nbsp;&nbsp;suarasurabaya.net",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc3ZxNWRneUwxVDdJa1FOODZYbFh1Qk9zU19GMFB0UWJIV3BXVU13NlR3VUxSc3FNRVFFMmRVVldaWkNxZFA0VnEyNWk0eGtTblJ3cXAtU2NfWGJGZVpyaWQ0Q1ZtQ0ZNdVRvVkpJT05jRGd3WldWdm1TdGc4MXhSM0RqR1hhV0FXcTR0U3NLQUxvb2U5QWd4YktndzVrZ9IBowFBVV95cUxONHJtbzNIWEpYUUs3b0NITWVjVjd4dmJLVHB2QmRLeEZQXzlvcWo2T3Fnc2xsRGpqTUkwcHUyXzJ3QlJVSnRHdk9Pa3FNUEtpZlgxSTZfNV9kRnhibVBDbkFrcG5PWUdIOUxSSVpNeHhUMi04VWhybXlRQm02X3AzaElZV2tPVkcxWmszYURybHpJOXZTLW5KdVNOMXJDTW1jR0lj?oc=5",
+    "published_at": "2026-09-01T14:45:45+07:00",
+    "source_type": "news_online",
+    "source_name": "suarasurabaya.net",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:28:31.889605"
+  },
+  {
+    "title": "Hercules Disebut Ada di Lokasi Kerusuhan 27 Agustus, Ini Respons Puan Maharani",
+    "content": "Hercules Disebut Ada di Lokasi Kerusuhan 27 Agustus, Ini Respons Puan Maharani&nbsp;&nbsp;VIVA.co.id",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONDFKcm1oWGlhVUc4SHdBY1JhZDBZNVlyWldKNV9oN1VjbjZlcTBwT1lkR3V1OHJaUVdWSWdQX0JJSTJ0YXZhOFAwZVU2QWhkMVoxazUtZ1NONVlOTUVucEZaenVNZ01UYlBkOVk2TnNidTFydWczWDNmN2dWeEdUUEFOY2VFanFLd28tOS1leW1IS2ViLURYdzlmdGZXczhBRGUwM3JTd2pKZnNhQkk5SzBQcWp0akFsbXBoQnZFc2tXZ9IBxwFBVV95cUxNcTJ0RHdLOWtCb0NiVTkzbHh4NjVPYXlsV0lFbTVIRW1xTWNnNzVpaW1IYmNpWkl2cXR6QkFrSkNBdllGdTI5QmU0X3Q1MzM3R0FvaU1oc1pYTUdVekNTWXBGOFhrRFF0cUlRaDVJMy1UR0E0MzZQbWQzNTJ2VmU3YnJDT1VIb3ZmM2dQb1Z3bnliV1pBa3VDXzJnY2xfTDNZclVCclR5b0MxZlpUTTM5bGM5WnQ4cTJiNW5nU0lMenZjYmtnY2Vr?oc=5",
+    "published_at": "2026-09-01T14:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "VIVA.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:32.023142"
+  },
+  {
+    "title": "Puan Maharani Paparkan 16 RUU Disahkan DPR 2025-2026",
+    "content": "Puan Maharani Paparkan 16 RUU Disahkan DPR 2025-2026&nbsp;&nbsp;suaralandak.co.id",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03Z2hrWUVXZHluZDZBMHJmS3NvakVmLWZXeEdMWHNYcU5SeDdzbzVUUzBZTVdfQkxaaUtCdExMV1FYT0F1MlJxdWZTbjVzVnVqWndSbDctb0dMRWdoQVBSQlB3dHg3RVBXak1j?oc=5",
+    "published_at": "2026-09-01T17:32:50+07:00",
+    "source_type": "news_online",
+    "source_name": "suaralandak.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:32.133022"
+  },
+  {
+    "title": "Puan Maharani Bicara Terus Terang soal DPR: Kritik Rakyat Harus Jadi Bahan Evaluasi",
+    "content": "Puan Maharani Bicara Terus Terang soal DPR: Kritik Rakyat Harus Jadi Bahan Evaluasi&nbsp;&nbsp;Akurat Sumsel",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVhmczZpODRsd2ExSkhYWk5nTk1JOXRaWFFYdU9xVVdVdkhRMEdmbV9wb3BCMVQ2djV5dGQ4SnV3MndEZmY4UVFEU3htaFoxdk9CS3U5cjZ6OGxmVS1sMVYtdGRFVHlnYUxMVjhZekc0VmJQWE9MMzBtMC1nZ0t2bjZnbmNrUl9LSVlLcDFtZmhfeW44RjhYd3BkVWFlbHZOZ0pBbzVOcHpoekY1TFhrd2Vwb0JHalNZUGJR?oc=5",
+    "published_at": "2026-09-01T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Akurat Sumsel",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:32.272622"
+  },
+  {
+    "title": "| Puan di HUT Ke-81 DPR: Marilah Kita Terus Mawas Diri dan Kerja Nyata",
+    "content": "| Puan di HUT Ke-81 DPR: Marilah Kita Terus Mawas Diri dan Kerja Nyata&nbsp;&nbsp;jurnas.com",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmZxb1ZvZmJKcTJBbFJtWHBPVjVNbzNPOFVWQ1VDRG5BZHQtMkx6T0dUbHYxTzB5N09XYWVvMDBSUXphaXVkOXNkemppSTUzbzJnUHE0R1dNNklBbldLakVsMmVwdmxhYklnT09fN3J0M3RpZHpUVFpnMUVTM0NFTGdGVGNITXkxRWZ4cUQyVnJWUUphZXVlNVgtVjdGbGp1NzZPR0MtT3NydjA?oc=5",
+    "published_at": "2026-09-01T11:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "jurnas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:48.065720"
+  },
+  {
+    "title": "Puan Tegaskan DPR Jadikan Kritik Masyarakat Sebagai Pendorong Memperbaiki Diri dan Transformasi",
+    "content": "Puan Tegaskan DPR Jadikan Kritik Masyarakat Sebagai Pendorong Memperbaiki Diri dan Transformasi&nbsp;&nbsp;gesuri.id",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVnplandtZWpEaGRibEI2RUJ3elVIaXp4QUd2OEtMMWUxaW1Xd2Y2aHNsQVdUNGE5QUR5ektoNFYyWW1aR0VGVjBBYll1bnlLTk9ZazR1R1FNRjlUcmdRSEZoV3hXUU9TZ2NFZGh6cHBSZlhWM2hQc3FSTWl3UDdUbV9remNvWm5jMTY2Vk9Tc1Joa3c0d3F1SGZVVk9UQkxlRTdOYlRUQlVVM1hQaXhCUW1pS0VXUU9JZVZmUTc2VG5PZmZzYlRzNG0zRWpSNks3QjcxTnVR0gHbAUFVX3lxTE1pbjZUcXhXdmdCYU15ZjQtdVhGMS1FM2tkZGxkYi1DWWY1M1M4bWhWWjJEbmEtc2hzaVNPcHdMSC11ZC1MTVI3aXFlTTZoMndpWlphS3VnYkdhak5URVU4TTRnQUJHdktEZ1pab0lBRXRLc3hiSktsemN4cF9vWGJsN2g4aXE0QkdEV0NyaG5OaWp5SmotRVhxVmgzWjRkSEZBbEVsM3VfZ05PNHlvSE4yNy1NdUlOclJyZlh4Ylh0VlFLempkSWhQWVJhcmMzYnhMNjFoZTg2a0hDcw?oc=5",
+    "published_at": "2026-09-01T20:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "gesuri.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:48.827158"
+  },
+  {
+    "title": "Sebut Karhutla Sudah KLB, Puan Desak Penanganan Lintas Kementerian",
+    "content": "Sebut Karhutla Sudah KLB, Puan Desak Penanganan Lintas Kementerian&nbsp;&nbsp;InvestorTrust",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV29acC1YUVlZZHY5UGdrT2cwSUcyNHc3R0lObG9KVkFqSHMzWklaOGdZWTlpVENkZWtGcXZ3LUgyTDhRcWZBWmtkWnVRUHRjVzM5cGdlVlJKTHNYako4Y2luNzc0U0FkWl83enI5ZTRLSUNocmJSeFhwUEUtWFpTZ1g1OVNDdmZXUHl4dkNtLTg1Z2VtLVZ3eFY1TGYyenRZSjhyLU1QM2djdw?oc=5",
+    "published_at": "2026-09-01T21:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "InvestorTrust",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:49.530303"
+  },
+  {
+    "title": "DPR Setujui Destry Damayanti Jadi Gubernur BI, Puan Titip Pesan Integritas",
+    "content": "DPR Setujui Destry Damayanti Jadi Gubernur BI, Puan Titip Pesan Integritas&nbsp;&nbsp;Aktualita.co",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSDVEUU9aMGMxandyNEMwMFFuU052Ui0xbGY2Zi1TZ3d5VllZSExobGxJeTgwUk1pd1o4UlZ1cW1hakY0V1hkRm5HQWdTT3lhZ3BSZlJCcmZMWGV1bl9WaVlpZUdhQ3FiUk5mS1hRaWx4aFduUjZIOU96SGFWR1NqcDBXWEl5a1QxQTlOZEtFNlJ0cl9STWR0SWYxaHcyYXdaNDNRWHhR?oc=5",
+    "published_at": "2026-09-01T19:59:08+07:00",
+    "source_type": "news_online",
+    "source_name": "Aktualita.co",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:50.332298"
+  },
+  {
+    "title": "DPR Terima 9.205 Pengaduan Masyarakat Sepanjang 2025-2026",
+    "content": "DPR Terima 9.205 Pengaduan Masyarakat Sepanjang 2025-2026&nbsp;&nbsp;Rmol.id",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaUdUMnp5VVA1MmdiWFoza0h0bUtuX2xhT1lydlBlaXZyMm1hYVQ1dmRRNEMxMmpZUkdfUU03aXJRUm9vQlN1cFA5MWd2d1pJektSZGVoYjdOVEMweXVpTkpkdnpHYVF0YUlzQ3FDMVVEWk1DNkVsTU9ST0thQmhRVDd3Z09UM2JCcnhLaE5tZ1JWN1lUUFhEVExDUE1UTjV2R1JlRFhDdw?oc=5",
+    "published_at": "2026-09-01T13:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Rmol.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "BAM",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:51.157422"
+  },
+  {
+    "title": "DPR sahkan Destry Damayanti jadi Gubernur BI Periode 2026-2030",
+    "content": "DPR sahkan Destry Damayanti jadi Gubernur BI Periode 2026-2030&nbsp;&nbsp;ANTARA News Yogyakarta",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVGV1ZWRneHY0d0lTdVFnSXdyT2JCS3JBUkVTYm5GNlhnYW85d0w1TFhNQ2g2N0MzcnNicklqNndaZkxxbzgyYU1JMlFhcGZYNTJzNzlGZEctSk91VFVhT1Y5WmZPT28za1JrWkZ2M1c2UUNLV1RxbFpUQ1ZUaU1RT05FZTBJNk9CTHdBSzRyNktlQVR3djItYlk5b0RSd01MUEFqUTA5R2E?oc=5",
+    "published_at": "2026-09-01T21:54:48+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News Yogyakarta",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:51.766471"
+  },
+  {
+    "title": "DPR Terbuka Terima Kritikan Masyarakat",
+    "content": "DPR Terbuka Terima Kritikan Masyarakat&nbsp;&nbsp;Rmol.id",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVHJDd0Zrc1RKTTVSV0tLeE90a2pHcEt4RUN3eXJ2Y3NQUnBIa3NCazZxb1ZaWTBsWkxuOXBORGNFYjktck84bDVETGR3Nnd4NjRYOTRNQnJ6S3dwU3BUZ1d6bmRJMXRQYVp1LWVNMTBfR2hqakF2LXkxZTVwNFVlT0tYTFZGdEZEc0Z0R3p3?oc=5",
+    "published_at": "2026-09-01T14:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Rmol.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:37:52.066770"
+  },
+  {
+    "title": "DPR Minta Usut Tuntas Kematian Pedagang Cermin saat Demo 27 Agustus",
+    "content": "DPR Minta Usut Tuntas Kematian Pedagang Cermin saat Demo 27 Agustus&nbsp;&nbsp;Waspada Online",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT2RLblpEMWV5MkVsQjE0NWstQjNUcGU0Z0M4NDN5dWU1ZXBxWFNsT1hLWFllTGwyWUlwR1VZb05xZDU4NVRQM2twa2NfOEpuaG5rbzUxbUtYYTYySWZKOU50ZmRGZ1JrUW9HV1N4SmNDeE4zdFRoZ24xUGNVUVM0SHZpSm5QaEJpMGM4QnY2WWhBY29Y?oc=5",
+    "published_at": "2026-09-01T20:40:25+07:00",
+    "source_type": "news_online",
+    "source_name": "Waspada Online",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:52.628339"
+  },
+  {
+    "title": "HUT ke-81 DPR, Puan: DPR RI Akan Jadikan kritik sebagai Pendorong Perbaikan Diri",
+    "content": "HUT ke-81 DPR, Puan: DPR RI Akan Jadikan kritik sebagai Pendorong Perbaikan Diri&nbsp;&nbsp;VOI.ID",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZTFDWFpEUlhpYXpnV2xoejdhYWRYV3lfYUdWdG42SGRaaWxkLXkxbFNlY3I3NVNuTWdobG1tN1FBUmZGNzdXOXM4QWVLRHZTREE3QXdTY3FGaXVxNWR4Mi1QRU11bmsxdnF2X1kxMWk2dWRuTzJDcmpNNFJ0OTB2NDJBMnhkRWhMMGxHZ2Z6YkF2VnQtdWItVjhUYUJJb0hBLXlUV0J6SHBkSkHSAacBQVVfeXFMUDNzUEVVcEFZbWFqVWJVSDA0SFVzQXA2WlFYZUhnQm9Zd3pHSHJmQ1BfVGhHem9naFQ4dkpWOG41SEhhbjVsb1UxeDFRdllRS1ZfeVQ0UERPcnZva3lzd2FJdGg2N0hLUHZFMnNzemsxLWVWa1F6RjdETmN3WU1LVDRBbXVSS1A5bUFueWZmZ04yM2NQdXF5UUI2VTlJczI4N1JLbFBNUkk?oc=5",
+    "published_at": "2026-09-01T14:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "VOI.ID",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.51,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:53.010894"
+  },
+  {
+    "title": "Puan Akui DPR Masih Banyak Kekurangan, Pastikan Kritik Masyarakat Jadi Bahan Evaluasi dan Perbaikan",
+    "content": "Puan Akui DPR Masih Banyak Kekurangan, Pastikan Kritik Masyarakat Jadi Bahan Evaluasi dan Perbaikan&nbsp;&nbsp;Kabar24",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcDlVY29rRTZzZGJjWlBDTWpLbTAwaUV1cnNIWkc0SWZibGN6UEtSSElQMkN6SmZMVFNiOURGY0pOVEwybGlaelI5eGQtLS1MRWlnTk5MSExjeUhfaDlKLVpZVVZVaDhOZWx4QnprYTY1SWtfVWpCYVJLV2t5YTZXWUptS2RWSE5NVEN2Wllqei0ydFZVdDBtNTJieUtnSWRIUXFsS0E2ajAzMm80bVV0OUFrZXlZNTJOdXFoM2tFdGIzTEFxLVNUS3hqQXJzOXdhdlNBU1FGaGhGR0dCUlIwckZPdFY?oc=5",
+    "published_at": "2026-09-01T14:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kabar24",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:53.447374"
+  },
+  {
+    "title": "Puan Paparkan Kinerja DPR: 16 RUU Jadi UU sepanjang 2025-2026",
+    "content": "Puan Paparkan Kinerja DPR: 16 RUU Jadi UU sepanjang 2025-2026&nbsp;&nbsp;Kompas.tv",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVUlLNDYtSF9SRUNndVZwRXBMWThZWncyeTBQeDZUTTVsQVBjejVfYmdPZ1V0ak9vV3o5QkRYUEJQcnFydzV5ZGo1RmdWY0UtR1Y2UXpQbE8wcV9VaTR6UGN6TkJ4aE1iakNwQ3lHc0wxTU0zTF9GYVE3YThCSDZfUzd2SWFUT29hOUVVbUVNbjNWd1M1bHJHOUZXYmhNdHPSAaQBQVVfeXFMTlpMRlcwbU13dWdlU1Y4QWJtQW1ibk1TVlR5eUh0YkhVTzBPUFRwVmhncEVYNUo5cFEwS1U4a25ablRRaUkwX0w0QXVQa3lFTnRFbjRzcXBRdHM5TDVBVmRKOUgtYWRHZjA3OWdKU1dJWnV2RkVNTFdSZGdlYjIwaUZNVU95cXlrLUZUbllxOGxNT2plRktnVWhMUkpGa1E1allRdXQ?oc=5",
+    "published_at": "2026-09-01T10:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.tv",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:53.830372"
+  },
+  {
+    "title": "Puan Laporkan Sebanyak 16 RUU Telah Dirampungkan Jadi Undang-Undang Sepanjang 2025-2026",
+    "content": "Puan Laporkan Sebanyak 16 RUU Telah Dirampungkan Jadi Undang-Undang Sepanjang 2025-2026&nbsp;&nbsp;gesuri.id",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYlF2Rng0ZVBJS2hrbXlvazdsWHVNSnNJYzRnYXNMNHRqZVp3ZzVLMl93Z0VPc1lPX0ZQcEY1TDVfMjV5V0NBRlBPWVRBd1BMcW5HRy1VU2o1VW15S2ZvX2s0aWw3bGE0a1JnV0d5RlhfcXhsVjJJbERDUFJmdWFsV0VrRFdWeXNPd0xncVl2dFBFMFgtODBGUTdyRVUtbzU1M2tLSnVBeUxuQThPM3Z6Y3pMNDlQZ2lkQklETng1b2hrV0RzSVM5M0l6RWxzd9IB0wFBVV95cUxQRkNqczlzMnNrRG1Zd3FJbnVxM1VyaHlYR3BvS21aRG91MlhwSFRLME8wVEJXa2h3S3FmZl9rbUEtZFNZcWpBUFN6WGRmdV9JOXBxRG5MVFBKakljZ3duekx6T3J2cXNYaVJMamw5NWNoQTJTUnJMc1JJLUw0WFl1d3pQSlczcnA4OEtnaWZKcGdwOEd0eTJTUnFTN05obkJsVkhGQnB4ZThwVUVrU25sTEFKQm14elBiam9TQmQtNVRYaHRfVEFteW95aFFjY1o5LVZV?oc=5",
+    "published_at": "2026-09-01T14:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "gesuri.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:54.245968"
+  },
+  {
+    "title": "Puan Pamer! 16 RUU Disahkan Jadi Undang-Undang Sepanjang 2025-2026",
+    "content": "Puan Pamer! 16 RUU Disahkan Jadi Undang-Undang Sepanjang 2025-2026&nbsp;&nbsp;olenka.id",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPemlSdTZBWmRyVFRtODJ2ZjM3bEZjNklzeG1NUDNYaWFHNklkUl9NUzllclFmTUtyLXBlcUhfblo4eGd0R01xUWM2QjJMeEJUX1dTSVk1ekJqVXY4cU1kVUhUeGNELTBYUG1sRE9GeC05YW1nZS1ZdWFmTjEwTDRzUE9nTWdqaWJQYWlV0gGQAUFVX3lxTE9aM3JzYWtINUNsZkJlekszRUF3dTV3bm00dldJQ2VtY0pxZUEzZjhnTlVtWkhDdmY2Ty14RW1Nem4yclZCUjhJbllBTmFNVmswSzNVc0I0b1NScV9tMm9RXzA0RFJWSnBaVVY2aHc2bnk3cGVPWnhwdnVWdzFiT193RDR5bFdKZ1hKUVRKS0M4WA?oc=5",
+    "published_at": "2026-09-01T15:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "olenka.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:54.642738"
+  },
+  {
+    "title": "DPR Terima 9.205 Aduan Masyarakat dalam Setahun, Puan Sebut Ruang Partisipasi Publik Semakin Diperluas",
+    "content": "DPR Terima 9.205 Aduan Masyarakat dalam Setahun, Puan Sebut Ruang Partisipasi Publik Semakin Diperluas&nbsp;&nbsp;gesuri.id",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUllIYjc1RVh2NWpKNDVNV2JkdmplcVhMR2VMeEhzRzhJSzRKcEFCYlAyX3kwLWdRZk5rSmdicU1fRnAtRlY3Z1RSMWg2M0ViWE9MVEZQNEx1eUhlRWxLNXAwb0JxTC0zamRvVDQyb05MNGVJejJjZS1RWmkwWjRMb2FUenFhZDJIVXljam9reWtBU3lZVUE3VGhjSUpkSTh6cDdoclhrOExIUnBmaUhrUlZJc2JhM1BtdlNFdE0tN1VsOXI3ZS1BREZ0elNXSmxYT05zSjFWeFhjNl9qRWfSAeMBQVVfeXFMUGxiRW9qWHI3RzhjR19fMWJLb3B2ZlpHMmNvQjdmQkduWWNXRzdHOUJuclZ5Q0pVWDNaNzhFRFhRSFBJNzNpSTZETzRjV1JYVE9VTHh3Tkg4R3dIMUpwdGM3anQ3WTA3eDhNQ0JsVDNzTWdGOS1SZ3BSdExfWkFKcWR2TWpGWlJqMWZNQnNfOTN1OV8tS0RWM1d4NmdhZ3dDRmRlVVFna1NKZkU3aHpsUS1wTURxQ0VLNm93bWhDYUV3dEVNcklVSFg5TDRjMzcySm1WZXV1OVdrT1gtOFV1emZFOXM?oc=5",
+    "published_at": "2026-09-01T22:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "gesuri.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:55.062895"
+  },
+  {
+    "title": "Puan: Masih Banyak yang Harus Dibenahi, DPR Buka Diri terhadap Kritik dan Masukan",
+    "content": "Puan: Masih Banyak yang Harus Dibenahi, DPR Buka Diri terhadap Kritik dan Masukan&nbsp;&nbsp;RRI.co.id",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMDdVVmhaTEhRNDJ1MGtRS093X1Z6cmloeTNRTl9LYjh5bk9Tek9TdGdhQjVkcDktZHNuUXZQb0YybGhPZld0MFRUbHRueTljOVRDT2FOLVMxRTJZN0J1YnpRVEEwcUpjbFNCWVpza2hjSUVnSm9jcU5QNy12NXJvT2gzUklDRXI3VmFKaG1SRDBTOFhMUGgyc0VlUnctdHp0MXhicWVxdnJCcm5BNnB1Rk8wcmI?oc=5",
+    "published_at": "2026-09-01T13:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "RRI.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:55.483111"
+  },
+  {
+    "title": "Puan Sambut Gus Kikin dan KH Miftachul Akhyar Pimpin PBNU, Harap NU Makin Baik",
+    "content": "Puan Sambut Gus Kikin dan KH Miftachul Akhyar Pimpin PBNU, Harap NU Makin Baik&nbsp;&nbsp;DPD PDI Perjuangan Jawa Timur",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQXhlRllkTGR6WEdZd0UwNmRNc21DRktJaU4yUVBrYWdDTFJYbDItUV9NNVJwa0UteEhwT3JKQzNIVWVLczV2M0wxWVZmODNWbUEzQ0F3UFB0VjZyYkdyUnVGQkpHNi0xNHAtYWRiXzVuUHNnNHJaZnNTcWcwcmYzcVp1Qks1OXJ5M01pV2w0RmxBSEk5TTlCYUowYjBOdWtMUmJyZnA4NlVBLUI5N080?oc=5",
+    "published_at": "2026-09-01T21:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "DPD PDI Perjuangan Jawa Timur",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:55.885443"
+  },
+  {
+    "title": "Kemenhaj Blokir 3 Akun PPIU di Siskopatuh",
+    "content": "Kemenhaj Blokir 3 Akun PPIU di Siskopatuh&nbsp;&nbsp;Batamtoday.com",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVRKci16elBMeGx0bjlXQWt2aGE3bFBuX0c2MTlURTYwbjRmOElOemM2dV9nNlI3YWx5dnpyUUs1ZEdaSDdjREVvWFZfM1NWLUdobS1UZFB3U1FCNU9UbU9rWWhoaG1JbDVzbUktLXQyMERVcDVQcWFsZXhVTmIxc3NpdEFKZjk5anhDY1pxcEwyc1U?oc=5",
+    "published_at": "2026-09-01T02:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Batamtoday.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:37:56.311282"
+  },
+  {
+    "title": "DPR Terima 9.205 Aduan Masyarakat dalam Setahun, Puan Klaim Begini",
+    "content": "DPR Terima 9.205 Aduan Masyarakat dalam Setahun, Puan Klaim Begini&nbsp;&nbsp;RM.ID",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSGhZV0JhaktrRUFTcUhDYW91Mkx5Qmt2T3lYUThlaUN3X181bHhpU3gzN2ZhWWc4VkhCeWVISzFmQ1Vhb0ZLcVMtaWRTZHlVR0VXUU1jLWRsRzNIOVdwMjVvRnZ1ZmtLQVpUSjR0Y3V2MzlCbGlGLS1ZZWVsR3Bock90d0c4VkhtakdIcnVsS1RrcEY3ckswb2xMNk13VXltMUJaSzJIOTVhUQ?oc=5",
+    "published_at": "2026-09-01T14:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "RM.ID",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:56.668404"
+  },
+  {
+    "title": "Puan Sebut Karhutla di Kalimantan dan Sumatera Sudah KLB, Minta Pemerintah Perkuat Koordinasi",
+    "content": "Puan Sebut Karhutla di Kalimantan dan Sumatera Sudah KLB, Minta Pemerintah Perkuat Koordinasi&nbsp;&nbsp;Kompas.tv",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQakVIX3FreVNqVl9QZURZYWkxZkN1b2NwekVsZzhOQ2g2d0phY3FucHBCVkRKWTNSblZpcjMzb3Q1MG1HUDREbmRsUUFydjBYalNRRFFxbnNJNUVYZjhwX2tLU05QTFhXajNqV2N1UzdXU0lUQlJwRmw1UHJKNlNsWWpXZjFVc3JJaGphV2J3SDBQVVFuNFJ3bGpnSFktOExtOWw3RGhreTRDbDBVUlFBQmJQcFMtN1d6dmVTREVtY2h4SXBsU3FBbVF30gHPAUFVX3lxTE9FZmlZWmhaS3dKaFV2UnNJOVRsdWk1RDNvdGNVQm4wLVBSTEs2Y3FBRTFHbnN3cXhwYXdETU9HbWwxZ3FBc1lPck9scV9OeWNNX1JhTXIxdzlrTEc4dUx0UmlGR3lVZ3FEdFZqRWMwUGZWOGk4RmdlRi1NMmIwZmlIM0hkYlBwSWl6aC02MlNjWHZvSUJDTkNVZkduRVFZMVk3ZmViUnEzcG9OeTRsczZScjczTllGYzVLdFpCZFlzUXhsSmxQYnlNZE9lVEpTTQ?oc=5",
+    "published_at": "2026-09-01T17:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.tv",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:57.089381"
+  },
+  {
+    "title": "HUT Ke-81 DPR, Puan Sebut Parlemen Rampungkan 16 RUU",
+    "content": "HUT Ke-81 DPR, Puan Sebut Parlemen Rampungkan 16 RUU&nbsp;&nbsp;MetroTVNews.com",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUl5VG55SmNneDcwTDQ3X25SV0tqWGF2ekhXU005eTF2NGw4Ynk0aDRnVTdUdkQzY0VBU0k4Q2ZybHJHTXJaczFOcnI1aFFST21GNGJHc2gyRmQ3anF2bjZKeTFrS3U4NlYySHd5dzJOV0FmTUQ3aWVFQmV6alZUa25qRWtkZC1mb19UTlZOWGdUaTRmaDFtMg?oc=5",
+    "published_at": "2026-09-01T10:53:54+07:00",
+    "source_type": "news_online",
+    "source_name": "MetroTVNews.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:57.513447"
+  },
+  {
+    "title": "| DPR Terima 9.205 Pengaduan Masyarakat, Puan: Seluruhnya Ditindaklanjuti",
+    "content": "| DPR Terima 9.205 Pengaduan Masyarakat, Puan: Seluruhnya Ditindaklanjuti&nbsp;&nbsp;jurnas.com",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcElBMnRubGxvb2xyOWdreHQ5ZXBWX3VUem9KN1EtVVdOOUlOdEQ1NnhwSjBYTnZLVUsxdUpzOEJxR29LWGxKMWVuNDVjNlVkampNamgwaC1tckVMbl9vR05WdElqMkpZaGFGUEtCc0NfcjVHbFF3R0VpTlM2WS1UMGpBZEZTMGtSMGVVTVRscFI0T1dqZ2pYWjc3OUdVYTN2Tnp2dXF6OVI0ZFpZ?oc=5",
+    "published_at": "2026-09-01T12:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "jurnas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "BAM",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:57.818519"
+  },
+  {
+    "title": "DPR selesaikan 16 RUU jadi undang-undang sepanjang tahun sidang 2025--2026",
+    "content": "DPR selesaikan 16 RUU jadi undang-undang sepanjang tahun sidang 2025--2026&nbsp;&nbsp;ANTARA News Megapolitan",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOekVXLUZUUU1EWXpnZlVaLWRfQkZXYkpCaWVUMUhvNmxpYXpKVlJxanlQM1lfNzdtTV9pRzlSODUza0pMNmYwYVpaS1ZlRzRFVGtwc2UtT0xhR2JWejlLd0NMNnRZc1hISEcyT19kTzhSbTVtbk50S3kxOU9QZlpGMm5UM1dFWUNmbFpTNGZycFFkUWl4VHlNajA5Yzk4TkMyVW9FcFRFcmZKckpfWEs4YVpCOEl5ZW1lajg1WkJrMNIBxAFBVV95cUxOZFdaQlA0d2ZsU1JhMTJQeERJNlJLZUsxSXhVdDRENjR5eV9LbFktdW1mWFZlazYwWGNic2JyNGJZZTQ2eDY3RWdDRTNCNEY1RWwzVnRCSXBZT3BjdWprcXFYRnVtYm1XdkVFR1RRc3plUXUwM052SlctSUttNmJrRk9MN1IzdnV6UXRVTDJTaWI5TDUySGVtNFNRdS1PaGg4aGtkVlRodVM2Z1h1YTRaRDhKSi1Qa09Tem5WeDhHSTQ1ODlG?oc=5",
+    "published_at": "2026-09-01T11:43:49+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News Megapolitan",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:58.190566"
+  },
+  {
+    "title": "Puan Harap Nakhoda Baru Bawa PBNU Semakin Baik",
+    "content": "Puan Harap Nakhoda Baru Bawa PBNU Semakin Baik&nbsp;&nbsp;MetroTVNews.com",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVk2UlFZdlZDakZrUmVSbklxeW5PenhZLWk5YXFSOUhGZXFRaTI2WjlhYWo5WWRlSFRkTXQ5cFp4Q3FfUzVkSDJVeHB6dk1LZkNRY2JEMlc1TThtcGl5eUZhb3lMNTJvbXFPcEVMNjJKeG9qOEg3c3FKS085blBVNFBBUjJIbU85N1FaakM4bldvUQ?oc=5",
+    "published_at": "2026-09-01T17:44:42+07:00",
+    "source_type": "news_online",
+    "source_name": "MetroTVNews.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:58.479278"
+  },
+  {
+    "title": "Terima 9.205 Aduan Warga, Puan: Kritik Jangan Jadi Jarak antara Rakyat dan DPR",
+    "content": "Terima 9.205 Aduan Warga, Puan: Kritik Jangan Jadi Jarak antara Rakyat dan DPR&nbsp;&nbsp;DPD PDI Perjuangan Jawa Timur",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdG12V2RsYWs0ZzJCRm1nM0RCTUJEaXRwZVhWOEdfNG4tOFlIZXpMQlRaV21PWEN1RzZCUGdkQnlqWW1lb3VqVUV1ZGxmakw1XzlDWGNzOVF0OWRkTHFMTE9QWXY5VWxmSllWZEFIVjZNNGs4ampoNXhFOWQzM1BzTno2dG5COFlUU0JuNmtmaGNzZkJudUwxYUFHRmEwR1JKSi1zTjRJQWFMSjNzSWc?oc=5",
+    "published_at": "2026-09-01T13:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "DPD PDI Perjuangan Jawa Timur",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:58.784907"
+  },
+  {
+    "title": "Puan minta polisi usut tuntas kematian Bambang di Pejompongan",
+    "content": "Puan minta polisi usut tuntas kematian Bambang di Pejompongan&nbsp;&nbsp;ANTARA News",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQXzJXeWkxdE9ueUFUaUpydUtIZmkxTDlTSEpQc1NNRmt2WVQ0ZDY0cGI0VS1zeUp6aGNMV0lRZXRpWTNQaEctM3NDVldpSlVfNVl3RkpTdmpMSkV0U20ybk9yRWRSbEFYMV9zbnNaOGpKaGxRZFJ3R0NHay1aUzdHMlRXR0FaRWJaLXNDVjFRZEVwblVYaURiWkdRUk16R2JvT2g1dW1R0gGoAUFVX3lxTE83UmI5M3dRNVAxRUJQUlR2bGtycWhQSmRFSV9yZzI5RE1iT2RaR003QURkdHQ5a2pJYmFRUG9ybDBXaFAySXVQNTNCOHVjbkc0akFIdVhDYXVOaGpCNF96VC1YTXNQNEVJaGVxd3lWbDJWTGtYUGNyXzNXOVlBS3REQkF4UEN4SnlRLVYtVEwxQ0ROZHg5LTM1TXJsbmRKenQxa0NJaG9wWQ?oc=5",
+    "published_at": "2026-09-01T13:28:10+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.55,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:59.070250"
+  },
+  {
+    "title": "Puan: DPR RI Terima 9.205 Aduan Masyarakat dalam Setahun",
+    "content": "Puan: DPR RI Terima 9.205 Aduan Masyarakat dalam Setahun&nbsp;&nbsp;beritajatim.com",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMU1HN0NJNVdBdHpuT1pXMU5mQnJ0Q242akxnVXNjRm5JbkQyU0ZnLTkwRmpmRzNXa0lMUkFCXzdfSDBXd3RVYTlHRTl4YmtXeE1QbFhRb2tZRnRWdU8wOHcyeFpPNmgzVFdLd3B3MUEwN29qYlk4RzZRaEt1STVqRmlTR0Fqdw?oc=5",
+    "published_at": "2026-09-01T16:02:53+07:00",
+    "source_type": "news_online",
+    "source_name": "beritajatim.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:59.380896"
+  },
+  {
+    "title": "Puan Sebut DPR Telah Tuntaskan 16 RUU Jadi UU Sepanjang Tahun Sidang 2025-2026",
+    "content": "Puan Sebut DPR Telah Tuntaskan 16 RUU Jadi UU Sepanjang Tahun Sidang 2025-2026&nbsp;&nbsp;Kabar24",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMy1QTnF5a2oxSm02cUhNVWFVSEh5cWlHLXo5VHN1QkRKenpsQnFKSVd2VmZRaW1xQmZlVWpVU19zVDY3T2gwTnNqOHJHaFlQelY1UGpaS0NyUy1WcGJySF85RFVnYkdPemFZQ1BvQURhQ0FMS3l4bVo0RzM3VEx0TE1lWldNNTZ1eTNmTHBRZ2tiTnpnQmh1ZVcyU0gzaWhKeXdqSWxLQ0lBRzZqVTR0c3Jtd3NVUGZoOGtGeEs3QVg2dEFjMXIxR2VB?oc=5",
+    "published_at": "2026-09-01T11:30:21+07:00",
+    "source_type": "news_online",
+    "source_name": "Kabar24",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:37:59.701078"
+  },
+  {
+    "title": "HUT ke-81, Puan: Sepanjang 2025-2026 DPR Telah Selesaikan 16 RUU",
+    "content": "HUT ke-81, Puan: Sepanjang 2025-2026 DPR Telah Selesaikan 16 RUU&nbsp;&nbsp;SINDOnews Nasional",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcDh2R0hJaXAyOFcxVEhXTnVlbmhSWkJKOE9fYV9Ja0RLNTR3d2EydFEzbzRQT0hNeV80SGQweVFJY1UxdEJaMm8zUWpQZWhxRHFGSHhUSUlDMngyTTk2ZzFjN2Z0TzJRbW9ZVTJUTlh5c2k5Zl9QQXFSY2F2T3IyNGxUaDJNS3ZHNzRYeHFaV1lLTHEzTWh4Zjhnc1BTY1E1RkFEb3BmMVpqY2hjRGMtaGJpNV9lODFpLXdqRtIBwgFBVV95cUxPUk1UTndLNktmSnk3SVRtY2R0elB5M0hVZjhPZzY0akljcGs2aFRjZzhLbkxBLWhOa0ROWjZZdC1jQUlKbDhnMExMZFpKOG5KaFdJSXhtN2t3MUY1N0ZxMVl1THg3NWNCbjZrM0JQVGNYTGNtMmNpcmJfLUozckZ1OV9Ba0ZvNmowVlRBMkpIQzZPejZCUUlIMWNWbURmSXN4ZG93UnNxTl9qNTNObkx3X3pDWVVybEc0VVFnMEZEYjZ5QQ?oc=5",
+    "published_at": "2026-09-01T11:35:09+07:00",
+    "source_type": "news_online",
+    "source_name": "SINDOnews Nasional",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:00.006738"
+  },
+  {
+    "title": "Puan Titip Harapan agar PBNU Semakin Baik di Bawah Ketum Baru",
+    "content": "Puan Titip Harapan agar PBNU Semakin Baik di Bawah Ketum Baru&nbsp;&nbsp;Kabar24",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWk1BcXpRZE1NSU92dmJ3aGJhdGtWeWUzMndiUHFxU0tLMFJxbVVqYXNTMXM3Ylh5YU9EU1FJY2xQdkN0Wi0yaUp6OXJ3a2ZfN0xKMFp6cDlVblJjMmt0d2ZwSDVBTW01WW9Gd0c3MElDWTZBbWE3MUlEZGZFQzRjcUZ5WXFuOFZqdUVkVXo4dGpXYXZqUVltcXg5Yk1HMkNva3BWVlFoZ0VELUw5TE1pN1JrQQ?oc=5",
+    "published_at": "2026-09-01T15:28:07+07:00",
+    "source_type": "news_online",
+    "source_name": "Kabar24",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:00.337990"
+  },
+  {
+    "title": "Rapat Paripurna Khusus HUT Ke-81 DPR, Puan Laporkan Kinerja Parlemen",
+    "content": "Rapat Paripurna Khusus HUT Ke-81 DPR, Puan Laporkan Kinerja Parlemen&nbsp;&nbsp;MetroTVNews.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVkJTbFY4aDZzQjFNVVRTbVM2a25ZZTVZTGk0TzZHTE9ZMWpHcEFuVTJKYVhwWElrT3B6MlB1M1FmYWJxTmZlWDg0TEp0eWx1UEZnNnlCNWxkX0FCWXFTVTh1TnQ2cWxqaEJ0ckVMSlROd3kwc2VNa2doTW5XTXhRMmhBb1BaQXA5QmlSMkFXMmlLSFVXX29uZHlTVnR2Nkh0T1lxZHFGbWZ4elB3bWc?oc=5",
+    "published_at": "2026-09-01T10:21:50+07:00",
+    "source_type": "news_online",
+    "source_name": "MetroTVNews.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:00.708999"
+  },
+  {
+    "title": "Rapat Paripurna DPR Tetapkan Destry Damayanti sebagai Gubernur BI",
+    "content": "Rapat Paripurna DPR Tetapkan Destry Damayanti sebagai Gubernur BI&nbsp;&nbsp;merahputih.com",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMzNydGF0YndTNFQ2c3BORTBLQkN0a05aelIxVTUzTzZtOFc3Tm55QXZrWjZUd0RMbjZSalB0aS1zNW1HcGlzQ18xVFdJWVBIb01vOTBKUWdudmxxMDNYTzdyZndVdVpLQWFFcEJsdVFoVFQ2NWI3RzJ2bGN3dDVzV0c2YWdSNGdTaEpvX0JHbk53TnU5U2hoR2NuMzNPb1k5TzJfbdIBowFBVV95cUxPaWptRi1SUllhdUNNV0VISXZGZE9HMC05WTV1TnRoal9MSFB5elpOUGYzSDJsTjRKWWFTZkhLLVhKSTZ5QUFZdmpFaUJ4VTMzNG0tT0RtTTJpZWFqRkVCa2JJemJpa1RaaDZLcUxCZkF6N3lhdm5PQ0JreUdianJjR2xFQVFESnFYRXh6V3ViSlE2WktpOV9EUWY1RXdsVU9CRjNn?oc=5",
+    "published_at": "2026-09-01T18:53:42+07:00",
+    "source_type": "news_online",
+    "source_name": "merahputih.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:01.098248"
+  },
+  {
+    "title": "Rapat Paripurna HUT Ke-81 DPR, Puan: Bentangan Waktu Berisi Perjuangan",
+    "content": "Rapat Paripurna HUT Ke-81 DPR, Puan: Bentangan Waktu Berisi Perjuangan&nbsp;&nbsp;RCTI+",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaXZCYnctcTc2a29QQjdSTkpjeExKNm9aU1oyNmZ1N2JZMFd1Zng0YzlyUHNHVGJMQ3Izc2VSMExHTWlIc2N5bHdFUURwMzVZSFJXQ0lUQVdwOGVia3Zoa3RCR0dDRkFnTnpzQmotcWNJWjZSbEcyYUhIbWFzMXIydTRKUFpYcHhtT0FCV0lqMElfSEttUWlMUHhPcTdBUFZSUEdXWTVERE14eFJld3ZNRU1CZ21ZZVpPbU5uRFhfU28?oc=5",
+    "published_at": "2026-09-01T10:39:41+07:00",
+    "source_type": "news_online",
+    "source_name": "RCTI+",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.44,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:01.489576"
+  },
+  {
+    "title": "Puan Minta Kasus Pedagang Cermin Tewas di 27 Agustus Diusut Tuntas - kumparan.com",
+    "content": "Puan Minta Kasus Pedagang Cermin Tewas di 27 Agustus Diusut Tuntas - kumparan.com&nbsp;&nbsp;Kumparan.com",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbVI3ZlFfSmhHMXlSeWJjdWR5OXVhdFk1UllPeExrNnFZWXJtdS02bEFMdEFBVDkzSUhYUXR5bHUwXzdYZDctSWt6Vm9CX1dCQmxPOUZOUnp3cVNGYndoWkRiZk92TWZ5VVV5bmpCckRUZ2tnTnlraXJ6UTZCSUJIOTg3ZnBxdDFVeUxHRmoxeDZydFljR3dpZVJOR2RkTEVfYXBySnVGRXBYX3huT2t3TGVB0gG6AUFVX3lxTFA3blNmc2FMOWhibGozX0pfV1J4LWM3SjMyREJVZ1ZVXzVvdHJDVl9iTGV1TmhFV2ltUGNoVmxXZmVnODhLcUcwcFB3LVc0MUE0eFdGM1BDV0c4TzRpR2tQQTZ2ZE1ycWx5VENLcjJjZlRIRDNYOE9lMEd2STMzRHpfbGtQUXA2eGQtVGdWSDFmZ3RoMmFjNHk0WFhBaFZReVUzTHFRbWZIQ0pmWXlTSEVHYThFbEEyNGtsUQ?oc=5",
+    "published_at": "2026-09-01T19:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kumparan.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.36,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:01.827303"
+  },
+  {
+    "title": "Puan Tegaskan DPR Terbuka Terhadap Kritik Publik",
+    "content": "Puan Tegaskan DPR Terbuka Terhadap Kritik Publik&nbsp;&nbsp;VIVA.co.id",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORlZHaE51bU9KeWxnUDNmVW5DcHAxS2tOSXdna3BVMVRDT0pMNUtwN0RaejBjZnZJbmU3cUVFN1NNRmpIQm5kV2J1ZC02VTR4bHktYTdJRjhKTFJtbVVIdW15UU5zaE1WYTR6TkZoQ2M0c2JUMS1zYjBWZHg2Y2lsMDVFa2hTa2RDTmVIS1ZldTlYLWxzcDNEd2FZWdIBoAFBVV95cUxOZFRCMXVSSXMwUFBpM1VHMzhFNzhSZllqQnJMa2Z2c0pJOUlmcWZmbkZGcXExS3dXR1F6RENBaUVVVm9QdDZqZlRYcElGVENzVEZpNXdOcE9jbzcyNExoOUJHRVNwYldUcXpyYk9ZVlFwcWhMaTA5M29xNXVuaU5INndHWmwxZklmdHpfbi13RGZhV3VyTkdIMEVrVGF3M2s2?oc=5",
+    "published_at": "2026-09-01T13:42:58+07:00",
+    "source_type": "news_online",
+    "source_name": "VIVA.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:02.107228"
+  },
+  {
+    "title": "Sudah Terlalu Lama Dibahas, Menko PM Desak DPR Segera Sahkan RUU Masyarakat Adat",
+    "content": "Sudah Terlalu Lama Dibahas, Menko PM Desak DPR Segera Sahkan RUU Masyarakat Adat&nbsp;&nbsp;Akurat.co",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWtZRHZvU0RWcHRwT3VJbTZ3YmVhekp1dG1HYmsyWjE4eXlwM1phYmp3RjJGZWw4aExnUWE0ZHhQZ2xaa3J3ZDBaS1hGUUxPVDY3bFVSbmRVQ05uWWN3SVhaTVZXekVCbEpUcy1yamQ0elp1b1pOYm8zTUI0ZElEWWhjNkxNSjBDblIyLTVKZEdKLVdENzVITUc0LTVyOHBfZ3N3T2JfcnlTVzdFYWdaM2FreDVGNUpi?oc=5",
+    "published_at": "2026-09-01T22:40:37+07:00",
+    "source_type": "news_online",
+    "source_name": "Akurat.co",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:02.401020"
+  },
+  {
+    "title": "Pemerintah: Naskah Akademik dan Rancangan UU Polri Telah Disusun Secara Resmi dan Terbuka",
+    "content": "Pemerintah: Naskah Akademik dan Rancangan UU Polri Telah Disusun Secara Resmi dan Terbuka&nbsp;&nbsp;Mahkamah Konstitusi",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWGpEUDdwdDllUkhCZ3RfVUdrSEpfTC13MVhZSmxPcmZnZEVMRXBTWFlNZmpzWEtuQ0R2VTczWms2Q0lIcmNRQnZVWGFZU3pyakdjQWRFU0JnYWRBOXFaUDB4VlVGNG41RXMzdkZqNnVIYTZVR0NmMHYyckd6UGRpN0VqSDhNdVVDVi0wX0N6TmpLXzk4ZFJVUnpOTjM2aW5tTmlRWXhjQWl3UVNfVlhDZnlyblpqVEJIZXUyTkhB?oc=5",
+    "published_at": "2026-09-01T08:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Mahkamah Konstitusi",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.43,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:02.706917"
+  },
+  {
+    "title": "Mengapa DPR Tak Kunjung Buka Draf RUU Perampasan Aset?",
+    "content": "Mengapa DPR Tak Kunjung Buka Draf RUU Perampasan Aset?&nbsp;&nbsp;Kompas.id",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdS05cjBPcjlZSml4SklXTV9mVzE3bW8xY2RoS2J0TVZya0hveWNtVnZFLWpxbmhUc3QzMHh4aElHYWxoa0ZFWWkwS3gybzNlRi1FSkl2alVvMzlVR0Vjei1aRXpCTmY5em5vSFhJVnUwQnN0ZnI1ZWNTTUlGdXlvdTVKZnJ5ZjU3SVZB?oc=5",
+    "published_at": "2026-09-01T19:51:36+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:03.020373"
+  },
+  {
+    "title": "DPR Perluas Cakupan RUU Perampasan Aset, Korupsi Tetap Jadi Sasaran Utama",
+    "content": "DPR Perluas Cakupan RUU Perampasan Aset, Korupsi Tetap Jadi Sasaran Utama&nbsp;&nbsp;beritanasionalupdate.com",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRE8xRzBjZ1hCRi1EWW9KR0NmZGZLTDZRcWJRZW9YZ3FWR2JVN0VwQS1uTS1SNF8yRHVaNDU1eXQ1UGt2M2xJZ0dWYVRuRnlSWGtzRVlRbm5GTGdaWDVWU085bTNjd0txZDV6Uzgxc2hlUzhkTjh0OUx2bW8xMnItQVMzMjI4Z0JwVUkyVTg5dDNRbzMxT1hHMUh1M3ZZeUJEMUtGaGJpNGJNV2Y1SVJwZUVWU25GZkp1cjU5QnJxeXQ4dw?oc=5",
+    "published_at": "2026-09-01T11:07:53+07:00",
+    "source_type": "news_online",
+    "source_name": "beritanasionalupdate.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:03.333982"
+  },
+  {
+    "title": "Rapat Paripurna DPR Bahas Pertanggungjawaban APBN 2025 hingga RUU Perampasan Aset",
+    "content": "Rapat Paripurna DPR Bahas Pertanggungjawaban APBN 2025 hingga RUU Perampasan Aset&nbsp;&nbsp;InfoPublik",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrQWxmZFhfcDkxSUdYT2czWG5OVHhqSFlOeFI1c0kxU0VrNEpnbHM5dkk1YWRSZUZhb3l4Tm9wd0l1WFp3YnFXUjV3RE9lNmZnV3liRlVVdDV6VjEtaWUyTUhrQjBRSHR0eHdfaXF2aFFwUXB5TlM4NDRVQQ?oc=5",
+    "published_at": "2026-09-01T14:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "InfoPublik",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:03.628852"
+  },
+  {
+    "title": "DPR Ungkap Alasan Ruu Perampasan Aset Belum Dipublikasikan",
+    "content": "DPR Ungkap Alasan Ruu Perampasan Aset Belum Dipublikasikan&nbsp;&nbsp;SinPo.id",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQY2dUb2RvVnZUY3NGd0tmaS0tNk9Kd1FicHB1TmN2RzhpeUVLbEt2Q2FVRjVXajhZcmpEelBPdEo5bUYwTEdfRGJUZWEwTFBjN3lJMXkxMnk2MTQ0OXoxVm9uQXF1cTlNU2E0aWVWd0JyMVZtTEN5ZnRRLWRzNUs3YTZYdDVveU5fOTR2X3lR?oc=5",
+    "published_at": "2026-09-01T18:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "SinPo.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:03.920345"
+  },
+  {
+    "title": "DPR Belum Publikasikan Draf RUU Perampasan Aset, Khawatir Muncul Misinterpretasi",
+    "content": "DPR Belum Publikasikan Draf RUU Perampasan Aset, Khawatir Muncul Misinterpretasi&nbsp;&nbsp;Kompas.com",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTHFmdWFEaGNlZWhuSkNfbmRMT3J1UlpwWlY3ZS1jeUFCLXNTM2oxeG1CV3RpTVAwTkdRc2stS0dZYTFXalRmRF9BazJpVWdvMFR2eEFyeWZRT1BudFB3QkpjYlpCRWczZ0hiR182elhYb1BWYnEzVE9scWdUdHFBVXNxY3dtdWVoMUtBMlF4eFFCZVZUSWtPZGdVdWtnWHAxelFYSTd0QXFtcGxZblVqeXlDb2dCTkU?oc=5",
+    "published_at": "2026-09-01T13:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:04.246464"
+  },
+  {
+    "title": "KPK Dukung Pemerintah dan DPR Bahas RUU Perampasan Aset",
+    "content": "KPK Dukung Pemerintah dan DPR Bahas RUU Perampasan Aset&nbsp;&nbsp;Kompas.com",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVGpIMVFuYzJNYllDSndVZVZZMWhZNGlIdTRQMnN1NTdnS0lONm5OMTQwSGN5TV9BNFZ3RjRKeENPWXQyZEdmSVRDODRzQ0NCdC1iZDlXblljQ1pkVGxucFNlMHBqTFUwVUZfaVdqdGdzeWJLZURMSnZmdEYwejBWT0lUSzF2ZE1MVVJVVzJsUFdWS1FpRk5VLVprbGNRQms5ekR2NEtmamNxT0o3?oc=5",
+    "published_at": "2026-09-01T08:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:04.547839"
+  },
+  {
+    "title": "DPR Rampungkan 16 RUU jadi Undang-Undang dalam Setahun",
+    "content": "DPR Rampungkan 16 RUU jadi Undang-Undang dalam Setahun&nbsp;&nbsp;Kompas.com",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0VuVUMxWGtFRUtIYjJOSkkyZTlfOGJCNEpRejFXbG5KeWtfdkVTbkJYV1ZjbU8tTWYwSW1WRjBYV2VSNVBaUWdkXzVXeVNqM3BsdV9IQzJ2bkMyVUtlblFzLTRWQWVQOUtTTm94SVBkYjQ4TXUxeWZnckIxMXR6SWJ4aFphREU4bmZSQmtwSldDb1hhSGhKRld3RHQ4WE1HSGRORGxzMVhKOVk?oc=5",
+    "published_at": "2026-09-01T11:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:04.813361"
+  },
+  {
+    "title": "Cak Imin Desak DPR Segera Sahkan RUU Masyarakat Adat",
+    "content": "Cak Imin Desak DPR Segera Sahkan RUU Masyarakat Adat&nbsp;&nbsp;InvestorTrust",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVi1ieTlVMHFUUXFrOEUyZGxGcVZYOHpPREdFb1VuS0w4bldNdEt5c2t1VnVwYmxWMzRiZDdFNUQ4RkNuQ0xIaVp3NEFPT0l1S3BXVW1SQV85VV94NU53Um5jRmM5ZEQ3Z1EzZWxGLTQ5WHBPR2w5QkFfSFNlLUxHZlloODliOThySVc5UEItMHMwT1hZcGxPbw?oc=5",
+    "published_at": "2026-09-01T13:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "InvestorTrust",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:05.114947"
+  },
+  {
+    "title": "DPR Belum Publikasikan Draf RUU Perampasan Aset, Ini Alasannya",
+    "content": "DPR Belum Publikasikan Draf RUU Perampasan Aset, Ini Alasannya&nbsp;&nbsp;Infobanknews",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0tFV0ZIU044UnZjODlEZWt6VW9fc1E4SEVpQ0c2aXFwRUdvZVg1VEFPUEU4dmtYZ0h5aEZuMXB2Q2JHeWZOMk9PRzEydmFrTVpsUmhaYjMxQW1RanVZVTN1MVc2ZDBRLTRNQ3FOYnEzUUgtN1JQRlpPNHRON19NOWhNbWF0QnNEdU51T1NCMA?oc=5",
+    "published_at": "2026-09-01T15:49:02+07:00",
+    "source_type": "news_online",
+    "source_name": "Infobanknews",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:05.416597"
+  },
+  {
+    "title": "Pakar Dorong DPR Segera Tuntaskan RUU Perampasan Aset",
+    "content": "Pakar Dorong DPR Segera Tuntaskan RUU Perampasan Aset&nbsp;&nbsp;RCTI+",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEYydFc0Nk1OekJvcUtlZlQ0Rk56X180WmJaeVR5eVI0bW55blhvYUMyN2tDa3lpNmw3cEJOQWUtRHY3WmtGYVJfSzg2cXAtSjdOUy12b0JOclVQTVNYOW5fcXBxWjVNUXNDRGhEd25kYW5HV21PYTlQb0gyUVVTcGJEeHVBQVJMZ0dnSnFjWV9OdjlZc2VJVDFBc19PVDdFZGl3SFRJbEZIUQ?oc=5",
+    "published_at": "2026-09-01T15:02:26+07:00",
+    "source_type": "news_online",
+    "source_name": "RCTI+",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:05.714036"
+  },
+  {
+    "title": "DPR Belum Buka Draf RUU Perampasan Aset, Ini Alasannya",
+    "content": "DPR Belum Buka Draf RUU Perampasan Aset, Ini Alasannya&nbsp;&nbsp;kontan.co.id",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmFYSG1GVnhmMHVnRE44VlpfTEJzcUVQdnlldGZoSVBGTE92YnN5eTctdHhCQl96SEY2Mzdhak9BWXVlZnVqdFl1cEJrNXp5Z3dSWGs1VGowRWhvVU00NDZSZ3g2VEhndWw2N1QtMzdlQnBtMklQWnRVdm5VamdJNmVHUUxoUHptNTZ0eGZ5RTZ2Z9IBiwFBVV95cUxPc294UWNCaFhLVFlEcVpzSnRvV1Zkd1VVR2lFaGZmTVl2V3hhNmRVV0E2UXFMUEtyVGRKWjJsUkdQVDZKNUxacFgzVnprbHFlWnFQSmRDdVRibVNkeEx3NmlsQTJucW1DRDNfazdzdEw4aHp0ZTFmdHNURG5CTW9YOF9IWFlmeTFiZDh3?oc=5",
+    "published_at": "2026-09-01T14:49:33+07:00",
+    "source_type": "news_online",
+    "source_name": "kontan.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:06.005662"
+  },
+  {
+    "title": "Tok! Paripurna DPR Restui Destry Damayanti Pimpin Bank Indonesia Periode 2026–2031",
+    "content": "Tok! Paripurna DPR Restui Destry Damayanti Pimpin Bank Indonesia Periode 2026–2031&nbsp;&nbsp;Stabilitas.id",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaENPWDVsLVZmY2s3Y2MyZUF3U010dXl1U3VRTVYyd3VBTG1EbDgxclpJOEhxX0NBZXZ6R0tHMXFlQ2MyNkVKcEs0RzZ6bTJtdjBuMlMtX3N6Q0xKMDZlcFBEc0pZWjI1QXA5Y0V2TGpLelN5QXdOb0JTU0gwdFl2SWtMNXRMeE1mWmMzUnJYMTA0UHhKTDFkUzBVT0pfZGNWd19BVkhWekQ1Sl8x?oc=5",
+    "published_at": "2026-09-01T15:05:34+07:00",
+    "source_type": "news_online",
+    "source_name": "Stabilitas.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:06.338930"
+  },
+  {
+    "title": "Rapat Paripurna DPR Setujui Destry Damayanti sebagai Gubernur BI",
+    "content": "Rapat Paripurna DPR Setujui Destry Damayanti sebagai Gubernur BI&nbsp;&nbsp;suarasurabaya.net",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVmloMm1VTUQ3eENzVXN4cUdKbXBQUzYxNXhFWmhTV3J3R0JJRmV4UXZpUURQRXRPUmlUWFBQazZFQk1lZHRYX25QLXlFZ0I1dllseWszNl92NzNmYkJUeGNEM09jUGREczR6QThMOUpBeTlUM2FHOHhYZ2x3aHFHZmlHeWNVelhoZHRESFR4eW4ybFFnQXBpc0ppVzNOZ21OeFVfTGMtLWxhZ19zS2J5R1g2d3TSAboBQVVfeXFMTzZOTVVfckxWdG1MWFBCOTdQS3FKZjFWdmx5ZVF5N0tPbDJ6NlR4b2dKN2JWSEtXTWpfZHk0NDVpQ3duLXJ4RHF5d2xtVHBxZ3BEcXBYTnZqMHQ4dFJsUWZfd2pjOFJweWZ1V0xmZ3N4cGlBdjVYTndqSmpORjlRZHROU1BXUk5yNW41X3dTLXpwOHZuR3ZDdGRSNXdpUEVReU13dGlvcEstZjZPRGlGQmFIYTlVSGk1S1BR?oc=5",
+    "published_at": "2026-09-01T15:00:23+07:00",
+    "source_type": "news_online",
+    "source_name": "suarasurabaya.net",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:06.651830"
+  },
+  {
+    "title": "BHS Hadir di Paripurna DPR RI, Bahas RUU Migas dan Penetapan AKD Tahun Sidang 2026–2027",
+    "content": "BHS Hadir di Paripurna DPR RI, Bahas RUU Migas dan Penetapan AKD Tahun Sidang 2026–2027&nbsp;&nbsp;Kempalan.com",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV05uTUh6SHcyU0JaUzFKMEt0Uk1USmc4LTVTVUlsV3B5QWpCZW83UThwZDN6eDlMSmlEVzEwYktLcjhFcE5OUmlJYUx6cnVyVmhDR1pzWHJ1RUtIMnB4ZkpPTUtMOGF5MkpGdDBhRHJmQVpxZ0FkYUtQLVl6VFkwZlFNVllBSU1BTXV6Z0FLWE9JT3duYWhQWFV0c1JzcVhONVBFbzU0Ym5TenVDczFmY2tDcnlIaU0zaXI4?oc=5",
+    "published_at": "2026-09-01T11:07:56+07:00",
+    "source_type": "news_online",
+    "source_name": "Kempalan.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:06.972157"
+  },
+  {
+    "title": "Momen DPR Restui Destry Jadi Gubernur BI, Nahkoda Baru Bank Sentral RI",
+    "content": "Momen DPR Restui Destry Jadi Gubernur BI, Nahkoda Baru Bank Sentral RI&nbsp;&nbsp;CNBC Indonesia",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeEpjZWRxdDltWENDOU5nR1ExdE1KU1p6RE9mNDZvbnppamhwUGJTM01BUTBfX2JDNXVhMlphbjQxUnNRb1UwRzdEZGFmd01SejRlVmlNTnJmeXBsck5ySHJ0M3pGdUg2eDBDZG9tRUc2VnBjR3JOTnA4T2lvTmtNdk9teW4xczBqZGREdmh5UnFINmJHYURwUTlBVlZSdFZUNHk4bW9tR2xqcEhFNC00aWdxdzhYUF9pdkxSM3hMekc5NXJzU08yTlFBSdIB0AFBVV95cUxOejNuVmJsWDBaUFpQNm5BVm5tWUZhTlZuOWdEVnJ5UXJROU9KVzRaN3ctQkJyc0pJRUV4VGhXQmg2R3loTVh1UWgyOGlKQmczOFc5MDV0Vmp1R0F1SFFzaVJKUWFmVERHOVN3NERib2dBa3FQNlc5QnFWWlVtTUJCb2lHUnZfVTNPRFFuZFJXWjRPZFVxOTJPSWFlNUgtN0ExVWVjTGV1RGVUdHJoQkRFbGt2cDFLRklYaHpBT2ZBS25RekFKWm1TVEwzbkR5UVU2?oc=5",
+    "published_at": "2026-09-01T14:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "CNBC Indonesia",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:07.285956"
+  },
+  {
+    "title": "Rapat Paripurna DPR setujui Destry, Aida, dan Solikin untuk pimpin BI",
+    "content": "Rapat Paripurna DPR setujui Destry, Aida, dan Solikin untuk pimpin BI&nbsp;&nbsp;ANTARA News",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX0NQVzNMVmNILXVHb011enpRM0dJTnk5YzVEOGtLVHI0OTU0ci1uX1lSNVpvMXRsQXdCdGZTN1U2SUI1YWU2RURhcU1OeE9xZkp4OTZUNk1JLW1yWGJCN0ZIQUdyMURMbElFWDAxSFQ3Z2hUdGtubHVTeEVnalpnVkE4ZFk1S2hJalhxWF9fWmZnX1Z2dDE2cG5Na1QyRHV2LVhtdHVXR3BqV1gxWkFtOdIBsAFBVV95cUxNX0NQVzNMVmNILXVHb011enpRM0dJTnk5YzVEOGtLVHI0OTU0ci1uX1lSNVpvMXRsQXdCdGZTN1U2SUI1YWU2RURhcU1OeE9xZkp4OTZUNk1JLW1yWGJCN0ZIQUdyMURMbElFWDAxSFQ3Z2hUdGtubHVTeEVnalpnVkE4ZFk1S2hJalhxWF9fWmZnX1Z2dDE2cG5Na1QyRHV2LVhtdHVXR3BqV1gxWkFtOQ?oc=5",
+    "published_at": "2026-09-01T12:13:38+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:07.645029"
+  },
+  {
+    "title": "DPR Setujui Destry Damayanti sebagai Gubernur BI Periode 2026-2031",
+    "content": "DPR Setujui Destry Damayanti sebagai Gubernur BI Periode 2026-2031&nbsp;&nbsp;Infobanknews",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZDFGS0JzY3VhYnljaVdUR2dwSHdWM0JlY2VlcFBFN0N0Y0J2cUVxbW5fVUxMUlVURmNGWmsxNlAzcTlyZ1RqYkpLbjNjOWg5MTdsSHdaUWpSTWF2Z2JjSXl4SVVNX2Rra0MwWUpkNElJeWluTk9aTnpMQVNfSkg4bWNSNFFZSThsdW95MEhDTjVMLTlwRFE?oc=5",
+    "published_at": "2026-09-01T11:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Infobanknews",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:08.017901"
+  },
+  {
+    "title": "Rapat Paripurna Khusus Peringatan HUT ke-81 DPR RI: Jadikan Kritik sebagai Pendorong Bukan Jarak Pemisah",
+    "content": "Rapat Paripurna Khusus Peringatan HUT ke-81 DPR RI: Jadikan Kritik sebagai Pendorong Bukan Jarak Pemisah&nbsp;&nbsp;Balipuspanews.com",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaFNBYXExWmZ3dEVSNURUeW8zYUJER0hVb0I0TkFyUnkySDZFZTBYMGFSVktVY1RrODl2RWptR2o0eTJKd0h4bFJWVDJlOUdHdjRwcUxfcVJ1QjZNbU9UNDh4b01GbXJ5bmFBYU5PTDBTS1dsMk5XS0JjTUtxcTA5NjhsR2NHX0owLXRTN1hCaTl4RmY4TFFkeDJkSlRyR2tDWmNnS1hfRVhpcHZnUVcwdVNUdTlJMHpINnUzN2JDa1pXSVdWeEtNMGs3S2kxZF9DcFBBbA?oc=5",
+    "published_at": "2026-09-01T14:15:59+07:00",
+    "source_type": "news_online",
+    "source_name": "Balipuspanews.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:08.460188"
+  },
+  {
+    "title": "Suara Setuju Bergema di Senayan, Ini Daftar 'Bos' Baru BI yang Disahkan dalam Rapat Paripurna DPR",
+    "content": "Suara Setuju Bergema di Senayan, Ini Daftar 'Bos' Baru BI yang Disahkan dalam Rapat Paripurna DPR&nbsp;&nbsp;Suara.com",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUkdweGxOZ0xCWXZCZ0xGZVpSOFJhRDFTR2pXaF9Cb2VWRjhWdWZtMUs0dDU3WXBGdmJ0eVhUOTBJNDlFTlhiOWxHT3Z0OXBEZk9xd3IycUp4VnBHYlYyVEF1V3d0dmVtSnVRem12eFVEY3dEYlRETmFpWjlPZHlQakl4SmhyZU1qSXdTdHFwcV9wUjUwMGZwSlVfUVRIaHVpTFlYa290NTJ2UFk0bjNnd3QxcEo3SlBPOVdHNEJHZnpaYmFhU2JFUFFhQUw2UjJhSGdoRlVn0gHWAUFVX3lxTE9XRlpIXzFmQ2NxNm1veVR4NVhmTFRFLXNDTUpDTVpEN3E0MjBiYlQ3ZlpYLW5ONnplU1dsUF92NEdkVkNIaF9nY1RRSmZ5bXdDM1IzUW5FRWR3UWF0aGdRZk9OUGQ2bGh4TzN4UlZscjBHZ3VxaWszWkx0RHM1MHhITTNWUUFWLXBuYVB3SkppRmZtTWwzUTJwLVdpeURkcUt0RjdnZnF5RXVmRk1NZklablNMMTFiNHMtMHhmb1lfdFdyS2JYU2FPTEpLMzBXbU1XTXhZYnc?oc=5",
+    "published_at": "2026-09-01T12:17:36+07:00",
+    "source_type": "news_online",
+    "source_name": "Suara.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:08.865233"
+  },
+  {
+    "title": "Foto : Rapat Paripurna DPR Setujui Destry Damayanti dkk Pimpin Bank Indonesia Halaman 2",
+    "content": "Foto : Rapat Paripurna DPR Setujui Destry Damayanti dkk Pimpin Bank Indonesia Halaman 2&nbsp;&nbsp;Kompas.com",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVHduM08wX1d4REw3aU1vR2t5Y1RvWU8wbEZod25IaGR5d2tzWk1mam1LYml4YzN5LUZzbEFnN3N3elpWbGp5Q2RHX3BnS0tkcU91YnB0Mjg2ek9yaG1fUkU4T0Z6UVRtSHBRVmd5SFpzLWZ5T2l4RWRPSjlyRGVQMUU5Q1B6eGpDNC1fd0JOT1dsUnppSnpYSi16Y3dIXzJvZEM4bXloTV8zTmZzLXVMeHdsUjc0dDJHMWpRZGlpUHY4N1JnVXpfcEhOQQ?oc=5",
+    "published_at": "2026-09-01T12:32:58+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:09.183091"
+  },
+  {
+    "title": "DPR Gelar Rapat Paripurna Peringati HUT ke-81 dan Uji Kelayakan Calon Pimpinan BI",
+    "content": "DPR Gelar Rapat Paripurna Peringati HUT ke-81 dan Uji Kelayakan Calon Pimpinan BI&nbsp;&nbsp;RRI.co.id",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLVVDVXFBekhkeDFkakczT3JsbXF1cFh2bEMxMV9PaWQwc3F0QXI5WTJ3c19NUFdhc09wdFhXTHlHWVhhbk50N3Mwb1RLenlnLU55Q2RHXzdTaGMxVEtaWDJIWnA1SkVQYlNDQkxoVURIRXRHbUp4RzNVUEFiNl84QzlXYm9VNUMzYnQtZy00SmJQUjFEYkNyWFFtUGhBcDN5d0prWm5jeng1ajBmOUFSeVJqZS1sclk?oc=5",
+    "published_at": "2026-09-01T12:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "RRI.co.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:09.485717"
+  },
+  {
+    "title": "DPR selesaikan 16 RUU sepanjang tahun sidang 2025--2026",
+    "content": "DPR selesaikan 16 RUU sepanjang tahun sidang 2025--2026&nbsp;&nbsp;ANTARA News Sumbar",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3FTYzc3WlFpYnhyNGhiYkp2WEFDbFBmZC05bTdVU1FRQ3VPQ0I3eldFd25kR2hxaTdrejZNMldvSlJIVXRCUnl2OUJ4anYtbEVSYUZwQlZwMmpJLTJRdjRWcU9NS0cwQlJRbzIxVTVTT3dLTTVEN0dNcXpFbllDVHdvbk9PQmhfSDBJZU1nQm85VmdvTDB1NW1zWHVKcWs?oc=5",
+    "published_at": "2026-09-01T11:36:34+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News Sumbar",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:09.792217"
+  },
+  {
+    "title": "DPR Tetapkan Destry Damayanti sebagai Gubernur BI 2026-2031",
+    "content": "DPR Tetapkan Destry Damayanti sebagai Gubernur BI 2026-2031&nbsp;&nbsp;Bloomberg Technoz",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM055OU5oYmlZdmR5bWJVd2FJX1RDekZhbmFDSHJiSzVRNThuaURHWVRyd2FDcFc5M1BpTXVLbnVVa2kxN1U3eE02aDBURXRKRUxVUzhwbHNFYnR2VFMxb2h4anRLbHFPYXZtQnhLSVh4YzhWSE5SdWE2TVlRTnhNNlJ6bUE4RjhlVFhmUUxsNW8xSTFqSGE0cVNKWWRYZ2NoeTY2bnlNTU96b2JKWThmbg?oc=5",
+    "published_at": "2026-09-01T11:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Bloomberg Technoz",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:10.085786"
+  },
+  {
+    "title": "DPR Resmi Tetapkan Destry Damayanti Sebagai Gubernur BI",
+    "content": "DPR Resmi Tetapkan Destry Damayanti Sebagai Gubernur BI&nbsp;&nbsp;investor.id",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdnJZajlDZVc5RmtYYXJQbm5kLWpSYUVGODV4Rmt0WFA3NWp4a2Q0Y1VHOXBVVkJDSXBqMUo0Vm9pb3g4Tm11dzRFSk1HMnNtUDZLWlBfS3lBY0REdUFkOFJmd2FoMWR2VjFxM3Q2UGxWajlNb0RfOVVkVm9MMk9lbXdGc1gxQWVrQ1VlQ0NzbWJkUmFYYWlFQXptdw?oc=5",
+    "published_at": "2026-09-01T13:04:27+07:00",
+    "source_type": "news_online",
+    "source_name": "investor.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:10.354569"
+  },
+  {
+    "title": "Menkeu Purbaya Paparkan Pokok-Pokok RAPBN 2027 dalam Rapat Kerja Badan Anggaran DPR RI",
+    "content": "Menkeu Purbaya Paparkan Pokok-Pokok RAPBN 2027 dalam Rapat Kerja Badan Anggaran DPR RI&nbsp;&nbsp;Direktorat Jenderal Perbendaharaan",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVC1HaUVLbktrTFU3VnQyVTJuWkUxWHV2bnlBcVdMM2oyZkl2ZjZlVUFtQlJsWHlUcDZBdFMzSVAxWjlhOUhYa0RiREV4ZnZMX3hTeGJQS2JaVy1PTi12RUNURUlxNmlnX29IUnVVRG41YXdnVDZSNTBmd2Z4X083N0NsaGpqYmFnbl9lbFFmZEg3X1IxUmhtb3BIZ0xCTHVXQ0JIUG1tQmc3YTBRenYyem5Ockd2aVBYRHdiWVVhSV9hLXo1ZTM4cGViTGg5bnpNcFVUb3RDNUljblBUYkNRRUd3RzlXa0lGdnpnNnBrTmsyN01kSHI4RUk5eWN1VkI0REZZ?oc=5",
+    "published_at": "2026-09-01T09:01:07+07:00",
+    "source_type": "news_online",
+    "source_name": "Direktorat Jenderal Perbendaharaan",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Badan Anggaran",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:10.520330"
+  },
+  {
+    "title": "Achmad Ru’yat Dorong Transfer Daerah yang Berkeadilan dan Berpihak pada Masyarakat",
+    "content": "Achmad Ru’yat Dorong Transfer Daerah yang Berkeadilan dan Berpihak pada Masyarakat&nbsp;&nbsp;Fraksi PKS",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZHg1X1FuQl9HeE9jajBGcGl3WW1hNDVhbWlKV1pHcTZmTEoxbmtWQnVrdzVjN2Y1RWZXdEN2eWx3RmRkWVdjb1JsSU55dDRPZVFrMmE2aHA3NHUzZ2F5XzhpX3ByVHFiQ1dyZE1aSkU0RHU5bkRTSWxMTWhNVDNYWkZzQW1OeFpkd01BTHV2S1hVX3ptNGtJdnRmZWZ0U3JCVS0zOWVZRkhLcldLanhMXzVEWS04Zw?oc=5",
+    "published_at": "2026-09-01T17:21:34+07:00",
+    "source_type": "news_online",
+    "source_name": "Fraksi PKS",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:10.801726"
+  },
+  {
+    "title": "Hamka B Kady Dorong Sinergi Pusat dan Daerah Perkuat Pengelolaan Keuangan",
+    "content": "Hamka B Kady Dorong Sinergi Pusat dan Daerah Perkuat Pengelolaan Keuangan&nbsp;&nbsp;Bela Rakyat",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeXo2aDhWYVk1eFRvVi1lTFJheDYtZDV2OEdBYm82dnpFMVl6anBORU9aMTllMV9qTm1BSHVuVi12Y2F4UWxUc2VEVlQ1WVQwSU5ESHVTMlhMSlFOVzFmUjlMVjlmWlNwYXJrRVRzQlBfVnhNRVNmc3BZZzFnNTZxMmpvQ3lMZE9XOFI1ekhhRldicHMyMGpQWkhYWFpDdw?oc=5",
+    "published_at": "2026-09-01T14:56:28+07:00",
+    "source_type": "news_online",
+    "source_name": "Bela Rakyat",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:11.109471"
+  },
+  {
+    "title": "Komisi XIII DPR Setujui Tambahan Rp555,9 Miliar untuk Anggaran MPR 2027",
+    "content": "Komisi XIII DPR Setujui Tambahan Rp555,9 Miliar untuk Anggaran MPR 2027&nbsp;&nbsp;Suara Investor",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZXRPd01MS2xKUzFmWUtsLVpQQmE2c3duOVFmWS1WVGhmQm9rTTNvOTNFVFk3TlhxeGVjb3dXNGhhLXc1SnZlbnJGSEp0ZU4zNl9XQjh6MF9RbXZMNUNNaHlZLVZMNGhua2Qyblh1ZDdlYkdYSXphQTFlQWJ5Y3VRLUZ5dmY0RmhKbkZrSTFWZUIwYWUybFhpa1lwUmVxTkUzQXU0?oc=5",
+    "published_at": "2026-09-01T19:31:12+07:00",
+    "source_type": "news_online",
+    "source_name": "Suara Investor",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:11.289655"
+  },
+  {
+    "title": "Bob Hasan: RUU Pelelangan Harus Lindungi Pemilik Barang dan Pemenang yang Beritikad Baik",
+    "content": "Bob Hasan: RUU Pelelangan Harus Lindungi Pemilik Barang dan Pemenang yang Beritikad Baik&nbsp;&nbsp;Gerindra",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUG5RWVhBaURKb0diNWYwaTRwQUlrcTF2dTcwcjlydjZUci1yd3p3WXhINlRIQnlZVVZXTkdXbmJSa3pBUElJNk5YTTc4TTFWMkNWUW1FRFpSbF9WakNmOVdzTjBhYXkxcGpNd1Z1d3hacUJYLXRKSHVKZ2lvWGZfelFwaExUZUpDZkhkemlxNnd1dUwtOEVldkU3b0MyY000Z1I1c19hS1NNaHhaSG9iY29hMEtwWDhENTBz?oc=5",
+    "published_at": "2026-09-01T15:26:12+07:00",
+    "source_type": "news_online",
+    "source_name": "Gerindra",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:11.574129"
+  },
+  {
+    "title": "Bank Main Rampas Aset Rakyat yang Utangnya Macet, DPR Berang: Ini Nggak Punya Hati!",
+    "content": "Bank Main Rampas Aset Rakyat yang Utangnya Macet, DPR Berang: Ini Nggak Punya Hati!&nbsp;&nbsp;diksimerdeka.com",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZkJkNHoxUFZUczF2bXBMbjZRbmd1WndoQm84UWZsN1lDRDM0Q2tSMTEzaXVwQVQ3R043MnJjbVlISExQWnd5VGt1WWhrczZjdVFnUVYxWC00RnpxYWhVcmFqVTIzdUkyUmVGcjBFbWw5LWlBLXdWY3dTakU1NXpJdldoa2VzNlBwZU11Q3V2aFpibUVf?oc=5",
+    "published_at": "2026-09-01T10:44:21+07:00",
+    "source_type": "news_online",
+    "source_name": "diksimerdeka.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:11.909506"
+  },
+  {
+    "title": "Baleg Setujui RUU Penyiaran sebagai RUU Inisiatif DPR RI, Siap Dibawa ke Paripurna",
+    "content": "Baleg Setujui RUU Penyiaran sebagai RUU Inisiatif DPR RI, Siap Dibawa ke Paripurna&nbsp;&nbsp;SumselPost",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdFFVeFprQ0Q4T1FFdjJVTVhoUHZRZmNVblY4eVpUNmV4M0NNd0lxMUxtSTVrck5rb3M2ZVdmNkEySER6ZDVhRERYcy13a2RTOEdwUW1mUjBGS243d2EyRF9kcFUxOUxCT0FUYzNBanJuZTFJbHhZWWFtUGxTalNrTXhzVWs5Sy1WYXZkNzR0S013Sjc0Tl9ZcmlyOXluOE4yTWJxWmF5U3dMSHc?oc=5",
+    "published_at": "2026-09-01T09:56:03+07:00",
+    "source_type": "news_online",
+    "source_name": "SumselPost",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Badan Legislasi",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:12.085287"
+  },
+  {
+    "title": "RUU Penyiaran Menuju Paripurna, DPR Siapkan Aturan Baru Era Digital",
+    "content": "RUU Penyiaran Menuju Paripurna, DPR Siapkan Aturan Baru Era Digital&nbsp;&nbsp;Ngopibareng.id",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQVI1Y3QxOXpDRmRQMWF1T2VYUkZzemZ1UXoyYl82Y0pCQW5ncnVVTmE1R3pEVklWZlptQXNBa1A4UWYzS1ItWldOWmM4ZWZLdlBkZXlQVE9KdUFReEh1Qm1VdG11c0JFUEs3VnRSUWxyeFpYX0xWcTdkbnBMdDQybEFiVmJyVV9qTG9KQWU4MEVnVmVPX095QTlyNXpmTkE?oc=5",
+    "published_at": "2026-09-01T08:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Ngopibareng.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.44,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:12.426417"
+  },
+  {
+    "title": "BKSAP DPR RI Siap Bawa Suara Indonesia untuk Palestina ke Forum Parlemen Internasional - MUI",
+    "content": "BKSAP DPR RI Siap Bawa Suara Indonesia untuk Palestina ke Forum Parlemen Internasional&nbsp;&nbsp;MUI - Majelis Ulama Indonesia",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOTMzU25ZS0hyYUNDQzBjNlBtY3FsanhucFNTajRKLXF5Y3Z1b19sT0JJdnpYbW1yNjhuOElIZ0t2dXpKcE5ldjZFdnRPcHBIOWlIUk9ldUZRU1doenBpRUZWTjVBQ1JaYkNvd2tTa2x5M0wweEtaQXVxc1JKNEtrRllobUZucHIwaTlkUUhhMlpFQlc0YXJ4cVFUNFlMVDlURXFrdDdhZUoxd01SWUJ2dnVKd0VRdE0yMmhsR0JNc2Q?oc=5",
+    "published_at": "2026-09-01T16:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "MUI - Majelis Ulama Indonesia",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Badan Kerja Sama Antar Parlemen",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:28:20.039382"
+  },
+  {
+    "title": "BKSAP DPR Dukung Penuh Konferensi Internasional OIC Youth Indonesia",
+    "content": "BKSAP DPR Dukung Penuh Konferensi Internasional OIC Youth Indonesia&nbsp;&nbsp;pakuanraya.com",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGZyUksyTWRwd3FoeV85Qmo4MVk2dHdCdFVnLTh2XzQzWUlGRnRGVklwbm04RXlPR3NLUi1CSU9ReGRodWU1UHJCcER5SWhUWDhqV0xIYVI0VTRneV8wTlZkbUtlc1NCeXpSaDJ3bEpEVXZ3ODRqZDdyaFZaLVNRQlNTZWVQWHV0TGpNQnowajhrV0VjNmc?oc=5",
+    "published_at": "2026-09-01T22:44:38+07:00",
+    "source_type": "news_online",
+    "source_name": "pakuanraya.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Badan Kerja Sama Antar Parlemen",
+        "akd_type": "Badan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:12.572267"
+  },
+  {
+    "title": "Komisi XII DPR RI dan Pemerintah Sepakat Target Lifting Minyak 2027 Naik Jadi 612,5 Ribu BOPD - fraksi gerindra dpr",
+    "content": "Komisi XII DPR RI dan Pemerintah Sepakat Target Lifting Minyak 2027 Naik Jadi 612,5 Ribu BOPD&nbsp;&nbsp;fraksi gerindra dpr-ri",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTl9aVmZnc0ZWS1QtWVoyWlRIai1hTDJoUXhyTi1aTldWSzZ2OEJ1cmNJUmw5cDNaUkVpUVlCTG5nMnlRak1mVEZJVEhNTVBpb21OZ05HelAzdERETGlUWDFBUTd2aXVUUmNwQ2xlMzFtdDlNckl1V0toOENFcFBJNVEtZFVQYVg1QWNKbVZDdkhpVTJBTzVtT1BUWl80bGxmaHR1OXVoRnhwSkhIV1djRUtRNmlPUWRMUXBMT3JLYmc?oc=5",
+    "published_at": "2026-09-01T14:28:19+07:00",
+    "source_type": "news_online",
+    "source_name": "fraksi gerindra dpr-ri",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.75,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:12.788784"
+  },
+  {
+    "title": "Pemerintah dan DPR Bahas Asumsi Dasar Makroekonomi dan Target Pembangunan RAPBN 2027",
+    "content": "Pemerintah dan DPR Bahas Asumsi Dasar Makroekonomi dan Target Pembangunan RAPBN 2027&nbsp;&nbsp;fiskal.kemenkeu.go.id",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVTZWQ2hacmtkNnVobG1lSWlHY2JlTWtWTU4yeV95MThybHk5U3U3djBqeTdEcFNBYnJCRVd4RHAyR1otTlZyWWg2OFJaM2FJVVRaRDJEa3BaMWw4WGtwUVhOYzFsOE1rNjJQSlZ6QTlRY3BJVWtCTWVwcFp3MUtkblZUMXdPTklhMWtDcVhJMmxnMHg5ZHZzT2hqN1pHaVJabWQ5cDgta2tmYWhfTWxEMjRMd1ZSTS03WmpHaDAxYXFsdGQ0aFVYWHNKZ0l4bzVv?oc=5",
+    "published_at": "2026-09-01T14:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "fiskal.kemenkeu.go.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:13.100401"
+  },
+  {
+    "title": "Rapat Paripurna DPR Sahkan Destry Damayanti Jadi Gubernur BI",
+    "content": "Rapat Paripurna DPR Sahkan Destry Damayanti Jadi Gubernur BI&nbsp;&nbsp;Tirto.id",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNckNHTnlQYmVnRllDcXJWbHE3NWpMTDB4UWItM1JnNlRMQ1MtLUpBVFJ6T0kxOEZUUWlRYWVDSnl0MlA1cTZxZk11cFdDZXNjZGFaMU16aU54SzdVZGlZb0I3SDNVcHFub0l6V05rNFVIdG93TWZBR0hmMnlobGRqZGZxdkJSRUFuZFE?oc=5",
+    "published_at": "2026-09-01T12:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tirto.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:13.400245"
+  },
+  {
+    "title": "Pimpinan MPR RI Hadiri Rapat Paripurna Penyerahan Laporan Kinerja",
+    "content": "Pimpinan MPR RI Hadiri Rapat Paripurna Penyerahan Laporan Kinerja&nbsp;&nbsp;mpr.go.id",
+    "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxOMWprSldWblZIanNpQk8zYkE0UUR6YkYtZWpidXlPaWJnelV0QTVmRFRFQXdZMGVRODhqUjhwNGctekJ0LTkwdTlQNTdadF9tWjNsbW8wZ3cySzhsUmlrRGRZc2hDUENkS3drelZjT0xqTDFSRkFYTEwxQ3QtejM2M010TW5udTl6YXZRc3ZrdHRjcm9mUTlCMzhuVnZZUUpBQUFQNGY1THEzc3RsWVh2YThBSFVwU0ZiUUtCclpyZk1SbjVWSDZVczJfZFI1bFpqUUtDRmU5clpFRFpEN0xnYXQwM1IxYmJWV29kQ2lJSVUxUHVtSWhHOC05NERSOWVORGw1eUFMN20xVlRUeE9Wc3RDYzA1NksxcUFfQXZkd2RfNmRYc0l5emVQMFl4cXZYT1l0SGZzc0pVbEVnSE43ZHR6N05MUUJDT0FEcVZDcG55eEhiUFBjQnJXS1VHMHJ3LTIxNFNCcDhGUlUxZzlCTXZodVNKc1R6dnoySzczYmowSGJUbG12eTdXNExDbktmUWZ2WkdPOTZ5N29HRVliYkRGejU?oc=5",
+    "published_at": "2026-09-01T14:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "mpr.go.id",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:13.707467"
+  },
+  {
+    "title": "Rapat Paripurna DPR Setujui Destry Damayanti dkk Pimpin Bank Indonesia",
+    "content": "Rapat Paripurna DPR Setujui Destry Damayanti dkk Pimpin Bank Indonesia&nbsp;&nbsp;Kompas.com",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT19nNkx6ZndRNzhNcGNrd1kyeUN6S3ZkVEc1QzRyYnVNamR1bVdvQ0xQcWpGRVZ2QV9rYWdDbmdraXl1bU9rNWltOS01NTg2Y1ZyaG9lblJUU1NUakpSeXRUakl6YURRdzJXbG1zZFI4S1BhQlBtWlU4dFh5YkljamRlQW1UX21jSkl5OWhWVmJ1cVYyTjVzeUZucGh4U0pRMDZqM3BfOWlMVUNPblhHY0F3WW5mT3lBbVJQbDVrZU4?oc=5",
+    "published_at": "2026-09-01T12:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Kompas.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:14.022064"
+  },
+  {
+    "title": "Komisi VII DPR menggelar rapat dengan ANTARA dan BSN bahas RKA K/L 2027",
+    "content": "Komisi VII DPR menggelar rapat dengan ANTARA dan BSN bahas RKA K/L 2027&nbsp;&nbsp;ANTARA News",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVFBoa0loMzQ5WDdzLVhJR2dnYzNfNmxQS3p3N0ZqWVhpZU9tVGV0ZzEwb3Uyd0VRTHE0bkJBcHNaVGJHRGw1YnEzaWZ6bXhBWG5qWi1NQnExNElOWThLSm5GTFBISEdFMmZxR0JzQ2lBTjRfM2VSQ1lZM0h3TzhWVnR1UG1CSFlxTmJHUncxa1RVenBOaTdFczU3UnQybE1ZZkpzTFBJLUVhZWhIanZ5N3lja0c?oc=5",
+    "published_at": "2026-09-01T12:03:21+07:00",
+    "source_type": "news_online",
+    "source_name": "ANTARA News",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:14.192458"
+  },
+  {
+    "title": "Rapat Paripurna HUT Ke-81 RI, Puan Sebut DPR Selesaikan 16 RUU",
+    "content": "Rapat Paripurna HUT Ke-81 RI, Puan Sebut DPR Selesaikan 16 RUU&nbsp;&nbsp;news.okezone.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzJPbnNFY3RkYzJpQ0ZNMkEzcWxMeUdTYlBVU0VPUjVQU1EyakRyODB2WEhBZ0tnNGFVNFhwQWZRR3VxWHZ5ZmNONDc3U2NqX3BQMDlKcnBmQ1pyV1VmcGlhWHhzaGFUblFFUzhOYmVodklJTkFxMUg4YmxjalN4WS1jRmUwUVUxU3drTkszQWZwVEYtZWFRXzIxaGdDMHlZWDRNbVNaYWhKNzFIQzRUdnVUNGvSAbMBQVVfeXFMTTE0M1VIRFZWTXF3TkdGYXhRYVE0THQ3SW9BYWp2a1dPcDYzakNEZGRGSG1xR05xUklyQTNzTnVSeWJYb2FRZ2E4dF91YkRyeXp1OElmZUpaazVxTWlJY1h1cDFOa05QSXZHeU9MdG1aSTg4MXE3MDdBejRZX21yb1NKa2lQd3h6and4cllhdTVKSUUzc2VuSkxrMGVsVDVxN2tJWXhQSnY0T3pRV0piZG9IX28?oc=5",
+    "published_at": "2026-09-01T10:45:24+07:00",
+    "source_type": "news_online",
+    "source_name": "news.okezone.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:14.488716"
+  },
+  {
+    "title": "Rapat Paripurna DPR RI Setujui Destry Jadi Gubernur BI, Ini Dua Nama Pendampingnya",
+    "content": "Rapat Paripurna DPR RI Setujui Destry Jadi Gubernur BI, Ini Dua Nama Pendampingnya&nbsp;&nbsp;Harianjogja.com",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVWp6eExUOHVVdkN6eHo0RjhJVnNFNmpzbkQ2MVE4Tm4zc3RGX05JU1lxdXkwMGMybVpuaDN4SERRblNEN2x4bC1ucy1uQWN6c3VIUmdlc3R1Tks1UENqZ2NCaUhCUktGZHM5NW85UUhyZXpCRDRYTUF2ajBtR3BuN1NsWTNGRllkeWxvMkhDQm16UUdqa1Rka0lhdkRMSFVwVEJNNXZPcjI1MDVfR21mUzFLM1pqZDRZOVVFSw?oc=5",
+    "published_at": "2026-09-01T16:27:16+07:00",
+    "source_type": "news_online",
+    "source_name": "Harianjogja.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:14.834280"
+  },
+  {
+    "title": "Kinerja Setahun DPR RI: 16 UU Disahkan, 1.377 Rapat, 9.205 Aduan Masyarakat",
+    "content": "Kinerja Setahun DPR RI: 16 UU Disahkan, 1.377 Rapat, 9.205 Aduan Masyarakat&nbsp;&nbsp;RM.ID",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaERGX2hVTjk0dlhyWGxoRFlEWUdEZWx0SEd1clE3REFKTXg4aTNXdDNydnlNSnBhRGo4WDgybDI1UUpkQ284NEVEVXJ3ajhlSDhMWVpSOXVhUngzVm1ub2RvNVhmY21rc21XczZRdkZ4VU1CbnFCcnpKMnF5YW4wRE53dkR1X1VkZnZ1QXBCdVRBczFWSWF1RVc3VkZ5Y05hd1ZYcGc5WGdsaE45aGZ3UThB?oc=5",
+    "published_at": "2026-09-01T14:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "RM.ID",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.47,
+    "akd_mappings": [],
+    "analyzed_at": "2026-09-04T14:38:15.212202"
+  },
+  {
+    "title": "RAPAT PARIPURNA KHUSUS DALAM RANGKA HUT KE-81 DPR RI",
+    "content": "RAPAT PARIPURNA KHUSUS DALAM RANGKA HUT KE-81 DPR RI&nbsp;&nbsp;x.com",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEdmJTZWdvNzZFc2lnTFpYQzJPTXNHZlByYVBDQmc1QnJNYTFoQXFrVlliMnB4SVBMSWY3akRuRTkyeVpsR0FYZXlFdG1RelN1UEpmY2wzUDZObWkt?oc=5",
+    "published_at": "2026-09-01T09:54:03+07:00",
+    "source_type": "news_online",
+    "source_name": "x.com",
+    "date_key": "2026-09-01",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:15.515176"
+  },
+  {
+    "title": "Puan: DPR RI Telah Selesaikan 16 RUU Sepanjang Tahun Sidang 2025-2026",
+    "content": "Puan: DPR RI Telah Selesaikan 16 RUU Sepanjang Tahun Sidang 2025-2026&nbsp;&nbsp;RCTI+",
+    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPdUp6XzRMYTJJR0YzV0dfd2hRZXR6NkMzUGNPdkM0T1lxQ3NnVm00eHpSUjNGbGpUSU1fQU1IRFoyM1FpWUduYlV3ZjhNQ2tsV1hTanlDZ3RaT05yR2lMZ1QtT0dETFcwTUVzeVQ2RWJIczdFcXE3bzY3R1Q3U3hnVEVydVEwVW1aTXgtNkRqM0o1YUZyQW5zSm9jN01UMmFwLVFDMlZzcVdJT1l0ZWw3QnlSYnZ6TlZ3OXUxVkc4bGpxTFV5RHJ0VHF3cGxvb2lHbzc3NHNtdXRiai1CenpQMVBMeHMxaThheWhxejUyNHVBNmJON2NvWEJST1pCYUdwRmx6YXhkb3ZtSG1DVWVCcEloOVhWaTRUbzlNUXRIVk1rbFE?oc=5",
+    "published_at": "2026-09-01T11:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "RCTI+",
+    "date_key": "2026-09-01",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Ketua DPR",
+        "akd_type": "Pimpinan",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-09-04T14:38:15.978484"
+  }
+]

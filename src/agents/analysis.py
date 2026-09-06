@@ -19,6 +19,7 @@ from src.utils.validators import sanitize_text
 logger = logging.getLogger(__name__)
 
 AKD_MASTER_PATH = Path(__file__).resolve().parents[2] / "kamus" / "akd_master.json"
+INDOBERT_MODEL_DIR = Path(__file__).resolve().parents[2] / "indobert_sentiment_final"
 
 # Core sentiment dictionaries
 POSITIVE_WORDS = {
@@ -73,9 +74,27 @@ class AnalysisAgent:
 
     def __init__(self) -> None:
         self.akd_list = _load_akd_master()
+        self.indobert_model = None
+        self.indobert_tokenizer = None
+
+        # Attempt to load fine-tuned IndoBERT model
+        if INDOBERT_MODEL_DIR.exists():
+            try:
+                import torch
+                from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+                self.indobert_tokenizer = AutoTokenizer.from_pretrained(str(INDOBERT_MODEL_DIR))
+                self.indobert_model = AutoModelForSequenceClassification.from_pretrained(str(INDOBERT_MODEL_DIR))
+                self.indobert_model.eval()
+                logger.info("Fine-tuned IndoBERT model loaded successfully for sentiment analysis.")
+            except Exception as exc:
+                logger.warning("Could not load fine-tuned IndoBERT model (%s). Using lexicon fallback.", exc)
+                self.indobert_model = None
+                self.indobert_tokenizer = None
+
         logger.info(
             "Analysis agent initialized",
-            extra={"akd_count": len(self.akd_list)},
+            extra={"akd_count": len(self.akd_list), "indobert_active": self.indobert_model is not None},
         )
 
     def analyze_sentiment(self, text: str) -> tuple[str, float]:
@@ -86,11 +105,54 @@ class AnalysisAgent:
             sentiment_label: "Positif", "Negatif", or "Netral"
             sentiment_score: Float between -1.0 and 1.0
         """
-        cleaned = sanitize_text(text).lower()
+        cleaned = sanitize_text(text)
         if not cleaned:
             return "Netral", 0.0
 
-        words = re.findall(r"\b\w+\b", cleaned)
+        # Tier 1: Fine-tuned IndoBERT Inference if available
+        if self.indobert_model is not None and self.indobert_tokenizer is not None:
+            try:
+                import torch
+                import torch.nn.functional as F
+
+                inputs = self.indobert_tokenizer(
+                    cleaned,
+                    return_tensors="pt",
+                    truncation=True,
+                    max_length=128,
+                    padding=True,
+                )
+                with torch.no_grad():
+                    outputs = self.indobert_model(**inputs)
+                    probs = F.softmax(outputs.logits, dim=-1).squeeze()
+                    p_neg = float(probs[0].item())
+                    p_net = float(probs[1].item())
+                    p_pos = float(probs[2].item())
+
+                # Calibrated decision boundary:
+                # Requires Positif probability to exceed Netral by at least 0.12 margin
+                # to prevent polite/administrative parliamentary reports from being misclassified as positive.
+                if p_neg > p_pos and p_neg > p_net:
+                    label = "Negatif"
+                elif p_pos > p_net and (p_pos - p_net) >= 0.12:
+                    label = "Positif"
+                else:
+                    label = "Netral"
+
+                # Continuous polarity score: Positif prob - Negatif prob
+                score = round(p_pos - p_neg, 2)
+                if label == "Netral" and abs(score) < 0.40:
+                    score = 0.0
+
+                return label, score
+            except Exception as exc:
+                logger.warning("IndoBERT inference error (%s), falling back to lexicon.", exc)
+
+
+
+        # Tier 2: Offline Deterministic Lexicon Fallback
+        cleaned_lower = cleaned.lower()
+        words = re.findall(r"\b\w+\b", cleaned_lower)
         if not words:
             return "Netral", 0.0
 
@@ -121,6 +183,7 @@ class AnalysisAgent:
             return "Negatif", score
         else:
             return "Netral", score
+
 
     def evaluate_policy_relevance(self, text: str, akd_mappings: list[dict[str, Any]]) -> tuple[bool, float]:
         """Evaluate if an article is relevant to DPR RI governance, legislation, or budget.

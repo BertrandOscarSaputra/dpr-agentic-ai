@@ -1,0 +1,442 @@
+[
+  {
+    "title": "Dubes RI untuk Filipina Letjen TNI Agus Widjojo Meninggal Dunia",
+    "content": "Dubes RI untuk Filipina Letjen TNI Agus Widjojo Meninggal Dunia",
+    "url": "https://news.detik.com/berita/d-8347088/dubes-ri-untuk-filipina-letjen-tni-agus-widjojo-meninggal-dunia",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Mobil Pikap Terguling di Tol Buahbatu Arah Jakarta, Muatan Ayam Jatuh di TKP",
+    "content": "Mobil Pikap Terguling di Tol Buahbatu Arah Jakarta, Muatan Ayam Jatuh di TKP",
+    "url": "https://news.detik.com/berita/d-8347084/mobil-pikap-terguling-di-tol-buahbatu-arah-jakarta-muatan-ayam-jatuh-di-tkp",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.72,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Banjir Landa Suriah, 2 Anak dan 1 Relawan Tewas",
+    "content": "Banjir Landa Suriah, 2 Anak dan 1 Relawan Tewas",
+    "url": "https://news.detik.com/internasional/d-8347062/banjir-landa-suriah-2-anak-dan-1-relawan-tewas",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.77,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Peringatan Keras ke Pelaku Pungli Road Barrier Kota Tua",
+    "content": "Peringatan Keras ke Pelaku Pungli Road Barrier Kota Tua",
+    "url": "https://news.detik.com/berita/d-8347042/peringatan-keras-ke-pelaku-pungli-road-barrier-kota-tua",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "HUT ke-18 Gerindra, Prabowo Ajak Berjuang-Mengabdi dan Setia pada Rakyat",
+    "content": "HUT ke-18 Gerindra, Prabowo Ajak Berjuang-Mengabdi dan Setia pada Rakyat",
+    "url": "https://news.detik.com/berita/d-8347015/hut-ke-18-gerindra-prabowo-ajak-berjuang-mengabdi-dan-setia-pada-rakyat",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.42,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Tentang si Anak Tengah di Balik Sekeluarga Tewas di Warakas",
+    "content": "Tentang si Anak Tengah di Balik Sekeluarga Tewas di Warakas",
+    "url": "https://news.detik.com/berita/d-8347012/tentang-si-anak-tengah-di-balik-sekeluarga-tewas-di-warakas",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Lansia Pencari Besi 6 Hari Hilang, Ditemukan Tewas di Sungai Bogor",
+    "content": "Lansia Pencari Besi 6 Hari Hilang, Ditemukan Tewas di Sungai Bogor",
+    "url": "https://news.detik.com/berita/d-8346980/lansia-pencari-besi-6-hari-hilang-ditemukan-tewas-di-sungai-bogor",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.78,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Tindak Lanjuti Arahan Prabowo, 504 Personel TNI-Polri Bersihkan Pasar Babakan",
+    "content": "Tindak Lanjuti Arahan Prabowo, 504 Personel TNI-Polri Bersihkan Pasar Babakan",
+    "url": "https://news.detik.com/berita/d-8346934/tindak-lanjuti-arahan-prabowo-504-personel-tni-polri-bersihkan-pasar-babakan",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Pemprov Riau & Pemkot Pekanbaru Gotong Royong Jalankan Instruksi Presiden",
+    "content": "Pemprov Riau & Pemkot Pekanbaru Gotong Royong Jalankan Instruksi Presiden",
+    "url": "https://news.detik.com/berita/d-8346872/pemprov-riau-pemkot-pekanbaru-gotong-royong-jalankan-instruksi-presiden",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Paspampres Gelar Serah Terima Kawal Istana Merdeka Setiap Minggu Pagi",
+    "content": "Paspampres Gelar Serah Terima Kawal Istana Merdeka Setiap Minggu Pagi",
+    "url": "https://news.detik.com/berita/d-8346924/paspampres-gelar-serah-terima-kawal-istana-merdeka-setiap-minggu-pagi",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Walkot Semarang Kawinkan Kopdes Merah Putih dengan Pasar Rakyat",
+    "content": "Walkot Semarang Kawinkan Kopdes Merah Putih dengan Pasar Rakyat",
+    "url": "https://news.detik.com/berita/d-8346921/walkot-semarang-kawinkan-kopdes-merah-putih-dengan-pasar-rakyat",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Solusi JK Atasi Banjir Jakarta, Sarankan Hunian Bertingkat",
+    "content": "Video Solusi JK Atasi Banjir Jakarta, Sarankan Hunian Bertingkat",
+    "url": "https://20.detik.com/detikupdate/20260208-260208025/video-solusi-jk-atasi-banjir-jakarta-sarankan-hunian-bertingkat",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Survei Indikator: 79,9% Publik Puas dengan Kinerja Prabowo",
+    "content": "Video Survei Indikator: 79,9% Publik Puas dengan Kinerja Prabowo",
+    "url": "https://20.detik.com/detikupdate/20260208-260208026/video-survei-indikator-799-publik-puas-dengan-kinerja-prabowo",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.48,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Teka-teki Motif Pembunuhan Pegawai PPPK di Bekasi",
+    "content": "Teka-teki Motif Pembunuhan Pegawai PPPK di Bekasi",
+    "url": "https://news.detik.com/berita/d-8346895/teka-teki-motif-pembunuhan-pegawai-pppk-di-bekasi",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Andre Rosiade Bagikan 1.000 Paket Sembako di Ketaping Kuranji",
+    "content": "Andre Rosiade Bagikan 1.000 Paket Sembako di Ketaping Kuranji",
+    "url": "https://news.detik.com/berita/d-8346858/andre-rosiade-bagikan-1-000-paket-sembako-di-ketaping-kuranji",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Video Perahu Angkut Sound Horeg Terguling di Sungai Sidoarjo",
+    "content": "Video Perahu Angkut Sound Horeg Terguling di Sungai Sidoarjo",
+    "url": "https://20.detik.com/detikupdate/20260208-260208024/video-perahu-angkut-sound-horeg-terguling-di-sungai-sidoarjo",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.44,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Iran Siap Negosiasi Program Nuklir dengan AS, Tolak Nol Pengayaan Uranium",
+    "content": "Iran Siap Negosiasi Program Nuklir dengan AS, Tolak Nol Pengayaan Uranium",
+    "url": "https://news.detik.com/internasional/d-8346887/iran-siap-negosiasi-program-nuklir-dengan-as-tolak-nol-pengayaan-uranium",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "KBRI Koordinasi dengan Aparat Singapura Kawal Kecelakaan Tewaskan Bocah WNI",
+    "content": "KBRI Koordinasi dengan Aparat Singapura Kawal Kecelakaan Tewaskan Bocah WNI",
+    "url": "https://news.detik.com/berita/d-8346885/kbri-koordinasi-dengan-aparat-singapura-kawal-kecelakaan-tewaskan-bocah-wni",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.73,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "HUT Ke-18 Gerindra, Andre Rosiade Bagikan 65 Ribu Paket Sembako di Sumbar",
+    "content": "HUT Ke-18 Gerindra, Andre Rosiade Bagikan 65 Ribu Paket Sembako di Sumbar",
+    "url": "https://news.detik.com/berita/d-8346861/hut-ke-18-gerindra-andre-rosiade-bagikan-65-ribu-paket-sembako-di-sumbar",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Megawati Terima Doktor HC di Riyadh Besok, Ini 13 Gelar Kehormatan Sebelumnya",
+    "content": "Megawati Terima Doktor HC di Riyadh Besok, Ini 13 Gelar Kehormatan Sebelumnya",
+    "url": "https://news.detik.com/berita/d-8346864/megawati-terima-doktor-hc-di-riyadh-besok-ini-13-gelar-kehormatan-sebelumnya",
+    "published_at": "2026-08-02T12:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  }
+]

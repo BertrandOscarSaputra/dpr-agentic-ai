@@ -1,0 +1,435 @@
+[
+  {
+    "title": "DPRD Kota Bogor Apresiasi Pelatihan Tepung Mokaf dari IPB untuk Pemberdayaan Perempuan",
+    "content": "Pelatihan inovatif ini sukses diselenggarakan oleh Divisi Teknik Biosistem Fakultas Teknik dan Teknologi, IPB University.",
+    "url": "https://nasional.tempo.co/read/2116906/dprd-kota-bogor-apresiasi-pelatihan-tepung-mokaf-dari-ipb-untuk-pemberdayaan-perempuan",
+    "published_at": "2026-08-06T22:00:40+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Pemkot dan DPRD Kota Bogor Perkuat Ketahanan Pangan dengan Bantuan untuk Warga Rentan",
+    "content": "Program yang dilaksanakan oleh Dinas Ketahanan Pangan dan Pertanian Kota Bogor ditujukan untuk memperkuat ketahanan gizi keluarga sekaligus menekan angka kemiskinan di wilayah Kota Bogor.",
+    "url": "https://nasional.tempo.co/read/2116904/pemkot-dan-dprd-kota-bogor-perkuat-ketahanan-pangan-dengan-bantuan-untuk-warga-rentan",
+    "published_at": "2026-08-06T21:52:47+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Ketua DPRD Kota Bogor Berharap Off Ramp Ciawi Selatan Bisa Urai Kemacetan",
+    "content": "Adityawarman mengatahkan keberadaan akses baru jalan tol ini akan berdampak signifikan dalam meningkatkan mobilitas harian masyarakat serta mempercepat roda perekonomian di wilayah Kota Bogor.",
+    "url": "https://nasional.tempo.co/read/2116903/ketua-dprd-kota-bogor-berharap-off-ramp-ciawi-selatan-bisa-urai-kemacetan",
+    "published_at": "2026-08-06T21:46:18+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.54,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Mengunjungi IPA PDAM, DPRD Kota Bogor Dorong Percepatan Infrastruktur Air Bersih",
+    "content": "Ahmad Aswandi menegaskan peninjauan IPA PDAM bertujuan menjamin masyarakat terhadap akses air bersih tidak mengalami gangguan.",
+    "url": "https://nasional.tempo.co/read/2116902/mengunjungi-ipa-pdam-dprd-kota-bogor-dorong-percepatan-infrastruktur-air-bersih",
+    "published_at": "2026-08-06T21:40:35+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.56,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Hadiri Hari Bhayangkara, Ketua DPRD Kota Bogor Apresiasi Kinerja Polri",
+    "content": "Adityawarman menegaskan peringatan Hari Bhayangkara ke-80 bukan sekadar seremoni, tetapi menjadi momentum untuk memperkuat sinergi antara pemerintah daerah, DPRD, aparat keamanan, dan masyarakat.",
+    "url": "https://nasional.tempo.co/read/2116900/hadiri-hari-bhayangkara-ketua-dprd-kota-bogor-apresiasi-kinerja-polri",
+    "published_at": "2026-08-06T21:33:14+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Kolaborasi Pemkot Bekasi dan Kejaksaan Dukung Olahraga bagi Disabilitas",
+    "content": "Melalui PEPARPEDA, para atlet pelajar disabilitas memperoleh kesempatan untuk menunjukkan kemampuan, kedisiplinan, semangat berkompetisi, dan potensi yang dimiliki pada cabang olahraga yang dipertandingkan.",
+    "url": "https://nasional.tempo.co/read/2116897/kolaborasi-pemkot-bekasi-dan-kejaksaan-dukung-olahraga-bagi-disabilitas",
+    "published_at": "2026-08-06T20:24:16+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.73,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "PNM Buka Studi Banding untuk Perluas Wawasan Usaha Ultra Mikro",
+    "content": "Dalam Program Reward Studi Banding. para peserta mempelajari bagaimana komoditas sederhana menjadi berbagai produk bernilai tambah.",
+    "url": "https://nasional.tempo.co/read/2116886/pnm-buka-studi-banding-untuk-perluas-wawasan-usaha-ultra-mikro",
+    "published_at": "2026-08-06T18:41:58+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.67,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "TASPEN Salurkan Manfaat kepada Pejabat Negara dan Ahli Waris",
+    "content": "Manfaat tersebut diberikan kepada Anwar Usman yang memasuki masa purnabakti dengan Terhitung Mulai Tanggal (TMT) 1 Mei 2026, dan kepada ahli waris Rachmat Gobel yang wafat pada 10 Juli 2026.",
+    "url": "https://nasional.tempo.co/read/2116880/taspen-salurkan-manfaat-kepada-pejabat-negara-dan-ahli-waris",
+    "published_at": "2026-08-06T17:52:49+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Program PESAT Malinau Ciptakan Lapangan Kerja",
+    "content": "Program Pertanian Sehat yang diinisiasi Bupati Malinau, Wempi W. Mawa, tak hanya memperkuat ketahanan pangan tapi juga membuka lapangan kerja.",
+    "url": "https://nasional.tempo.co/read/2116866/program-pesat-malinau-ciptakan-lapangan-kerja",
+    "published_at": "2026-08-06T16:13:51+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "RUU Perampasan Aset, Nasyirul: Penyitaan Aset sebelum Persidangan Pokok Perlu Diuji",
+    "content": "Gus Falah mengusulkan agar pengaturan mengenai mekanisme pengujian terhadap tindakan penyitaan aset dimasukkan ke dalam hukum acara khusus dalam RUU Perampasan Aset.",
+    "url": "https://nasional.tempo.co/read/2116864/ruu-perampasan-aset-nasyirul-penyitaan-aset-sebelum-persidangan-pokok-perlu-diuji",
+    "published_at": "2026-08-06T15:45:42+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Komisi III Bantah Adanya Surpres Pergantian Kapolri: Spekulasi Sebaiknya Disudahi",
+    "content": "Komisi III telah melakukan pengecekan memang tidak ada pengiriman dan mengkonfirmasi pihak Istana ternyata hasilnya sama tidak ada Surat Presiden tentang pergantian Kapolri.",
+    "url": "https://nasional.tempo.co/read/2116860/komisi-iii-bantah-adanya-surpres-pergantian-kapolri-spekulasi-sebaiknya-disudahi",
+    "published_at": "2026-08-06T15:32:05+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.4,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.98,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Padang Panjang Raih IKD Dukcapil Prima Award 2026, Perkuat Transformasi Layanan Digital",
+    "content": "Melalui Dinas Kependudukan dan Pencatatan Sipil (Disdukcapil), Padang Panjang berhasil meraih IKD Dukcapil Prima Award 2026 dari Kementerian Dalam Negeri Republik Indonesia.",
+    "url": "https://nasional.tempo.co/read/2116857/padang-panjang-raih-ikd-dukcapil-prima-award-2026-perkuat-transformasi-layanan-digital",
+    "published_at": "2026-08-06T15:23:44+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.77,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Tim Operasi Gabungan Kota Malang Sita 83.500 Batang Rokok Ilegal",
+    "content": "Peredaran rokok ilegal tidak hanya merugikan negara, tetapi juga dapat mematikan usaha rokok yang legal.",
+    "url": "https://nasional.tempo.co/read/2116853/tim-operasi-gabungan-kota-malang-sita-83-500-batang-rokok-ilegal",
+    "published_at": "2026-08-06T14:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.46,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Peran Bea Cukai di Balik Gelaran GIIAS 2026",
+    "content": "Budi mengatakan dukungan Bea Cukai terhadap penyelenggaraan GIIAS merupakan komitmen pemerintah dalam menciptakan iklim usaha yang kondusif melalui pelayanan kepabeanan yang cepat, transparan, dan akuntabel.",
+    "url": "https://nasional.tempo.co/read/2116849/peran-bea-cukai-di-balik-gelaran-giias-2026",
+    "published_at": "2026-08-06T13:56:46+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.73,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Yayasan Astra Kembangkan UMKM dan SDM untuk Perkuat Ekosistem Otomotif",
+    "content": "Yayasan Astra memperkuat ekosistem industri otomotif melalui pembinaan UMKM/IKM agar masuk rantai pasok serta pengembangan SDM vokasi berstandar industri melalui YDBA dan ASTRAtech.",
+    "url": "https://nasional.tempo.co/read/2116833/yayasan-astra-kembangkan-umkm-dan-sdm-untuk-perkuat-ekosistem-otomotif",
+    "published_at": "2026-08-06T12:04:59+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.72,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "5 Fakta Promo Liburan Tengah Tahun Bank Mega yang Wajib Diketahui",
+    "content": "Promo liburan tengah tahun Bank Mega memudahkan akses ke berbagai layanan perjalanan serta memberi pilihan luas bagi nasabah yang ingin merencanakan perjalanan dengan anggaran yang lebih ringan.",
+    "url": "https://nasional.tempo.co/read/2116832/5-fakta-promo-liburan-tengah-tahun-bank-mega-yang-wajib-diketahui",
+    "published_at": "2026-08-06T12:03:52+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Tidak Terklasifikasi",
+        "akd_type": "Lainnya",
+        "confidence_score": 0.0,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Kisah Kru Kapal Pertamina Pride dan Gamsunoro Setelah Melintasi Selat Hormuz",
+    "content": "Di balik perjalanan Kapal Pertamina Pride tersimpan ketangguhan, keberanian, dan dedikasi para insan maritim yang menjalankan amanah menjaga distribusi energi nasional, bahkan ketika dunia dilanda ketidakpastian geopolitik.",
+    "url": "https://nasional.tempo.co/read/2116829/kisah-kru-kapal-pertamina-pride-dan-gamsunoro-setelah-melintasi-selat-hormuz",
+    "published_at": "2026-08-06T11:51:25+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Lampung Siapkan Pembangunan Berbasis Data melalui Peluncuran Satelit Lampung-1",
+    "content": "Pemanfaatan data dari satelit Lampung-1 akan dikembangkan bersama BRIN, dengan pertanian sebagai salah satu sektor prioritas.",
+    "url": "https://nasional.tempo.co/read/2116823/lampung-siapkan-pembangunan-berbasis-data-melalui-peluncuran-satelit-lampung-1",
+    "published_at": "2026-08-06T10:15:25+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.71,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  },
+  {
+    "title": "Asuransi Jasindo Serahkan Klaim Rp 17,6 Miliar kepada Kemenag",
+    "content": "Direktur Operasional Asuransi Jasindo Ocke Kurniandi mengatakan pembayaran klaim Itu merupakan bentuk nyata peran Asuransi Jasindo bersama Konsorsium ABMN dalam memberikan perlindungan terhadap aset negara.",
+    "url": "https://nasional.tempo.co/read/2116820/asuransi-jasindo-serahkan-klaim-rp-176-miliar-kepada-kemenag",
+    "published_at": "2026-08-06T09:54:39+07:00",
+    "source_type": "news_online",
+    "source_name": "Tempo.co",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-18T12:00:00.000000"
+  }
+]

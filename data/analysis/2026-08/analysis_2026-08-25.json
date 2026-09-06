@@ -1,0 +1,2536 @@
+[
+  {
+    "title": "Kebakaran Permukiman di Gambir Jakpus Padam Usai Hampir 5 Jam",
+    "content": "Kebakaran melanda permukiman di Gambir, Jakarta Pusat, mengakibatkan 114 rumah terdampak. Pemadaman telah selesai, namun petugas masih berjaga.",
+    "url": "https://news.detik.com/berita/d-8642638/kebakaran-permukiman-di-gambir-jakpus-padam-usai-hampir-5-jam",
+    "published_at": "2026-08-25T07:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.8,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:32.787455+00:00"
+  },
+  {
+    "title": "Sidang Kasus Little Aresha, Ortu Cerita Anak Ketakutan Setiap Melihat Air",
+    "content": "Sidang kasus kekerasan Daycare Little Aresha melanjutkan pemeriksaan saksi. Orang tua korban ungkap trauma dan luka fisik yang dialami anak-anak mereka.",
+    "url": "https://news.detik.com/berita/d-8642634/sidang-kasus-little-aresha-ortu-cerita-anak-ketakutan-setiap-melihat-air",
+    "published_at": "2026-08-25T08:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.76,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:32.942961+00:00"
+  },
+  {
+    "title": "Serba-serbi Hari Terakhir Stasiun Karet Sebelum 'Pensiun'",
+    "content": "Stasiun Karet akan berhenti beroperasi mulai 1 September 2026. Penumpang esok hari akan dialihkan ke Stasiun BNI City.",
+    "url": "https://news.detik.com/berita/d-8642629/serba-serbi-hari-terakhir-stasiun-karet-sebelum-pensiun",
+    "published_at": "2026-08-25T09:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:33.090947+00:00"
+  },
+  {
+    "title": "Borong Dagangan UMKM, Zulhas Beri Kejutan Makan Gratis buat Ojol-Pemulung",
+    "content": "Menteri Pangan Zulkifli Hasan merayakan ulang tahunnya dengan memborong makanan untuk pekerja harian di Jakarta, memberikan kejutan makan siang gratis.",
+    "url": "https://news.detik.com/berita/d-8642608/borong-dagangan-umkm-zulhas-beri-kejutan-makan-gratis-buat-ojol-pemulung",
+    "published_at": "2026-08-25T10:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:33.216498+00:00"
+  },
+  {
+    "title": "Ketua KPU Langkat Diberhentikan Sementara, Diduga Gelapkan Mobil Pemkab",
+    "content": "Ketua KPU Langkat, Husni Mustofa, diberhentikan sementara karena diduga menggelapkan mobil dinas. KPU RI dan KPU Sumut sedang memproses kasus ini.",
+    "url": "https://news.detik.com/berita/d-8642624/ketua-kpu-langkat-diberhentikan-sementara-diduga-gelapkan-mobil-pemkab",
+    "published_at": "2026-08-25T11:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:33.332735+00:00"
+  },
+  {
+    "title": "KPK Duga Korupsi Penerimaan Mahasiswa Baru Marak Terjadi di Kampus",
+    "content": "KPK mengungkap dugaan korupsi penerimaan mahasiswa baru di Unsoed, melibatkan rektor dan wakil rektor. Praktik serupa diduga terjadi di kampus lain.",
+    "url": "https://news.detik.com/berita/d-8642620/kpk-duga-korupsi-penerimaan-mahasiswa-baru-marak-terjadi-di-kampus",
+    "published_at": "2026-08-25T12:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:33.451208+00:00"
+  },
+  {
+    "title": "Warga Bantul Disiksa 5 Orang Temannya hingga Tewas, Area Kemaluan Dibakar",
+    "content": "Seorang warga Bantul, Triyanto atau Munil, ditemukan tewas setelah disiksa oleh lima temannya. Tiga pelaku ditangkap, sementara dua masih buron.",
+    "url": "https://news.detik.com/berita/d-8642615/warga-bantul-disiksa-5-orang-temannya-hingga-tewas-area-kemaluan-dibakar",
+    "published_at": "2026-08-25T13:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.87,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:33.583001+00:00"
+  },
+  {
+    "title": "Cegah Polusi-Kabut Asap, Kejari Banyuasin Bagikan Masker ke Pengendara",
+    "content": "Kejari Banyuasin membagikan masker kepada pengendara atasi kabut asap dan polusi udara. Imbauan kesehatan juga digencarkan.",
+    "url": "https://news.detik.com/berita/d-8642614/cegah-polusi-kabut-asap-kejari-banyuasin-bagikan-masker-ke-pengendara",
+    "published_at": "2026-08-25T14:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.31,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:33.701599+00:00"
+  },
+  {
+    "title": "Zulhas Borong Dagangan 19 UMKM, Pedagang: Alhamdulillah Senang Sekali",
+    "content": "Menteri Zulkifli Hasan borong dagangan 19 pedagang UMKM di Jakarta untuk dibagikan gratis pada ulang tahunnya. Aksi ini membawa kebahagiaan bagi masyarakat.",
+    "url": "https://news.detik.com/berita/d-8642605/zulhas-borong-dagangan-19-umkm-pedagang-alhamdulillah-senang-sekali",
+    "published_at": "2026-08-25T15:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:33.816599+00:00"
+  },
+  {
+    "title": "Kunjungi SMPN 1 Pandeglang, Mentrans Dorong Siswa Aktif Ikut Organisasi",
+    "content": "Menteri Iftitah Sulaiman mendorong siswa SMPN 1 Pandeglang aktif berorganisasi. Ia memberikan bantuan untuk pengembangan karakter dan kegiatan ekstrakurikuler.",
+    "url": "https://news.detik.com/berita/d-8642594/kunjungi-smpn-1-pandeglang-mentrans-dorong-siswa-aktif-ikut-organisasi",
+    "published_at": "2026-08-25T16:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:33.933924+00:00"
+  },
+  {
+    "title": "Rayakan Ultah, Zulhas Borong Dagangan 19 UMKM untuk Dibagikan Gratis",
+    "content": "Menteri Pangan Zulkifli Hasan merayakan ulang tahun dengan memborong makanan dari 19 pedagang UMKM di Jakarta untuk dibagikan gratis kepada warga.",
+    "url": "https://news.detik.com/berita/d-8642598/rayakan-ultah-zulhas-borong-dagangan-19-umkm-untuk-dibagikan-gratis",
+    "published_at": "2026-08-25T17:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:34.070034+00:00"
+  },
+  {
+    "title": "KPK Dukung Pemerintah dab DPR Segera Sahkan RUU Perampasan Aset",
+    "content": "KPK mendukung RUU Perampasan Aset untuk memulihkan kerugian negara dari korupsi. Pembahasan melibatkan banyak pihak, termasuk akademisi dan penegak hukum.",
+    "url": "https://news.detik.com/berita/d-8642597/kpk-dukung-pemerintah-dab-dpr-segera-sahkan-ruu-perampasan-aset",
+    "published_at": "2026-08-25T18:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.37,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:34.186224+00:00"
+  },
+  {
+    "title": "Kementerian ATR/BPN Gaet Tim Ekspedisi Patriot Kebut Program Trans Tuntas",
+    "content": "Tim Ekspedisi Patriot 2026 bertujuan menyelesaikan persoalan pertanahan di kawasan transmigrasi. Data yang dihimpun akan mendukung Program Trans Tuntas.",
+    "url": "https://news.detik.com/berita/d-8642591/kementerian-atr-bpn-gaet-tim-ekspedisi-patriot-kebut-program-trans-tuntas",
+    "published_at": "2026-08-25T19:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:34.323214+00:00"
+  },
+  {
+    "title": "HP WN Vietnam Dicuri Saat Makan di Restoran Ancol Jakut, Pelaku Terekam CCTV",
+    "content": "Seorang WNA Vietnam kehilangan ponselnya di restoran Ancol. Aksi pencurian terekam CCTV, pelaku diduga bukan pengunjung restoran. Polisi masih menyelidiki.",
+    "url": "https://news.detik.com/berita/d-8642535/hp-wn-vietnam-dicuri-saat-makan-di-restoran-ancol-jakut-pelaku-terekam-cctv",
+    "published_at": "2026-08-25T20:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.86,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:34.449030+00:00"
+  },
+  {
+    "title": "PAM JAYA Pastikan Pasokan Air Baku Waduk Jatiluhur Aman hingga Akhir 2026",
+    "content": "Direktur Utama PAM JAYA, Arief Nasrudin, kunjungi Waduk Jatiluhur memastikan pasokan air baku aman di tengah musim kemarau.",
+    "url": "https://news.detik.com/berita/d-8642532/pam-jaya-pastikan-pasokan-air-baku-waduk-jatiluhur-aman-hingga-akhir-2026",
+    "published_at": "2026-08-25T07:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:34.574350+00:00"
+  },
+  {
+    "title": "Pemkot Jakpus Siapkan 4 Posko Tampung Korban Kebakaran di Gambir",
+    "content": "Pemerintah Kota Jakarta Pusat siapkan 4 posko untuk korban kebakaran di Gambir. 114 rumah terdampak, bantuan makanan mulai disalurkan.",
+    "url": "https://news.detik.com/berita/d-8642525/pemkot-jakpus-siapkan-4-posko-tampung-korban-kebakaran-di-gambir",
+    "published_at": "2026-08-25T08:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:35.038489+00:00"
+  },
+  {
+    "title": "Kemendagri Pastikan Bantuan Presiden untuk Gempa NTT Segera Digunakan",
+    "content": "Kemendagri percepat penggunaan Bantuan Presiden untuk daerah terdampak gempa di NTT. Fokus pada masyarakat di pelosok desa agar manfaat segera dirasakan.",
+    "url": "https://news.detik.com/berita/d-8642514/kemendagri-pastikan-bantuan-presiden-untuk-gempa-ntt-segera-digunakan",
+    "published_at": "2026-08-25T09:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.1,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:35.268660+00:00"
+  },
+  {
+    "title": "Monyet Liar di Bekasi Rebut Makanan lalu Serang Bocah hingga Terluka",
+    "content": "Seekor monyet liar menyerang bocah di Tarumajaya, Bekasi, menyebabkan korban terluka. Polisi masih mencari monyet dan memantau kondisi korban.",
+    "url": "https://news.detik.com/berita/d-8642512/monyet-liar-di-bekasi-rebut-makanan-lalu-serang-bocah-hingga-terluka",
+    "published_at": "2026-08-25T10:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.86,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:35.420350+00:00"
+  },
+  {
+    "title": "'Mak Jangan Nangis', Lemasnya Warga Gambir Jakpus Tahu Rumahnya Terbakar",
+    "content": "Kebakaran melanda 114 rumah di Gambir, Jakarta Pusat, mengakibatkan banyak warga kehilangan tempat tinggal. Deka dan Upi berbagi pengalaman pahit saat kejadian.",
+    "url": "https://news.detik.com/berita/d-8642510/mak-jangan-nangis-lemasnya-warga-gambir-jakpus-tahu-rumahnya-terbakar",
+    "published_at": "2026-08-25T11:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.74,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:35.560597+00:00"
+  },
+  {
+    "title": "Asap Karhutla Memprihatinkan Sampai Bikin Orang Utan Pingsan",
+    "content": "Asap karhutla di Ketapang, Kalimantan Barat, menyebabkan orang utan bernama Sampurna pingsan. Tim BKSDA dan YIARI segera melakukan evakuasi dan perawatan.",
+    "url": "https://news.detik.com/berita/d-8642487/asap-karhutla-memprihatinkan-sampai-bikin-orang-utan-pingsan",
+    "published_at": "2026-08-25T12:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.81,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:35.734901+00:00"
+  },
+  {
+    "title": "Cerita Sukabread, Roti Buatan Napi Sukamiskin yang Laris hingga Jakarta-BSD",
+    "content": "Dua napi di Lapas Sukamiskin mengelola dapur Sukabread, memproduksi 70-100 roti per hari. Program ini mendukung rehabilitasi dan pemasaran produk ke luar lapas.",
+    "url": "https://news.detik.com/berita/d-8642485/cerita-sukabread-roti-buatan-napi-sukamiskin-yang-laris-hingga-jakarta-bsd",
+    "published_at": "2026-08-25T13:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:35.877742+00:00"
+  },
+  {
+    "title": "Rais Aam dan Ketum Diberi Waktu 1 Bulan Susun Kepengurusan Baru PBNU",
+    "content": "Penyusunan kepengurusan baru PBNU diserahkan kepada tim formatur. Tim tersebut diberi waktu satu bulan untuk menyusun kepengurusan baru.",
+    "url": "https://news.detik.com/berita/d-8642475/rais-aam-dan-ketum-diberi-waktu-1-bulan-susun-kepengurusan-baru-pbnu",
+    "published_at": "2026-08-25T14:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.46,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:36.027703+00:00"
+  },
+  {
+    "title": "Wamendagri Wiyagus Dorong IMM Jadi Pedoman Perencanaan Pembangunan Daerah",
+    "content": "Wamendagri dorong pemanfaatan Indeks Modal Manusia (IMM) untuk perencanaan pembangunan daerah, fokus pada pendidikan dan kesehatan demi SDM berkualitas.",
+    "url": "https://news.detik.com/berita/d-8642464/wamendagri-wiyagus-dorong-imm-jadi-pedoman-perencanaan-pembangunan-daerah",
+    "published_at": "2026-08-25T15:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:36.192478+00:00"
+  },
+  {
+    "title": "Laporan Dicabut, Bagaimana Nasib Ruben Onsu di Kasus Penipuan?",
+    "content": "Laporan dugaan penipuan terhadap Ruben Onsu dicabut. Polisi akan fasilitasi restorative justice dan hentikan penyidikan jika kedua pihak sepakat damai.",
+    "url": "https://news.detik.com/berita/d-8642462/laporan-dicabut-bagaimana-nasib-ruben-onsu-di-kasus-penipuan",
+    "published_at": "2026-08-25T16:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.66,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:36.442606+00:00"
+  },
+  {
+    "title": "Pasar Sunter Podomoro Bakal Direvitalisasi, Kios-Los Ditata Berdasarkan Zonasi",
+    "content": "Perumda Pasar Jaya akan revitalisasi Pasar Sunter Podomoro dengan penataan zonasi kios dan los, serta modernisasi sistem untuk kenyamanan pengunjung.",
+    "url": "https://news.detik.com/berita/d-8642443/pasar-sunter-podomoro-bakal-direvitalisasi-kios-los-ditata-berdasarkan-zonasi",
+    "published_at": "2026-08-25T17:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.45,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:36.668121+00:00"
+  },
+  {
+    "title": "Pramono Bakal Tinjau Pasar Kramat Jati Besok Usai Penertiban Pedagang",
+    "content": "Gubernur DKI Pramono mengatakan penertiban pedagang Pasar Kramat Jati selesai. Pramono bakal tinjau langusng besok malam.",
+    "url": "https://news.detik.com/berita/d-8642436/pramono-bakal-tinjau-pasar-kramat-jati-besok-usai-penertiban-pedagang",
+    "published_at": "2026-08-25T18:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:36.840437+00:00"
+  },
+  {
+    "title": "Polisi Terima Surat Damai Kasus Dugaan Penipuan Ruben Onsu, Laporan Dicabut",
+    "content": "Polres Metro Jakarta Selatan terima surat perdamaian dalam kasus dugaan penipuan yang melibatkan Ruben Onsu. Kasus diselesaikan secara kekeluargaan.",
+    "url": "https://news.detik.com/berita/d-8642430/polisi-terima-surat-damai-kasus-dugaan-penipuan-ruben-onsu-laporan-dicabut",
+    "published_at": "2026-08-25T19:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.82,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:37.212985+00:00"
+  },
+  {
+    "title": "114 Rumah Terdampak Kebakaran di Gambir Jakpus, Tim Forensik Diterjunkan",
+    "content": "Kebakaran melanda permukiman di Gambir, Jakarta Pusat, mengakibatkan 114 rumah dan 880 jiwa terdampak. Tidak ada korban jiwa, penyebab masih diselidiki.",
+    "url": "https://news.detik.com/berita/d-8642421/114-rumah-terdampak-kebakaran-di-gambir-jakpus-tim-forensik-diterjunkan",
+    "published_at": "2026-08-25T20:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.86,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:37.522843+00:00"
+  },
+  {
+    "title": "Menteri PPPA Sayangkan 153 Anak Terlibat Ricuh Usai Demo di DPR",
+    "content": "Menteri PPPA Arifah Fauzi menyesalkan pelibatan anak dalam kericuhan pasca-demonstrasi di DPR. Ia menekankan perlunya perlindungan dan partisipasi bagi anak.",
+    "url": "https://news.detik.com/berita/d-8642420/menteri-pppa-sayangkan-153-anak-terlibat-ricuh-usai-demo-di-dpr",
+    "published_at": "2026-08-25T07:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:37.880677+00:00"
+  },
+  {
+    "title": "KLH Usut 19 Perusahaan Terkait Kebakaran Lahan 11 Ribu Hektare di 7 Provinsi",
+    "content": "KLH mengusut 19 perusahaan di 7 provinsi terkait kebakaran lahan yang menghanguskan 11.046,69 ha. Proses hukum terus berlanjut.",
+    "url": "https://news.detik.com/berita/d-8642408/klh-usut-19-perusahaan-terkait-kebakaran-lahan-11-ribu-hektare-di-7-provinsi",
+    "published_at": "2026-08-25T08:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:38.046486+00:00"
+  },
+  {
+    "title": "Polda Metro Gerebek Lapak Narkoba di Kampung Ambon, Bong hingga Miras Disita",
+    "content": "Polda Metro Jaya melakukan patroli di Kampung Ambon untuk mencegah peredaran narkoba. Polisi menemukan alat isap dan senjata tajam di lokasi.",
+    "url": "https://news.detik.com/berita/d-8642387/polda-metro-gerebek-lapak-narkoba-di-kampung-ambon-bong-hingga-miras-disita",
+    "published_at": "2026-08-25T09:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.83,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:38.201704+00:00"
+  },
+  {
+    "title": "Pramono Minta Data Mahasiswa yang Kehilangan KJMU karena Desil Dicek Ulang",
+    "content": "Gubernur DKI Pramono Anung minta Dinas Pendidikan cek ulang mahasiswa kehilangan KJMU akibat perubahan desil. Pengecekan penting untuk memastikan keadilan.",
+    "url": "https://news.detik.com/berita/d-8642384/pramono-minta-data-mahasiswa-yang-kehilangan-kjmu-karena-desil-dicek-ulang",
+    "published_at": "2026-08-25T10:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.48,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:38.335988+00:00"
+  },
+  {
+    "title": "Terungkap Asal-usul Konten Porno Anak di Ponsel Pria Cabul di Tangerang",
+    "content": "Polisi menangkap pria berinisial M (31) karena mencabuli bocah 10 tahun dan menyimpan foto serta video porno anak di ponselnya. Penyidikan masih berlanjut.",
+    "url": "https://news.detik.com/berita/d-8642376/terungkap-asal-usul-konten-porno-anak-di-ponsel-pria-cabul-di-tangerang",
+    "published_at": "2026-08-25T11:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.81,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:38.472968+00:00"
+  },
+  {
+    "title": "BPS Sebut Masyarakat Bisa Isi Sanggahan Jika Data Desil Dirasa Tak Sesuai",
+    "content": "Warga yang merasa data desil tidak akurat dapat mengajukan verifikasi melalui Cek Bansos. BPS akan memperbarui data setiap 3 bulan.",
+    "url": "https://news.detik.com/berita/d-8642372/bps-sebut-masyarakat-bisa-isi-sanggahan-jika-data-desil-dirasa-tak-sesuai",
+    "published_at": "2026-08-25T12:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:38.653242+00:00"
+  },
+  {
+    "title": "Pembangunan Infrastruktur Tol Berkelanjutan Jadi Penggerak Pembangunan",
+    "content": "Pemerintah melanjutkan pembangunan jalan tol di sejumlah wilayah untuk mendukung konektivitas masyarakat dan mendorong pertumbuhan ekonomi.",
+    "url": "https://news.detik.com/berita/d-8642396/pembangunan-infrastruktur-tol-berkelanjutan-jadi-penggerak-pembangunan",
+    "published_at": "2026-08-25T13:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.75,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:38.788648+00:00"
+  },
+  {
+    "title": "Guru SD Depok Tewas Terikat di Bogor, Polisi Masih Buru Pelaku",
+    "content": "Polisi masih mencari terduga pelaku pembunuhan guru Arifianti (41) di Bogor. Identitas pelaku sudah diketahui dan dalam pengejaran.",
+    "url": "https://news.detik.com/berita/d-8642366/guru-sd-depok-tewas-terikat-di-bogor-polisi-masih-buru-pelaku",
+    "published_at": "2026-08-25T14:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.85,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:38.912207+00:00"
+  },
+  {
+    "title": "Kebakaran di Gambir Jakpus Hanguskan Sejumlah Rumah dan Gedung Kosong",
+    "content": "Kebakaran melanda permukiman di kawasan Gambir, Jakarta Pusat (Jakpus). Sejumlah rumah hingga gedung kosong hangus terbakar.",
+    "url": "https://news.detik.com/berita/d-8642360/kebakaran-di-gambir-jakpus-hanguskan-sejumlah-rumah-dan-gedung-kosong",
+    "published_at": "2026-08-25T15:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.82,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:39.028233+00:00"
+  },
+  {
+    "title": "Wanita di Ciputat Meninggal Depan Teras Rumah Ditunggui Anjingnya",
+    "content": "Seorang wanita berinisial S (54) ditemukan meninggal di rumahnya di Ciputat. Diduga akibat sakit, tidak ada tanda kekerasan. Jenazah diserahkan ke keluarga.",
+    "url": "https://news.detik.com/berita/d-8642353/wanita-di-ciputat-meninggal-depan-teras-rumah-ditunggui-anjingnya",
+    "published_at": "2026-08-25T16:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.88,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:39.145921+00:00"
+  },
+  {
+    "title": "Jadwal Hari Tanpa Bayangan di Indonesia September-Oktober 2026",
+    "content": "Fenomena Hari Tanpa Bayangan akan terjadi di Indonesia pada September-Oktober 2026. Simak jadwal kulminasi di berbagai wilayah.",
+    "url": "https://news.detik.com/berita/d-8642184/jadwal-hari-tanpa-bayangan-di-indonesia-september-oktober-2026",
+    "published_at": "2026-08-25T17:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:39.251876+00:00"
+  },
+  {
+    "title": "Pemprov Banten Minta Proyek Sekolah Swasta Ganggu Sungai di Serang Disetop",
+    "content": "Proyek sekolah swasta yang dianggap mengganggu aliran Sungai Cikalumpang di Kabupaten Serang, Banten, dikeluhkan warga.",
+    "url": "https://news.detik.com/berita/d-8642340/pemprov-banten-minta-proyek-sekolah-swasta-ganggu-sungai-di-serang-disetop",
+    "published_at": "2026-08-25T18:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:39.381265+00:00"
+  },
+  {
+    "title": "Cegah Banjir Terulang, Pemprov Sumbar Genjot Penanganan Sedimentasi Sungai",
+    "content": "Pemerintah Provinsi Sumatera Barat percepat rehabilitasi pascabencana hidrometeorologi. Fokus pada sedimentasi sungai untuk mencegah banjir berulang.",
+    "url": "https://news.detik.com/berita/d-8642334/cegah-banjir-terulang-pemprov-sumbar-genjot-penanganan-sedimentasi-sungai",
+    "published_at": "2026-08-25T19:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.09,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:39.506143+00:00"
+  },
+  {
+    "title": "Pramono Imbau Warga Terbuka soal Sensus Ekonomi: Jawab Apa Adanya",
+    "content": "Gubernur DKI Jakarta Pramono Anung mengimbau warga mendukung Sensus Ekonomi 2026. Pendataan berlangsung hingga 15 September 2026.",
+    "url": "https://news.detik.com/berita/d-8642326/pramono-imbau-warga-terbuka-soal-sensus-ekonomi-jawab-apa-adanya",
+    "published_at": "2026-08-25T20:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.45,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:39.636223+00:00"
+  },
+  {
+    "title": "2 Mahasiswa KKN di Cianjur Direhabilitasi Usai Digerebek Bermesraan Sesama Jenis",
+    "content": "Dua mahasiswa yang digerebek warga usai bermesraan sesama jenis saat melakukan KKN di Cianjur, Jawa Barat. Keduanya kini dimasukkan ke panti rehabilitasi.",
+    "url": "https://news.detik.com/berita/d-8642325/2-mahasiswa-kkn-di-cianjur-direhabilitasi-usai-digerebek-bermesraan-sesama-jenis",
+    "published_at": "2026-08-25T07:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.83,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:39.853705+00:00"
+  },
+  {
+    "title": "Megawati dan Dubes Yaman Bertemu, Cerita Hubungan Historis hingga Migrasi",
+    "content": "Megawati menerima kunjungan Dubes Yaman untuk RI, Salem Balfakeeh. Mereka bahas hubungan historis hingga migrasi warga Yaman ke Indonesia.",
+    "url": "https://news.detik.com/berita/d-8642319/megawati-dan-dubes-yaman-bertemu-cerita-hubungan-historis-hingga-migrasi",
+    "published_at": "2026-08-25T08:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:40.078732+00:00"
+  },
+  {
+    "title": "Pemkab Sidoarjo Kebut Betonisasi 8 Ruas Jalan, Ditarget Rampung Tahun Ini",
+    "content": "Pemerintah Sidoarjo, dipimpin Bupati Subandi, percepat betonisasi delapan ruas jalan. Target selesai tahun ini dengan pengawasan ketat untuk hasil optimal.",
+    "url": "https://news.detik.com/berita/d-8642316/pemkab-sidoarjo-kebut-betonisasi-8-ruas-jalan-ditarget-rampung-tahun-ini",
+    "published_at": "2026-08-25T09:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:40.220972+00:00"
+  },
+  {
+    "title": "Kejagung Ungkap Asal-usul Duit Cash Rp 401 M yang Disita di Kasus Nikel",
+    "content": "Kejaksaan Agung (Kejagung) memamerkan tumpukan uang tunai dengan jumlah total Rp 401 miliar.",
+    "url": "https://news.detik.com/berita/d-8642314/kejagung-ungkap-asal-usul-duit-cash-rp-401-m-yang-disita-di-kasus-nikel",
+    "published_at": "2026-08-25T10:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.52,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:40.341565+00:00"
+  },
+  {
+    "title": "Andra Soni Resmikan 7 Sekolah Baru di Banten, Bisa Tampung 1.356 Siswa",
+    "content": "Gubernur Banten Andra Soni berkomitmen perluas akses pendidikan melalui Unit Sekolah Baru dan Program Sekolah Gratis untuk tingkatkan kualitas pendidikan.",
+    "url": "https://news.detik.com/berita/d-8642305/andra-soni-resmikan-7-sekolah-baru-di-banten-bisa-tampung-1-356-siswa",
+    "published_at": "2026-08-25T11:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.63,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:40.479922+00:00"
+  },
+  {
+    "title": "Prabowo Ucapkan Selamat Ultah ke-64 untuk Zulhas di Penutupan Muktamar NU",
+    "content": "Presiden Prabowo Subianto menghadiri penutupan Muktamar ke-35 NU di Jombang, menyampaikan ucapan ulang tahun kepada Menko Pangan Zulkifli Hasan yang ke-64.",
+    "url": "https://news.detik.com/berita/d-8642304/prabowo-ucapkan-selamat-ultah-ke-64-untuk-zulhas-di-penutupan-muktamar-nu",
+    "published_at": "2026-08-25T12:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:40.606452+00:00"
+  },
+  {
+    "title": "Pegadaian &amp; POGI Beri USG-Konsultasi Gratis ke 1.080 Ibu Hamil di 36 kota",
+    "content": "PT Pegadaian dan POGI luncurkan Program Merdeka Stunting 2026 untuk pencegahan stunting sejak kehamilan. Program ini menjangkau 1.080 ibu hamil di 36 kota.",
+    "url": "https://news.detik.com/berita/d-8642303/pegadaian-pogi-beri-usg-konsultasi-gratis-ke-1-080-ibu-hamil-di-36-kota",
+    "published_at": "2026-08-25T13:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.61,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:40.773508+00:00"
+  },
+  {
+    "title": "2 Petugas Damkar Kelelahan Saat Padamkan Kebakaran di Gambir, 1 Dibawa ke RS",
+    "content": "Dua personel damkar dievakuasi saat memadamkan kebakaran di Gambir, Jakarta Pusat. Api sudah dilokalisir, satu personel dirawat di rumah sakit.",
+    "url": "https://news.detik.com/berita/d-8642288/2-petugas-damkar-kelelahan-saat-padamkan-kebakaran-di-gambir-1-dibawa-ke-rs",
+    "published_at": "2026-08-25T14:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.83,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:40.901237+00:00"
+  },
+  {
+    "title": "Polisi Selidiki Penyebab Kebakaran Permukiman di Gambir Jakpus",
+    "content": "Polisi menyelidiki penyebab kebakaran di Gambir, Jakarta Pusat. Tim forensik dikerahkan, dan warga turut membantu memadamkan api.",
+    "url": "https://news.detik.com/berita/d-8642287/polisi-selidiki-penyebab-kebakaran-permukiman-di-gambir-jakpus",
+    "published_at": "2026-08-25T15:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.84,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.034654+00:00"
+  },
+  {
+    "title": "Pria Ditemukan Tewas Dalam Rumah yang Hendak Dibeli di Depok",
+    "content": "Seorang pria berinisial K (49) ditemukan tewas diduga gantung diri sebuah rumah kosong di Limo, Cinere, Kota Depok, Jawa Barat.",
+    "url": "https://news.detik.com/berita/d-8642280/pria-ditemukan-tewas-dalam-rumah-yang-hendak-dibeli-di-depok",
+    "published_at": "2026-08-25T16:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.85,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.162175+00:00"
+  },
+  {
+    "title": "Waka MPR Tekankan Pentingnya Pendidikan Inklusif bagi Seluruh Masyarakat",
+    "content": "Wakil Ketua MPR Lestari Moerdijat tekankan pentingnya pendidikan inklusif untuk semua, termasuk penyandang disabilitas, dan perlunya evaluasi kebijakan.",
+    "url": "https://news.detik.com/berita/d-8642268/waka-mpr-tekankan-pentingnya-pendidikan-inklusif-bagi-seluruh-masyarakat",
+    "published_at": "2026-08-25T17:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.280465+00:00"
+  },
+  {
+    "title": "3 Heli dari Jepang Tiba 10 September untuk Bantu Tangani Karhutla",
+    "content": "BNPB sebut Jepang akan mengirim 3 helikopter untuk penanganan karhutla. Heli tersebut dijadwalkan tiba pada 10 September 2026.",
+    "url": "https://news.detik.com/berita/d-8642262/3-heli-dari-jepang-tiba-10-september-untuk-bantu-tangani-karhutla",
+    "published_at": "2026-08-25T18:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.424349+00:00"
+  },
+  {
+    "title": "KSAD Jamin Warga Dayak Bertato Tradisional Boleh Daftar TNI",
+    "content": "KSAD Jenderal Maruli mengatakan masyarakat suku Dayak tetap diperbolehkan mendaftar sebagai prajurit TNI meski memiliki tato yang merupakan tradisi.",
+    "url": "https://news.detik.com/berita/d-8642256/ksad-jamin-warga-dayak-bertato-tradisional-boleh-daftar-tni",
+    "published_at": "2026-08-25T19:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.565347+00:00"
+  },
+  {
+    "title": "Mendagri Minta Peserta Sespim Lemdiklat Susun Kebijakan Berbasis Sains",
+    "content": "Mendagri mendorong peserta Sespim Polri untuk mengambil keputusan berbasis sains dan data. Pendidikan formal penting untuk membentuk pola pikir ilmiah.",
+    "url": "https://news.detik.com/berita/d-8642219/mendagri-minta-peserta-sespim-lemdiklat-susun-kebijakan-berbasis-sains",
+    "published_at": "2026-08-25T20:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.58,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.702550+00:00"
+  },
+  {
+    "title": "Miftachul-Gus Kikin Pimpin PBNU, Muzani Bersyukur Muktamar Penuh Keakraban",
+    "content": "Ketua MPR RI Ahmad Muzani menyambut baik atas terpilihnya KH Miftachul Akhyar dan KH Abdul Hakim Mahfudz atau Gus Kikin menjadi pimpinan baru PBNU.",
+    "url": "https://news.detik.com/berita/d-8642217/miftachul-gus-kikin-pimpin-pbnu-muzani-bersyukur-muktamar-penuh-keakraban",
+    "published_at": "2026-08-25T07:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:41.829815+00:00"
+  },
+  {
+    "title": "Bawaslu Usul Tambahan Anggaran Rp 772,7 Miliar untuk 2027",
+    "content": "Bawaslu mengajukan tambahan anggaran Rp 772,74 miliar untuk 2027.",
+    "url": "https://news.detik.com/berita/d-8642211/bawaslu-usul-tambahan-anggaran-rp-772-7-miliar-untuk-2027",
+    "published_at": "2026-08-25T08:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.954216+00:00"
+  },
+  {
+    "title": "Qodari Jawab Sentilan soal Kinerja Bakom: Terima Kasih Pak Sugiat",
+    "content": "Kebakom Muhammad Qodari menanggapi kritik Komisi XIII DPR terkait kinerja lembaganya. Ia berkomitmen meningkatkan komunikasi publik yang proaktif-sistematis.",
+    "url": "https://news.detik.com/berita/d-8642199/qodari-jawab-sentilan-soal-kinerja-bakom-terima-kasih-pak-sugiat",
+    "published_at": "2026-08-25T09:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.75,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:41.979819+00:00"
+  },
+  {
+    "title": "Kejagung Ungkap Modus PT CNI Atur Dokumen Kadar Nikel untuk Ekspor",
+    "content": "Kejaksaan Agung ungkap dugaan korupsi PT CNI dalam ekspor nikel 2017-2020. PT CNI melakukan pengaturan dokumen hasil uji kadar nikel agar bisa diekspor.",
+    "url": "https://news.detik.com/berita/d-8642185/kejagung-ungkap-modus-pt-cni-atur-dokumen-kadar-nikel-untuk-ekspor",
+    "published_at": "2026-08-25T10:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:42.110141+00:00"
+  },
+  {
+    "title": "Kebakaran Rumah di Gambir Masih Terjadi, Damkar Tambah Personel",
+    "content": "Damkar masih berupaya memadamkan kebakaran di permukiman kawasan Gambir, Jakpus. Damkar menambah personel menjadi 135 orang untuk memadamkan api.",
+    "url": "https://news.detik.com/berita/d-8642176/kebakaran-rumah-di-gambir-masih-terjadi-damkar-tambah-personel",
+    "published_at": "2026-08-25T11:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:42.256275+00:00"
+  },
+  {
+    "title": "Bamsoet Dukung UU Baru untuk Tangkal Spionase dan Intervensi Asing",
+    "content": "Bambang Soesatyo mendukung usulan Kepala BIN untuk Undang-Undang Penanggulangan Spionase dan Intervensi Asing, guna menghadapi ancaman kedaulatan yang kompleks.",
+    "url": "https://news.detik.com/berita/d-8642172/bamsoet-dukung-uu-baru-untuk-tangkal-spionase-dan-intervensi-asing",
+    "published_at": "2026-08-25T12:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:42.375513+00:00"
+  },
+  {
+    "title": "Syarat Perpanjang STNK 5 Tahunan, Ini yang Perlu Dibawa ke Samsat",
+    "content": "Ingin perpanjang STNK 5 tahunan di Samsat? Simak dokumen apa saja yang perlu dibawa.",
+    "url": "https://news.detik.com/berita/d-8642170/syarat-perpanjang-stnk-5-tahunan-ini-yang-perlu-dibawa-ke-samsat",
+    "published_at": "2026-08-25T13:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:42.497354+00:00"
+  },
+  {
+    "title": "Erupsi, Status Gunung Sinabung Naik Jadi Siaga!",
+    "content": "Gunung Sinabung di Kabupaten Karo di Kabupaten Karo, Provinsi Sumatera Utara, mengalami erupsi hari ini. Status gunung itu kini jadi jadi level III atau siaga.",
+    "url": "https://news.detik.com/berita/d-8642169/erupsi-status-gunung-sinabung-naik-jadi-siaga",
+    "published_at": "2026-08-25T14:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.45,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:42.616007+00:00"
+  },
+  {
+    "title": "Perkuat UMKM, Le Minerale Hadirkan Wajah Baru Foodcourt Masjid Istiqlal",
+    "content": "Le Minerale memperkuat kolaborasi dengan Masjid Istiqlal melalui pembaruan Foodcourt KHAS, mendukung UMKM dan kegiatan sosial.",
+    "url": "https://news.detik.com/berita/d-8642156/perkuat-umkm-le-minerale-hadirkan-wajah-baru-foodcourt-masjid-istiqlal",
+    "published_at": "2026-08-25T15:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.65,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:42.736953+00:00"
+  },
+  {
+    "title": "MPR Gelar Pameran Arsip Sejarah Konstitusi, Kenang Peran Sumitro Ayah Prabowo",
+    "content": "Ketua MPR RI Ahmad Muzani menggelar pameran arsip sejarah untuk HUT MPR, menyoroti peran Sumitro Djojohadikusumo dalam pembangunan Indonesia.",
+    "url": "https://news.detik.com/berita/d-8642151/mpr-gelar-pameran-arsip-sejarah-konstitusi-kenang-peran-sumitro-ayah-prabowo",
+    "published_at": "2026-08-25T16:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.49,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:42.851496+00:00"
+  },
+  {
+    "title": "Miftachul Akhyar-Gus Kikin Pimpin PBNU, Ketua DPD Puji Sistem AHWA",
+    "content": "Ketua DPD Sultan Bachtiar Najamudin memuji sistem AHWA yang digunakan dalam proses pemilihan pimpinan PBNU pada Muktamar ke-35 NU di Jombang, Jawa Timur.",
+    "url": "https://news.detik.com/berita/d-8642136/miftachul-akhyar-gus-kikin-pimpin-pbnu-ketua-dpd-puji-sistem-ahwa",
+    "published_at": "2026-08-25T17:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:42.968340+00:00"
+  },
+  {
+    "title": "Napi Narkoba Encek Ditangkap Saat Otoritas Myanmar Sweeping Perbatasan",
+    "content": "Bareskrim menjelaskan proses penangkapan narapidana kasus narkoba Bayu Wicaksono alias Encek yang kabur dari Lapas Kelas IIB Sukadana sejak 2024.",
+    "url": "https://news.detik.com/berita/d-8642126/napi-narkoba-encek-ditangkap-saat-otoritas-myanmar-sweeping-perbatasan",
+    "published_at": "2026-08-25T18:49:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.78,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:43.156006+00:00"
+  },
+  {
+    "title": "BNPB: Titik Api di 3 Provinsi Kalimantan Bertambah, Jarak Pandang 1-2 Km",
+    "content": "BNPB melaporkan peningkatan titik panas di tiga provinsi Kalimantan. Jarak pandang 1-2 kilometer.",
+    "url": "https://news.detik.com/berita/d-8642124/bnpb-titik-api-di-3-provinsi-kalimantan-bertambah-jarak-pandang-1-2-km",
+    "published_at": "2026-08-25T19:56:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:43.279367+00:00"
+  },
+  {
+    "title": "HUT Ke-81 MPR/DPR, Siti Fauziah Tekankan Pentingnya Adaptasi Demokrasi",
+    "content": "Plt. Sekjen MPR Siti Fauziah menekankan pentingnya merawat demokrasi Indonesia berlandaskan Pancasila dan UUD 1945 di tengah tantangan global dan disinformasi.",
+    "url": "https://news.detik.com/berita/d-8642112/hut-ke-81-mpr-dpr-siti-fauziah-tekankan-pentingnya-adaptasi-demokrasi",
+    "published_at": "2026-08-25T20:03:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:43.403323+00:00"
+  },
+  {
+    "title": "Pemkab Pandeglang Buka Suara Usai Nelayan Tewas Diduga Akibat Bom Ikan",
+    "content": "Pemkab Pandeglang menyelidiki ledakan diduga bom ikan yang menewaskan pemilik rumah. Penggunaan bahan peledak untuk menangkap ikan dilarang dan bisa dipidana.",
+    "url": "https://news.detik.com/berita/d-8642110/pemkab-pandeglang-buka-suara-usai-nelayan-tewas-diduga-akibat-bom-ikan",
+    "published_at": "2026-08-25T07:10:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.85,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:43.534618+00:00"
+  },
+  {
+    "title": "KPU Minta Tambahan Anggaran Rp 78,3 M untuk Kegiatan Rutin hingga Pemilu 2029",
+    "content": "KPU mengajukan tambahan anggaran Rp 78,3 miliar untuk tahun 2027. Tambahan anggaran itu guna mendukung persiapan Pemilu 2029 dan kegiatan rutin lainnya.",
+    "url": "https://news.detik.com/berita/d-8642098/kpu-minta-tambahan-anggaran-rp-78-3-m-untuk-kegiatan-rutin-hingga-pemilu-2029",
+    "published_at": "2026-08-25T08:17:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:43.661741+00:00"
+  },
+  {
+    "title": "Prabowo Ungkit Kabinetnya Disinggung Gemuk, Bandingkan dengan Timor Leste",
+    "content": "Prabowo menekankan pentingnya stabilitas pemerintahan dengan dukungan tujuh dari delapan partai. Ia membandingkan efisiensi kabinet RI dengan negara lain.",
+    "url": "https://news.detik.com/berita/d-8642089/prabowo-ungkit-kabinetnya-disinggung-gemuk-bandingkan-dengan-timor-leste",
+    "published_at": "2026-08-25T09:24:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:43.879800+00:00"
+  },
+  {
+    "title": "Angin Kencang Bikin Tumbang Pohon Tua di Bogor, 2 Rumah Rusak Tertimpa",
+    "content": "Pohon tua tumbang di Desa Balekambang, Bogor, akibat angin kencang, merusak dua rumah. Tidak ada korban jiwa, penanganan dilakukan oleh BPBD.",
+    "url": "https://news.detik.com/berita/d-8642088/angin-kencang-bikin-tumbang-pohon-tua-di-bogor-2-rumah-rusak-tertimpa",
+    "published_at": "2026-08-25T10:31:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.84,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.058362+00:00"
+  },
+  {
+    "title": "Kebakaran Desa Sade, PNM Bantu Nasabah Mekaar Lewati Masa Sulit",
+    "content": "PT PNM salurkan bantuan untuk warga Desa Adat Sade yang terdampak kebakaran. Bantuan ini mendukung pemulihan dan kebutuhan mendesak pasca bencana.",
+    "url": "https://news.detik.com/berita/d-8642079/kebakaran-desa-sade-pnm-bantu-nasabah-mekaar-lewati-masa-sulit",
+    "published_at": "2026-08-25T11:38:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.12,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.220763+00:00"
+  },
+  {
+    "title": "Eks Kadisdikbud Muara Enim Diperiksa KPK Lagi di Kasus Suap Bupati Edison",
+    "content": "KPK memeriksa Rusdi Hairullah, mantan Kadisdikbud Muara Enim, terkait dugaan suap pengadaan barang. Ini adalah pemeriksaan ketiganya setelah OTT Bupati Edison.",
+    "url": "https://news.detik.com/berita/d-8642077/eks-kadisdikbud-muara-enim-diperiksa-kpk-lagi-di-kasus-suap-bupati-edison",
+    "published_at": "2026-08-25T12:45:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.339248+00:00"
+  },
+  {
+    "title": "Eddy Soeparno Ajak PBNU Kolaborasi Bangun Ketahanan Energi-Dakwah Ekologis",
+    "content": "Waka MPR Eddy Soeparno ucapkan selamat kepada KH Miftachul Akhyar dan KH Abdul Hakim Mahfudz sebagai pemimpin PBNU.",
+    "url": "https://news.detik.com/berita/d-8642075/eddy-soeparno-ajak-pbnu-kolaborasi-bangun-ketahanan-energi-dakwah-ekologis",
+    "published_at": "2026-08-25T13:52:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.59,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.475441+00:00"
+  },
+  {
+    "title": "Tumpukan Ban Bekas di Halmahera Tengah Terbakar, Langit Dipenuhi Asap Hitam",
+    "content": "Tempat pembuangan ban bekas terbakar di kawasan Indonesia Weda Bay Industrial Park (IWIP) di Halmahera Tengah (Halteng), Maluku Utara.",
+    "url": "https://news.detik.com/berita/d-8642048/tumpukan-ban-bekas-di-halmahera-tengah-terbakar-langit-dipenuhi-asap-hitam",
+    "published_at": "2026-08-25T14:59:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.69,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:44.596999+00:00"
+  },
+  {
+    "title": "Hari Pertama Belajar Tatap Muka, Wako Agung Tinjau Sekolah dan Sapa Siswa",
+    "content": "Siswa di Pekanbaru kembali ke sekolah setelah belajar dari rumah akibat kabut asap. Wali Kota Agung Nugroho tinjau PTM dan apresiasi peran guru serta orang tua.",
+    "url": "https://news.detik.com/berita/d-8642030/hari-pertama-belajar-tatap-muka-wako-agung-tinjau-sekolah-dan-sapa-siswa",
+    "published_at": "2026-08-25T15:06:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.720385+00:00"
+  },
+  {
+    "title": "Kejagung Usul Tambah Anggaran Rp 22,1 T di 2027, Ini Rinciannya",
+    "content": "Komisi III DPR RI dan Kejaksaan Agung membahas tambahan anggaran Rp 22,1 triliun di tahun 2027, untuk memenuhi kebutuhan belanja pegawai dan operasional.",
+    "url": "https://news.detik.com/berita/d-8642022/kejagung-usul-tambah-anggaran-rp-22-1-t-di-2027-ini-rinciannya",
+    "published_at": "2026-08-25T16:13:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.731980+00:00"
+  },
+  {
+    "title": "KPK Panggil Lagi Anggota DPR Satori Tersangka Kasus Korupsi Dana CSR",
+    "content": "KPK kembali memanggil anggota DPR Satori sebagai tersangka kasus dugaan korupsi dana CSR BI dan OJK.",
+    "url": "https://news.detik.com/berita/d-8642020/kpk-panggil-lagi-anggota-dpr-satori-tersangka-kasus-korupsi-dana-csr",
+    "published_at": "2026-08-25T17:20:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.868907+00:00"
+  },
+  {
+    "title": "Prabowo Tegas Tolak Tawaran Utang IMF: Indonesia Masih Bisa Tanpa Pinjaman",
+    "content": "Presiden Prabowo Subianto menegaskan kebijakan penghematan dan membatasi pinjaman luar negeri, termasuk menolak tawaran IMF demi kemandirian ekonomi Indonesia.",
+    "url": "https://news.detik.com/berita/d-8642004/prabowo-tegas-tolak-tawaran-utang-imf-indonesia-masih-bisa-tanpa-pinjaman",
+    "published_at": "2026-08-25T18:27:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:44.994221+00:00"
+  },
+  {
+    "title": "Tarif Transbandara Rp 15 Ribu Berlaku Besok, Pengguna Anggap Masih Worth It",
+    "content": "Pengguna bus Transbandara menilai tarif baru Rp 15 ribu masih sepadan dan lebih murah dibanding moda transportasi lain",
+    "url": "https://news.detik.com/berita/d-8641973/tarif-transbandara-rp-15-ribu-berlaku-besok-pengguna-anggap-masih-worth-it",
+    "published_at": "2026-08-25T19:34:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:45.174207+00:00"
+  },
+  {
+    "title": "Langkah Nyata Atasi Macet, Pemkab Sidoarjo Percepat Flyover Gedangan",
+    "content": "Pemkab Sidoarjo percepat pembebasan lahan untuk Flyover Gedangan. Target pembangunan dimulai tahun depan, dengan anggaran Rp 400 miliar dari APBD.",
+    "url": "https://news.detik.com/berita/d-8641971/langkah-nyata-atasi-macet-pemkab-sidoarjo-percepat-flyover-gedangan",
+    "published_at": "2026-08-25T20:41:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:45.482606+00:00"
+  },
+  {
+    "title": "Pria Aljazair 'Ritual' di Danau Sunter Diserahkan ke Imigrasi",
+    "content": "Petugas harus 3 jam merayu WN Aljazair agar mau menyudahi berendam 'ritual' di Danau Sunter. WNA itu lalu diserahkan ke pihak Imigrasi.",
+    "url": "https://news.detik.com/berita/d-8641970/pria-aljazair-ritual-di-danau-sunter-diserahkan-ke-imigrasi",
+    "published_at": "2026-08-25T07:48:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.35,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:45.742261+00:00"
+  },
+  {
+    "title": "Intelijen Ukraina Sebut 8 WNI Direkrut Jadi Tentara Rusia, Kemlu RI Selidiki",
+    "content": "Dinas Intelijen Ukraina menyebut delapan WNI direkrut menjadi tentara Rusia. Kemlu RI menyelidiki informasi tersebut.",
+    "url": "https://news.detik.com/berita/d-8641949/intelijen-ukraina-sebut-8-wni-direkrut-jadi-tentara-rusia-kemlu-ri-selidiki",
+    "published_at": "2026-08-25T08:55:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.72,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:45.888497+00:00"
+  },
+  {
+    "title": "Atasi Karhutla, Bantuan Heli Jepang hingga Doa Minta Hujan",
+    "content": "Bagaimana perkembangan pengendalian karhutla di sejumlah titik di Indonesia?",
+    "url": "https://news.detik.com/berita/d-8641563/atasi-karhutla-bantuan-heli-jepang-hingga-doa-minta-hujan",
+    "published_at": "2026-08-25T09:02:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.23,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:46.028744+00:00"
+  },
+  {
+    "title": "Alasan Hakim Kini Bebankan Uang Pengganti Rp 5 M ke Ibam di Kasus Chromebook",
+    "content": "Hakim banding memperberat hukuman Ibam menjadi 5 tahun penjara, denda Rp 500 juta, dan uang pengganti Rp 5 miliar.",
+    "url": "https://news.detik.com/berita/d-8641933/alasan-hakim-kini-bebankan-uang-pengganti-rp-5-m-ke-ibam-di-kasus-chromebook",
+    "published_at": "2026-08-25T10:09:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.39,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:46.167049+00:00"
+  },
+  {
+    "title": "Api Masih Berkobar di Permukiman Gambir Jakpus, Asap Hitam Membubung",
+    "content": "Kebakaran terjadi di permukiman kawasan Gambir, Jakarta Pusat (Jakpus). Asap hitam membubung di sekitar lokasi.",
+    "url": "https://news.detik.com/berita/d-8641926/api-masih-berkobar-di-permukiman-gambir-jakpus-asap-hitam-membubung",
+    "published_at": "2026-08-25T11:16:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.76,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:46.284994+00:00"
+  },
+  {
+    "title": "Menhan Ungkap Suku Dayak Bakal Dapat 'Privilege' Ini untuk Masuk TNI",
+    "content": "Menteri Pertahanan Sjafrie Sjamsoeddin mengumumkan penyesuaian syarat bagi suku Dayak untuk bergabung dengan TNI. Mereka mendapat hak istimewa.",
+    "url": "https://news.detik.com/berita/d-8641924/menhan-ungkap-suku-dayak-bakal-dapat-privilege-ini-untuk-masuk-tni",
+    "published_at": "2026-08-25T12:23:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:46.408662+00:00"
+  },
+  {
+    "title": "Kejagung Ungkap Kasus Ekspor Nikel di Sultra, Sita Rp 401 Miliar",
+    "content": "Kejaksaan Agung (Kejagung) mengungkap kasus dugaan tindak pidana korupsi terkait ekspor nikel di Sulawesi Tenggara (Tenggara).",
+    "url": "https://news.detik.com/berita/d-8641909/kejagung-ungkap-kasus-ekspor-nikel-di-sultra-sita-rp-401-miliar",
+    "published_at": "2026-08-25T13:30:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:46.535403+00:00"
+  },
+  {
+    "title": "WN Aljazair 2 Kali Berendam 'Ritual' di Danau Sunter Sebelum Dievakuasi",
+    "content": "WN Aljazair berendam di Danau Sunter, Jakarta Utara dengan dalih 'ritual'. Pria WNA itu ternyata 2 kali berendam di Danau Sunter sebelum dievakuasi damkar.",
+    "url": "https://news.detik.com/berita/d-8641908/wn-aljazair-2-kali-berendam-ritual-di-danau-sunter-sebelum-dievakuasi",
+    "published_at": "2026-08-25T14:37:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.43,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:46.700192+00:00"
+  },
+  {
+    "title": "Bamsoet Terima Penghargaan Tokoh Inspiratif Jateng 2026",
+    "content": "Bambang Soesatyo (Bamsoet) terima penghargaan Tokoh Inspiratif Jawa Tengah 2026. Dia berkomitmen mendorong kemajuan dan kesejahteraan masyarakat daerah.",
+    "url": "https://news.detik.com/berita/d-8641900/bamsoet-terima-penghargaan-tokoh-inspiratif-jateng-2026",
+    "published_at": "2026-08-25T15:44:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:46.830173+00:00"
+  },
+  {
+    "title": "Polisi: Kebakaran Posko Ormas di Jakbar karena Korsleting Listrik",
+    "content": "Kebakaran posko ormas di Kedoya, Jakarta Barat, disebabkan korsleting listrik. Polisi menegaskan tidak ada unsur sabotase.",
+    "url": "https://news.detik.com/berita/d-8641892/polisi-kebakaran-posko-ormas-di-jakbar-karena-korsleting-listrik",
+    "published_at": "2026-08-25T16:51:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.8,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.036828+00:00"
+  },
+  {
+    "title": "Pemotor Terobos Lampu Merah Tewas Tertabrak Mobil Lawan Arah di Depok",
+    "content": "Kecelakaan tragis terjadi di Jalan Raya Bogor, Cisalak, Depok, saat pengendara motor menerobos lampu merah dan tertabrak mobil. Korban meninggal dunia.",
+    "url": "https://news.detik.com/berita/d-8641882/pemotor-terobos-lampu-merah-tewas-tertabrak-mobil-lawan-arah-di-depok",
+    "published_at": "2026-08-25T17:58:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.87,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.171705+00:00"
+  },
+  {
+    "title": "Komisi I DPR: Kemhan Bakal Dapat Anggaran Rp 189 Triliun di 2027",
+    "content": "Komisi I DPR rapat dengan Menhan dan Panglima TNI membahas anggaran 2027. Kemhan mendapat Rp 189 triliun.",
+    "url": "https://news.detik.com/berita/d-8641878/komisi-i-dpr-kemhan-bakal-dapat-anggaran-rp-189-triliun-di-2027",
+    "published_at": "2026-08-25T18:05:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.62,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.193459+00:00"
+  },
+  {
+    "title": "Soal Target Pemadaman Karhutla, Menhan Sjafrie: Tergantung Rakyat Indonesia",
+    "content": "Menhan Sjafrie mengatakan selesainya pemadaman karhutla bergantung pada rakyat Indonesia. Ia menekankan pentingnya gotong royong dalam penanganan karhutla.",
+    "url": "https://news.detik.com/berita/d-8641876/soal-target-pemadaman-karhutla-menhan-sjafrie-tergantung-rakyat-indonesia",
+    "published_at": "2026-08-25T19:12:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.41,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.363378+00:00"
+  },
+  {
+    "title": "Akses Lokbin Kramat Jati Diaspal, Pedagang Diminta Tak Jualan di Pinggir Jalan",
+    "content": "Dinas Bina Marga DKI Jakarta mengaspal akses Lokbin Kramat Jati. Hal itu untuk mendukung penataan Jl Raya Bogor dan kelancaran lalu lintas.",
+    "url": "https://news.detik.com/berita/d-8641875/akses-lokbin-kramat-jati-diaspal-pedagang-diminta-tak-jualan-di-pinggir-jalan",
+    "published_at": "2026-08-25T20:19:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.484275+00:00"
+  },
+  {
+    "title": "Heli Jepang Bantu Atasi Karhutla, Menhan: Kerja Sama Pertahanan",
+    "content": "Menhan Sjafrie Sjamsoeddin membenarkan Jepang mengirimkan bantuan dalam upaya penanganan kebakaran hutan dan lahan (karhutla) di sejumlah wilayah Indonesia.",
+    "url": "https://news.detik.com/berita/d-8641872/heli-jepang-bantu-atasi-karhutla-menhan-kerja-sama-pertahanan",
+    "published_at": "2026-08-25T07:26:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.25,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.609757+00:00"
+  },
+  {
+    "title": "Sosok Pria Aljazair yang Heboh 'Ritual' di Danau Sunter",
+    "content": "Imigrasi mengungkap WN Aljazair, BZ berendam di Danau Sunter sebagai investor. Ia tidak memiliki paspor dan diduga melakukan ritual untuk menarik perhatian.",
+    "url": "https://news.detik.com/berita/d-8641871/sosok-pria-aljazair-yang-heboh-ritual-di-danau-sunter",
+    "published_at": "2026-08-25T08:33:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.64,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.753159+00:00"
+  },
+  {
+    "title": "Kuota Solar Subsidi 19 Juta Kiloliter, LPG 8 Juta Metrik Ton",
+    "content": "Menteri ESDM Bahlil Lahadalia menyatakan kuota subsidi untuk bahan bakar minyak (BBM) jenis Solar dan minyak tanah 2027 sebesar 19,561 juta kiloliter.",
+    "url": "https://finance.detik.com/energi/d-8642635/kuota-solar-subsidi-19-juta-kiloliter-lpg-8-juta-metrik-ton",
+    "published_at": "2026-08-25T09:40:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:47.874200+00:00"
+  },
+  {
+    "title": "Harga Patokan Ekspor Emas Naik!",
+    "content": "Kementerian Perdagangan (Kemendag) resmi menetapkan kenaikan Harga Patokan Ekspor (HPE) dan Harga Referensi (HR) untuk emas.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642604/harga-patokan-ekspor-emas-naik",
+    "published_at": "2026-08-25T10:47:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:48.001941+00:00"
+  },
+  {
+    "title": "Konversi Motor Listrik Bidik 63.000 Unit, Alokasi Anggaran Rp 635 Miliar",
+    "content": "Kementerian Energi dan Sumber Daya Mineral (ESDM) mengusulkan anggaran sebesar Rp 635,24 miliar untuk program konversi motor listrik pada 2027.",
+    "url": "https://finance.detik.com/energi/d-8642587/konversi-motor-listrik-bidik-63-000-unit-alokasi-anggaran-rp-635-miliar",
+    "published_at": "2026-08-25T11:54:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.7,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Banggar",
+        "akd_type": "Badan",
+        "confidence_score": 0.72,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:48.130487+00:00"
+  },
+  {
+    "title": "11 Ribu Hektare Terbakar, Pemerintah Tindak 19 Badan Usaha Terkait Karhutla",
+    "content": "Pemerintah mengawasi 19 badan usaha terkait karhutla di tujuh provinsi. Total lahan terbakar di wilayah tersebut mencapai 11.046,69 hektare.",
+    "url": "https://finance.detik.com/foto-bisnis/d-8642294/11-ribu-hektare-terbakar-pemerintah-tindak-19-badan-usaha-terkait-karhutla",
+    "published_at": "2026-08-25T12:01:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.24,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:48.262024+00:00"
+  },
+  {
+    "title": "Suara Tak-Tek-Tok Hidupi Warga Kampung Dukuh hingga Bisa Ekspor",
+    "content": "Di Kampung Dukuh, suara 'tak-tek-tok' dari perajin kaleng menandakan rezeki. Mansur, pengrajin berpengalaman, terus beradaptasi dan berinovasi untuk bertahan.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642544/suara-tak-tek-tok-hidupi-warga-kampung-dukuh-hingga-bisa-ekspor",
+    "published_at": "2026-08-25T13:08:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:48.390099+00:00"
+  },
+  {
+    "title": "Siap-siap! Anugerah Ekonomi Hijau detikcom Kembali Digelar",
+    "content": "detikcom kembali menggelar Anugerah Ekonomi Hijau.",
+    "url": "https://finance.detik.com/ekonomi-hijau/d-8642541/siap-siap-anugerah-ekonomi-hijau-detikcom-kembali-digelar",
+    "published_at": "2026-08-25T14:15:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:48.550313+00:00"
+  },
+  {
+    "title": "Lifting Minyak Tahun Depan Dikejar 612.500 Barel/ Hari",
+    "content": "Menteri Energi dan Sumber Daya Mineral (ESDM) Bahlil Lahadalia menargetkan lifting minyak pada 2027 menjadi 612.500 barel per hari.",
+    "url": "https://finance.detik.com/energi/d-8642509/lifting-minyak-tahun-depan-dikejar-612-500-barel-hari",
+    "published_at": "2026-08-25T15:22:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:48.673357+00:00"
+  },
+  {
+    "title": "Stasiun Karet-BNI City Bakal Tersambung Travelator, Dibangun 70 Hari",
+    "content": "PT KAI (Persero) bakal membangun travelator untuk memudahkan mobilitas penumpang dari Stasiun Karet ke BNI City.",
+    "url": "https://finance.detik.com/infrastruktur/d-8642490/stasiun-karet-bni-city-bakal-tersambung-travelator-dibangun-70-hari",
+    "published_at": "2026-08-25T16:29:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:48.789705+00:00"
+  },
+  {
+    "title": "Kejagung Pamer Tumpukan Uang Rp401 Miliar, Barang Bukti Kasus Nikel PT CNI",
+    "content": "Kejagung memamerkan uang Rp401 miliar sebagai barang bukti dugaan korupsi tata kelola nikel PT CNI periode 2017-2020 di Jakarta",
+    "url": "https://finance.detik.com/foto-bisnis/d-8642115/kejagung-pamer-tumpukan-uang-rp401-miliar-barang-bukti-kasus-nikel-pt-cni",
+    "published_at": "2026-08-25T17:36:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi III",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:48.915418+00:00"
+  },
+  {
+    "title": "110 Peserta dari 8 Negara Siap Ramaikan Bali Interfood 2026",
+    "content": "Bali Interfood hadir sebagai pameran industri F&amp;B terbesar di Bali, menawarkan peluang bisnis, edukasi, dan networking bagi pelaku usaha kuliner dan hospitality",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642460/110-peserta-dari-8-negara-siap-ramaikan-bali-interfood-2026",
+    "published_at": "2026-08-25T18:43:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:49.047525+00:00"
+  },
+  {
+    "title": "Bahlil Buka Suara soal Pembatasan Pertalite Pakai Desil",
+    "content": "Menteri Energi dan Sumber Daya Mineral (ESDM) Bahlil Lahadalia mengatakan pembatasan pembelian Pertalite untuk kelompok masyarakat desil 9 dan 10 masih dikaji.",
+    "url": "https://finance.detik.com/energi/d-8642453/bahlil-buka-suara-soal-pembatasan-pertalite-pakai-desil",
+    "published_at": "2026-08-25T19:50:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi XII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:49.156377+00:00"
+  },
+  {
+    "title": "Penerima Bansos hingga Beasiswa Terdampak Desil, BPS Buka Suara",
+    "content": "BPS buka suara soal heboh kebijakan desil sosial membuat banyak masyarakat kehilangan akses bansos dan beasiswa.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642395/penerima-bansos-hingga-beasiswa-terdampak-desil-bps-buka-suara",
+    "published_at": "2026-08-25T20:57:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VIII",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi X",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:49.283570+00:00"
+  },
+  {
+    "title": "RI Bidik Kursi Anggota Dewan ICAO, Apa Untungnya?",
+    "content": "Indonesia mendaftarkan diri kembali menjadi anggota Dewan Organisasi Penerbangan Sipil Internasional (International Civil Aviation Organization/ICAO).",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642385/ri-bidik-kursi-anggota-dewan-icao-apa-untungnya",
+    "published_at": "2026-08-25T07:04:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.57,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi V",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:49.410551+00:00"
+  },
+  {
+    "title": "Ulang Tahun ke-64, Zulhas Borong Dagangan UMKM",
+    "content": "Dalam rangka merayakan hari ulang tahun ke-64, Menteri Koordinator Bidang Pangan Zulkifli Hasan (Zulhas) memborong dagangan 19 UMKM",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642373/ulang-tahun-ke-64-zulhas-borong-dagangan-umkm",
+    "published_at": "2026-08-25T08:11:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:49.530858+00:00"
+  },
+  {
+    "title": "BPS Bikin Tim Kaji Ulang Penentuan Desil, Target Kelar Tahun Ini",
+    "content": "BPS membentuk tim untuk mengkaji ulang penentuan desil kesejahteraan keluarga, target rampung tahun ini.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642350/bps-bikin-tim-kaji-ulang-penentuan-desil-target-kelar-tahun-ini",
+    "published_at": "2026-08-25T09:18:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.6,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:49.643789+00:00"
+  },
+  {
+    "title": "Satgas PASTI Setop Kegiatan 2 Entitas Tawarkan Kripto Ilegal",
+    "content": "Satgas PASTI hentikan YWWSDC dan RTHAE karena pelanggaran investasi kripto tanpa izin OJK, masyarakat diimbau waspada terhadap tawaran investasi ilegal.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642320/satgas-pasti-setop-kegiatan-2-entitas-tawarkan-kripto-ilegal",
+    "published_at": "2026-08-25T10:25:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:49.769965+00:00"
+  },
+  {
+    "title": "Bank Mandiri Salurkan Dukungan Kesehatan ke 28.000 Masyarakat Terdampak Kabut Asap",
+    "content": "Bank Mandiri ingin hadir dan memberikan dukungan yang dapat dirasakan langsung oleh masyarakat.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642308/bank-mandiri-salurkan-dukungan-kesehatan-ke-28-000-masyarakat-terdampak-kabut-asap",
+    "published_at": "2026-08-25T11:32:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.66,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:49.900469+00:00"
+  },
+  {
+    "title": "Sebentar Lagi Modal Investasi Saham Cukup Rp 1.000/lot, Kok Bisa?",
+    "content": "CEO Ajaib Group Anderson Sumarli ungkap potensi harga saham satu lot turun jadi Rp 1.000 imbas kebijakan batas minimum saham menjadi Rp 1.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8642213/sebentar-lagi-modal-investasi-saham-cukup-rp-1-000-lot-kok-bisa",
+    "published_at": "2026-08-25T12:39:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.47,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:50.019329+00:00"
+  },
+  {
+    "title": "RI Kejar Dagang Bebas dengan 6 Negara Kaya, Target Rampung Tahun Ini",
+    "content": "Mendag Budi Santoso targetkan perjanjian dagang RI-GCC rampung akhir tahun ini. Proses perundingan FTA telah berlangsung sejak Juli 2024.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642252/ri-kejar-dagang-bebas-dengan-6-negara-kaya-target-rampung-tahun-ini",
+    "published_at": "2026-08-25T13:46:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.69,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:50.125146+00:00"
+  },
+  {
+    "title": "Stasiun Karet 1 September Ditutup Padahal Penumpangnya Sebanyak Ini",
+    "content": "Stasiun Karet menghentikan layanan penumpang mulai 1 September. Padahal, lebih dari 4,3 juta aktivitas pengguna tercatat sepanjang Januari-Juli 2026.",
+    "url": "https://finance.detik.com/foto-bisnis/d-8641795/stasiun-karet-1-september-ditutup-padahal-penumpangnya-sebanyak-ini",
+    "published_at": "2026-08-25T14:53:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:50.272808+00:00"
+  },
+  {
+    "title": "Indeks Kepercayaan Industri Turun ke 52,30, Alas Kaki Terkoreksi",
+    "content": "Kementerian Perindustrian mencatat Indeks Kepercayaan Industri (IKI) pada Agustus 2026 sebesar 52,30.",
+    "url": "https://finance.detik.com/industri/d-8642195/indeks-kepercayaan-industri-turun-ke-52-30-alas-kaki-terkoreksi",
+    "published_at": "2026-08-25T15:00:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.53,
+    "akd_mappings": [],
+    "analyzed_at": "2026-08-31T15:34:50.404984+00:00"
+  },
+  {
+    "title": "3 Merek Beras Mahal Ditarik dari Peredaran, Gizi Tak Sesuai Label!",
+    "content": "Kemendag perintahkan penarikan 3 merek beras fortifikasi karena kandungan gizi tidak sesuai label. Pemeriksaan berlanjut untuk melindungi konsumen.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642155/3-merek-beras-mahal-ditarik-dari-peredaran-gizi-tak-sesuai-label",
+    "published_at": "2026-08-25T16:07:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi IV",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      },
+      {
+        "akd_name": "Komisi IX",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 3
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:50.546766+00:00"
+  },
+  {
+    "title": "Bye Dolar AS! RI dan Singapura Perkuat Transaksi Pakai Mata Uang Lokal",
+    "content": "Bank Indonesia (BI) dan the Monetary Authority of Singapore (MAS) mengumumkan operasionalisasi kerangka penyelesaian transaksi bilateral.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8642152/bye-dolar-as-ri-dan-singapura-perkuat-transaksi-pakai-mata-uang-lokal",
+    "published_at": "2026-08-25T17:14:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.5,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi I",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi XI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:50.707477+00:00"
+  },
+  {
+    "title": "IHSG Menguat Tipis ke Level 6.525",
+    "content": "IHSG menguat pada penutupan perdagangan di awal pekan ini pada level 6.525.",
+    "url": "https://finance.detik.com/bursa-dan-valas/d-8642137/ihsg-menguat-tipis-ke-level-6-525",
+    "published_at": "2026-08-25T18:21:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Netral",
+    "sentiment_score": 0.0,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:50.819834+00:00"
+  },
+  {
+    "title": "UMKM Terdampak Kebakaran Desa Sade Bakal Dapat Bantuan",
+    "content": "Pemerintah akan menyiapkan bantuan bagi usaha mikro kecil dan menengah (UMKM) di Desa Adat Sade, Lombok, Nusa Tenggara Barat (NTB) yang terdampak kebakaran.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642132/umkm-terdampak-kebakaran-desa-sade-bakal-dapat-bantuan",
+    "published_at": "2026-08-25T19:28:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Negatif",
+    "sentiment_score": -0.33,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      },
+      {
+        "akd_name": "Komisi II",
+        "akd_type": "Komisi",
+        "confidence_score": 0.77,
+        "rank": 2
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:50.953510+00:00"
+  },
+  {
+    "title": "Kantongi Rp 4,8 T, Ajaib Fokus Perluas Serap Talenta Lokal-Riset Inovasi",
+    "content": "Ajaib Group raih investasi US$ 270 juta dari SBI Holdings, menandai pencapaian terbesar dalam lima tahun. Fokus pada pengembangan SDM dan teknologi AI.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642127/kantongi-rp-4-8-t-ajaib-fokus-perluas-serap-talenta-lokal-riset-inovasi",
+    "published_at": "2026-08-25T20:35:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.75,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:51.132871+00:00"
+  },
+  {
+    "title": "Ajaib Kantongi Rp 4,8 T dari Jepang, Investasi Startup Terbesar Sejak 5 Tahun",
+    "content": "Ajaib Group disuntik modal Rp 4,78 triliun dari perusahaan Jepang, jadi investasi startup terbesar selama 5 tahun.",
+    "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-8642106/ajaib-kantongi-rp-4-8-t-dari-jepang-investasi-startup-terbesar-sejak-5-tahun",
+    "published_at": "2026-08-25T07:42:00+07:00",
+    "source_type": "news_online",
+    "source_name": "Detik.com",
+    "sentiment": "Positif",
+    "sentiment_score": 0.68,
+    "akd_mappings": [
+      {
+        "akd_name": "Komisi VI",
+        "akd_type": "Komisi",
+        "confidence_score": 0.95,
+        "rank": 1
+      }
+    ],
+    "analyzed_at": "2026-08-31T15:34:51.251102+00:00"
+  }
+]

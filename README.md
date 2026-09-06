@@ -11,23 +11,24 @@
 ## Overview
 
 Sistem multi-agent berbasis AI yang secara otomatis:
-1. **Mengumpulkan** konten dari Twitter/X dan berita online
-2. **Menganalisis** sentimen menggunakan IndoBERT
-3. **Mengklasifikasikan** ke AKD (Alat Kelengkapan Dewan) dengan Gemini zero-shot
-4. **Mendeteksi** anomali tren per AKD menggunakan z-score
-5. **Menghasilkan** rekomendasi dan laporan PDF
+1. **Mengumpulkan** konten dari 17+ portal berita media nasional Tier-1 (RSS Ingestion)
+2. **Menganalisis** sentimen menggunakan IndoBERT (fine-tuned) & 3-tier cascade engine
+3. **Mengklasifikasikan** ke 24 AKD (Alat Kelengkapan Dewan) DPR RI 2024–2029
+4. **Mendeteksi** anomali tren per AKD menggunakan Sentiment-Weighted Damped Z-Score ($Z \ge 2.0$)
+5. **Menghasilkan** rekomendasi aksi kebijakan dengan Self-Correction Reflection Loop & laporan PDF
 
 ## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
-| Backend | FastAPI + Uvicorn |
-| AI/ML | IndoBERT, Google Gemini, LangGraph |
-| Database | PostgreSQL 15 |
+| Backend | FastAPI + Uvicorn (Python 3.11+) |
+| AI/ML | IndoBERT, Google Gemini (Gemini 3.6 Flash), LangGraph |
+| Database | PostgreSQL 16 + SQLAlchemy 2.x |
 | Cache/Queue | Redis 7 + Celery |
 | Dashboard | Streamlit + Plotly |
-| Package Manager | uv |
+| Package Manager | uv (Astral) |
 | Container | Docker + Docker Compose |
+| Test Suite | Pytest (102 Tests Passing — 100%) |
 
 ## Quick Start
 
@@ -55,28 +56,34 @@ See [docs/SETUP.md](docs/SETUP.md) for the full setup guide.
 
 ```
 src/             # Application source code
-├── agents/      # LangGraph agent modules
+├── agents/      # LangGraph agent modules (Supervisor, Trend, Analysis, News, Recommendation)
 ├── models/      # SQLAlchemy ORM models
 ├── schemas/     # Pydantic validation schemas
 ├── routes/      # FastAPI route handlers
+├── repositories/# Data access layer
 ├── tasks/       # Celery async tasks
-└── utils/       # Shared utilities
-tests/           # Test suite
+└── utils/       # Shared utilities & benchmark evaluators
+tests/           # Test suite (102 tests)
 dashboard/       # Streamlit dashboard
-migrations/      # Alembic database migrations
-kamus/           # AKD reference data
-docs/            # Documentation
+kamus/           # AKD 2024-2029 reference taxonomy & feed configs
+data/            # Partitioned daily datasets (news, analysis, annotations, benchmark)
+docs/            # Documentation & sprint guides
 ```
 
 ## Documentation
 
-- [Setup Guide](docs/SETUP.md)
-- [Twitter/X Scraping Guide (Tanpa API Key)](docs/TWITTER_SCRAPING_GUIDE.md)
-- [Data Collection & Scraping Guide](docs/SCRAPING_GUIDE.md)
-- [Architecture](docs/ARCHITECTURE.md)
-- [API Reference](docs/API.md)
-- [Database Schema](docs/DATABASE.md)
+- [Project Overview](docs/PROJECT_OVERVIEW.md)
+- [Project Status](docs/PROJECT_STATUS.md)
+- [Day-to-Day Timeline](docs/DAY_TO_DAY_TIMELINE.md)
+- [Dokumentasi Resmi Model IndoBERT Final](docs/DOKUMENTASI_MODEL_INDOBERT_FINAL.md)
+- [Panduan Operasional Sentimen (SI 1 & SI 2)](docs/PANDUAN_OPERASIONAL_SENTIMEN_SI1_SI2.md)
+- [Panduan Task Informatika Sprint 6](docs/PANDUAN_TASK_INFORMATIKA_SPRINT_6.md)
+- [Panduan Task Sistem Informasi Sprint 6](docs/PANDUAN_TASK_SISTEM_INFORMASI_SPRINT_6.md)
+- [Architecture Blueprint](docs/ARCHITECTURE.md)
 - [Agent Design](docs/AGENTS.md)
+- [Database Schema](docs/DATABASE.md)
+- [API Reference](docs/API.md)
+
 
 ## Contributing
 

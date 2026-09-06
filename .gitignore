@@ -47,7 +47,3 @@ migrations/versions/__pycache__/
 
 # Reports
 reports/*.pdf
-
-# SQLite / Local Databases
-*.db
-data/*.db

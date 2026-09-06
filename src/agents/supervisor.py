@@ -182,47 +182,39 @@ class SupervisorAgent:
         return state
 
     async def _trend_node(self, state: AgentState) -> AgentState:
-        """Calculate volume distribution per AKD and detect statistical Z-score anomalies."""
+        """Calculate volume distribution per AKD and detect sentiment-weighted Z-score anomalies."""
         logger.info("Supervisor node: trend executing", extra={"items": len(state.get("analyzed_items", []))})
         errors = list(state.get("errors", []))
         trends: dict[str, Any] = {}
         anomalies: list[dict] = list(state.get("anomalies", []))
 
         try:
-            akd_counts: dict[str, int] = {}
-            for item in state.get("analyzed_items", []):
-                for mapping in item.get("akd_mappings", []):
-                    akd = mapping.get("akd_name", "Lainnya")
-                    akd_counts[akd] = akd_counts.get(akd, 0) + 1
+            analyzed_items = state.get("analyzed_items", [])
+            trend_result = self.trend_agent.detect_anomalies(analyzed_items)
 
-            trends["akd_counts"] = akd_counts
-            trends["total_analyzed"] = len(state.get("analyzed_items", []))
+            trends["akd_counts"] = {k: v["total"] for k, v in trend_result.get("akd_stats", {}).items()}
+            trends["total_analyzed"] = trend_result.get("total_items", len(analyzed_items))
+            trends["effective_volumes"] = trend_result.get("effective_volumes", {})
+            trends["akd_stats"] = trend_result.get("akd_stats", {})
 
-            # Detect anomalies using z-score across AKD distribution (pad with zeros for baseline 24 AKDs)
-            if akd_counts:
-                # Include baseline counts for active distribution
-                all_counts = list(akd_counts.values())
-                # If small sample of AKDs present, pad with baseline 0 counts up to 24 AKDs
-                if len(all_counts) < 24:
-                    padded_counts = all_counts + [0] * (24 - len(all_counts))
-                else:
-                    padded_counts = all_counts
+            # Extend detected anomalies from TrendAgent
+            detected_anomalies = trend_result.get("anomalies", [])
+            for anom in detected_anomalies:
+                anomalies.append({
+                    "akd_name": anom["akd_name"],
+                    "count": anom["count"],
+                    "effective_volume": anom.get("effective_volume", anom["count"]),
+                    "negative_ratio": anom.get("negative_ratio", 0.0),
+                    "z_score": anom["z_score"],
+                    "mean": anom["mean"],
+                    "threshold": self.z_threshold,
+                    "severity": anom.get("severity", "HIGH"),
+                    "is_sentiment_driven": anom.get("is_sentiment_driven", False),
+                })
 
-                n = len(padded_counts)
-                mean = sum(padded_counts) / n
-                variance = sum((x - mean) ** 2 for x in padded_counts) / max(1, n - 1)
-                std = math.sqrt(variance)
-
-                for akd, count in akd_counts.items():
-                    z = (count - mean) / std if std > 0 else 0.0
-                    if z >= self.z_threshold:
-                        anomalies.append({
-                            "akd_name": akd,
-                            "count": count,
-                            "z_score": round(z, 2),
-                            "mean": round(mean, 2),
-                            "threshold": self.z_threshold,
-                        })
+            # Save trend anomaly results to partition
+            if anomalies:
+                self.trend_agent.save_anomalies_to_partition(trend_result)
 
         except Exception as exc:
             logger.error("Trend node error", extra={"error": str(exc)})
@@ -232,6 +224,7 @@ class SupervisorAgent:
         state["anomalies"] = anomalies
         state["errors"] = errors
         return state
+
 
     async def _anomaly_critique_node(self, state: AgentState) -> AgentState:
         """Critique and verify whether detected volume anomalies represent real policy impact."""

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "DPR dan Kemenkeu Sepakati Penambahan Anggaran Beasiswa Pendidikan 2026",
+    "content": "Komisi X DPR RI bersama Menteri Keuangan resmi menyepakati penambahan alokasi dana Program Indonesia Pintar sebesar Rp 5 Triliun untuk menjangkau 2 juta siswa kurang mampu.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi X",
+    "topic": "Pendidikan"
+  },
+  {
+    "id": 2,
+    "title": "Masyarakat Kecewa dan Protes Rencana Kenaikan Tarif Listrik Non-Subsidi",
+    "content": "Gelombang protes warga menolak penyesuaian tarif listrik yang dinilai membebani pelaku UMKM di tengah pelemahan daya beli masyarakat.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi XII",
+    "topic": "Energi"
+  },
+  {
+    "id": 3,
+    "title": "Komisi I DPR Gelar Rapat Kerja Terbuka Bersama Menkominfo dan BSSN",
+    "content": "Rapat kerja Komisi I DPR RI dijadwalkan berlangsung di Ruang Rapat Nusantara II Senayan pukul 10.00 WIB untuk membahas evaluasi keamanan siber nasional.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Komisi I",
+    "topic": "Keamanan Siber"
+  },
+  {
+    "id": 4,
+    "title": "Ketua DPR Puan Maharani Apresiasi Penurunan Angka Stunting Nasional",
+    "content": "Pimpinan DPR mengapresiasi kinerja Kementerian Kesehatan dan BKKBN yang berhasil menekan angka prevalensi stunting hingga di bawah 14 persen tahun ini.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi IX",
+    "topic": "Kesehatan"
+  },
+  {
+    "id": 5,
+    "title": "Temuan BPK Terkait Dugaan Kerugian Negara Proyek Tol Menuai Kecaman",
+    "content": "Anggota Badan Akuntabilitas Keuangan Negara (BAKN) DPR mendesak aparat penegak hukum mengusut tuntas indikasi korupsi senilai Rp 800 miliar pada proyek infrastruktur jalur logistik.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "BAKN",
+    "topic": "Akuntabilitas Keuangan"
+  },
+  {
+    "id": 6,
+    "title": "Badan Legislasi DPR Jadwalkan Uji Sahih RUU Perlindungan Data Pribadi",
+    "content": "Badan Legislasi (Baleg) DPR mengundang pakar hukum dan asosiasi industri teknologi dalam rangka uji sahih penyempurnaan naskah akademik RUU PDP.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Badan Legislasi",
+    "topic": "Legislasi"
+  },
+  {
+    "id": 7,
+    "title": "Komisi IV Sukses Perjuangkan Tambahan 2 Juta Ton Pupuk Subsidi Bagi Petani",
+    "content": "Kabar gembira bagi sektor pertanian nasional setelah Komisi IV DPR berhasil meloloskan alokasi anggaran subsidi pupuk tambahan dalam pembahasan APBN.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi IV",
+    "topic": "Pertanian"
+  },
+  {
+    "id": 8,
+    "title": "Publik Marah Atas Kelangkaan Gas LPG 3 Kg dan Dugaan Penimbunan",
+    "content": "Warga di berbagai daerah mengeluhkan antrean panjang dan harga tabung gas subsidi yang melonjak drastis akibat minimnya pengawasan distribusi.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi XII",
+    "topic": "Distribusi Energi"
+  },
+  {
+    "id": 9,
+    "title": "Komisi III RDP Bersama Kapolri Bahas Kesiapan Pengamanan Pilkada Serentak",
+    "content": "Komisi III DPR RI menggelar rapat dengar pendapat dengan jajaran Kepolisian Negara Republik Indonesia terkait alokasi anggaran dan pengamanan pemilu.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Komisi III",
+    "topic": "Hukum & Kepolisian"
+  },
+  {
+    "id": 10,
+    "title": "Pemerintah dan DPR Luncurkan Program Sinergi Pemberdayaan Nelayan Pesisir",
+    "content": "Kementerian Kelautan dan Perikanan bersama Komisi IV DPR meresmikan bantuan 500 unit kapal motor dan alat tangkap ramah lingkungan bagi nelayan tradisional.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi IV",
+    "topic": "Kelautan"
+  },
+  {
+    "id": 11,
+    "title": "Dugaan Pungli di Pelabuhan Utama Dikecam Asosiasi Logistik",
+    "content": "Pelaku usaha logistik melaporkan praktik pungutan liar yang menambah biaya operasional hingga 20 persen di pelabuhan ekspor impor.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi V",
+    "topic": "Transportasi"
+  },
+  {
+    "id": 12,
+    "title": "Badan Anggaran DPR Bahas Pokok-Pokok Kebijakan Fiskal 2027",
+    "content": "Banggar DPR memulai sesi pembahasan rancangan asumsi makro ekonomi dan target penerimaan perpajakan untuk tahun anggaran mendatang.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Badan Anggaran",
+    "topic": "Anggaran"
+  },
+  {
+    "id": 13,
+    "title": "Inovasi Layanan Paspor Kilat Ditjen Imigrasi Raih Pujian Parlemen",
+    "content": "Komisi XIII DPR mengapresiasi terobosan digitalisasi layanan imigrasi dan pemasyarakatan yang dinilai transparan dan bebas calo.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi XIII",
+    "topic": "Imigrasi & HAM"
+  },
+  {
+    "id": 14,
+    "title": "Banjir Bandang Terjang Pemukiman Warga Akibat Rusaknya Tanggul Sungai",
+    "content": "Ratusan kepala keluarga terpaksa mengungsi setelah tanggul sungai jebol dan merendam perumahan setinggi 1,5 meter.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi V",
+    "topic": "Infrastruktur & Bencana"
+  },
+  {
+    "id": 15,
+    "title": "BKSAP DPR RI Terima Kunjungan Kehormatan Parlemen Uni Eropa",
+    "content": "Badan Kerja Sama Antar-Parlemen (BKSAP) menyambut delegasi Uni Eropa untuk membicarakan kerja sama perdagangan hijau dan transisi energi.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "BKSAP",
+    "topic": "Diplomasi Internasional"
+  },
+  {
+    "id": 16,
+    "title": "Kenaikan Upah Minimum Provinsi Disambut Gembira Kalangan Buruh",
+    "content": "Komisi IX DPR menyambut positif penetapan kenaikan UMP yang dinilai mencerminkan keadilan dan menjaga daya beli pekerja.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi IX",
+    "topic": "Ketenagakerjaan"
+  },
+  {
+    "id": 17,
+    "title": "Kebocoran Data Pasien Rumah Sakit Menuai Kecaman Keras Praktisi Siber",
+    "content": "Insiden kebocoran 5 juta rekam medis digital dinilai membuktikan lemahnya infrastruktur perlindungan data privasi di sektor pelayanan publik.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi I",
+    "topic": "Perlindungan Data"
+  },
+  {
+    "id": 18,
+    "title": "Komisi VI Jadwalkan Pemanggilan Direksi BUMN Tambang",
+    "content": "Komisi VI DPR mengagendakan rapat pendalaman laporan keuangan dan evaluasi kinerja kuartalan sejumlah BUMN holding industri pertambangan.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Komisi VI",
+    "topic": "BUMN"
+  },
+  {
+    "id": 19,
+    "title": "Bantuan Kredit Usaha Rakyat Bunga Rendah Berhasil Tingkatkan Omzet UMKM",
+    "content": "Penyaluran KUR senilai Rp 150 Triliun terbukti efektif membangkitkan ribuan sentra ekonomi kreatif dan membuka lapangan kerja baru di pedesaan.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi XI",
+    "topic": "Keuangan & UMKM"
+  },
+  {
+    "id": 20,
+    "title": "Mahkamah Kehormatan Dewan Usut Dugaan Pelanggaran Etik Anggota Legislatif",
+    "content": "MKD menggelar sidang klarifikasi terkait laporan dugaan pelanggaran kode etik oleh salah satu anggota dewan dalam kunjungan kerja daerah.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "MKD",
+    "topic": "Etika Parlemen"
+  },
+  {
+    "id": 21,
+    "title": "Komisi VIII Pantau Langsung Fasilitas Asrama Haji di Embarkasi Jakarta",
+    "content": "Rombongan tim pengawas haji Komisi VIII DPR melakukan peninjauan kesiapan akomodasi, katering, dan layanan kesehatan calon jemaah.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Komisi VIII",
+    "topic": "Agama & Haji"
+  },
+  {
+    "id": 22,
+    "title": "Produksi Beras Domestik Melimpah, DPR Apresiasi Petani dan Penyuluh",
+    "content": "Komisi IV menyatakan kebanggaan atas capaian surplus produksi beras nasional yang berhasil menghentikan ketergantungan pada impor.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi IV",
+    "topic": "Ketahanan Pangan"
+  },
+  {
+    "id": 23,
+    "title": "Polusi Udara Memburuk di Kawasan Industri, Warga Keluhkan Infeksi Saluran Napas",
+    "content": "Tingkat emisi pabrik yang melebihi ambang batas aman memicu lonjakan kasus ISPA pada anak-anak di pemukiman sekitar kawasan industri.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi VII",
+    "topic": "Lingkungan Hidup"
+  },
+  {
+    "id": 24,
+    "title": "Komisi II DPR Verifikasi Laporan Penataan Tenaga Honorer Non-ASN",
+    "content": "Komisi II menggelar rapat kerja dengan Menpan-RB dan BKN mengenai penyelesaian database tenaga honorer menjadi PPPK sesuai amanat UU ASN.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Komisi II",
+    "topic": "Aparatur Sipil Negara"
+  },
+  {
+    "id": 25,
+    "title": "Penurunan Bunga Pinjaman Bank Disambut Positif Pengusaha Properti",
+    "content": "Kebijakan Bank Indonesia menurunkan suku bunga acuan dinilai Komisi XI mampu mendorong pertumbuhan sektor pembiayaan rumah rakyat murah.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi XI",
+    "topic": "Perbankan & Perumahan"
+  },
+  {
+    "id": 26,
+    "title": "Skandal Penimbunan Beras Oplosan Terbongkar di Gudang Distribusi",
+    "content": "Satgas Pangan menyita puluhan ton beras subsidi yang dioplos dengan beras kualitas buruk untuk dijual dengan harga premium.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi IV",
+    "topic": "Pangan & Penegakan Hukum"
+  },
+  {
+    "id": 27,
+    "title": "BURT DPR RI Tinjau Sistem Pengelolaan Arsip Digital Parlemen",
+    "content": "Badan Urusan Rumah Tangga (BURT) melakukan evaluasi modernisasi tata kelola administrasi dan sistem perpustakaan digital Sekretariat Jenderal DPR.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "BURT",
+    "topic": "Tata Kelola Parlemen"
+  },
+  {
+    "id": 28,
+    "title": "Rehabilitasi Mangrove Seluas 10 Ribu Hektare Berhasil Cegah Abrasi Pantai",
+    "content": "Program restorasi ekosistem pesisir oleh Kementerian Lingkungan Hidup dan Komisi VII mendapat pengakuan positif dari komunitas pemerhati alam.",
+    "expected_sentiment": "Positif",
+    "expected_akd": "Komisi VII",
+    "topic": "Konservasi Alam"
+  },
+  {
+    "id": 29,
+    "title": "Jalan Tol Ambles Akibat Konstruksi Asal-Asalan Menuai Sorotan Parlemen",
+    "content": "Komisi V DPR mendesak kontraktor pelaksana bertanggung jawab penuh atas kerusakan jalan tol yang membahayakan keselamatan pengguna jalan.",
+    "expected_sentiment": "Negatif",
+    "expected_akd": "Komisi V",
+    "topic": "Kualitas Jalan"
+  },
+  {
+    "id": 30,
+    "title": "Komisi X DPR Gelar RDPU Bersama Komite Olimpiade Indonesia",
+    "content": "Rapat dengar pendapat umum membahas persiapan kontingen atlet Indonesia dalam menghadapi pesta olahraga multi-event internasional.",
+    "expected_sentiment": "Netral",
+    "expected_akd": "Komisi X",
+    "topic": "Olahraga"
+  }
+]
