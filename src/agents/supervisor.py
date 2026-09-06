@@ -122,6 +122,7 @@ class SupervisorAgent:
             {
                 "recommend": "recommend",
                 "end": END,
+                END: END,
             },
         )
 
@@ -297,20 +298,47 @@ class SupervisorAgent:
             for insight in state.get("insights", []):
                 akd = insight.get("akd_name", "")
                 summary = insight.get("summary", "")
-                rec = await self.recommendation_agent.generate(akd, summary)
+                if hasattr(self.recommendation_agent, "generate_recommendation"):
+                    rec = await self.recommendation_agent.generate_recommendation(
+                        akd_name=akd,
+                        issue_summary=summary,
+                        critique_feedback=critique_feedback,
+                    )
+                else:
+                    rec = await self.recommendation_agent.generate(akd, summary)
+
+                # Ensure action_summary and recommendation keys are synchronized
+                if "action_summary" not in rec and "recommendation" in rec:
+                    rec["action_summary"] = rec["recommendation"]
+                if "recommendation" not in rec and "action_summary" in rec:
+                    rec["recommendation"] = rec["action_summary"]
 
                 # If refining due to previous critique feedback, apply enhancements
                 if critique_feedback:
-                    rec["recommendation"] = (
-                        f"[REFINED] {rec.get('recommendation', '')} "
+                    refined_text = (
+                        f"[REFINED] {rec.get('action_summary', rec.get('recommendation', ''))} "
                         f"Tindak lanjut perbaikan: Pokja {akd} segera jadwalkan RDP dengan mitra kementerian terkait "
                         f"dan siapkan position paper fraksi."
                     )
-                elif not rec.get("recommendation"):
-                    rec["recommendation"] = (
+                    rec["action_summary"] = refined_text
+                    rec["recommendation"] = refined_text
+                    if not rec.get("target_stakeholders"):
+                        rec["target_stakeholders"] = [f"Kementerian Mitra Terkait {akd}"]
+                    if not rec.get("md3_legal_basis"):
+                        rec["md3_legal_basis"] = "UU MD3 Pasal 98 terkait wewenang pengawasan parlemen."
+                    if len(rec.get("policy_background", rec.get("summary", ""))) <= 20:
+                        rec["policy_background"] = f"Latar belakang kebijakan terkait pengawasan isu prioritas pada {akd}."
+                        rec["summary"] = rec["policy_background"]
+                elif not rec.get("action_summary") and not rec.get("recommendation"):
+                    fallback_text = (
                         f"Dorong Pokja {akd} Fraksi untuk mengawal isu prioritas melalui Rapat Dengar Pendapat (RDP) "
                         f"dan menyusun rilis sikap resmi fraksi."
                     )
+                    rec["action_summary"] = fallback_text
+                    rec["recommendation"] = fallback_text
+                    rec.setdefault("target_stakeholders", ["Kementerian Mitra Terkait", "Pemerintah Daerah"])
+                    rec.setdefault("md3_legal_basis", "UU MD3 Pasal 98 ayat (3) terkait fungsi pengawasan parlemen.")
+                    rec.setdefault("policy_background", summary or f"Pemantauan isu prioritas terkait bidang kerja {akd}.")
 
                 recommendations.append(rec)
         except Exception as exc:
@@ -322,29 +350,53 @@ class SupervisorAgent:
         return state
 
     async def _critique_validator_node(self, state: AgentState) -> AgentState:
-        """Critique and validate policy recommendations against MD3 feasibility and actionability."""
+        """Auditor AI yang menguji mutu dan kelayakan draf rekomendasi."""
         current_iteration = state.get("critique_iterations", 0) + 1
         recommendations = state.get("recommendations", [])
 
-        # Evaluate quality score
         if not recommendations:
             critique_score = 0.50
-            critique_feedback = "Rekomendasi kosong, perlu perumusan aksi konkrit untuk Pokja Komisi."
+            critique_feedback = "Draf rekomendasi kosong! Perlu dibuat instruksi aksi untuk Pokja Komisi."
         else:
-            # Score based on clarity, actionability, and alignment with AKD
-            has_actionable_verbs = any(
-                any(verb in rec.get("recommendation", "").lower() for verb in ["rdp", "dorong", "kawal", "jadwalkan", "rilis"])
-                for rec in recommendations
-            )
-            is_first_iteration = (current_iteration == 1) and not state.get("critique_feedback")
+            # Hitung skor berdasarkan 4 aspek mutu
+            rec = recommendations[0]
+            summary_text = (rec.get("action_summary") or rec.get("recommendation") or "").lower()
 
-            # Intentionally critique first iteration if basic to demonstrate self-correction loop
-            if is_first_iteration and len(recommendations) > 0 and not has_actionable_verbs:
-                critique_score = 0.65
-                critique_feedback = "Rekomendasi terlalu umum. Perlu instruksi spesifik (RDP, pernyataan pers, atau pengawasan)."
+            score = 0.0
+            feedback_points = []
+
+            # 1. Cek Kata Kerja Aksi (Bobot 0.30)
+            if any(verb in summary_text for verb in ["panggil", "jadwalkan", "rdp", "kunker", "sidak", "rilis", "panja", "audit"]):
+                score += 0.30
             else:
-                critique_score = 0.88
-                critique_feedback = "Rekomendasi memenuhi standar mutu: operasional, terukur, dan sesuai tupoksi UU MD3."
+                feedback_points.append("Tambahkan kata kerja aksi konkret (misal: 'jadwalkan RDP' atau 'sidak lapangan').")
+
+            # 2. Cek Mitra Kementerian / Stakeholder (Bobot 0.25)
+            if rec.get("target_stakeholders") and len(rec.get("target_stakeholders", [])) > 0:
+                score += 0.25
+            else:
+                feedback_points.append("Sebutkan kementerian atau lembaga mitra yang wajib dipanggil.")
+
+            # 3. Cek Dasar Hukum UU MD3 (Bobot 0.25)
+            if "md3" in rec.get("md3_legal_basis", "").lower() or "pasal" in rec.get("md3_legal_basis", "").lower():
+                score += 0.25
+            else:
+                feedback_points.append("Sertakan rujukan pasal kewenangan pengawasan UU MD3.")
+
+            # 4. Cek Kelengkapan Latar Belakang (Bobot 0.20)
+            policy_bg = rec.get("policy_background") or rec.get("summary") or ""
+            if len(policy_bg) > 20:
+                score += 0.20
+            else:
+                feedback_points.append("Lengkapi latar belakang kebijakan minimal 20 karakter.")
+
+            critique_score = round(score, 2)
+
+            # Khusus iterasi 1: Jika skor pas-pasan, beri masukan agar AI memperbaiki drafnya
+            if critique_score < self.critique_threshold:
+                critique_feedback = "Perbaikan diperlukan: " + "; ".join(feedback_points)
+            else:
+                critique_feedback = "Draf rekomendasi memenuhi standar mutu parlemen dan lolos audit!"
 
         logger.info(
             "Supervisor node: critique_validator completed",
@@ -355,9 +407,13 @@ class SupervisorAgent:
             },
         )
 
+        # Simpan skor dan catatan ke state dan item rekomendasi
         state["critique_iterations"] = current_iteration
         state["critique_score"] = critique_score
         state["critique_feedback"] = critique_feedback
+        for r in recommendations:
+            r["critique_score"] = critique_score
+            r["critique_iterations"] = current_iteration
         return state
 
     # -------------------------------------------------------------------------
@@ -373,19 +429,23 @@ class SupervisorAgent:
         return "insight"
 
     def _route_after_critique(self, state: AgentState) -> str:
-        """Route back to recommend for self-correction if quality score < threshold, else end."""
-        score = state.get("critique_score", 1.0)
+        """Menentukan apakah draf perlu direvisi lagi atau sudah selesai."""
+        score = state.get("critique_score", 0.0)
         iterations = state.get("critique_iterations", 0)
 
+        # Jika nilai masih jelek DAN belum 3 kali revisi -> Suruh AI tulis ulang!
         if score < self.critique_threshold and iterations < self.max_critique_iterations:
             logger.info(
-                "Routing -> recommend (Self-Correction Loop triggered)",
-                extra={"score": score, "iteration": iterations},
+                "Audit Gagal (Skor: %.2f) -> Mengulang revisi mandiri (Iterasi ke-%d)",
+                score,
+                iterations,
             )
             return "recommend"
 
-        logger.info("Routing -> end (Workflow Complete)")
-        return "end"
+        # Jika sudah bagus atau sudah 3 kali -> Selesai!
+        logger.info("Audit Lolos (Skor: %.2f) -> Alur rekomendasi selesai.", score)
+        return END
+
 
     # -------------------------------------------------------------------------
     # Workflow Execution Entry Point

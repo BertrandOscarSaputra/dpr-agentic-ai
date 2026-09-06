@@ -26,6 +26,49 @@ def _get_client() -> genai.Client | None:
     return _client
 
 
+class GeminiClientWrapper:
+    """Async-compatible wrapper for modern Google GenAI client."""
+
+    def __init__(self, client: genai.Client | None) -> None:
+        self._client = client
+
+    async def generate_async(
+        self,
+        prompt: str,
+        system_instruction: str = "",
+        temperature: float = 0.2,
+    ) -> str:
+        """Generate content asynchronously using modern Gemini SDK."""
+        if not self._client:
+            raise RuntimeError("GEMINI_API_KEY not set or client unavailable")
+
+        import asyncio
+
+        def _call_gemini() -> str:
+            config: dict[str, Any] = {}
+            if system_instruction:
+                config["system_instruction"] = system_instruction
+            if temperature is not None:
+                config["temperature"] = temperature
+
+            resp = self._client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=prompt,
+                config=config if config else None,
+            )
+            return resp.text or ""
+
+        return await asyncio.to_thread(_call_gemini)
+
+
+def get_gemini_client() -> GeminiClientWrapper | None:
+    """Initialize and return the Gemini client wrapper for agents."""
+    client = _get_client()
+    if client is None:
+        return None
+    return GeminiClientWrapper(client)
+
+
 AKD_SYSTEM_PROMPT = """\
 Anda adalah pakar analisis politik dan Parlemen DPR RI.
 Tugas Anda: Klasifikasikan teks berikut ke dalam Alat Kelengkapan Dewan (AKD)
